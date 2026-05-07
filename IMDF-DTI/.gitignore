@@ -1,0 +1,17 @@
+*.pyc
+*.pth
+*.pt
+*.pkl
+demo*
+
+log/*
+.vscode/
+
+*.pdb
+*.zip
+*.ipynb
+figures/
+
+*PDB_AF2*
+*POCKETS*
+*Preprocessed*

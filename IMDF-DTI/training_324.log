@@ -1,0 +1,54 @@
+nohup: ignoring input
+Using device: cuda:0
+GPU Name: Quadro RTX 6000
+Memory Allocated: 0.00 MB
+Train in BIOSNAP
+load data
+load finished
+data shuffle
+Number of Train&Val set: 21961
+Number of Test set: 5489
+Loading Protein Graph data...
+Loading Ligand Graph data...
+************************* No. 1 -fold *************************
+Training...
+[  1/200] train_loss: 0.60998 valid_loss: 0.50828 valid_AUC: 0.82832 valid_PRC: 0.85249 valid_Accuracy: 0.74609 valid_Precision: 0.76119 valid_Reacll: 0.73348 
+Have a new best checkpoint: (-inf --> 0.828318).  Saving model ...
+[  2/200] train_loss: 0.49424 valid_loss: 0.47541 valid_AUC: 0.85739 valid_PRC: 0.87621 valid_Accuracy: 0.76884 valid_Precision: 0.85748 valid_Reacll: 0.65708 
+Have a new best checkpoint: (0.828318 --> 0.857389).  Saving model ...
+[  3/200] train_loss: 0.44764 valid_loss: 0.53053 valid_AUC: 0.85532 valid_PRC: 0.87430 valid_Accuracy: 0.72335 valid_Precision: 0.67091 valid_Reacll: 0.90067 
+EarlyStopping counter: 1 out of 50
+[  4/200] train_loss: 0.44049 valid_loss: 0.45902 valid_AUC: 0.87159 valid_PRC: 0.88624 valid_Accuracy: 0.78010 valid_Precision: 0.77048 valid_Reacll: 0.81169 
+Have a new best checkpoint: (0.857389 --> 0.871593).  Saving model ...
+[  5/200] train_loss: 0.40195 valid_loss: 0.46194 valid_AUC: 0.86243 valid_PRC: 0.87807 valid_Accuracy: 0.77413 valid_Precision: 0.76906 valid_Reacll: 0.79775 
+EarlyStopping counter: 1 out of 50
+[  6/200] train_loss: 0.40124 valid_loss: 0.43769 valid_AUC: 0.88227 valid_PRC: 0.89730 valid_Accuracy: 0.79320 valid_Precision: 0.79458 valid_Reacll: 0.80315 
+Have a new best checkpoint: (0.871593 --> 0.882267).  Saving model ...
+[  7/200] train_loss: 0.35273 valid_loss: 0.46653 valid_AUC: 0.87552 valid_PRC: 0.88960 valid_Accuracy: 0.79067 valid_Precision: 0.86059 valid_Reacll: 0.70472 
+EarlyStopping counter: 1 out of 50
+[  8/200] train_loss: 0.34674 valid_loss: 0.43293 valid_AUC: 0.89230 valid_PRC: 0.90417 valid_Accuracy: 0.81204 valid_Precision: 0.82021 valid_Reacll: 0.80989 
+Have a new best checkpoint: (0.882267 --> 0.892299).  Saving model ...
+[  9/200] train_loss: 0.30660 valid_loss: 0.49766 valid_AUC: 0.87034 valid_PRC: 0.88709 valid_Accuracy: 0.78171 valid_Precision: 0.76797 valid_Reacll: 0.82112 
+EarlyStopping counter: 1 out of 50
+[ 10/200] train_loss: 0.29079 valid_loss: 0.44460 valid_AUC: 0.89226 valid_PRC: 0.90529 valid_Accuracy: 0.81158 valid_Precision: 0.82034 valid_Reacll: 0.80854 
+EarlyStopping counter: 2 out of 50
+[ 11/200] train_loss: 0.93807 valid_loss: 0.49911 valid_AUC: 0.88449 valid_PRC: 0.89900 valid_Accuracy: 0.79274 valid_Precision: 0.89970 valid_Reacll: 0.66921 
+EarlyStopping counter: 3 out of 50
+[ 12/200] train_loss: 0.93949 valid_loss: 0.46115 valid_AUC: 0.89850 valid_PRC: 0.91044 valid_Accuracy: 0.82077 valid_Precision: 0.84225 valid_Reacll: 0.79910 
+Have a new best checkpoint: (0.892299 --> 0.898496).  Saving model ...
+[ 13/200] train_loss: 0.86409 valid_loss: 0.52321 valid_AUC: 0.87795 valid_PRC: 0.88984 valid_Accuracy: 0.79343 valid_Precision: 0.78165 valid_Reacll: 0.82697 
+EarlyStopping counter: 1 out of 50
+[ 14/200] train_loss: 0.88029 valid_loss: 0.49911 valid_AUC: 0.89903 valid_PRC: 0.90980 valid_Accuracy: 0.81893 valid_Precision: 0.83034 valid_Reacll: 0.81169 
+Have a new best checkpoint: (0.898496 --> 0.899031).  Saving model ...
+[ 15/200] train_loss: 0.79949 valid_loss: 0.58155 valid_AUC: 0.87997 valid_PRC: 0.89606 valid_Accuracy: 0.80400 valid_Precision: 0.84542 valid_Reacll: 0.75461 
+EarlyStopping counter: 1 out of 50
+[ 16/200] train_loss: 0.83115 valid_loss: 0.55170 valid_AUC: 0.89874 valid_PRC: 0.90998 valid_Accuracy: 0.82307 valid_Precision: 0.83174 valid_Reacll: 0.81978 
+EarlyStopping counter: 2 out of 50
+[ 17/200] train_loss: 0.75243 valid_loss: 0.66340 valid_AUC: 0.88401 valid_PRC: 0.89215 valid_Accuracy: 0.79802 valid_Precision: 0.83449 valid_Reacll: 0.75461 
+EarlyStopping counter: 3 out of 50
+[ 18/200] train_loss: 0.78279 valid_loss: 0.59569 valid_AUC: 0.89841 valid_PRC: 0.90826 valid_Accuracy: 0.82284 valid_Precision: 0.82572 valid_Reacll: 0.82831 
+EarlyStopping counter: 4 out of 50
+[ 19/200] train_loss: 0.71251 valid_loss: 0.62304 valid_AUC: 0.88978 valid_PRC: 0.89786 valid_Accuracy: 0.80790 valid_Precision: 0.80209 valid_Reacll: 0.82876 
+EarlyStopping counter: 5 out of 50
+[ 20/200] train_loss: 0.73858 valid_loss: 0.65021 valid_AUC: 0.89838 valid_PRC: 0.90803 valid_Accuracy: 0.82146 valid_Precision: 0.82790 valid_Reacll: 0.82157 
+EarlyStopping counter: 6 out of 50

@@ -1,0 +1,9 @@
+Source Dataset: BIOSNAP
+Target Dataset: DrugBank
+Fold Index: 1
+------------------------------
+ROC-AUC: 0.87780
+AUPRC: 0.89086
+Accuracy: 0.80798
+Precision: 0.85430
+Recall: 0.73923

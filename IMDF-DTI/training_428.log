@@ -1,0 +1,1093 @@
+nohup: 忽略输入
+/home/liumeiling/apps/miniconda3_clean/envs/IMDF/lib/python3.10/site-packages/requests/__init__.py:109: RequestsDependencyWarning: urllib3 (1.26.13) or chardet (None)/charset_normalizer (3.4.7) doesn't match a supported version!
+  warnings.warn(
+Using device: cuda:0
+GPU Name: NVIDIA A100 80GB PCIe
+Memory Allocated: 0.00 MB
+Train in Davis
+load data
+load finished
+data shuffle
+Number of Train&Val set: 20618
+Number of Test set: 5153
+Loading Protein Graph data...
+Loading Ligand Graph data...
+************************* No. 1 -fold *************************
+Training...
+🔒 Epoch 1: freeze gate/dfgu
+[  1/200] train_loss: 0.62842 valid_loss: 0.55905 valid_AUC: 0.80272 valid_PRC: 0.64787 valid_Accuracy: 0.77588 valid_Precision: 0.61922 valid_Reacll: 0.57832 
+   📊 Modality Weights -> [2D] Drug:0.430, Prot:0.570 | [1D] Drug:0.634, Prot:0.366
+Have a new best checkpoint: (-inf --> 0.802723).  Saving model ...
+🔒 Epoch 2: freeze gate/dfgu
+[  2/200] train_loss: 0.51314 valid_loss: 0.49059 valid_AUC: 0.84259 valid_PRC: 0.71526 valid_Accuracy: 0.77734 valid_Precision: 0.59505 valid_Reacll: 0.71296 
+   📊 Modality Weights -> [2D] Drug:0.430, Prot:0.570 | [1D] Drug:0.633, Prot:0.367
+Have a new best checkpoint: (0.802723 --> 0.842591).  Saving model ...
+🔒 Epoch 3: freeze gate/dfgu
+[  3/200] train_loss: 0.47659 valid_loss: 0.50140 valid_AUC: 0.84232 valid_PRC: 0.70763 valid_Accuracy: 0.79785 valid_Precision: 0.64599 valid_Reacll: 0.66130 
+   📊 Modality Weights -> [2D] Drug:0.430, Prot:0.570 | [1D] Drug:0.633, Prot:0.367
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 4: freeze gate/dfgu
+[  4/200] train_loss: 0.46950 valid_loss: 0.47695 valid_AUC: 0.85235 valid_PRC: 0.72538 valid_Accuracy: 0.78931 valid_Precision: 0.61341 valid_Reacll: 0.72820 
+   📊 Modality Weights -> [2D] Drug:0.430, Prot:0.570 | [1D] Drug:0.633, Prot:0.367
+Have a new best checkpoint: (0.842591 --> 0.852349).  Saving model ...
+🔒 Epoch 5: freeze gate/dfgu
+[  5/200] train_loss: 0.45182 valid_loss: 0.49909 valid_AUC: 0.85010 valid_PRC: 0.72183 valid_Accuracy: 0.70581 valid_Precision: 0.49415 valid_Reacll: 0.85859 
+   📊 Modality Weights -> [2D] Drug:0.430, Prot:0.570 | [1D] Drug:0.633, Prot:0.367
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 6: freeze gate/dfgu
+[  6/200] train_loss: 0.44059 valid_loss: 0.44853 valid_AUC: 0.87017 valid_PRC: 0.75126 valid_Accuracy: 0.79590 valid_Precision: 0.61807 valid_Reacll: 0.76461 
+   📊 Modality Weights -> [2D] Drug:0.430, Prot:0.570 | [1D] Drug:0.633, Prot:0.367
+Have a new best checkpoint: (0.852349 --> 0.870173).  Saving model ...
+🔒 Epoch 7: freeze gate/dfgu
+[  7/200] train_loss: 0.40913 valid_loss: 0.46636 valid_AUC: 0.85971 valid_PRC: 0.74121 valid_Accuracy: 0.78979 valid_Precision: 0.61799 valid_Reacll: 0.70957 
+   📊 Modality Weights -> [2D] Drug:0.430, Prot:0.570 | [1D] Drug:0.633, Prot:0.367
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 8: freeze gate/dfgu
+[  8/200] train_loss: 0.39611 valid_loss: 0.43007 valid_AUC: 0.89057 valid_PRC: 0.78522 valid_Accuracy: 0.83252 valid_Precision: 0.70040 valid_Reacll: 0.73243 
+   📊 Modality Weights -> [2D] Drug:0.430, Prot:0.570 | [1D] Drug:0.633, Prot:0.367
+Have a new best checkpoint: (0.870173 --> 0.890569).  Saving model ...
+🔒 Epoch 9: freeze gate/dfgu
+[  9/200] train_loss: 0.35856 valid_loss: 0.52153 valid_AUC: 0.86796 valid_PRC: 0.75386 valid_Accuracy: 0.81934 valid_Precision: 0.76663 valid_Reacll: 0.53683 
+   📊 Modality Weights -> [2D] Drug:0.430, Prot:0.570 | [1D] Drug:0.633, Prot:0.367
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 10: freeze gate/dfgu
+[ 10/200] train_loss: 0.35168 valid_loss: 0.41575 valid_AUC: 0.89658 valid_PRC: 0.79813 valid_Accuracy: 0.83301 valid_Precision: 0.68783 valid_Reacll: 0.77053 
+   📊 Modality Weights -> [2D] Drug:0.430, Prot:0.570 | [1D] Drug:0.633, Prot:0.367
+Have a new best checkpoint: (0.890569 --> 0.896583).  Saving model ...
+🔓 Epoch 11: update gate/dfgu
+[ 11/200] train_loss: 0.44856 valid_loss: 0.44525 valid_AUC: 0.88105 valid_PRC: 0.76834 valid_Accuracy: 0.80322 valid_Precision: 0.62442 valid_Reacll: 0.79678 
+   📊 Modality Weights -> [2D] Drug:0.434, Prot:0.566 | [1D] Drug:0.636, Prot:0.364
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 12: freeze gate/dfgu
+[ 12/200] train_loss: 0.58585 valid_loss: 0.41834 valid_AUC: 0.89654 valid_PRC: 0.80002 valid_Accuracy: 0.83032 valid_Precision: 0.68271 valid_Reacll: 0.76884 
+   📊 Modality Weights -> [2D] Drug:0.437, Prot:0.563 | [1D] Drug:0.640, Prot:0.360
+EarlyStopping counter: 2 out of 30
+🔒 Epoch 13: freeze gate/dfgu
+[ 13/200] train_loss: 0.66624 valid_loss: 0.46602 valid_AUC: 0.88505 valid_PRC: 0.77709 valid_Accuracy: 0.81787 valid_Precision: 0.67086 valid_Reacll: 0.72312 
+   📊 Modality Weights -> [2D] Drug:0.437, Prot:0.563 | [1D] Drug:0.641, Prot:0.359
+EarlyStopping counter: 3 out of 30
+🔒 Epoch 14: freeze gate/dfgu
+[ 14/200] train_loss: 0.80769 valid_loss: 0.42772 valid_AUC: 0.90065 valid_PRC: 0.80627 valid_Accuracy: 0.83545 valid_Precision: 0.69248 valid_Reacll: 0.77223 
+   📊 Modality Weights -> [2D] Drug:0.437, Prot:0.563 | [1D] Drug:0.644, Prot:0.356
+Have a new best checkpoint: (0.896583 --> 0.900648).  Saving model ...
+🔒 Epoch 15: freeze gate/dfgu
+[ 15/200] train_loss: 0.87451 valid_loss: 0.46218 valid_AUC: 0.89680 valid_PRC: 0.79312 valid_Accuracy: 0.81909 valid_Precision: 0.65299 valid_Reacll: 0.79509 
+   📊 Modality Weights -> [2D] Drug:0.437, Prot:0.563 | [1D] Drug:0.646, Prot:0.354
+EarlyStopping counter: 1 out of 30
+🔓 Epoch 16: update gate/dfgu
+[ 16/200] train_loss: 1.00879 valid_loss: 0.48382 valid_AUC: 0.90170 valid_PRC: 0.80526 valid_Accuracy: 0.84253 valid_Precision: 0.72371 valid_Reacll: 0.73412 
+   📊 Modality Weights -> [2D] Drug:0.440, Prot:0.560 | [1D] Drug:0.652, Prot:0.348
+Have a new best checkpoint: (0.900648 --> 0.901695).  Saving model ...
+🔒 Epoch 17: freeze gate/dfgu
+[ 17/200] train_loss: 1.05630 valid_loss: 0.56368 valid_AUC: 0.87955 valid_PRC: 0.75552 valid_Accuracy: 0.82129 valid_Precision: 0.70317 valid_Reacll: 0.65792 
+   📊 Modality Weights -> [2D] Drug:0.440, Prot:0.560 | [1D] Drug:0.656, Prot:0.344
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 18: freeze gate/dfgu
+[ 18/200] train_loss: 1.17907 valid_loss: 0.52035 valid_AUC: 0.89575 valid_PRC: 0.79969 valid_Accuracy: 0.82983 valid_Precision: 0.69206 valid_Reacll: 0.73836 
+   📊 Modality Weights -> [2D] Drug:0.440, Prot:0.560 | [1D] Drug:0.659, Prot:0.341
+EarlyStopping counter: 2 out of 30
+🔒 Epoch 19: freeze gate/dfgu
+[ 19/200] train_loss: 1.22158 valid_loss: 0.58278 valid_AUC: 0.88942 valid_PRC: 0.79012 valid_Accuracy: 0.83301 valid_Precision: 0.70657 valid_Reacll: 0.71973 
+   📊 Modality Weights -> [2D] Drug:0.440, Prot:0.560 | [1D] Drug:0.660, Prot:0.340
+EarlyStopping counter: 3 out of 30
+🔒 Epoch 20: freeze gate/dfgu
+[ 20/200] train_loss: 1.33450 valid_loss: 0.60309 valid_AUC: 0.89351 valid_PRC: 0.80010 valid_Accuracy: 0.84131 valid_Precision: 0.73107 valid_Reacll: 0.71126 
+   📊 Modality Weights -> [2D] Drug:0.439, Prot:0.561 | [1D] Drug:0.662, Prot:0.338
+EarlyStopping counter: 4 out of 30
+🔓 Epoch 21: update gate/dfgu
+[ 21/200] train_loss: 1.25204 valid_loss: 0.71481 valid_AUC: 0.89617 valid_PRC: 0.80350 valid_Accuracy: 0.83911 valid_Precision: 0.73262 valid_Reacll: 0.69602 
+   📊 Modality Weights -> [2D] Drug:0.441, Prot:0.559 | [1D] Drug:0.665, Prot:0.335
+EarlyStopping counter: 5 out of 30
+🔒 Epoch 22: freeze gate/dfgu
+[ 22/200] train_loss: 1.23415 valid_loss: 0.65857 valid_AUC: 0.89733 valid_PRC: 0.80709 valid_Accuracy: 0.84253 valid_Precision: 0.72597 valid_Reacll: 0.72904 
+   📊 Modality Weights -> [2D] Drug:0.442, Prot:0.558 | [1D] Drug:0.670, Prot:0.330
+EarlyStopping counter: 6 out of 30
+🔒 Epoch 23: freeze gate/dfgu
+[ 23/200] train_loss: 1.16057 valid_loss: 0.77573 valid_AUC: 0.89213 valid_PRC: 0.79314 valid_Accuracy: 0.84546 valid_Precision: 0.74864 valid_Reacll: 0.69856 
+   📊 Modality Weights -> [2D] Drug:0.441, Prot:0.559 | [1D] Drug:0.671, Prot:0.329
+EarlyStopping counter: 7 out of 30
+🔒 Epoch 24: freeze gate/dfgu
+[ 24/200] train_loss: 1.14486 valid_loss: 0.78241 valid_AUC: 0.89339 valid_PRC: 0.79932 valid_Accuracy: 0.83911 valid_Precision: 0.73262 valid_Reacll: 0.69602 
+   📊 Modality Weights -> [2D] Drug:0.441, Prot:0.559 | [1D] Drug:0.673, Prot:0.327
+EarlyStopping counter: 8 out of 30
+🔒 Epoch 25: freeze gate/dfgu
+[ 25/200] train_loss: 1.08680 valid_loss: 0.79241 valid_AUC: 0.88885 valid_PRC: 0.79431 valid_Accuracy: 0.83643 valid_Precision: 0.70789 valid_Reacll: 0.73666 
+   📊 Modality Weights -> [2D] Drug:0.441, Prot:0.559 | [1D] Drug:0.674, Prot:0.326
+EarlyStopping counter: 9 out of 30
+🔓 Epoch 26: update gate/dfgu
+[ 26/200] train_loss: 1.09073 valid_loss: 0.79892 valid_AUC: 0.89302 valid_PRC: 0.80186 valid_Accuracy: 0.84058 valid_Precision: 0.73614 valid_Reacll: 0.69687 
+   📊 Modality Weights -> [2D] Drug:0.441, Prot:0.559 | [1D] Drug:0.678, Prot:0.322
+EarlyStopping counter: 10 out of 30
+🔒 Epoch 27: freeze gate/dfgu
+[ 27/200] train_loss: 1.02314 valid_loss: 0.88204 valid_AUC: 0.88765 valid_PRC: 0.78593 valid_Accuracy: 0.84058 valid_Precision: 0.73037 valid_Reacll: 0.70872 
+   📊 Modality Weights -> [2D] Drug:0.441, Prot:0.559 | [1D] Drug:0.681, Prot:0.319
+EarlyStopping counter: 11 out of 30
+🔒 Epoch 28: freeze gate/dfgu
+[ 28/200] train_loss: 1.00560 valid_loss: 0.88118 valid_AUC: 0.89589 valid_PRC: 0.80235 valid_Accuracy: 0.84595 valid_Precision: 0.74597 valid_Reacll: 0.70618 
+   📊 Modality Weights -> [2D] Drug:0.441, Prot:0.559 | [1D] Drug:0.681, Prot:0.319
+EarlyStopping counter: 12 out of 30
+🔒 Epoch 29: freeze gate/dfgu
+[ 29/200] train_loss: 0.95447 valid_loss: 0.96933 valid_AUC: 0.89207 valid_PRC: 0.79465 valid_Accuracy: 0.84253 valid_Precision: 0.74453 valid_Reacll: 0.69094 
+   📊 Modality Weights -> [2D] Drug:0.441, Prot:0.559 | [1D] Drug:0.681, Prot:0.319
+EarlyStopping counter: 13 out of 30
+🔒 Epoch 30: freeze gate/dfgu
+[ 30/200] train_loss: 0.94325 valid_loss: 0.91166 valid_AUC: 0.89637 valid_PRC: 0.80205 valid_Accuracy: 0.84570 valid_Precision: 0.74663 valid_Reacll: 0.70364 
+   📊 Modality Weights -> [2D] Drug:0.440, Prot:0.560 | [1D] Drug:0.682, Prot:0.318
+EarlyStopping counter: 14 out of 30
+🔓 Epoch 31: update gate/dfgu
+[ 31/200] train_loss: 0.89904 valid_loss: 0.96633 valid_AUC: 0.89561 valid_PRC: 0.80214 valid_Accuracy: 0.84399 valid_Precision: 0.73940 valid_Reacll: 0.70872 
+   📊 Modality Weights -> [2D] Drug:0.441, Prot:0.559 | [1D] Drug:0.683, Prot:0.317
+EarlyStopping counter: 15 out of 30
+🔒 Epoch 32: freeze gate/dfgu
+[ 32/200] train_loss: 0.87444 valid_loss: 1.01280 valid_AUC: 0.89330 valid_PRC: 0.80171 valid_Accuracy: 0.84619 valid_Precision: 0.75114 valid_Reacll: 0.69771 
+   📊 Modality Weights -> [2D] Drug:0.441, Prot:0.559 | [1D] Drug:0.685, Prot:0.315
+EarlyStopping counter: 16 out of 30
+🔒 Epoch 33: freeze gate/dfgu
+[ 33/200] train_loss: 0.83528 valid_loss: 1.01398 valid_AUC: 0.89397 valid_PRC: 0.79980 valid_Accuracy: 0.83716 valid_Precision: 0.71560 valid_Reacll: 0.72227 
+   📊 Modality Weights -> [2D] Drug:0.441, Prot:0.559 | [1D] Drug:0.685, Prot:0.315
+EarlyStopping counter: 17 out of 30
+🔒 Epoch 34: freeze gate/dfgu
+[ 34/200] train_loss: 0.84414 valid_loss: 0.99000 valid_AUC: 0.88664 valid_PRC: 0.78522 valid_Accuracy: 0.83594 valid_Precision: 0.72305 valid_Reacll: 0.69856 
+   📊 Modality Weights -> [2D] Drug:0.442, Prot:0.558 | [1D] Drug:0.686, Prot:0.314
+EarlyStopping counter: 18 out of 30
+🔒 Epoch 35: freeze gate/dfgu
+[ 35/200] train_loss: 0.78497 valid_loss: 0.95059 valid_AUC: 0.89036 valid_PRC: 0.78941 valid_Accuracy: 0.82910 valid_Precision: 0.67988 valid_Reacll: 0.76969 
+   📊 Modality Weights -> [2D] Drug:0.443, Prot:0.557 | [1D] Drug:0.686, Prot:0.314
+EarlyStopping counter: 19 out of 30
+🔓 Epoch 36: update gate/dfgu
+[ 36/200] train_loss: 0.80193 valid_loss: 0.98457 valid_AUC: 0.89182 valid_PRC: 0.79360 valid_Accuracy: 0.84229 valid_Precision: 0.73991 valid_Reacll: 0.69856 
+   📊 Modality Weights -> [2D] Drug:0.443, Prot:0.557 | [1D] Drug:0.687, Prot:0.313
+EarlyStopping counter: 20 out of 30
+🔒 Epoch 37: freeze gate/dfgu
+[ 37/200] train_loss: 0.73495 valid_loss: 1.03725 valid_AUC: 0.89113 valid_PRC: 0.79170 valid_Accuracy: 0.84082 valid_Precision: 0.73263 valid_Reacll: 0.70533 
+   📊 Modality Weights -> [2D] Drug:0.444, Prot:0.556 | [1D] Drug:0.687, Prot:0.313
+EarlyStopping counter: 21 out of 30
+🔒 Epoch 38: freeze gate/dfgu
+[ 38/200] train_loss: 0.73018 valid_loss: 0.97095 valid_AUC: 0.89213 valid_PRC: 0.78781 valid_Accuracy: 0.84058 valid_Precision: 0.73077 valid_Reacll: 0.70787 
+   📊 Modality Weights -> [2D] Drug:0.445, Prot:0.555 | [1D] Drug:0.687, Prot:0.313
+EarlyStopping counter: 22 out of 30
+🔒 Epoch 39: freeze gate/dfgu
+[ 39/200] train_loss: 0.68262 valid_loss: 1.17329 valid_AUC: 0.88125 valid_PRC: 0.77490 valid_Accuracy: 0.83984 valid_Precision: 0.75313 valid_Reacll: 0.66130 
+   📊 Modality Weights -> [2D] Drug:0.445, Prot:0.555 | [1D] Drug:0.687, Prot:0.313
+EarlyStopping counter: 23 out of 30
+🔒 Epoch 40: freeze gate/dfgu
+[ 40/200] train_loss: 0.65449 valid_loss: 1.10308 valid_AUC: 0.89400 valid_PRC: 0.79746 valid_Accuracy: 0.85254 valid_Precision: 0.76688 valid_Reacll: 0.70195 
+   📊 Modality Weights -> [2D] Drug:0.446, Prot:0.554 | [1D] Drug:0.687, Prot:0.313
+EarlyStopping counter: 24 out of 30
+🔓 Epoch 41: update gate/dfgu
+[ 41/200] train_loss: 0.63413 valid_loss: 1.12443 valid_AUC: 0.89306 valid_PRC: 0.79763 valid_Accuracy: 0.84692 valid_Precision: 0.74955 valid_Reacll: 0.70449 
+   📊 Modality Weights -> [2D] Drug:0.447, Prot:0.553 | [1D] Drug:0.688, Prot:0.312
+EarlyStopping counter: 25 out of 30
+🔒 Epoch 42: freeze gate/dfgu
+[ 42/200] train_loss: 0.60919 valid_loss: 1.13855 valid_AUC: 0.89526 valid_PRC: 0.79938 valid_Accuracy: 0.84595 valid_Precision: 0.76141 valid_Reacll: 0.67824 
+   📊 Modality Weights -> [2D] Drug:0.448, Prot:0.552 | [1D] Drug:0.689, Prot:0.311
+EarlyStopping counter: 26 out of 30
+🔒 Epoch 43: freeze gate/dfgu
+[ 43/200] train_loss: 0.58812 valid_loss: 1.11903 valid_AUC: 0.89661 valid_PRC: 0.79473 valid_Accuracy: 0.84741 valid_Precision: 0.75000 valid_Reacll: 0.70618 
+   📊 Modality Weights -> [2D] Drug:0.448, Prot:0.552 | [1D] Drug:0.689, Prot:0.311
+EarlyStopping counter: 27 out of 30
+🔒 Epoch 44: freeze gate/dfgu
+[ 44/200] train_loss: 0.56891 valid_loss: 1.10994 valid_AUC: 0.89696 valid_PRC: 0.79645 valid_Accuracy: 0.84888 valid_Precision: 0.74736 valid_Reacll: 0.71888 
+   📊 Modality Weights -> [2D] Drug:0.449, Prot:0.551 | [1D] Drug:0.689, Prot:0.311
+EarlyStopping counter: 28 out of 30
+🔒 Epoch 45: freeze gate/dfgu
+[ 45/200] train_loss: 0.54426 valid_loss: 1.18170 valid_AUC: 0.89809 valid_PRC: 0.80034 valid_Accuracy: 0.85107 valid_Precision: 0.75514 valid_Reacll: 0.71550 
+   📊 Modality Weights -> [2D] Drug:0.449, Prot:0.551 | [1D] Drug:0.689, Prot:0.311
+EarlyStopping counter: 29 out of 30
+🔓 Epoch 46: update gate/dfgu
+[ 46/200] train_loss: 0.53381 valid_loss: 1.18108 valid_AUC: 0.89254 valid_PRC: 0.78744 valid_Accuracy: 0.84424 valid_Precision: 0.74394 valid_Reacll: 0.70110 
+   📊 Modality Weights -> [2D] Drug:0.450, Prot:0.550 | [1D] Drug:0.690, Prot:0.310
+EarlyStopping counter: 30 out of 30
+/home/liumeiling/apps/miniconda3_clean/envs/IMDF/lib/python3.10/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+  0%|          | 0/128 [00:00<?, ?it/s]  1%|          | 1/128 [00:00<01:01,  2.05it/s]  2%|▏         | 2/128 [00:00<00:48,  2.62it/s]  2%|▏         | 3/128 [00:01<00:42,  2.94it/s]  3%|▎         | 4/128 [00:01<00:38,  3.19it/s]  4%|▍         | 5/128 [00:01<00:37,  3.31it/s]  5%|▍         | 6/128 [00:01<00:36,  3.35it/s]  5%|▌         | 7/128 [00:02<00:35,  3.39it/s]  6%|▋         | 8/128 [00:02<00:35,  3.42it/s]  7%|▋         | 9/128 [00:02<00:34,  3.44it/s]  8%|▊         | 10/128 [00:03<00:34,  3.46it/s]  9%|▊         | 11/128 [00:03<00:33,  3.46it/s]  9%|▉         | 12/128 [00:03<00:33,  3.48it/s] 10%|█         | 13/128 [00:04<00:43,  2.64it/s] 11%|█         | 14/128 [00:04<00:44,  2.58it/s] 12%|█▏        | 15/128 [00:04<00:39,  2.85it/s] 12%|█▎        | 16/128 [00:05<00:37,  3.02it/s] 13%|█▎        | 17/128 [00:05<00:38,  2.92it/s] 14%|█▍        | 18/128 [00:05<00:35,  3.08it/s] 15%|█▍        | 19/128 [00:06<00:34,  3.18it/s] 16%|█▌        | 20/128 [00:06<00:32,  3.29it/s] 16%|█▋        | 21/128 [00:06<00:31,  3.35it/s] 17%|█▋        | 22/128 [00:06<00:31,  3.40it/s] 18%|█▊        | 23/128 [00:07<00:30,  3.47it/s] 19%|█▉        | 24/128 [00:07<00:29,  3.52it/s] 20%|█▉        | 25/128 [00:07<00:28,  3.55it/s] 20%|██        | 26/128 [00:08<00:28,  3.55it/s] 21%|██        | 27/128 [00:08<00:28,  3.56it/s] 22%|██▏       | 28/128 [00:08<00:28,  3.52it/s] 23%|██▎       | 29/128 [00:08<00:28,  3.51it/s] 23%|██▎       | 30/128 [00:09<00:27,  3.55it/s] 24%|██▍       | 31/128 [00:09<00:27,  3.57it/s] 25%|██▌       | 32/128 [00:09<00:27,  3.53it/s] 26%|██▌       | 33/128 [00:10<00:26,  3.57it/s] 27%|██▋       | 34/128 [00:10<00:27,  3.45it/s] 27%|██▋       | 35/128 [00:10<00:27,  3.39it/s] 28%|██▊       | 36/128 [00:10<00:27,  3.37it/s] 29%|██▉       | 37/128 [00:11<00:30,  3.00it/s] 30%|██▉       | 38/128 [00:11<00:28,  3.18it/s] 30%|███       | 39/128 [00:12<00:35,  2.51it/s] 31%|███▏      | 40/128 [00:12<00:39,  2.22it/s] 32%|███▏      | 41/128 [00:13<00:34,  2.49it/s] 33%|███▎      | 42/128 [00:13<00:31,  2.74it/s] 34%|███▎      | 43/128 [00:13<00:29,  2.92it/s] 34%|███▍      | 44/128 [00:13<00:27,  3.10it/s] 35%|███▌      | 45/128 [00:14<00:25,  3.21it/s] 36%|███▌      | 46/128 [00:14<00:24,  3.35it/s] 37%|███▋      | 47/128 [00:14<00:23,  3.39it/s] 38%|███▊      | 48/128 [00:15<00:23,  3.42it/s] 38%|███▊      | 49/128 [00:15<00:22,  3.48it/s] 39%|███▉      | 50/128 [00:15<00:22,  3.49it/s] 40%|███▉      | 51/128 [00:15<00:22,  3.48it/s] 41%|████      | 52/128 [00:16<00:21,  3.51it/s] 41%|████▏     | 53/128 [00:16<00:21,  3.46it/s] 42%|████▏     | 54/128 [00:16<00:21,  3.42it/s] 43%|████▎     | 55/128 [00:17<00:21,  3.42it/s] 44%|████▍     | 56/128 [00:17<00:21,  3.42it/s] 45%|████▍     | 57/128 [00:17<00:21,  3.38it/s] 45%|████▌     | 58/128 [00:18<00:20,  3.39it/s] 46%|████▌     | 59/128 [00:18<00:20,  3.39it/s] 47%|████▋     | 60/128 [00:18<00:19,  3.46it/s] 48%|████▊     | 61/128 [00:18<00:19,  3.51it/s] 48%|████▊     | 62/128 [00:19<00:19,  3.42it/s] 49%|████▉     | 63/128 [00:19<00:18,  3.46it/s] 50%|█████     | 64/128 [00:19<00:18,  3.43it/s] 51%|█████     | 65/128 [00:20<00:18,  3.46it/s] 52%|█████▏    | 66/128 [00:20<00:17,  3.47it/s] 52%|█████▏    | 67/128 [00:20<00:17,  3.51it/s] 53%|█████▎    | 68/128 [00:20<00:16,  3.53it/s] 54%|█████▍    | 69/128 [00:21<00:16,  3.48it/s] 55%|█████▍    | 70/128 [00:21<00:16,  3.49it/s] 55%|█████▌    | 71/128 [00:21<00:16,  3.46it/s] 56%|█████▋    | 72/128 [00:22<00:16,  3.43it/s] 57%|█████▋    | 73/128 [00:22<00:17,  3.12it/s] 58%|█████▊    | 74/128 [00:22<00:18,  2.99it/s] 59%|█████▊    | 75/128 [00:23<00:18,  2.91it/s] 59%|█████▉    | 76/128 [00:23<00:17,  3.06it/s] 60%|██████    | 77/128 [00:23<00:16,  3.16it/s] 61%|██████    | 78/128 [00:24<00:15,  3.26it/s] 62%|██████▏   | 79/128 [00:24<00:14,  3.39it/s] 62%|██████▎   | 80/128 [00:24<00:13,  3.45it/s] 63%|██████▎   | 81/128 [00:24<00:13,  3.41it/s] 64%|██████▍   | 82/128 [00:25<00:13,  3.40it/s] 65%|██████▍   | 83/128 [00:25<00:13,  3.43it/s] 66%|██████▌   | 84/128 [00:25<00:12,  3.46it/s] 66%|██████▋   | 85/128 [00:26<00:12,  3.49it/s] 67%|██████▋   | 86/128 [00:26<00:12,  3.49it/s] 68%|██████▊   | 87/128 [00:26<00:11,  3.50it/s] 69%|██████▉   | 88/128 [00:26<00:11,  3.48it/s] 70%|██████▉   | 89/128 [00:27<00:11,  3.50it/s] 70%|███████   | 90/128 [00:27<00:10,  3.48it/s] 71%|███████   | 91/128 [00:27<00:10,  3.49it/s] 72%|███████▏  | 92/128 [00:28<00:10,  3.47it/s] 73%|███████▎  | 93/128 [00:28<00:09,  3.52it/s] 73%|███████▎  | 94/128 [00:28<00:09,  3.58it/s] 74%|███████▍  | 95/128 [00:28<00:09,  3.51it/s] 75%|███████▌  | 96/128 [00:29<00:09,  3.53it/s] 76%|███████▌  | 97/128 [00:29<00:08,  3.55it/s] 77%|███████▋  | 98/128 [00:29<00:08,  3.55it/s] 77%|███████▋  | 99/128 [00:30<00:08,  3.54it/s] 78%|███████▊  | 100/128 [00:30<00:07,  3.56it/s] 79%|███████▉  | 101/128 [00:30<00:07,  3.52it/s] 80%|███████▉  | 102/128 [00:30<00:07,  3.49it/s] 80%|████████  | 103/128 [00:31<00:07,  3.45it/s] 81%|████████▏ | 104/128 [00:31<00:06,  3.45it/s] 82%|████████▏ | 105/128 [00:31<00:06,  3.44it/s] 83%|████████▎ | 106/128 [00:32<00:06,  3.35it/s] 84%|████████▎ | 107/128 [00:32<00:06,  3.40it/s] 84%|████████▍ | 108/128 [00:32<00:05,  3.34it/s] 85%|████████▌ | 109/128 [00:32<00:05,  3.39it/s] 86%|████████▌ | 110/128 [00:33<00:05,  3.42it/s] 87%|████████▋ | 111/128 [00:33<00:05,  3.16it/s] 88%|████████▊ | 112/128 [00:33<00:04,  3.29it/s] 88%|████████▊ | 113/128 [00:34<00:05,  2.93it/s] 89%|████████▉ | 114/128 [00:34<00:04,  3.02it/s] 90%|████████▉ | 115/128 [00:34<00:04,  3.09it/s] 91%|█████████ | 116/128 [00:35<00:03,  3.23it/s] 91%|█████████▏| 117/128 [00:35<00:03,  3.30it/s] 92%|█████████▏| 118/128 [00:35<00:02,  3.44it/s] 93%|█████████▎| 119/128 [00:36<00:02,  3.50it/s] 94%|█████████▍| 120/128 [00:36<00:02,  3.52it/s] 95%|█████████▍| 121/128 [00:36<00:02,  3.47it/s] 95%|█████████▌| 122/128 [00:36<00:01,  3.40it/s] 96%|█████████▌| 123/128 [00:37<00:01,  3.45it/s] 97%|█████████▋| 124/128 [00:37<00:01,  3.43it/s] 98%|█████████▊| 125/128 [00:37<00:00,  3.38it/s] 98%|█████████▊| 126/128 [00:38<00:00,  3.43it/s] 99%|█████████▉| 127/128 [00:38<00:00,  3.56it/s]100%|██████████| 128/128 [00:38<00:00,  3.65it/s]100%|██████████| 128/128 [00:38<00:00,  3.32it/s]
+Train: Loss:0.10874;Accuracy:0.96918;Precision:0.92188;Recall:0.97372;AUC:0.99560;PRC:0.98830.
+  0%|          | 0/32 [00:00<?, ?it/s]  3%|▎         | 1/32 [00:00<00:13,  2.38it/s]  6%|▋         | 2/32 [00:00<00:09,  3.14it/s]  9%|▉         | 3/32 [00:00<00:08,  3.49it/s] 12%|█▎        | 4/32 [00:01<00:07,  3.52it/s] 16%|█▌        | 5/32 [00:01<00:07,  3.61it/s] 19%|█▉        | 6/32 [00:01<00:06,  3.76it/s] 22%|██▏       | 7/32 [00:01<00:06,  3.79it/s] 25%|██▌       | 8/32 [00:02<00:06,  3.89it/s] 28%|██▊       | 9/32 [00:02<00:05,  3.87it/s] 31%|███▏      | 10/32 [00:02<00:05,  3.76it/s] 34%|███▍      | 11/32 [00:03<00:05,  3.73it/s] 38%|███▊      | 12/32 [00:03<00:05,  3.67it/s] 41%|████      | 13/32 [00:03<00:05,  3.74it/s] 44%|████▍     | 14/32 [00:03<00:04,  3.74it/s] 47%|████▋     | 15/32 [00:04<00:04,  3.69it/s] 50%|█████     | 16/32 [00:04<00:04,  3.61it/s] 53%|█████▎    | 17/32 [00:04<00:04,  3.54it/s] 56%|█████▋    | 18/32 [00:04<00:03,  3.54it/s] 59%|█████▉    | 19/32 [00:05<00:03,  3.54it/s] 62%|██████▎   | 20/32 [00:05<00:03,  3.54it/s] 66%|██████▌   | 21/32 [00:05<00:03,  3.52it/s] 69%|██████▉   | 22/32 [00:06<00:02,  3.53it/s] 72%|███████▏  | 23/32 [00:06<00:02,  3.50it/s] 75%|███████▌  | 24/32 [00:06<00:02,  3.43it/s] 78%|███████▊  | 25/32 [00:06<00:02,  3.46it/s] 81%|████████▏ | 26/32 [00:07<00:01,  3.46it/s] 84%|████████▍ | 27/32 [00:07<00:01,  3.39it/s] 88%|████████▊ | 28/32 [00:07<00:01,  3.43it/s] 91%|█████████ | 29/32 [00:08<00:00,  3.47it/s] 94%|█████████▍| 30/32 [00:08<00:00,  3.45it/s] 97%|█████████▋| 31/32 [00:08<00:00,  3.59it/s]100%|██████████| 32/32 [00:08<00:00,  3.78it/s]100%|██████████| 32/32 [00:08<00:00,  3.58it/s]
+Valid: Loss:0.48382;Accuracy:0.84253;Precision:0.72371;Recall:0.73412;AUC:0.90170;PRC:0.80526.
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:00<00:16,  2.36it/s]  5%|▌         | 2/40 [00:00<00:12,  2.93it/s]  8%|▊         | 3/40 [00:00<00:11,  3.15it/s] 10%|█         | 4/40 [00:01<00:11,  3.24it/s] 12%|█▎        | 5/40 [00:01<00:10,  3.27it/s] 15%|█▌        | 6/40 [00:01<00:10,  3.33it/s] 18%|█▊        | 7/40 [00:02<00:09,  3.37it/s] 20%|██        | 8/40 [00:02<00:09,  3.38it/s] 22%|██▎       | 9/40 [00:02<00:09,  3.39it/s] 25%|██▌       | 10/40 [00:03<00:08,  3.41it/s] 28%|██▊       | 11/40 [00:03<00:08,  3.43it/s] 30%|███       | 12/40 [00:03<00:08,  3.46it/s] 32%|███▎      | 13/40 [00:03<00:07,  3.49it/s] 35%|███▌      | 14/40 [00:04<00:07,  3.50it/s] 38%|███▊      | 15/40 [00:04<00:07,  3.53it/s] 40%|████      | 16/40 [00:04<00:06,  3.49it/s] 42%|████▎     | 17/40 [00:05<00:06,  3.48it/s] 45%|████▌     | 18/40 [00:05<00:06,  3.51it/s] 48%|████▊     | 19/40 [00:05<00:06,  3.42it/s] 50%|█████     | 20/40 [00:05<00:05,  3.46it/s] 52%|█████▎    | 21/40 [00:06<00:05,  3.45it/s] 55%|█████▌    | 22/40 [00:06<00:05,  3.47it/s] 57%|█████▊    | 23/40 [00:06<00:04,  3.45it/s] 60%|██████    | 24/40 [00:07<00:04,  3.50it/s] 62%|██████▎   | 25/40 [00:07<00:04,  3.05it/s] 65%|██████▌   | 26/40 [00:07<00:04,  3.17it/s] 68%|██████▊   | 27/40 [00:08<00:03,  3.28it/s] 70%|███████   | 28/40 [00:08<00:03,  3.30it/s] 72%|███████▎  | 29/40 [00:08<00:03,  3.33it/s] 75%|███████▌  | 30/40 [00:08<00:02,  3.46it/s] 78%|███████▊  | 31/40 [00:09<00:02,  3.47it/s] 80%|████████  | 32/40 [00:09<00:02,  3.53it/s] 82%|████████▎ | 33/40 [00:09<00:01,  3.55it/s] 85%|████████▌ | 34/40 [00:10<00:01,  3.56it/s] 88%|████████▊ | 35/40 [00:10<00:01,  3.67it/s] 90%|█████████ | 36/40 [00:10<00:01,  3.64it/s] 92%|█████████▎| 37/40 [00:10<00:00,  3.58it/s] 95%|█████████▌| 38/40 [00:11<00:00,  3.55it/s] 98%|█████████▊| 39/40 [00:11<00:00,  3.67it/s]100%|██████████| 40/40 [00:11<00:00,  3.75it/s]100%|██████████| 40/40 [00:11<00:00,  3.44it/s]
+Test: Loss:0.43594;Accuracy:0.85273;Precision:0.74051;Recall:0.73949;AUC:0.91331;PRC:0.82674.
+🚀 Generating interpretability reports for Davis...
+📊 解释性报告已成功导出至: /home/liumeiling/xjl/DTI/IMDF-DTI/Davis/1/interpretability_report
+✅ Interpretability reports (Heatmaps) saved to: ./Davis/1/interpretability_report
+************************* No. 2 -fold *************************
+Training...
+🔒 Epoch 1: freeze gate/dfgu
+[  1/200] train_loss: 0.63903 valid_loss: 0.57627 valid_AUC: 0.79867 valid_PRC: 0.60137 valid_Accuracy: 0.65869 valid_Precision: 0.43674 valid_Reacll: 0.83393 
+   📊 Modality Weights -> [2D] Drug:0.565, Prot:0.435 | [1D] Drug:0.724, Prot:0.276
+Have a new best checkpoint: (-inf --> 0.798671).  Saving model ...
+🔒 Epoch 2: freeze gate/dfgu
+[  2/200] train_loss: 0.52681 valid_loss: 0.47745 valid_AUC: 0.85158 valid_PRC: 0.71055 valid_Accuracy: 0.78345 valid_Precision: 0.58469 valid_Reacll: 0.73268 
+   📊 Modality Weights -> [2D] Drug:0.565, Prot:0.435 | [1D] Drug:0.723, Prot:0.277
+Have a new best checkpoint: (0.798671 --> 0.851577).  Saving model ...
+🔒 Epoch 3: freeze gate/dfgu
+[  3/200] train_loss: 0.49175 valid_loss: 0.49062 valid_AUC: 0.85227 valid_PRC: 0.71323 valid_Accuracy: 0.77734 valid_Precision: 0.57162 valid_Reacll: 0.75844 
+   📊 Modality Weights -> [2D] Drug:0.565, Prot:0.435 | [1D] Drug:0.723, Prot:0.277
+Have a new best checkpoint: (0.851577 --> 0.852265).  Saving model ...
+🔒 Epoch 4: freeze gate/dfgu
+[  4/200] train_loss: 0.47557 valid_loss: 0.45638 valid_AUC: 0.86640 valid_PRC: 0.74350 valid_Accuracy: 0.80908 valid_Precision: 0.63396 valid_Reacll: 0.72291 
+   📊 Modality Weights -> [2D] Drug:0.565, Prot:0.435 | [1D] Drug:0.724, Prot:0.276
+Have a new best checkpoint: (0.852265 --> 0.866404).  Saving model ...
+🔒 Epoch 5: freeze gate/dfgu
+[  5/200] train_loss: 0.45126 valid_loss: 0.47984 valid_AUC: 0.86729 valid_PRC: 0.74414 valid_Accuracy: 0.74707 valid_Precision: 0.52459 valid_Reacll: 0.85258 
+   📊 Modality Weights -> [2D] Drug:0.565, Prot:0.435 | [1D] Drug:0.724, Prot:0.276
+Have a new best checkpoint: (0.866404 --> 0.867294).  Saving model ...
+🔒 Epoch 6: freeze gate/dfgu
+[  6/200] train_loss: 0.43057 valid_loss: 0.42814 valid_AUC: 0.88730 valid_PRC: 0.78151 valid_Accuracy: 0.82886 valid_Precision: 0.67872 valid_Reacll: 0.71670 
+   📊 Modality Weights -> [2D] Drug:0.565, Prot:0.435 | [1D] Drug:0.724, Prot:0.276
+Have a new best checkpoint: (0.867294 --> 0.887300).  Saving model ...
+🔒 Epoch 7: freeze gate/dfgu
+[  7/200] train_loss: 0.39965 valid_loss: 0.44079 valid_AUC: 0.87655 valid_PRC: 0.75643 valid_Accuracy: 0.80615 valid_Precision: 0.61740 valid_Reacll: 0.77531 
+   📊 Modality Weights -> [2D] Drug:0.565, Prot:0.435 | [1D] Drug:0.724, Prot:0.276
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 8: freeze gate/dfgu
+[  8/200] train_loss: 0.38396 valid_loss: 0.40313 valid_AUC: 0.89798 valid_PRC: 0.80210 valid_Accuracy: 0.83301 valid_Precision: 0.66819 valid_Reacll: 0.77975 
+   📊 Modality Weights -> [2D] Drug:0.565, Prot:0.435 | [1D] Drug:0.724, Prot:0.276
+Have a new best checkpoint: (0.887300 --> 0.897983).  Saving model ...
+🔒 Epoch 9: freeze gate/dfgu
+[  9/200] train_loss: 0.33231 valid_loss: 0.42485 valid_AUC: 0.88976 valid_PRC: 0.78313 valid_Accuracy: 0.79688 valid_Precision: 0.59351 valid_Reacll: 0.82860 
+   📊 Modality Weights -> [2D] Drug:0.565, Prot:0.435 | [1D] Drug:0.723, Prot:0.277
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 10: freeze gate/dfgu
+[ 10/200] train_loss: 0.32786 valid_loss: 0.38226 valid_AUC: 0.91039 valid_PRC: 0.81991 valid_Accuracy: 0.83667 valid_Precision: 0.66989 valid_Reacll: 0.80018 
+   📊 Modality Weights -> [2D] Drug:0.565, Prot:0.435 | [1D] Drug:0.723, Prot:0.277
+Have a new best checkpoint: (0.897983 --> 0.910386).  Saving model ...
+🔓 Epoch 11: update gate/dfgu
+[ 11/200] train_loss: 0.41463 valid_loss: 0.41965 valid_AUC: 0.89563 valid_PRC: 0.79810 valid_Accuracy: 0.82690 valid_Precision: 0.65571 valid_Reacll: 0.77975 
+   📊 Modality Weights -> [2D] Drug:0.566, Prot:0.434 | [1D] Drug:0.729, Prot:0.271
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 12: freeze gate/dfgu
+[ 12/200] train_loss: 0.54608 valid_loss: 0.38798 valid_AUC: 0.91355 valid_PRC: 0.82650 valid_Accuracy: 0.84668 valid_Precision: 0.68694 valid_Reacll: 0.81261 
+   📊 Modality Weights -> [2D] Drug:0.565, Prot:0.435 | [1D] Drug:0.738, Prot:0.262
+Have a new best checkpoint: (0.910386 --> 0.913552).  Saving model ...
+🔒 Epoch 13: freeze gate/dfgu
+[ 13/200] train_loss: 0.61249 valid_loss: 0.43548 valid_AUC: 0.89531 valid_PRC: 0.79363 valid_Accuracy: 0.80859 valid_Precision: 0.61385 valid_Reacll: 0.81883 
+   📊 Modality Weights -> [2D] Drug:0.565, Prot:0.435 | [1D] Drug:0.739, Prot:0.261
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 14: freeze gate/dfgu
+[ 14/200] train_loss: 0.75807 valid_loss: 0.41834 valid_AUC: 0.91243 valid_PRC: 0.82761 valid_Accuracy: 0.84766 valid_Precision: 0.68759 valid_Reacll: 0.81705 
+   📊 Modality Weights -> [2D] Drug:0.565, Prot:0.435 | [1D] Drug:0.740, Prot:0.260
+EarlyStopping counter: 2 out of 30
+🔒 Epoch 15: freeze gate/dfgu
+[ 15/200] train_loss: 0.81026 valid_loss: 0.49759 valid_AUC: 0.90353 valid_PRC: 0.80777 valid_Accuracy: 0.85522 valid_Precision: 0.73074 valid_Reacll: 0.74956 
+   📊 Modality Weights -> [2D] Drug:0.565, Prot:0.435 | [1D] Drug:0.741, Prot:0.259
+EarlyStopping counter: 3 out of 30
+🔓 Epoch 16: update gate/dfgu
+[ 16/200] train_loss: 0.96781 valid_loss: 0.47903 valid_AUC: 0.90311 valid_PRC: 0.81048 valid_Accuracy: 0.84692 valid_Precision: 0.69723 valid_Reacll: 0.78330 
+   📊 Modality Weights -> [2D] Drug:0.565, Prot:0.435 | [1D] Drug:0.747, Prot:0.253
+EarlyStopping counter: 4 out of 30
+🔒 Epoch 17: freeze gate/dfgu
+[ 17/200] train_loss: 1.00017 valid_loss: 0.55721 valid_AUC: 0.89913 valid_PRC: 0.80364 valid_Accuracy: 0.82861 valid_Precision: 0.64972 valid_Reacll: 0.81705 
+   📊 Modality Weights -> [2D] Drug:0.565, Prot:0.435 | [1D] Drug:0.751, Prot:0.249
+EarlyStopping counter: 5 out of 30
+🔒 Epoch 18: freeze gate/dfgu
+[ 18/200] train_loss: 1.14293 valid_loss: 0.54146 valid_AUC: 0.90441 valid_PRC: 0.80953 valid_Accuracy: 0.84473 valid_Precision: 0.69919 valid_Reacll: 0.76377 
+   📊 Modality Weights -> [2D] Drug:0.564, Prot:0.436 | [1D] Drug:0.752, Prot:0.248
+EarlyStopping counter: 6 out of 30
+🔒 Epoch 19: freeze gate/dfgu
+[ 19/200] train_loss: 1.18635 valid_loss: 0.63277 valid_AUC: 0.89422 valid_PRC: 0.78484 valid_Accuracy: 0.84229 valid_Precision: 0.69449 valid_Reacll: 0.76110 
+   📊 Modality Weights -> [2D] Drug:0.564, Prot:0.436 | [1D] Drug:0.753, Prot:0.247
+EarlyStopping counter: 7 out of 30
+🔒 Epoch 20: freeze gate/dfgu
+[ 20/200] train_loss: 1.31052 valid_loss: 0.61516 valid_AUC: 0.90125 valid_PRC: 0.80218 valid_Accuracy: 0.84790 valid_Precision: 0.71332 valid_Reacll: 0.74689 
+   📊 Modality Weights -> [2D] Drug:0.564, Prot:0.436 | [1D] Drug:0.755, Prot:0.245
+EarlyStopping counter: 8 out of 30
+🔓 Epoch 21: update gate/dfgu
+[ 21/200] train_loss: 1.24079 valid_loss: 0.65040 valid_AUC: 0.90055 valid_PRC: 0.79738 valid_Accuracy: 0.84424 valid_Precision: 0.69489 valid_Reacll: 0.77265 
+   📊 Modality Weights -> [2D] Drug:0.564, Prot:0.436 | [1D] Drug:0.757, Prot:0.243
+EarlyStopping counter: 9 out of 30
+🔒 Epoch 22: freeze gate/dfgu
+[ 22/200] train_loss: 1.22420 valid_loss: 0.65745 valid_AUC: 0.90316 valid_PRC: 0.81192 valid_Accuracy: 0.84912 valid_Precision: 0.71026 valid_Reacll: 0.76199 
+   📊 Modality Weights -> [2D] Drug:0.563, Prot:0.437 | [1D] Drug:0.762, Prot:0.238
+EarlyStopping counter: 10 out of 30
+🔒 Epoch 23: freeze gate/dfgu
+[ 23/200] train_loss: 1.16093 valid_loss: 0.71867 valid_AUC: 0.90014 valid_PRC: 0.80102 valid_Accuracy: 0.84155 valid_Precision: 0.69126 valid_Reacll: 0.76554 
+   📊 Modality Weights -> [2D] Drug:0.563, Prot:0.437 | [1D] Drug:0.762, Prot:0.238
+EarlyStopping counter: 11 out of 30
+🔒 Epoch 24: freeze gate/dfgu
+[ 24/200] train_loss: 1.14122 valid_loss: 0.70784 valid_AUC: 0.90377 valid_PRC: 0.81347 valid_Accuracy: 0.84937 valid_Precision: 0.70809 valid_Reacll: 0.76909 
+   📊 Modality Weights -> [2D] Drug:0.563, Prot:0.437 | [1D] Drug:0.763, Prot:0.237
+EarlyStopping counter: 12 out of 30
+🔒 Epoch 25: freeze gate/dfgu
+[ 25/200] train_loss: 1.09185 valid_loss: 0.74899 valid_AUC: 0.90528 valid_PRC: 0.81186 valid_Accuracy: 0.85522 valid_Precision: 0.72566 valid_Reacll: 0.76110 
+   📊 Modality Weights -> [2D] Drug:0.563, Prot:0.437 | [1D] Drug:0.763, Prot:0.237
+EarlyStopping counter: 13 out of 30
+🔓 Epoch 26: update gate/dfgu
+[ 26/200] train_loss: 1.07054 valid_loss: 0.74961 valid_AUC: 0.90478 valid_PRC: 0.81179 valid_Accuracy: 0.84668 valid_Precision: 0.70343 valid_Reacll: 0.76465 
+   📊 Modality Weights -> [2D] Drug:0.564, Prot:0.436 | [1D] Drug:0.766, Prot:0.234
+EarlyStopping counter: 14 out of 30
+🔒 Epoch 27: freeze gate/dfgu
+[ 27/200] train_loss: 1.02713 valid_loss: 0.85478 valid_AUC: 0.89130 valid_PRC: 0.78153 valid_Accuracy: 0.84106 valid_Precision: 0.70386 valid_Reacll: 0.72824 
+   📊 Modality Weights -> [2D] Drug:0.564, Prot:0.436 | [1D] Drug:0.767, Prot:0.233
+EarlyStopping counter: 15 out of 30
+🔒 Epoch 28: freeze gate/dfgu
+[ 28/200] train_loss: 1.03515 valid_loss: 0.77750 valid_AUC: 0.90413 valid_PRC: 0.80670 valid_Accuracy: 0.84961 valid_Precision: 0.71574 valid_Reacll: 0.75133 
+   📊 Modality Weights -> [2D] Drug:0.564, Prot:0.436 | [1D] Drug:0.767, Prot:0.233
+EarlyStopping counter: 16 out of 30
+🔒 Epoch 29: freeze gate/dfgu
+[ 29/200] train_loss: 0.98239 valid_loss: 0.80576 valid_AUC: 0.89085 valid_PRC: 0.78689 valid_Accuracy: 0.83423 valid_Precision: 0.67393 valid_Reacll: 0.76909 
+   📊 Modality Weights -> [2D] Drug:0.564, Prot:0.436 | [1D] Drug:0.767, Prot:0.233
+EarlyStopping counter: 17 out of 30
+🔒 Epoch 30: freeze gate/dfgu
+[ 30/200] train_loss: 1.02992 valid_loss: 0.70114 valid_AUC: 0.89683 valid_PRC: 0.79794 valid_Accuracy: 0.84399 valid_Precision: 0.69878 valid_Reacll: 0.76021 
+   📊 Modality Weights -> [2D] Drug:0.564, Prot:0.436 | [1D] Drug:0.767, Prot:0.233
+EarlyStopping counter: 18 out of 30
+🔓 Epoch 31: update gate/dfgu
+[ 31/200] train_loss: 0.93387 valid_loss: 0.78374 valid_AUC: 0.89520 valid_PRC: 0.79454 valid_Accuracy: 0.84058 valid_Precision: 0.70231 valid_Reacll: 0.72913 
+   📊 Modality Weights -> [2D] Drug:0.564, Prot:0.436 | [1D] Drug:0.770, Prot:0.230
+EarlyStopping counter: 19 out of 30
+🔒 Epoch 32: freeze gate/dfgu
+[ 32/200] train_loss: 0.90291 valid_loss: 0.77026 valid_AUC: 0.90137 valid_PRC: 0.80779 valid_Accuracy: 0.84790 valid_Precision: 0.70837 valid_Reacll: 0.75933 
+   📊 Modality Weights -> [2D] Drug:0.564, Prot:0.436 | [1D] Drug:0.775, Prot:0.225
+EarlyStopping counter: 20 out of 30
+🔒 Epoch 33: freeze gate/dfgu
+[ 33/200] train_loss: 0.85267 valid_loss: 0.82780 valid_AUC: 0.90713 valid_PRC: 0.81730 valid_Accuracy: 0.85522 valid_Precision: 0.73275 valid_Reacll: 0.74512 
+   📊 Modality Weights -> [2D] Drug:0.564, Prot:0.436 | [1D] Drug:0.776, Prot:0.224
+EarlyStopping counter: 21 out of 30
+🔒 Epoch 34: freeze gate/dfgu
+[ 34/200] train_loss: 0.81578 valid_loss: 0.84662 valid_AUC: 0.90492 valid_PRC: 0.81153 valid_Accuracy: 0.85254 valid_Precision: 0.72895 valid_Reacll: 0.73801 
+   📊 Modality Weights -> [2D] Drug:0.564, Prot:0.436 | [1D] Drug:0.777, Prot:0.223
+EarlyStopping counter: 22 out of 30
+🔒 Epoch 35: freeze gate/dfgu
+[ 35/200] train_loss: 0.79228 valid_loss: 0.87089 valid_AUC: 0.90498 valid_PRC: 0.81322 valid_Accuracy: 0.85474 valid_Precision: 0.73600 valid_Reacll: 0.73535 
+   📊 Modality Weights -> [2D] Drug:0.564, Prot:0.436 | [1D] Drug:0.778, Prot:0.222
+EarlyStopping counter: 23 out of 30
+🔓 Epoch 36: update gate/dfgu
+[ 36/200] train_loss: 0.76443 valid_loss: 0.89923 valid_AUC: 0.90620 valid_PRC: 0.81697 valid_Accuracy: 0.85620 valid_Precision: 0.73909 valid_Reacll: 0.73712 
+   📊 Modality Weights -> [2D] Drug:0.564, Prot:0.436 | [1D] Drug:0.780, Prot:0.220
+EarlyStopping counter: 24 out of 30
+🔒 Epoch 37: freeze gate/dfgu
+[ 37/200] train_loss: 0.73782 valid_loss: 0.89744 valid_AUC: 0.90726 valid_PRC: 0.81710 valid_Accuracy: 0.85718 valid_Precision: 0.74087 valid_Reacll: 0.73890 
+   📊 Modality Weights -> [2D] Drug:0.564, Prot:0.436 | [1D] Drug:0.781, Prot:0.219
+EarlyStopping counter: 25 out of 30
+🔒 Epoch 38: freeze gate/dfgu
+[ 38/200] train_loss: 0.70344 valid_loss: 0.88772 valid_AUC: 0.90813 valid_PRC: 0.81922 valid_Accuracy: 0.85596 valid_Precision: 0.73304 valid_Reacll: 0.74867 
+   📊 Modality Weights -> [2D] Drug:0.565, Prot:0.435 | [1D] Drug:0.782, Prot:0.218
+EarlyStopping counter: 26 out of 30
+🔒 Epoch 39: freeze gate/dfgu
+[ 39/200] train_loss: 0.68432 valid_loss: 0.92159 valid_AUC: 0.90835 valid_PRC: 0.82072 valid_Accuracy: 0.85889 valid_Precision: 0.74377 valid_Reacll: 0.74245 
+   📊 Modality Weights -> [2D] Drug:0.565, Prot:0.435 | [1D] Drug:0.782, Prot:0.218
+EarlyStopping counter: 27 out of 30
+🔒 Epoch 40: freeze gate/dfgu
+[ 40/200] train_loss: 0.65252 valid_loss: 0.89929 valid_AUC: 0.90484 valid_PRC: 0.81197 valid_Accuracy: 0.85107 valid_Precision: 0.71429 valid_Reacll: 0.76377 
+   📊 Modality Weights -> [2D] Drug:0.566, Prot:0.434 | [1D] Drug:0.783, Prot:0.217
+EarlyStopping counter: 28 out of 30
+🔓 Epoch 41: update gate/dfgu
+[ 41/200] train_loss: 0.64047 valid_loss: 0.92884 valid_AUC: 0.90786 valid_PRC: 0.82040 valid_Accuracy: 0.85840 valid_Precision: 0.74159 valid_Reacll: 0.74423 
+   📊 Modality Weights -> [2D] Drug:0.566, Prot:0.434 | [1D] Drug:0.784, Prot:0.216
+EarlyStopping counter: 29 out of 30
+🔒 Epoch 42: freeze gate/dfgu
+[ 42/200] train_loss: 0.60191 valid_loss: 0.93233 valid_AUC: 0.90836 valid_PRC: 0.82061 valid_Accuracy: 0.85791 valid_Precision: 0.73818 valid_Reacll: 0.74867 
+   📊 Modality Weights -> [2D] Drug:0.567, Prot:0.433 | [1D] Drug:0.785, Prot:0.215
+EarlyStopping counter: 30 out of 30
+  0%|          | 0/128 [00:00<?, ?it/s]  1%|          | 1/128 [00:00<00:55,  2.31it/s]  2%|▏         | 2/128 [00:00<00:42,  2.96it/s]  2%|▏         | 3/128 [00:00<00:37,  3.29it/s]  3%|▎         | 4/128 [00:01<00:35,  3.52it/s]  4%|▍         | 5/128 [00:01<00:35,  3.45it/s]  5%|▍         | 6/128 [00:01<00:35,  3.40it/s]  5%|▌         | 7/128 [00:02<00:35,  3.42it/s]  6%|▋         | 8/128 [00:02<00:35,  3.43it/s]  7%|▋         | 9/128 [00:02<00:34,  3.42it/s]  8%|▊         | 10/128 [00:02<00:34,  3.43it/s]  9%|▊         | 11/128 [00:03<00:33,  3.47it/s]  9%|▉         | 12/128 [00:03<00:33,  3.49it/s] 10%|█         | 13/128 [00:03<00:33,  3.47it/s] 11%|█         | 14/128 [00:04<00:33,  3.36it/s] 12%|█▏        | 15/128 [00:04<00:33,  3.38it/s] 12%|█▎        | 16/128 [00:04<00:32,  3.42it/s] 13%|█▎        | 17/128 [00:05<00:34,  3.17it/s] 14%|█▍        | 18/128 [00:05<00:34,  3.23it/s] 15%|█▍        | 19/128 [00:05<00:33,  3.26it/s] 16%|█▌        | 20/128 [00:05<00:32,  3.30it/s] 16%|█▋        | 21/128 [00:06<00:31,  3.40it/s] 17%|█▋        | 22/128 [00:06<00:31,  3.37it/s] 18%|█▊        | 23/128 [00:06<00:30,  3.40it/s] 19%|█▉        | 24/128 [00:07<00:30,  3.44it/s] 20%|█▉        | 25/128 [00:07<00:30,  3.42it/s] 20%|██        | 26/128 [00:07<00:29,  3.43it/s] 21%|██        | 27/128 [00:08<00:29,  3.45it/s] 22%|██▏       | 28/128 [00:08<00:28,  3.49it/s] 23%|██▎       | 29/128 [00:08<00:28,  3.49it/s] 23%|██▎       | 30/128 [00:08<00:28,  3.49it/s] 24%|██▍       | 31/128 [00:09<00:27,  3.47it/s] 25%|██▌       | 32/128 [00:09<00:27,  3.51it/s] 26%|██▌       | 33/128 [00:09<00:27,  3.50it/s] 27%|██▋       | 34/128 [00:10<00:26,  3.52it/s] 27%|██▋       | 35/128 [00:10<00:26,  3.49it/s] 28%|██▊       | 36/128 [00:10<00:26,  3.46it/s] 29%|██▉       | 37/128 [00:10<00:25,  3.51it/s] 30%|██▉       | 38/128 [00:11<00:25,  3.55it/s] 30%|███       | 39/128 [00:11<00:25,  3.54it/s] 31%|███▏      | 40/128 [00:11<00:24,  3.61it/s] 32%|███▏      | 41/128 [00:11<00:24,  3.60it/s] 33%|███▎      | 42/128 [00:12<00:23,  3.59it/s] 34%|███▎      | 43/128 [00:12<00:23,  3.57it/s] 34%|███▍      | 44/128 [00:12<00:23,  3.56it/s] 35%|███▌      | 45/128 [00:13<00:23,  3.59it/s] 36%|███▌      | 46/128 [00:13<00:22,  3.70it/s] 37%|███▋      | 47/128 [00:13<00:21,  3.69it/s] 38%|███▊      | 48/128 [00:13<00:21,  3.67it/s] 38%|███▊      | 49/128 [00:14<00:21,  3.70it/s] 39%|███▉      | 50/128 [00:14<00:21,  3.67it/s] 40%|███▉      | 51/128 [00:14<00:21,  3.64it/s] 41%|████      | 52/128 [00:14<00:21,  3.59it/s] 41%|████▏     | 53/128 [00:15<00:20,  3.61it/s] 42%|████▏     | 54/128 [00:15<00:20,  3.63it/s] 43%|████▎     | 55/128 [00:15<00:20,  3.63it/s] 44%|████▍     | 56/128 [00:16<00:19,  3.66it/s] 45%|████▍     | 57/128 [00:16<00:19,  3.64it/s] 45%|████▌     | 58/128 [00:16<00:18,  3.69it/s] 46%|████▌     | 59/128 [00:16<00:18,  3.66it/s] 47%|████▋     | 60/128 [00:17<00:18,  3.64it/s] 48%|████▊     | 61/128 [00:17<00:18,  3.66it/s] 48%|████▊     | 62/128 [00:17<00:18,  3.59it/s] 49%|████▉     | 63/128 [00:18<00:18,  3.54it/s] 50%|█████     | 64/128 [00:18<00:17,  3.59it/s] 51%|█████     | 65/128 [00:18<00:18,  3.32it/s] 52%|█████▏    | 66/128 [00:18<00:18,  3.41it/s] 52%|█████▏    | 67/128 [00:19<00:17,  3.43it/s] 53%|█████▎    | 68/128 [00:19<00:17,  3.51it/s] 54%|█████▍    | 69/128 [00:19<00:16,  3.54it/s] 55%|█████▍    | 70/128 [00:20<00:16,  3.60it/s] 55%|█████▌    | 71/128 [00:20<00:16,  3.49it/s] 56%|█████▋    | 72/128 [00:20<00:15,  3.54it/s] 57%|█████▋    | 73/128 [00:20<00:15,  3.51it/s] 58%|█████▊    | 74/128 [00:21<00:15,  3.47it/s] 59%|█████▊    | 75/128 [00:21<00:15,  3.49it/s] 59%|█████▉    | 76/128 [00:21<00:14,  3.55it/s] 60%|██████    | 77/128 [00:22<00:14,  3.52it/s] 61%|██████    | 78/128 [00:22<00:13,  3.61it/s] 62%|██████▏   | 79/128 [00:22<00:13,  3.68it/s] 62%|██████▎   | 80/128 [00:22<00:12,  3.76it/s] 63%|██████▎   | 81/128 [00:23<00:12,  3.74it/s] 64%|██████▍   | 82/128 [00:23<00:12,  3.77it/s] 65%|██████▍   | 83/128 [00:23<00:11,  3.78it/s] 66%|██████▌   | 84/128 [00:23<00:11,  3.78it/s] 66%|██████▋   | 85/128 [00:24<00:11,  3.78it/s] 67%|██████▋   | 86/128 [00:24<00:11,  3.80it/s] 68%|██████▊   | 87/128 [00:24<00:10,  3.83it/s] 69%|██████▉   | 88/128 [00:24<00:10,  3.86it/s] 70%|██████▉   | 89/128 [00:25<00:10,  3.84it/s] 70%|███████   | 90/128 [00:25<00:10,  3.77it/s] 71%|███████   | 91/128 [00:25<00:09,  3.73it/s] 72%|███████▏  | 92/128 [00:25<00:09,  3.72it/s] 73%|███████▎  | 93/128 [00:26<00:09,  3.73it/s] 73%|███████▎  | 94/128 [00:26<00:09,  3.71it/s] 74%|███████▍  | 95/128 [00:26<00:08,  3.67it/s] 75%|███████▌  | 96/128 [00:27<00:08,  3.71it/s] 76%|███████▌  | 97/128 [00:27<00:08,  3.75it/s] 77%|███████▋  | 98/128 [00:27<00:07,  3.78it/s] 77%|███████▋  | 99/128 [00:27<00:07,  3.88it/s] 78%|███████▊  | 100/128 [00:28<00:07,  3.89it/s] 79%|███████▉  | 101/128 [00:28<00:07,  3.84it/s] 80%|███████▉  | 102/128 [00:28<00:06,  3.83it/s] 80%|████████  | 103/128 [00:28<00:06,  3.77it/s] 81%|████████▏ | 104/128 [00:29<00:06,  3.78it/s] 82%|████████▏ | 105/128 [00:29<00:06,  3.74it/s] 83%|████████▎ | 106/128 [00:29<00:05,  3.76it/s] 84%|████████▎ | 107/128 [00:29<00:05,  3.77it/s] 84%|████████▍ | 108/128 [00:30<00:05,  3.78it/s] 85%|████████▌ | 109/128 [00:30<00:05,  3.78it/s] 86%|████████▌ | 110/128 [00:30<00:04,  3.69it/s] 87%|████████▋ | 111/128 [00:31<00:04,  3.72it/s] 88%|████████▊ | 112/128 [00:31<00:04,  3.72it/s] 88%|████████▊ | 113/128 [00:31<00:04,  3.71it/s] 89%|████████▉ | 114/128 [00:31<00:03,  3.70it/s] 90%|████████▉ | 115/128 [00:32<00:03,  3.72it/s] 91%|█████████ | 116/128 [00:32<00:03,  3.59it/s] 91%|█████████▏| 117/128 [00:32<00:03,  3.63it/s] 92%|█████████▏| 118/128 [00:32<00:02,  3.60it/s] 93%|█████████▎| 119/128 [00:33<00:02,  3.66it/s] 94%|█████████▍| 120/128 [00:33<00:02,  3.65it/s] 95%|█████████▍| 121/128 [00:33<00:01,  3.54it/s] 95%|█████████▌| 122/128 [00:34<00:01,  3.12it/s] 96%|█████████▌| 123/128 [00:34<00:01,  3.26it/s] 97%|█████████▋| 124/128 [00:34<00:01,  3.37it/s] 98%|█████████▊| 125/128 [00:35<00:00,  3.32it/s] 98%|█████████▊| 126/128 [00:35<00:00,  3.34it/s] 99%|█████████▉| 127/128 [00:35<00:00,  3.48it/s]100%|██████████| 128/128 [00:35<00:00,  3.66it/s]100%|██████████| 128/128 [00:35<00:00,  3.57it/s]
+Train: Loss:0.15530;Accuracy:0.94098;Precision:0.84688;Recall:0.96934;AUC:0.98992;PRC:0.97527.
+  0%|          | 0/32 [00:00<?, ?it/s]  3%|▎         | 1/32 [00:00<00:13,  2.38it/s]  6%|▋         | 2/32 [00:00<00:09,  3.04it/s]  9%|▉         | 3/32 [00:00<00:08,  3.23it/s] 12%|█▎        | 4/32 [00:01<00:08,  3.40it/s] 16%|█▌        | 5/32 [00:01<00:07,  3.44it/s] 19%|█▉        | 6/32 [00:01<00:07,  3.63it/s] 22%|██▏       | 7/32 [00:02<00:06,  3.68it/s] 25%|██▌       | 8/32 [00:02<00:06,  3.74it/s] 28%|██▊       | 9/32 [00:02<00:06,  3.76it/s] 31%|███▏      | 10/32 [00:02<00:05,  3.77it/s] 34%|███▍      | 11/32 [00:03<00:05,  3.77it/s] 38%|███▊      | 12/32 [00:03<00:05,  3.81it/s] 41%|████      | 13/32 [00:03<00:05,  3.71it/s] 44%|████▍     | 14/32 [00:03<00:05,  3.59it/s] 47%|████▋     | 15/32 [00:04<00:04,  3.63it/s] 50%|█████     | 16/32 [00:04<00:04,  3.64it/s] 53%|█████▎    | 17/32 [00:04<00:04,  3.73it/s] 56%|█████▋    | 18/32 [00:04<00:03,  3.70it/s] 59%|█████▉    | 19/32 [00:05<00:03,  3.73it/s] 62%|██████▎   | 20/32 [00:05<00:03,  3.74it/s] 66%|██████▌   | 21/32 [00:05<00:02,  3.69it/s] 69%|██████▉   | 22/32 [00:06<00:02,  3.75it/s] 72%|███████▏  | 23/32 [00:06<00:02,  3.74it/s] 75%|███████▌  | 24/32 [00:06<00:02,  3.69it/s] 78%|███████▊  | 25/32 [00:06<00:01,  3.68it/s] 81%|████████▏ | 26/32 [00:07<00:01,  3.66it/s] 84%|████████▍ | 27/32 [00:07<00:01,  3.69it/s] 88%|████████▊ | 28/32 [00:07<00:01,  3.67it/s] 91%|█████████ | 29/32 [00:07<00:00,  3.74it/s] 94%|█████████▍| 30/32 [00:08<00:00,  3.71it/s] 97%|█████████▋| 31/32 [00:08<00:00,  3.84it/s]100%|██████████| 32/32 [00:08<00:00,  3.86it/s]100%|██████████| 32/32 [00:08<00:00,  3.67it/s]
+Valid: Loss:0.38798;Accuracy:0.84668;Precision:0.68694;Recall:0.81261;AUC:0.91355;PRC:0.82650.
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:00<00:16,  2.35it/s]  5%|▌         | 2/40 [00:00<00:12,  3.01it/s]  8%|▊         | 3/40 [00:00<00:11,  3.35it/s] 10%|█         | 4/40 [00:01<00:10,  3.49it/s] 12%|█▎        | 5/40 [00:01<00:09,  3.58it/s] 15%|█▌        | 6/40 [00:01<00:09,  3.71it/s] 18%|█▊        | 7/40 [00:01<00:08,  3.74it/s] 20%|██        | 8/40 [00:02<00:08,  3.74it/s] 22%|██▎       | 9/40 [00:02<00:08,  3.72it/s] 25%|██▌       | 10/40 [00:02<00:08,  3.75it/s] 28%|██▊       | 11/40 [00:03<00:07,  3.76it/s] 30%|███       | 12/40 [00:03<00:07,  3.80it/s] 32%|███▎      | 13/40 [00:03<00:07,  3.85it/s] 35%|███▌      | 14/40 [00:03<00:06,  3.91it/s] 38%|███▊      | 15/40 [00:04<00:06,  3.86it/s] 40%|████      | 16/40 [00:04<00:07,  3.19it/s] 42%|████▎     | 17/40 [00:04<00:06,  3.34it/s] 45%|████▌     | 18/40 [00:05<00:07,  3.03it/s] 48%|████▊     | 19/40 [00:05<00:06,  3.12it/s] 50%|█████     | 20/40 [00:05<00:06,  3.30it/s] 52%|█████▎    | 21/40 [00:06<00:05,  3.41it/s] 55%|█████▌    | 22/40 [00:06<00:05,  3.53it/s] 57%|█████▊    | 23/40 [00:06<00:04,  3.56it/s] 60%|██████    | 24/40 [00:06<00:04,  3.67it/s] 62%|██████▎   | 25/40 [00:07<00:04,  3.68it/s] 65%|██████▌   | 26/40 [00:07<00:03,  3.71it/s] 68%|██████▊   | 27/40 [00:07<00:03,  3.74it/s] 70%|███████   | 28/40 [00:07<00:03,  3.72it/s] 72%|███████▎  | 29/40 [00:08<00:02,  3.67it/s] 75%|███████▌  | 30/40 [00:08<00:02,  3.80it/s] 78%|███████▊  | 31/40 [00:08<00:02,  3.81it/s] 80%|████████  | 32/40 [00:08<00:02,  3.86it/s] 82%|████████▎ | 33/40 [00:09<00:01,  3.86it/s] 85%|████████▌ | 34/40 [00:09<00:01,  3.82it/s] 88%|████████▊ | 35/40 [00:09<00:01,  3.81it/s] 90%|█████████ | 36/40 [00:09<00:01,  3.72it/s] 92%|█████████▎| 37/40 [00:10<00:00,  3.70it/s] 95%|█████████▌| 38/40 [00:10<00:00,  3.70it/s] 98%|█████████▊| 39/40 [00:10<00:00,  3.81it/s]100%|██████████| 40/40 [00:11<00:00,  3.92it/s]100%|██████████| 40/40 [00:11<00:00,  3.63it/s]
+Test: Loss:0.36714;Accuracy:0.85586;Precision:0.71619;Recall:0.81392;AUC:0.92117;PRC:0.84205.
+🚀 Generating interpretability reports for Davis...
+📊 解释性报告已成功导出至: /home/liumeiling/xjl/DTI/IMDF-DTI/Davis/2/interpretability_report
+✅ Interpretability reports (Heatmaps) saved to: ./Davis/2/interpretability_report
+************************* No. 3 -fold *************************
+Training...
+🔒 Epoch 1: freeze gate/dfgu
+[  1/200] train_loss: 0.62313 valid_loss: 0.54408 valid_AUC: 0.81109 valid_PRC: 0.65998 valid_Accuracy: 0.74976 valid_Precision: 0.56089 valid_Reacll: 0.65523 
+   📊 Modality Weights -> [2D] Drug:0.756, Prot:0.244 | [1D] Drug:0.463, Prot:0.537
+Have a new best checkpoint: (-inf --> 0.811090).  Saving model ...
+🔒 Epoch 2: freeze gate/dfgu
+[  2/200] train_loss: 0.50489 valid_loss: 0.48271 valid_AUC: 0.84573 valid_PRC: 0.71575 valid_Accuracy: 0.76196 valid_Precision: 0.57097 valid_Reacll: 0.74059 
+   📊 Modality Weights -> [2D] Drug:0.756, Prot:0.244 | [1D] Drug:0.463, Prot:0.537
+Have a new best checkpoint: (0.811090 --> 0.845727).  Saving model ...
+🔒 Epoch 3: freeze gate/dfgu
+[  3/200] train_loss: 0.47841 valid_loss: 0.48315 valid_AUC: 0.84677 valid_PRC: 0.71954 valid_Accuracy: 0.76587 valid_Precision: 0.57743 valid_Reacll: 0.73640 
+   📊 Modality Weights -> [2D] Drug:0.756, Prot:0.244 | [1D] Drug:0.463, Prot:0.537
+Have a new best checkpoint: (0.845727 --> 0.846773).  Saving model ...
+🔒 Epoch 4: freeze gate/dfgu
+[  4/200] train_loss: 0.46445 valid_loss: 0.46083 valid_AUC: 0.86530 valid_PRC: 0.74564 valid_Accuracy: 0.79858 valid_Precision: 0.63386 valid_Reacll: 0.73305 
+   📊 Modality Weights -> [2D] Drug:0.756, Prot:0.244 | [1D] Drug:0.463, Prot:0.537
+Have a new best checkpoint: (0.846773 --> 0.865304).  Saving model ...
+🔒 Epoch 5: freeze gate/dfgu
+[  5/200] train_loss: 0.43967 valid_loss: 0.45514 valid_AUC: 0.86742 valid_PRC: 0.75105 valid_Accuracy: 0.78101 valid_Precision: 0.59164 valid_Reacll: 0.80502 
+   📊 Modality Weights -> [2D] Drug:0.756, Prot:0.244 | [1D] Drug:0.463, Prot:0.537
+Have a new best checkpoint: (0.865304 --> 0.867416).  Saving model ...
+🔒 Epoch 6: freeze gate/dfgu
+[  6/200] train_loss: 0.43106 valid_loss: 0.44452 valid_AUC: 0.87568 valid_PRC: 0.76158 valid_Accuracy: 0.80005 valid_Precision: 0.62320 valid_Reacll: 0.79582 
+   📊 Modality Weights -> [2D] Drug:0.756, Prot:0.244 | [1D] Drug:0.463, Prot:0.537
+Have a new best checkpoint: (0.867416 --> 0.875675).  Saving model ...
+🔒 Epoch 7: freeze gate/dfgu
+[  7/200] train_loss: 0.40060 valid_loss: 0.45689 valid_AUC: 0.87062 valid_PRC: 0.75112 valid_Accuracy: 0.80933 valid_Precision: 0.65997 valid_Reacll: 0.71464 
+   📊 Modality Weights -> [2D] Drug:0.756, Prot:0.244 | [1D] Drug:0.463, Prot:0.537
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 8: freeze gate/dfgu
+[  8/200] train_loss: 0.39370 valid_loss: 0.41886 valid_AUC: 0.89112 valid_PRC: 0.78683 valid_Accuracy: 0.80640 valid_Precision: 0.62803 valid_Reacll: 0.82510 
+   📊 Modality Weights -> [2D] Drug:0.756, Prot:0.244 | [1D] Drug:0.463, Prot:0.537
+Have a new best checkpoint: (0.875675 --> 0.891120).  Saving model ...
+🔒 Epoch 9: freeze gate/dfgu
+[  9/200] train_loss: 0.36327 valid_loss: 0.44308 valid_AUC: 0.88113 valid_PRC: 0.77509 valid_Accuracy: 0.81885 valid_Precision: 0.67146 valid_Reacll: 0.74226 
+   📊 Modality Weights -> [2D] Drug:0.756, Prot:0.244 | [1D] Drug:0.463, Prot:0.537
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 10: freeze gate/dfgu
+[ 10/200] train_loss: 0.36127 valid_loss: 0.42517 valid_AUC: 0.89079 valid_PRC: 0.78484 valid_Accuracy: 0.81323 valid_Precision: 0.63800 valid_Reacll: 0.83180 
+   📊 Modality Weights -> [2D] Drug:0.756, Prot:0.244 | [1D] Drug:0.463, Prot:0.537
+EarlyStopping counter: 2 out of 30
+🔓 Epoch 11: update gate/dfgu
+[ 11/200] train_loss: 0.47993 valid_loss: 0.44977 valid_AUC: 0.87812 valid_PRC: 0.77161 valid_Accuracy: 0.79126 valid_Precision: 0.60996 valid_Reacll: 0.78912 
+   📊 Modality Weights -> [2D] Drug:0.758, Prot:0.242 | [1D] Drug:0.464, Prot:0.536
+EarlyStopping counter: 3 out of 30
+🔒 Epoch 12: freeze gate/dfgu
+[ 12/200] train_loss: 0.62063 valid_loss: 0.41823 valid_AUC: 0.89722 valid_PRC: 0.80421 valid_Accuracy: 0.80835 valid_Precision: 0.63226 valid_Reacll: 0.82008 
+   📊 Modality Weights -> [2D] Drug:0.759, Prot:0.241 | [1D] Drug:0.463, Prot:0.537
+Have a new best checkpoint: (0.891120 --> 0.897222).  Saving model ...
+🔒 Epoch 13: freeze gate/dfgu
+[ 13/200] train_loss: 0.72456 valid_loss: 0.46365 valid_AUC: 0.88411 valid_PRC: 0.78271 valid_Accuracy: 0.82471 valid_Precision: 0.69858 valid_Reacll: 0.70209 
+   📊 Modality Weights -> [2D] Drug:0.758, Prot:0.242 | [1D] Drug:0.463, Prot:0.537
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 14: freeze gate/dfgu
+[ 14/200] train_loss: 0.86063 valid_loss: 0.41941 valid_AUC: 0.89893 valid_PRC: 0.80729 valid_Accuracy: 0.82202 valid_Precision: 0.66317 valid_Reacll: 0.79247 
+   📊 Modality Weights -> [2D] Drug:0.757, Prot:0.243 | [1D] Drug:0.462, Prot:0.538
+Have a new best checkpoint: (0.897222 --> 0.898935).  Saving model ...
+🔒 Epoch 15: freeze gate/dfgu
+[ 15/200] train_loss: 0.95369 valid_loss: 0.44024 valid_AUC: 0.88629 valid_PRC: 0.78449 valid_Accuracy: 0.80688 valid_Precision: 0.63083 valid_Reacll: 0.81506 
+   📊 Modality Weights -> [2D] Drug:0.756, Prot:0.244 | [1D] Drug:0.461, Prot:0.539
+EarlyStopping counter: 1 out of 30
+🔓 Epoch 16: update gate/dfgu
+[ 16/200] train_loss: 1.09057 valid_loss: 0.44720 valid_AUC: 0.89496 valid_PRC: 0.80734 valid_Accuracy: 0.82666 valid_Precision: 0.67138 valid_Reacll: 0.79498 
+   📊 Modality Weights -> [2D] Drug:0.756, Prot:0.244 | [1D] Drug:0.461, Prot:0.539
+EarlyStopping counter: 2 out of 30
+🔒 Epoch 17: freeze gate/dfgu
+[ 17/200] train_loss: 1.16288 valid_loss: 0.45900 valid_AUC: 0.88973 valid_PRC: 0.79430 valid_Accuracy: 0.82373 valid_Precision: 0.67002 valid_Reacll: 0.77992 
+   📊 Modality Weights -> [2D] Drug:0.756, Prot:0.244 | [1D] Drug:0.461, Prot:0.539
+EarlyStopping counter: 3 out of 30
+🔒 Epoch 18: freeze gate/dfgu
+[ 18/200] train_loss: 1.28214 valid_loss: 0.45999 valid_AUC: 0.89482 valid_PRC: 0.80405 valid_Accuracy: 0.82739 valid_Precision: 0.67758 valid_Reacll: 0.77908 
+   📊 Modality Weights -> [2D] Drug:0.754, Prot:0.246 | [1D] Drug:0.460, Prot:0.540
+EarlyStopping counter: 4 out of 30
+🔒 Epoch 19: freeze gate/dfgu
+[ 19/200] train_loss: 1.34646 valid_loss: 0.53658 valid_AUC: 0.87931 valid_PRC: 0.76937 valid_Accuracy: 0.82056 valid_Precision: 0.68053 valid_Reacll: 0.72552 
+   📊 Modality Weights -> [2D] Drug:0.752, Prot:0.248 | [1D] Drug:0.459, Prot:0.541
+EarlyStopping counter: 5 out of 30
+🔒 Epoch 20: freeze gate/dfgu
+[ 20/200] train_loss: 1.45737 valid_loss: 0.48541 valid_AUC: 0.89539 valid_PRC: 0.80183 valid_Accuracy: 0.83057 valid_Precision: 0.68849 valid_Reacll: 0.76569 
+   📊 Modality Weights -> [2D] Drug:0.750, Prot:0.250 | [1D] Drug:0.458, Prot:0.542
+EarlyStopping counter: 6 out of 30
+🔓 Epoch 21: update gate/dfgu
+[ 21/200] train_loss: 1.39536 valid_loss: 0.50051 valid_AUC: 0.88526 valid_PRC: 0.78631 valid_Accuracy: 0.82080 valid_Precision: 0.67138 valid_Reacll: 0.75565 
+   📊 Modality Weights -> [2D] Drug:0.750, Prot:0.250 | [1D] Drug:0.458, Prot:0.542
+EarlyStopping counter: 7 out of 30
+🔒 Epoch 22: freeze gate/dfgu
+[ 22/200] train_loss: 1.36210 valid_loss: 0.52911 valid_AUC: 0.89729 valid_PRC: 0.80846 valid_Accuracy: 0.84033 valid_Precision: 0.71974 valid_Reacll: 0.74142 
+   📊 Modality Weights -> [2D] Drug:0.747, Prot:0.253 | [1D] Drug:0.458, Prot:0.542
+EarlyStopping counter: 8 out of 30
+🔒 Epoch 23: freeze gate/dfgu
+[ 23/200] train_loss: 1.32848 valid_loss: 0.55292 valid_AUC: 0.87451 valid_PRC: 0.76550 valid_Accuracy: 0.80884 valid_Precision: 0.65350 valid_Reacll: 0.73389 
+   📊 Modality Weights -> [2D] Drug:0.745, Prot:0.255 | [1D] Drug:0.457, Prot:0.543
+EarlyStopping counter: 9 out of 30
+🔒 Epoch 24: freeze gate/dfgu
+[ 24/200] train_loss: 1.45589 valid_loss: 0.41337 valid_AUC: 0.90097 valid_PRC: 0.81258 valid_Accuracy: 0.80591 valid_Precision: 0.62438 valid_Reacll: 0.84017 
+   📊 Modality Weights -> [2D] Drug:0.742, Prot:0.258 | [1D] Drug:0.456, Prot:0.544
+Have a new best checkpoint: (0.898935 --> 0.900972).  Saving model ...
+🔒 Epoch 25: freeze gate/dfgu
+[ 25/200] train_loss: 1.35041 valid_loss: 0.47498 valid_AUC: 0.89631 valid_PRC: 0.80404 valid_Accuracy: 0.80322 valid_Precision: 0.62133 valid_Reacll: 0.83347 
+   📊 Modality Weights -> [2D] Drug:0.740, Prot:0.260 | [1D] Drug:0.455, Prot:0.545
+EarlyStopping counter: 1 out of 30
+🔓 Epoch 26: update gate/dfgu
+[ 26/200] train_loss: 1.29633 valid_loss: 0.49099 valid_AUC: 0.90581 valid_PRC: 0.81881 valid_Accuracy: 0.84839 valid_Precision: 0.73877 valid_Reacll: 0.74310 
+   📊 Modality Weights -> [2D] Drug:0.738, Prot:0.262 | [1D] Drug:0.455, Prot:0.545
+Have a new best checkpoint: (0.900972 --> 0.905808).  Saving model ...
+🔒 Epoch 27: freeze gate/dfgu
+[ 27/200] train_loss: 1.22011 valid_loss: 0.52830 valid_AUC: 0.89227 valid_PRC: 0.79250 valid_Accuracy: 0.83374 valid_Precision: 0.70173 valid_Reacll: 0.74812 
+   📊 Modality Weights -> [2D] Drug:0.737, Prot:0.263 | [1D] Drug:0.454, Prot:0.546
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 28: freeze gate/dfgu
+[ 28/200] train_loss: 1.20612 valid_loss: 0.51822 valid_AUC: 0.90277 valid_PRC: 0.81567 valid_Accuracy: 0.83813 valid_Precision: 0.70430 valid_Reacll: 0.76736 
+   📊 Modality Weights -> [2D] Drug:0.734, Prot:0.266 | [1D] Drug:0.453, Prot:0.547
+EarlyStopping counter: 2 out of 30
+🔒 Epoch 29: freeze gate/dfgu
+[ 29/200] train_loss: 1.13833 valid_loss: 0.58050 valid_AUC: 0.89302 valid_PRC: 0.79911 valid_Accuracy: 0.82544 valid_Precision: 0.68072 valid_Reacll: 0.75649 
+   📊 Modality Weights -> [2D] Drug:0.732, Prot:0.268 | [1D] Drug:0.453, Prot:0.547
+EarlyStopping counter: 3 out of 30
+🔒 Epoch 30: freeze gate/dfgu
+[ 30/200] train_loss: 1.13387 valid_loss: 0.55826 valid_AUC: 0.90513 valid_PRC: 0.81647 valid_Accuracy: 0.84790 valid_Precision: 0.73290 valid_Reacll: 0.75314 
+   📊 Modality Weights -> [2D] Drug:0.729, Prot:0.271 | [1D] Drug:0.452, Prot:0.548
+EarlyStopping counter: 4 out of 30
+🔓 Epoch 31: update gate/dfgu
+[ 31/200] train_loss: 1.08058 valid_loss: 0.59255 valid_AUC: 0.89765 valid_PRC: 0.80092 valid_Accuracy: 0.82935 valid_Precision: 0.68535 valid_Reacll: 0.76736 
+   📊 Modality Weights -> [2D] Drug:0.730, Prot:0.270 | [1D] Drug:0.453, Prot:0.547
+EarlyStopping counter: 5 out of 30
+🔒 Epoch 32: freeze gate/dfgu
+[ 32/200] train_loss: 1.06176 valid_loss: 0.59356 valid_AUC: 0.90407 valid_PRC: 0.81290 valid_Accuracy: 0.84375 valid_Precision: 0.71629 valid_Reacll: 0.76904 
+   📊 Modality Weights -> [2D] Drug:0.730, Prot:0.270 | [1D] Drug:0.454, Prot:0.546
+EarlyStopping counter: 6 out of 30
+🔒 Epoch 33: freeze gate/dfgu
+[ 33/200] train_loss: 1.00473 valid_loss: 0.71439 valid_AUC: 0.89015 valid_PRC: 0.79310 valid_Accuracy: 0.83740 valid_Precision: 0.71382 valid_Reacll: 0.73891 
+   📊 Modality Weights -> [2D] Drug:0.728, Prot:0.272 | [1D] Drug:0.454, Prot:0.546
+EarlyStopping counter: 7 out of 30
+🔒 Epoch 34: freeze gate/dfgu
+[ 34/200] train_loss: 1.00790 valid_loss: 0.63105 valid_AUC: 0.90323 valid_PRC: 0.81150 valid_Accuracy: 0.84497 valid_Precision: 0.71538 valid_Reacll: 0.77824 
+   📊 Modality Weights -> [2D] Drug:0.725, Prot:0.275 | [1D] Drug:0.453, Prot:0.547
+EarlyStopping counter: 8 out of 30
+🔒 Epoch 35: freeze gate/dfgu
+[ 35/200] train_loss: 0.94931 valid_loss: 0.83040 valid_AUC: 0.89297 valid_PRC: 0.79973 valid_Accuracy: 0.83887 valid_Precision: 0.75696 valid_Reacll: 0.65941 
+   📊 Modality Weights -> [2D] Drug:0.724, Prot:0.276 | [1D] Drug:0.452, Prot:0.548
+EarlyStopping counter: 9 out of 30
+🔓 Epoch 36: update gate/dfgu
+[ 36/200] train_loss: 0.95671 valid_loss: 0.72555 valid_AUC: 0.90300 valid_PRC: 0.80925 valid_Accuracy: 0.84863 valid_Precision: 0.74678 valid_Reacll: 0.72803 
+   📊 Modality Weights -> [2D] Drug:0.722, Prot:0.278 | [1D] Drug:0.456, Prot:0.544
+EarlyStopping counter: 10 out of 30
+🔒 Epoch 37: freeze gate/dfgu
+[ 37/200] train_loss: 0.89705 valid_loss: 0.79007 valid_AUC: 0.89143 valid_PRC: 0.79383 valid_Accuracy: 0.82886 valid_Precision: 0.69823 valid_Reacll: 0.72803 
+   📊 Modality Weights -> [2D] Drug:0.720, Prot:0.280 | [1D] Drug:0.459, Prot:0.541
+EarlyStopping counter: 11 out of 30
+🔒 Epoch 38: freeze gate/dfgu
+[ 38/200] train_loss: 0.89720 valid_loss: 0.74222 valid_AUC: 0.90249 valid_PRC: 0.81281 valid_Accuracy: 0.84595 valid_Precision: 0.74185 valid_Reacll: 0.72385 
+   📊 Modality Weights -> [2D] Drug:0.718, Prot:0.282 | [1D] Drug:0.458, Prot:0.542
+EarlyStopping counter: 12 out of 30
+🔒 Epoch 39: freeze gate/dfgu
+[ 39/200] train_loss: 0.84719 valid_loss: 0.72389 valid_AUC: 0.90041 valid_PRC: 0.80490 valid_Accuracy: 0.83203 valid_Precision: 0.68681 valid_Reacll: 0.77992 
+   📊 Modality Weights -> [2D] Drug:0.716, Prot:0.284 | [1D] Drug:0.458, Prot:0.542
+EarlyStopping counter: 13 out of 30
+🔒 Epoch 40: freeze gate/dfgu
+[ 40/200] train_loss: 1.03479 valid_loss: 0.42127 valid_AUC: 0.90670 valid_PRC: 0.82434 valid_Accuracy: 0.83325 valid_Precision: 0.68003 valid_Reacll: 0.80921 
+   📊 Modality Weights -> [2D] Drug:0.714, Prot:0.286 | [1D] Drug:0.457, Prot:0.543
+Have a new best checkpoint: (0.905808 --> 0.906696).  Saving model ...
+🔓 Epoch 41: update gate/dfgu
+[ 41/200] train_loss: 0.92815 valid_loss: 0.55636 valid_AUC: 0.89841 valid_PRC: 0.80324 valid_Accuracy: 0.81299 valid_Precision: 0.64103 valid_Reacll: 0.81590 
+   📊 Modality Weights -> [2D] Drug:0.716, Prot:0.284 | [1D] Drug:0.456, Prot:0.544
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 42: freeze gate/dfgu
+[ 42/200] train_loss: 0.86231 valid_loss: 0.57434 valid_AUC: 0.90764 valid_PRC: 0.82524 valid_Accuracy: 0.83960 valid_Precision: 0.70724 valid_Reacll: 0.76820 
+   📊 Modality Weights -> [2D] Drug:0.716, Prot:0.284 | [1D] Drug:0.454, Prot:0.546
+Have a new best checkpoint: (0.906696 --> 0.907637).  Saving model ...
+🔒 Epoch 43: freeze gate/dfgu
+[ 43/200] train_loss: 0.80197 valid_loss: 0.68140 valid_AUC: 0.90137 valid_PRC: 0.80696 valid_Accuracy: 0.84351 valid_Precision: 0.73435 valid_Reacll: 0.72636 
+   📊 Modality Weights -> [2D] Drug:0.715, Prot:0.285 | [1D] Drug:0.454, Prot:0.546
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 44: freeze gate/dfgu
+[ 44/200] train_loss: 0.78870 valid_loss: 0.72048 valid_AUC: 0.90566 valid_PRC: 0.82097 valid_Accuracy: 0.84521 valid_Precision: 0.73913 valid_Reacll: 0.72552 
+   📊 Modality Weights -> [2D] Drug:0.713, Prot:0.287 | [1D] Drug:0.454, Prot:0.546
+EarlyStopping counter: 2 out of 30
+🔒 Epoch 45: freeze gate/dfgu
+[ 45/200] train_loss: 0.78024 valid_loss: 0.71256 valid_AUC: 0.89445 valid_PRC: 0.79612 valid_Accuracy: 0.83667 valid_Precision: 0.71736 valid_Reacll: 0.72636 
+   📊 Modality Weights -> [2D] Drug:0.712, Prot:0.288 | [1D] Drug:0.453, Prot:0.547
+EarlyStopping counter: 3 out of 30
+🔓 Epoch 46: update gate/dfgu
+[ 46/200] train_loss: 0.80324 valid_loss: 0.64047 valid_AUC: 0.90551 valid_PRC: 0.82092 valid_Accuracy: 0.84863 valid_Precision: 0.73702 valid_Reacll: 0.74812 
+   📊 Modality Weights -> [2D] Drug:0.708, Prot:0.292 | [1D] Drug:0.454, Prot:0.546
+EarlyStopping counter: 4 out of 30
+🔒 Epoch 47: freeze gate/dfgu
+[ 47/200] train_loss: 0.76176 valid_loss: 0.73754 valid_AUC: 0.78878 valid_PRC: 0.63888 valid_Accuracy: 0.75513 valid_Precision: 0.58905 valid_Reacll: 0.53138 
+   📊 Modality Weights -> [2D] Drug:0.708, Prot:0.292 | [1D] Drug:0.454, Prot:0.546
+EarlyStopping counter: 5 out of 30
+🔒 Epoch 48: freeze gate/dfgu
+[ 48/200] train_loss: 1.28819 valid_loss: 0.55034 valid_AUC: 0.79622 valid_PRC: 0.64093 valid_Accuracy: 0.69629 valid_Precision: 0.48692 valid_Reacll: 0.76318 
+   📊 Modality Weights -> [2D] Drug:0.706, Prot:0.294 | [1D] Drug:0.454, Prot:0.546
+EarlyStopping counter: 6 out of 30
+🔒 Epoch 49: freeze gate/dfgu
+[ 49/200] train_loss: 1.19807 valid_loss: 0.55221 valid_AUC: 0.81300 valid_PRC: 0.65948 valid_Accuracy: 0.77783 valid_Precision: 0.62622 valid_Reacll: 0.59163 
+   📊 Modality Weights -> [2D] Drug:0.705, Prot:0.295 | [1D] Drug:0.454, Prot:0.546
+EarlyStopping counter: 7 out of 30
+🔒 Epoch 50: freeze gate/dfgu
+[ 50/200] train_loss: 1.16281 valid_loss: 0.51964 valid_AUC: 0.82985 valid_PRC: 0.68093 valid_Accuracy: 0.77979 valid_Precision: 0.61599 valid_Reacll: 0.65105 
+   📊 Modality Weights -> [2D] Drug:0.704, Prot:0.296 | [1D] Drug:0.454, Prot:0.546
+EarlyStopping counter: 8 out of 30
+🔓 Epoch 51: update gate/dfgu
+[ 51/200] train_loss: 1.14321 valid_loss: 0.51680 valid_AUC: 0.82602 valid_PRC: 0.67636 valid_Accuracy: 0.75073 valid_Precision: 0.55606 valid_Reacll: 0.72218 
+   📊 Modality Weights -> [2D] Drug:0.706, Prot:0.294 | [1D] Drug:0.456, Prot:0.544
+EarlyStopping counter: 9 out of 30
+🔒 Epoch 52: freeze gate/dfgu
+[ 52/200] train_loss: 1.11711 valid_loss: 0.49644 valid_AUC: 0.84019 valid_PRC: 0.70283 valid_Accuracy: 0.74658 valid_Precision: 0.54610 valid_Reacll: 0.77824 
+   📊 Modality Weights -> [2D] Drug:0.713, Prot:0.287 | [1D] Drug:0.459, Prot:0.541
+EarlyStopping counter: 10 out of 30
+🔒 Epoch 53: freeze gate/dfgu
+[ 53/200] train_loss: 1.09659 valid_loss: 0.50857 valid_AUC: 0.83439 valid_PRC: 0.69239 valid_Accuracy: 0.77319 valid_Precision: 0.59638 valid_Reacll: 0.68870 
+   📊 Modality Weights -> [2D] Drug:0.713, Prot:0.287 | [1D] Drug:0.458, Prot:0.542
+EarlyStopping counter: 11 out of 30
+🔒 Epoch 54: freeze gate/dfgu
+[ 54/200] train_loss: 1.08686 valid_loss: 0.53371 valid_AUC: 0.84003 valid_PRC: 0.70989 valid_Accuracy: 0.79468 valid_Precision: 0.66730 valid_Reacll: 0.59079 
+   📊 Modality Weights -> [2D] Drug:0.711, Prot:0.289 | [1D] Drug:0.458, Prot:0.542
+EarlyStopping counter: 12 out of 30
+🔒 Epoch 55: freeze gate/dfgu
+[ 55/200] train_loss: 1.06443 valid_loss: 0.55485 valid_AUC: 0.83209 valid_PRC: 0.69237 valid_Accuracy: 0.78540 valid_Precision: 0.64442 valid_Reacll: 0.58996 
+   📊 Modality Weights -> [2D] Drug:0.711, Prot:0.289 | [1D] Drug:0.459, Prot:0.541
+EarlyStopping counter: 13 out of 30
+🔓 Epoch 56: update gate/dfgu
+[ 56/200] train_loss: 1.05806 valid_loss: 0.55462 valid_AUC: 0.84290 valid_PRC: 0.71334 valid_Accuracy: 0.79761 valid_Precision: 0.68598 valid_Reacll: 0.56485 
+   📊 Modality Weights -> [2D] Drug:0.714, Prot:0.286 | [1D] Drug:0.462, Prot:0.538
+EarlyStopping counter: 14 out of 30
+🔒 Epoch 57: freeze gate/dfgu
+[ 57/200] train_loss: 1.03158 valid_loss: 0.49964 valid_AUC: 0.83849 valid_PRC: 0.71099 valid_Accuracy: 0.76733 valid_Precision: 0.57982 valid_Reacll: 0.73556 
+   📊 Modality Weights -> [2D] Drug:0.714, Prot:0.286 | [1D] Drug:0.463, Prot:0.537
+EarlyStopping counter: 15 out of 30
+🔒 Epoch 58: freeze gate/dfgu
+[ 58/200] train_loss: 1.02138 valid_loss: 0.49573 valid_AUC: 0.84712 valid_PRC: 0.72337 valid_Accuracy: 0.77832 valid_Precision: 0.59769 valid_Reacll: 0.73473 
+   📊 Modality Weights -> [2D] Drug:0.713, Prot:0.287 | [1D] Drug:0.463, Prot:0.537
+EarlyStopping counter: 16 out of 30
+🔒 Epoch 59: freeze gate/dfgu
+[ 59/200] train_loss: 1.00026 valid_loss: 0.50833 valid_AUC: 0.84496 valid_PRC: 0.71736 valid_Accuracy: 0.75171 valid_Precision: 0.55241 valid_Reacll: 0.78494 
+   📊 Modality Weights -> [2D] Drug:0.712, Prot:0.288 | [1D] Drug:0.463, Prot:0.537
+EarlyStopping counter: 17 out of 30
+🔒 Epoch 60: freeze gate/dfgu
+[ 60/200] train_loss: 0.99486 valid_loss: 0.50409 valid_AUC: 0.84827 valid_PRC: 0.72592 valid_Accuracy: 0.78247 valid_Precision: 0.60826 valid_Reacll: 0.71464 
+   📊 Modality Weights -> [2D] Drug:0.711, Prot:0.289 | [1D] Drug:0.463, Prot:0.537
+EarlyStopping counter: 18 out of 30
+🔓 Epoch 61: update gate/dfgu
+[ 61/200] train_loss: 0.97713 valid_loss: 0.51654 valid_AUC: 0.84791 valid_PRC: 0.72007 valid_Accuracy: 0.75977 valid_Precision: 0.56468 valid_Reacll: 0.77071 
+   📊 Modality Weights -> [2D] Drug:0.713, Prot:0.287 | [1D] Drug:0.466, Prot:0.534
+EarlyStopping counter: 19 out of 30
+🔒 Epoch 62: freeze gate/dfgu
+[ 62/200] train_loss: 0.97221 valid_loss: 0.50380 valid_AUC: 0.85066 valid_PRC: 0.73299 valid_Accuracy: 0.77515 valid_Precision: 0.58966 valid_Reacll: 0.75397 
+   📊 Modality Weights -> [2D] Drug:0.714, Prot:0.286 | [1D] Drug:0.468, Prot:0.532
+EarlyStopping counter: 20 out of 30
+🔒 Epoch 63: freeze gate/dfgu
+[ 63/200] train_loss: 0.95134 valid_loss: 0.53649 valid_AUC: 0.83980 valid_PRC: 0.71029 valid_Accuracy: 0.75952 valid_Precision: 0.56629 valid_Reacll: 0.75063 
+   📊 Modality Weights -> [2D] Drug:0.713, Prot:0.287 | [1D] Drug:0.468, Prot:0.532
+EarlyStopping counter: 21 out of 30
+🔒 Epoch 64: freeze gate/dfgu
+[ 64/200] train_loss: 0.94938 valid_loss: 0.51449 valid_AUC: 0.85144 valid_PRC: 0.73320 valid_Accuracy: 0.78101 valid_Precision: 0.60027 valid_Reacll: 0.74644 
+   📊 Modality Weights -> [2D] Drug:0.712, Prot:0.288 | [1D] Drug:0.468, Prot:0.532
+EarlyStopping counter: 22 out of 30
+🔒 Epoch 65: freeze gate/dfgu
+[ 65/200] train_loss: 0.92983 valid_loss: 0.55202 valid_AUC: 0.83986 valid_PRC: 0.70427 valid_Accuracy: 0.75391 valid_Precision: 0.55643 valid_Reacll: 0.77155 
+   📊 Modality Weights -> [2D] Drug:0.712, Prot:0.288 | [1D] Drug:0.468, Prot:0.532
+EarlyStopping counter: 23 out of 30
+🔓 Epoch 66: update gate/dfgu
+[ 66/200] train_loss: 0.93806 valid_loss: 0.53186 valid_AUC: 0.84534 valid_PRC: 0.72629 valid_Accuracy: 0.77344 valid_Precision: 0.58766 valid_Reacll: 0.74895 
+   📊 Modality Weights -> [2D] Drug:0.710, Prot:0.290 | [1D] Drug:0.468, Prot:0.532
+EarlyStopping counter: 24 out of 30
+🔒 Epoch 67: freeze gate/dfgu
+[ 67/200] train_loss: 0.90927 valid_loss: 0.55989 valid_AUC: 0.83934 valid_PRC: 0.71118 valid_Accuracy: 0.76709 valid_Precision: 0.57902 valid_Reacll: 0.73891 
+   📊 Modality Weights -> [2D] Drug:0.710, Prot:0.290 | [1D] Drug:0.468, Prot:0.532
+EarlyStopping counter: 25 out of 30
+🔒 Epoch 68: freeze gate/dfgu
+[ 68/200] train_loss: 0.91441 valid_loss: 0.55484 valid_AUC: 0.84311 valid_PRC: 0.72330 valid_Accuracy: 0.77173 valid_Precision: 0.58667 valid_Reacll: 0.73640 
+   📊 Modality Weights -> [2D] Drug:0.709, Prot:0.291 | [1D] Drug:0.467, Prot:0.533
+EarlyStopping counter: 26 out of 30
+🔒 Epoch 69: freeze gate/dfgu
+[ 69/200] train_loss: 0.89390 valid_loss: 0.57444 valid_AUC: 0.84243 valid_PRC: 0.71968 valid_Accuracy: 0.76392 valid_Precision: 0.57298 valid_Reacll: 0.74895 
+   📊 Modality Weights -> [2D] Drug:0.708, Prot:0.292 | [1D] Drug:0.467, Prot:0.533
+EarlyStopping counter: 27 out of 30
+🔒 Epoch 70: freeze gate/dfgu
+[ 70/200] train_loss: 0.89204 valid_loss: 0.58750 valid_AUC: 0.84330 valid_PRC: 0.72814 valid_Accuracy: 0.78760 valid_Precision: 0.61975 valid_Reacll: 0.70377 
+   📊 Modality Weights -> [2D] Drug:0.707, Prot:0.293 | [1D] Drug:0.467, Prot:0.533
+EarlyStopping counter: 28 out of 30
+🔓 Epoch 71: update gate/dfgu
+[ 71/200] train_loss: 0.88105 valid_loss: 0.57525 valid_AUC: 0.83878 valid_PRC: 0.71822 valid_Accuracy: 0.75977 valid_Precision: 0.56665 valid_Reacll: 0.75063 
+   📊 Modality Weights -> [2D] Drug:0.707, Prot:0.293 | [1D] Drug:0.467, Prot:0.533
+EarlyStopping counter: 29 out of 30
+🔒 Epoch 72: freeze gate/dfgu
+[ 72/200] train_loss: 0.88290 valid_loss: 0.57940 valid_AUC: 0.84632 valid_PRC: 0.72847 valid_Accuracy: 0.78223 valid_Precision: 0.60891 valid_Reacll: 0.70879 
+   📊 Modality Weights -> [2D] Drug:0.707, Prot:0.293 | [1D] Drug:0.468, Prot:0.532
+EarlyStopping counter: 30 out of 30
+  0%|          | 0/128 [00:00<?, ?it/s]  1%|          | 1/128 [00:00<00:54,  2.33it/s]  2%|▏         | 2/128 [00:00<00:41,  3.07it/s]  2%|▏         | 3/128 [00:00<00:36,  3.45it/s]  3%|▎         | 4/128 [00:01<00:33,  3.66it/s]  4%|▍         | 5/128 [00:01<00:32,  3.81it/s]  5%|▍         | 6/128 [00:01<00:31,  3.88it/s]  5%|▌         | 7/128 [00:01<00:31,  3.81it/s]  6%|▋         | 8/128 [00:02<00:32,  3.74it/s]  7%|▋         | 9/128 [00:02<00:31,  3.77it/s]  8%|▊         | 10/128 [00:02<00:30,  3.87it/s]  9%|▊         | 11/128 [00:02<00:30,  3.85it/s]  9%|▉         | 12/128 [00:03<00:30,  3.77it/s] 10%|█         | 13/128 [00:03<00:30,  3.76it/s] 11%|█         | 14/128 [00:03<00:30,  3.76it/s] 12%|█▏        | 15/128 [00:04<00:30,  3.72it/s] 12%|█▎        | 16/128 [00:04<00:29,  3.74it/s] 13%|█▎        | 17/128 [00:04<00:29,  3.74it/s] 14%|█▍        | 18/128 [00:04<00:29,  3.77it/s] 15%|█▍        | 19/128 [00:05<00:28,  3.77it/s] 16%|█▌        | 20/128 [00:05<00:28,  3.77it/s] 16%|█▋        | 21/128 [00:05<00:28,  3.76it/s] 17%|█▋        | 22/128 [00:05<00:28,  3.75it/s] 18%|█▊        | 23/128 [00:06<00:27,  3.86it/s] 19%|█▉        | 24/128 [00:06<00:27,  3.84it/s] 20%|█▉        | 25/128 [00:06<00:27,  3.81it/s] 20%|██        | 26/128 [00:06<00:27,  3.77it/s] 21%|██        | 27/128 [00:07<00:26,  3.76it/s] 22%|██▏       | 28/128 [00:07<00:25,  3.88it/s] 23%|██▎       | 29/128 [00:07<00:25,  3.87it/s] 23%|██▎       | 30/128 [00:08<00:25,  3.78it/s] 24%|██▍       | 31/128 [00:08<00:24,  3.90it/s] 25%|██▌       | 32/128 [00:08<00:24,  3.98it/s] 26%|██▌       | 33/128 [00:08<00:23,  3.96it/s] 27%|██▋       | 34/128 [00:09<00:23,  3.94it/s] 27%|██▋       | 35/128 [00:09<00:23,  3.92it/s] 28%|██▊       | 36/128 [00:09<00:23,  3.93it/s] 29%|██▉       | 37/128 [00:09<00:22,  3.98it/s] 30%|██▉       | 38/128 [00:10<00:22,  3.93it/s] 30%|███       | 39/128 [00:10<00:22,  3.94it/s] 31%|███▏      | 40/128 [00:10<00:22,  3.94it/s] 32%|███▏      | 41/128 [00:10<00:22,  3.93it/s] 33%|███▎      | 42/128 [00:11<00:21,  3.98it/s] 34%|███▎      | 43/128 [00:11<00:21,  3.98it/s] 34%|███▍      | 44/128 [00:11<00:21,  4.00it/s] 35%|███▌      | 45/128 [00:11<00:20,  3.98it/s] 36%|███▌      | 46/128 [00:12<00:20,  4.03it/s] 37%|███▋      | 47/128 [00:12<00:20,  4.00it/s] 38%|███▊      | 48/128 [00:12<00:20,  3.95it/s] 38%|███▊      | 49/128 [00:12<00:20,  3.92it/s] 39%|███▉      | 50/128 [00:13<00:19,  3.98it/s] 40%|███▉      | 51/128 [00:13<00:19,  3.91it/s] 41%|████      | 52/128 [00:13<00:19,  3.92it/s] 41%|████▏     | 53/128 [00:13<00:18,  4.01it/s] 42%|████▏     | 54/128 [00:14<00:18,  3.95it/s] 43%|████▎     | 55/128 [00:14<00:18,  3.90it/s] 44%|████▍     | 56/128 [00:14<00:18,  3.88it/s] 45%|████▍     | 57/128 [00:14<00:18,  3.86it/s] 45%|████▌     | 58/128 [00:15<00:17,  3.93it/s] 46%|████▌     | 59/128 [00:15<00:17,  3.89it/s] 47%|████▋     | 60/128 [00:15<00:17,  3.83it/s] 48%|████▊     | 61/128 [00:15<00:17,  3.79it/s] 48%|████▊     | 62/128 [00:16<00:17,  3.84it/s] 49%|████▉     | 63/128 [00:16<00:16,  3.86it/s] 50%|█████     | 64/128 [00:16<00:16,  3.81it/s] 51%|█████     | 65/128 [00:16<00:16,  3.80it/s] 52%|█████▏    | 66/128 [00:17<00:16,  3.83it/s] 52%|█████▏    | 67/128 [00:17<00:16,  3.81it/s] 53%|█████▎    | 68/128 [00:17<00:16,  3.72it/s] 54%|█████▍    | 69/128 [00:18<00:15,  3.71it/s] 55%|█████▍    | 70/128 [00:18<00:15,  3.74it/s] 55%|█████▌    | 71/128 [00:18<00:15,  3.75it/s] 56%|█████▋    | 72/128 [00:18<00:14,  3.79it/s] 57%|█████▋    | 73/128 [00:19<00:18,  2.98it/s] 58%|█████▊    | 74/128 [00:19<00:17,  3.16it/s] 59%|█████▊    | 75/128 [00:19<00:16,  3.27it/s] 59%|█████▉    | 76/128 [00:20<00:15,  3.34it/s] 60%|██████    | 77/128 [00:20<00:14,  3.46it/s] 61%|██████    | 78/128 [00:20<00:13,  3.64it/s] 62%|██████▏   | 79/128 [00:20<00:13,  3.70it/s] 62%|██████▎   | 80/128 [00:21<00:12,  3.76it/s] 63%|██████▎   | 81/128 [00:21<00:12,  3.82it/s] 64%|██████▍   | 82/128 [00:21<00:11,  3.84it/s] 65%|██████▍   | 83/128 [00:21<00:11,  3.86it/s] 66%|██████▌   | 84/128 [00:22<00:11,  3.76it/s] 66%|██████▋   | 85/128 [00:22<00:11,  3.78it/s] 67%|██████▋   | 86/128 [00:22<00:11,  3.79it/s] 68%|██████▊   | 87/128 [00:22<00:10,  3.82it/s] 69%|██████▉   | 88/128 [00:23<00:10,  3.79it/s] 70%|██████▉   | 89/128 [00:23<00:10,  3.83it/s] 70%|███████   | 90/128 [00:23<00:09,  3.84it/s] 71%|███████   | 91/128 [00:24<00:09,  3.83it/s] 72%|███████▏  | 92/128 [00:24<00:09,  3.83it/s] 73%|███████▎  | 93/128 [00:24<00:09,  3.83it/s] 73%|███████▎  | 94/128 [00:24<00:08,  3.82it/s] 74%|███████▍  | 95/128 [00:25<00:08,  3.80it/s] 75%|███████▌  | 96/128 [00:25<00:08,  3.78it/s] 76%|███████▌  | 97/128 [00:25<00:08,  3.74it/s] 77%|███████▋  | 98/128 [00:25<00:07,  3.77it/s] 77%|███████▋  | 99/128 [00:26<00:07,  3.76it/s] 78%|███████▊  | 100/128 [00:26<00:07,  3.77it/s] 79%|███████▉  | 101/128 [00:26<00:07,  3.77it/s] 80%|███████▉  | 102/128 [00:26<00:06,  3.77it/s] 80%|████████  | 103/128 [00:27<00:06,  3.77it/s] 81%|████████▏ | 104/128 [00:27<00:06,  3.82it/s] 82%|████████▏ | 105/128 [00:27<00:06,  3.70it/s] 83%|████████▎ | 106/128 [00:28<00:06,  3.66it/s] 84%|████████▎ | 107/128 [00:28<00:05,  3.63it/s] 84%|████████▍ | 108/128 [00:28<00:05,  3.60it/s] 85%|████████▌ | 109/128 [00:28<00:05,  3.68it/s] 86%|████████▌ | 110/128 [00:29<00:04,  3.72it/s] 87%|████████▋ | 111/128 [00:29<00:04,  3.77it/s] 88%|████████▊ | 112/128 [00:29<00:04,  3.79it/s] 88%|████████▊ | 113/128 [00:29<00:04,  3.71it/s] 89%|████████▉ | 114/128 [00:30<00:03,  3.73it/s] 90%|████████▉ | 115/128 [00:30<00:03,  3.77it/s] 91%|█████████ | 116/128 [00:30<00:03,  3.77it/s] 91%|█████████▏| 117/128 [00:30<00:02,  3.77it/s] 92%|█████████▏| 118/128 [00:31<00:02,  3.75it/s] 93%|█████████▎| 119/128 [00:31<00:02,  3.71it/s] 94%|█████████▍| 120/128 [00:31<00:02,  3.68it/s] 95%|█████████▍| 121/128 [00:32<00:01,  3.71it/s] 95%|█████████▌| 122/128 [00:32<00:01,  3.67it/s] 96%|█████████▌| 123/128 [00:32<00:01,  3.66it/s] 97%|█████████▋| 124/128 [00:32<00:01,  3.68it/s] 98%|█████████▊| 125/128 [00:33<00:00,  3.68it/s] 98%|█████████▊| 126/128 [00:33<00:00,  3.69it/s] 99%|█████████▉| 127/128 [00:33<00:00,  3.72it/s]100%|██████████| 128/128 [00:33<00:00,  3.81it/s]100%|██████████| 128/128 [00:33<00:00,  3.77it/s]
+Train: Loss:0.04861;Accuracy:0.98102;Precision:0.93939;Recall:0.99697;AUC:0.99918;PRC:0.99775.
+  0%|          | 0/32 [00:00<?, ?it/s]  3%|▎         | 1/32 [00:00<00:13,  2.32it/s]  6%|▋         | 2/32 [00:00<00:09,  3.18it/s]  9%|▉         | 3/32 [00:00<00:08,  3.37it/s] 12%|█▎        | 4/32 [00:01<00:07,  3.61it/s] 16%|█▌        | 5/32 [00:01<00:07,  3.68it/s] 19%|█▉        | 6/32 [00:01<00:06,  3.82it/s] 22%|██▏       | 7/32 [00:01<00:06,  3.93it/s] 25%|██▌       | 8/32 [00:02<00:06,  3.97it/s] 28%|██▊       | 9/32 [00:02<00:05,  3.87it/s] 31%|███▏      | 10/32 [00:02<00:05,  3.94it/s] 34%|███▍      | 11/32 [00:02<00:05,  3.85it/s] 38%|███▊      | 12/32 [00:03<00:05,  3.96it/s] 41%|████      | 13/32 [00:03<00:04,  3.84it/s] 44%|████▍     | 14/32 [00:03<00:04,  3.94it/s] 47%|████▋     | 15/32 [00:03<00:04,  3.88it/s] 50%|█████     | 16/32 [00:04<00:04,  3.97it/s] 53%|█████▎    | 17/32 [00:04<00:03,  3.88it/s] 56%|█████▋    | 18/32 [00:04<00:03,  3.95it/s] 59%|█████▉    | 19/32 [00:05<00:03,  3.89it/s] 62%|██████▎   | 20/32 [00:05<00:03,  3.92it/s] 66%|██████▌   | 21/32 [00:05<00:02,  3.85it/s] 69%|██████▉   | 22/32 [00:05<00:02,  3.80it/s] 72%|███████▏  | 23/32 [00:06<00:02,  3.75it/s] 75%|███████▌  | 24/32 [00:06<00:02,  3.69it/s] 78%|███████▊  | 25/32 [00:06<00:01,  3.72it/s] 81%|████████▏ | 26/32 [00:06<00:01,  3.73it/s] 84%|████████▍ | 27/32 [00:07<00:01,  3.76it/s] 88%|████████▊ | 28/32 [00:07<00:01,  3.83it/s] 91%|█████████ | 29/32 [00:07<00:00,  3.77it/s] 94%|█████████▍| 30/32 [00:07<00:00,  3.76it/s] 97%|█████████▋| 31/32 [00:08<00:00,  3.85it/s]100%|██████████| 32/32 [00:08<00:00,  3.91it/s]100%|██████████| 32/32 [00:08<00:00,  3.80it/s]
+Valid: Loss:0.57434;Accuracy:0.83960;Precision:0.70724;Recall:0.76820;AUC:0.90764;PRC:0.82524.
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:00<00:16,  2.30it/s]  5%|▌         | 2/40 [00:00<00:12,  3.06it/s]  8%|▊         | 3/40 [00:00<00:11,  3.21it/s] 10%|█         | 4/40 [00:01<00:10,  3.48it/s] 12%|█▎        | 5/40 [00:01<00:09,  3.58it/s] 15%|█▌        | 6/40 [00:01<00:09,  3.71it/s] 18%|█▊        | 7/40 [00:01<00:08,  3.80it/s] 20%|██        | 8/40 [00:02<00:08,  3.81it/s] 22%|██▎       | 9/40 [00:02<00:08,  3.79it/s] 25%|██▌       | 10/40 [00:02<00:07,  3.85it/s] 28%|██▊       | 11/40 [00:03<00:07,  3.84it/s] 30%|███       | 12/40 [00:03<00:07,  3.88it/s] 32%|███▎      | 13/40 [00:03<00:06,  3.92it/s] 35%|███▌      | 14/40 [00:03<00:06,  3.97it/s] 38%|███▊      | 15/40 [00:04<00:06,  3.96it/s] 40%|████      | 16/40 [00:04<00:06,  3.92it/s] 42%|████▎     | 17/40 [00:04<00:05,  3.84it/s] 45%|████▌     | 18/40 [00:04<00:05,  3.90it/s] 48%|████▊     | 19/40 [00:05<00:05,  3.78it/s] 50%|█████     | 20/40 [00:05<00:05,  3.83it/s] 52%|█████▎    | 21/40 [00:05<00:05,  3.76it/s] 55%|█████▌    | 22/40 [00:05<00:04,  3.79it/s] 57%|█████▊    | 23/40 [00:06<00:04,  3.73it/s] 60%|██████    | 24/40 [00:06<00:04,  3.78it/s] 62%|██████▎   | 25/40 [00:06<00:03,  3.78it/s] 65%|██████▌   | 26/40 [00:06<00:03,  3.78it/s] 68%|██████▊   | 27/40 [00:07<00:03,  3.79it/s] 70%|███████   | 28/40 [00:07<00:03,  3.77it/s] 72%|███████▎  | 29/40 [00:07<00:02,  3.72it/s] 75%|███████▌  | 30/40 [00:08<00:02,  3.79it/s] 78%|███████▊  | 31/40 [00:08<00:02,  3.77it/s] 80%|████████  | 32/40 [00:08<00:02,  3.77it/s] 82%|████████▎ | 33/40 [00:08<00:01,  3.81it/s] 85%|████████▌ | 34/40 [00:09<00:01,  3.80it/s] 88%|████████▊ | 35/40 [00:09<00:01,  3.85it/s] 90%|█████████ | 36/40 [00:09<00:01,  3.83it/s] 92%|█████████▎| 37/40 [00:09<00:00,  3.79it/s] 95%|█████████▌| 38/40 [00:10<00:00,  3.77it/s] 98%|█████████▊| 39/40 [00:10<00:00,  3.87it/s]100%|██████████| 40/40 [00:10<00:00,  3.97it/s]100%|██████████| 40/40 [00:10<00:00,  3.77it/s]
+Test: Loss:0.52341;Accuracy:0.85605;Precision:0.71956;Recall:0.80634;AUC:0.91823;PRC:0.83978.
+🚀 Generating interpretability reports for Davis...
+📊 解释性报告已成功导出至: /home/liumeiling/xjl/DTI/IMDF-DTI/Davis/3/interpretability_report
+✅ Interpretability reports (Heatmaps) saved to: ./Davis/3/interpretability_report
+************************* No. 4 -fold *************************
+Training...
+🔒 Epoch 1: freeze gate/dfgu
+[  1/200] train_loss: 0.60316 valid_loss: 0.52787 valid_AUC: 0.81803 valid_PRC: 0.65679 valid_Accuracy: 0.75732 valid_Precision: 0.55910 valid_Reacll: 0.71843 
+   📊 Modality Weights -> [2D] Drug:0.480, Prot:0.520 | [1D] Drug:0.381, Prot:0.619
+Have a new best checkpoint: (-inf --> 0.818029).  Saving model ...
+🔒 Epoch 2: freeze gate/dfgu
+[  2/200] train_loss: 0.50143 valid_loss: 0.48412 valid_AUC: 0.85051 valid_PRC: 0.72111 valid_Accuracy: 0.75806 valid_Precision: 0.55277 valid_Reacll: 0.80887 
+   📊 Modality Weights -> [2D] Drug:0.480, Prot:0.520 | [1D] Drug:0.381, Prot:0.619
+Have a new best checkpoint: (0.818029 --> 0.850512).  Saving model ...
+🔒 Epoch 3: freeze gate/dfgu
+[  3/200] train_loss: 0.47539 valid_loss: 0.48666 valid_AUC: 0.84658 valid_PRC: 0.71340 valid_Accuracy: 0.77417 valid_Precision: 0.58152 valid_Reacll: 0.75171 
+   📊 Modality Weights -> [2D] Drug:0.480, Prot:0.520 | [1D] Drug:0.381, Prot:0.619
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 4: freeze gate/dfgu
+[  4/200] train_loss: 0.46584 valid_loss: 0.46533 valid_AUC: 0.86126 valid_PRC: 0.73604 valid_Accuracy: 0.78540 valid_Precision: 0.59607 valid_Reacll: 0.77560 
+   📊 Modality Weights -> [2D] Drug:0.480, Prot:0.520 | [1D] Drug:0.381, Prot:0.619
+Have a new best checkpoint: (0.850512 --> 0.861261).  Saving model ...
+🔒 Epoch 5: freeze gate/dfgu
+[  5/200] train_loss: 0.44216 valid_loss: 0.48576 valid_AUC: 0.86741 valid_PRC: 0.74291 valid_Accuracy: 0.81812 valid_Precision: 0.71286 valid_Reacll: 0.61007 
+   📊 Modality Weights -> [2D] Drug:0.480, Prot:0.520 | [1D] Drug:0.381, Prot:0.619
+Have a new best checkpoint: (0.861261 --> 0.867405).  Saving model ...
+🔒 Epoch 6: freeze gate/dfgu
+[  6/200] train_loss: 0.42005 valid_loss: 0.42864 valid_AUC: 0.88568 valid_PRC: 0.77690 valid_Accuracy: 0.80249 valid_Precision: 0.61809 valid_Reacll: 0.81058 
+   📊 Modality Weights -> [2D] Drug:0.480, Prot:0.520 | [1D] Drug:0.381, Prot:0.619
+Have a new best checkpoint: (0.867405 --> 0.885679).  Saving model ...
+🔒 Epoch 7: freeze gate/dfgu
+[  7/200] train_loss: 0.38907 valid_loss: 0.43726 valid_AUC: 0.88116 valid_PRC: 0.77221 valid_Accuracy: 0.79907 valid_Precision: 0.61564 valid_Reacll: 0.79266 
+   📊 Modality Weights -> [2D] Drug:0.480, Prot:0.520 | [1D] Drug:0.381, Prot:0.619
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 8: freeze gate/dfgu
+[  8/200] train_loss: 0.38781 valid_loss: 0.41463 valid_AUC: 0.89363 valid_PRC: 0.79056 valid_Accuracy: 0.81616 valid_Precision: 0.64242 valid_Reacll: 0.80631 
+   📊 Modality Weights -> [2D] Drug:0.480, Prot:0.520 | [1D] Drug:0.381, Prot:0.619
+Have a new best checkpoint: (0.885679 --> 0.893626).  Saving model ...
+🔒 Epoch 9: freeze gate/dfgu
+[  9/200] train_loss: 0.34326 valid_loss: 0.45400 valid_AUC: 0.88096 valid_PRC: 0.77576 valid_Accuracy: 0.82812 valid_Precision: 0.68690 valid_Reacll: 0.73379 
+   📊 Modality Weights -> [2D] Drug:0.480, Prot:0.520 | [1D] Drug:0.381, Prot:0.619
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 10: freeze gate/dfgu
+[ 10/200] train_loss: 0.34071 valid_loss: 0.42339 valid_AUC: 0.89702 valid_PRC: 0.80344 valid_Accuracy: 0.82593 valid_Precision: 0.65926 valid_Reacll: 0.81058 
+   📊 Modality Weights -> [2D] Drug:0.480, Prot:0.520 | [1D] Drug:0.381, Prot:0.619
+Have a new best checkpoint: (0.893626 --> 0.897024).  Saving model ...
+🔓 Epoch 11: update gate/dfgu
+[ 11/200] train_loss: 0.44097 valid_loss: 0.45386 valid_AUC: 0.88192 valid_PRC: 0.77366 valid_Accuracy: 0.81055 valid_Precision: 0.64204 valid_Reacll: 0.76365 
+   📊 Modality Weights -> [2D] Drug:0.484, Prot:0.516 | [1D] Drug:0.382, Prot:0.618
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 12: freeze gate/dfgu
+[ 12/200] train_loss: 0.58255 valid_loss: 0.41740 valid_AUC: 0.90030 valid_PRC: 0.80615 valid_Accuracy: 0.82959 valid_Precision: 0.67249 valid_Reacll: 0.78840 
+   📊 Modality Weights -> [2D] Drug:0.486, Prot:0.514 | [1D] Drug:0.384, Prot:0.616
+Have a new best checkpoint: (0.897024 --> 0.900296).  Saving model ...
+🔒 Epoch 13: freeze gate/dfgu
+[ 13/200] train_loss: 0.66467 valid_loss: 0.45336 valid_AUC: 0.89122 valid_PRC: 0.79339 valid_Accuracy: 0.83911 valid_Precision: 0.69746 valid_Reacll: 0.77304 
+   📊 Modality Weights -> [2D] Drug:0.486, Prot:0.514 | [1D] Drug:0.384, Prot:0.616
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 14: freeze gate/dfgu
+[ 14/200] train_loss: 0.80212 valid_loss: 0.42767 valid_AUC: 0.90714 valid_PRC: 0.82148 valid_Accuracy: 0.84546 valid_Precision: 0.70157 valid_Reacll: 0.80034 
+   📊 Modality Weights -> [2D] Drug:0.487, Prot:0.513 | [1D] Drug:0.383, Prot:0.617
+Have a new best checkpoint: (0.900296 --> 0.907141).  Saving model ...
+🔒 Epoch 15: freeze gate/dfgu
+[ 15/200] train_loss: 0.87279 valid_loss: 0.47117 valid_AUC: 0.89497 valid_PRC: 0.79074 valid_Accuracy: 0.83447 valid_Precision: 0.69449 valid_Reacll: 0.75256 
+   📊 Modality Weights -> [2D] Drug:0.487, Prot:0.513 | [1D] Drug:0.383, Prot:0.617
+EarlyStopping counter: 1 out of 30
+🔓 Epoch 16: update gate/dfgu
+[ 16/200] train_loss: 1.01165 valid_loss: 0.45851 valid_AUC: 0.90685 valid_PRC: 0.82519 valid_Accuracy: 0.84399 valid_Precision: 0.70421 valid_Reacll: 0.78413 
+   📊 Modality Weights -> [2D] Drug:0.489, Prot:0.511 | [1D] Drug:0.387, Prot:0.613
+EarlyStopping counter: 2 out of 30
+🔒 Epoch 17: freeze gate/dfgu
+[ 17/200] train_loss: 1.06026 valid_loss: 0.51045 valid_AUC: 0.89026 valid_PRC: 0.79864 valid_Accuracy: 0.81909 valid_Precision: 0.65582 valid_Reacll: 0.77389 
+   📊 Modality Weights -> [2D] Drug:0.490, Prot:0.510 | [1D] Drug:0.388, Prot:0.612
+EarlyStopping counter: 3 out of 30
+🔒 Epoch 18: freeze gate/dfgu
+[ 18/200] train_loss: 1.19873 valid_loss: 0.49782 valid_AUC: 0.90468 valid_PRC: 0.81719 valid_Accuracy: 0.82935 valid_Precision: 0.66643 valid_Reacll: 0.80802 
+   📊 Modality Weights -> [2D] Drug:0.491, Prot:0.509 | [1D] Drug:0.387, Prot:0.613
+EarlyStopping counter: 4 out of 30
+🔒 Epoch 19: freeze gate/dfgu
+[ 19/200] train_loss: 1.24277 valid_loss: 0.56819 valid_AUC: 0.89060 valid_PRC: 0.78879 valid_Accuracy: 0.83154 valid_Precision: 0.69373 valid_Reacll: 0.73635 
+   📊 Modality Weights -> [2D] Drug:0.492, Prot:0.508 | [1D] Drug:0.387, Prot:0.613
+EarlyStopping counter: 5 out of 30
+🔒 Epoch 20: freeze gate/dfgu
+[ 20/200] train_loss: 1.37943 valid_loss: 0.56490 valid_AUC: 0.90307 valid_PRC: 0.82113 valid_Accuracy: 0.84424 valid_Precision: 0.71157 valid_Reacll: 0.76621 
+   📊 Modality Weights -> [2D] Drug:0.493, Prot:0.507 | [1D] Drug:0.386, Prot:0.614
+EarlyStopping counter: 6 out of 30
+🔓 Epoch 21: update gate/dfgu
+[ 21/200] train_loss: 1.28801 valid_loss: 0.67692 valid_AUC: 0.89483 valid_PRC: 0.80535 valid_Accuracy: 0.84058 valid_Precision: 0.72123 valid_Reacll: 0.72184 
+   📊 Modality Weights -> [2D] Drug:0.495, Prot:0.505 | [1D] Drug:0.385, Prot:0.615
+EarlyStopping counter: 7 out of 30
+🔒 Epoch 22: freeze gate/dfgu
+[ 22/200] train_loss: 1.28627 valid_loss: 0.60864 valid_AUC: 0.90390 valid_PRC: 0.82296 valid_Accuracy: 0.84473 valid_Precision: 0.71304 valid_Reacll: 0.76536 
+   📊 Modality Weights -> [2D] Drug:0.498, Prot:0.502 | [1D] Drug:0.383, Prot:0.617
+EarlyStopping counter: 8 out of 30
+🔒 Epoch 23: freeze gate/dfgu
+[ 23/200] train_loss: 1.20474 valid_loss: 0.66345 valid_AUC: 0.90012 valid_PRC: 0.80878 valid_Accuracy: 0.82520 valid_Precision: 0.65966 valid_Reacll: 0.80375 
+   📊 Modality Weights -> [2D] Drug:0.498, Prot:0.502 | [1D] Drug:0.382, Prot:0.618
+EarlyStopping counter: 9 out of 30
+🔒 Epoch 24: freeze gate/dfgu
+[ 24/200] train_loss: 1.21003 valid_loss: 0.66248 valid_AUC: 0.90100 valid_PRC: 0.81971 valid_Accuracy: 0.83643 valid_Precision: 0.69190 valid_Reacll: 0.77218 
+   📊 Modality Weights -> [2D] Drug:0.499, Prot:0.501 | [1D] Drug:0.381, Prot:0.619
+EarlyStopping counter: 10 out of 30
+🔒 Epoch 25: freeze gate/dfgu
+[ 25/200] train_loss: 1.13786 valid_loss: 0.75800 valid_AUC: 0.89564 valid_PRC: 0.80691 valid_Accuracy: 0.83960 valid_Precision: 0.70816 valid_Reacll: 0.74744 
+   📊 Modality Weights -> [2D] Drug:0.500, Prot:0.500 | [1D] Drug:0.381, Prot:0.619
+EarlyStopping counter: 11 out of 30
+🔓 Epoch 26: update gate/dfgu
+[ 26/200] train_loss: 1.14452 valid_loss: 0.72251 valid_AUC: 0.90060 valid_PRC: 0.81826 valid_Accuracy: 0.83691 valid_Precision: 0.69596 valid_Reacll: 0.76365 
+   📊 Modality Weights -> [2D] Drug:0.500, Prot:0.500 | [1D] Drug:0.378, Prot:0.622
+EarlyStopping counter: 12 out of 30
+🔒 Epoch 27: freeze gate/dfgu
+[ 27/200] train_loss: 1.07400 valid_loss: 0.84070 valid_AUC: 0.89572 valid_PRC: 0.81009 valid_Accuracy: 0.84058 valid_Precision: 0.70843 valid_Reacll: 0.75256 
+   📊 Modality Weights -> [2D] Drug:0.501, Prot:0.499 | [1D] Drug:0.378, Prot:0.622
+EarlyStopping counter: 13 out of 30
+🔒 Epoch 28: freeze gate/dfgu
+[ 28/200] train_loss: 1.06001 valid_loss: 0.75877 valid_AUC: 0.90216 valid_PRC: 0.81996 valid_Accuracy: 0.83765 valid_Precision: 0.69820 valid_Reacll: 0.76195 
+   📊 Modality Weights -> [2D] Drug:0.502, Prot:0.498 | [1D] Drug:0.377, Prot:0.623
+EarlyStopping counter: 14 out of 30
+🔒 Epoch 29: freeze gate/dfgu
+[ 29/200] train_loss: 1.01090 valid_loss: 0.89135 valid_AUC: 0.90264 valid_PRC: 0.81619 valid_Accuracy: 0.84204 valid_Precision: 0.71748 valid_Reacll: 0.73891 
+   📊 Modality Weights -> [2D] Drug:0.502, Prot:0.498 | [1D] Drug:0.377, Prot:0.623
+EarlyStopping counter: 15 out of 30
+🔒 Epoch 30: freeze gate/dfgu
+[ 30/200] train_loss: 1.00268 valid_loss: 0.80422 valid_AUC: 0.90333 valid_PRC: 0.82219 valid_Accuracy: 0.84399 valid_Precision: 0.71067 valid_Reacll: 0.76706 
+   📊 Modality Weights -> [2D] Drug:0.503, Prot:0.497 | [1D] Drug:0.375, Prot:0.625
+EarlyStopping counter: 16 out of 30
+🔓 Epoch 31: update gate/dfgu
+[ 31/200] train_loss: 0.95431 valid_loss: 0.83025 valid_AUC: 0.90129 valid_PRC: 0.81926 valid_Accuracy: 0.82275 valid_Precision: 0.65027 valid_Reacll: 0.82338 
+   📊 Modality Weights -> [2D] Drug:0.503, Prot:0.497 | [1D] Drug:0.374, Prot:0.626
+EarlyStopping counter: 17 out of 30
+🔒 Epoch 32: freeze gate/dfgu
+[ 32/200] train_loss: 0.95240 valid_loss: 0.84710 valid_AUC: 0.89945 valid_PRC: 0.81975 valid_Accuracy: 0.83862 valid_Precision: 0.70198 valid_Reacll: 0.75768 
+   📊 Modality Weights -> [2D] Drug:0.504, Prot:0.496 | [1D] Drug:0.373, Prot:0.627
+EarlyStopping counter: 18 out of 30
+🔒 Epoch 33: freeze gate/dfgu
+[ 33/200] train_loss: 0.90391 valid_loss: 0.85750 valid_AUC: 0.89572 valid_PRC: 0.80389 valid_Accuracy: 0.83228 valid_Precision: 0.67484 valid_Reacll: 0.79863 
+   📊 Modality Weights -> [2D] Drug:0.505, Prot:0.495 | [1D] Drug:0.373, Prot:0.627
+EarlyStopping counter: 19 out of 30
+🔒 Epoch 34: freeze gate/dfgu
+[ 34/200] train_loss: 0.91223 valid_loss: 0.85941 valid_AUC: 0.90091 valid_PRC: 0.81676 valid_Accuracy: 0.84717 valid_Precision: 0.72864 valid_Reacll: 0.74232 
+   📊 Modality Weights -> [2D] Drug:0.505, Prot:0.495 | [1D] Drug:0.371, Prot:0.629
+EarlyStopping counter: 20 out of 30
+🔒 Epoch 35: freeze gate/dfgu
+[ 35/200] train_loss: 0.84956 valid_loss: 0.99871 valid_AUC: 0.89801 valid_PRC: 0.81072 valid_Accuracy: 0.84399 valid_Precision: 0.73439 valid_Reacll: 0.71246 
+   📊 Modality Weights -> [2D] Drug:0.505, Prot:0.495 | [1D] Drug:0.371, Prot:0.629
+EarlyStopping counter: 21 out of 30
+🔓 Epoch 36: update gate/dfgu
+[ 36/200] train_loss: 0.84611 valid_loss: 0.83928 valid_AUC: 0.90215 valid_PRC: 0.81668 valid_Accuracy: 0.83789 valid_Precision: 0.69012 valid_Reacll: 0.78669 
+   📊 Modality Weights -> [2D] Drug:0.506, Prot:0.494 | [1D] Drug:0.370, Prot:0.630
+EarlyStopping counter: 22 out of 30
+🔒 Epoch 37: freeze gate/dfgu
+[ 37/200] train_loss: 0.79332 valid_loss: 0.91646 valid_AUC: 0.89904 valid_PRC: 0.81198 valid_Accuracy: 0.83569 valid_Precision: 0.68278 valid_Reacll: 0.79522 
+   📊 Modality Weights -> [2D] Drug:0.506, Prot:0.494 | [1D] Drug:0.370, Prot:0.630
+EarlyStopping counter: 23 out of 30
+🔒 Epoch 38: freeze gate/dfgu
+[ 38/200] train_loss: 0.79078 valid_loss: 0.90615 valid_AUC: 0.90060 valid_PRC: 0.81387 valid_Accuracy: 0.83984 valid_Precision: 0.70444 valid_Reacll: 0.75853 
+   📊 Modality Weights -> [2D] Drug:0.506, Prot:0.494 | [1D] Drug:0.369, Prot:0.631
+EarlyStopping counter: 24 out of 30
+🔒 Epoch 39: freeze gate/dfgu
+[ 39/200] train_loss: 0.74727 valid_loss: 0.95200 valid_AUC: 0.89833 valid_PRC: 0.81454 valid_Accuracy: 0.84229 valid_Precision: 0.71141 valid_Reacll: 0.75512 
+   📊 Modality Weights -> [2D] Drug:0.506, Prot:0.494 | [1D] Drug:0.368, Prot:0.632
+EarlyStopping counter: 25 out of 30
+🔒 Epoch 40: freeze gate/dfgu
+[ 40/200] train_loss: 0.73936 valid_loss: 0.89828 valid_AUC: 0.90229 valid_PRC: 0.81367 valid_Accuracy: 0.84253 valid_Precision: 0.70830 valid_Reacll: 0.76451 
+   📊 Modality Weights -> [2D] Drug:0.506, Prot:0.494 | [1D] Drug:0.367, Prot:0.633
+EarlyStopping counter: 26 out of 30
+🔓 Epoch 41: update gate/dfgu
+[ 41/200] train_loss: 0.69865 valid_loss: 1.02228 valid_AUC: 0.89566 valid_PRC: 0.80559 valid_Accuracy: 0.84180 valid_Precision: 0.71617 valid_Reacll: 0.74061 
+   📊 Modality Weights -> [2D] Drug:0.506, Prot:0.494 | [1D] Drug:0.366, Prot:0.634
+EarlyStopping counter: 27 out of 30
+🔒 Epoch 42: freeze gate/dfgu
+[ 42/200] train_loss: 0.68880 valid_loss: 0.97823 valid_AUC: 0.89818 valid_PRC: 0.80997 valid_Accuracy: 0.84131 valid_Precision: 0.71117 valid_Reacll: 0.75000 
+   📊 Modality Weights -> [2D] Drug:0.507, Prot:0.493 | [1D] Drug:0.363, Prot:0.637
+EarlyStopping counter: 28 out of 30
+🔒 Epoch 43: freeze gate/dfgu
+[ 43/200] train_loss: 0.65063 valid_loss: 0.97144 valid_AUC: 0.89778 valid_PRC: 0.81266 valid_Accuracy: 0.83057 valid_Precision: 0.67548 valid_Reacll: 0.78498 
+   📊 Modality Weights -> [2D] Drug:0.507, Prot:0.493 | [1D] Drug:0.362, Prot:0.638
+EarlyStopping counter: 29 out of 30
+🔒 Epoch 44: freeze gate/dfgu
+[ 44/200] train_loss: 0.63741 valid_loss: 1.09918 valid_AUC: 0.90111 valid_PRC: 0.81738 valid_Accuracy: 0.85425 valid_Precision: 0.75330 valid_Reacll: 0.72952 
+   📊 Modality Weights -> [2D] Drug:0.507, Prot:0.493 | [1D] Drug:0.362, Prot:0.638
+EarlyStopping counter: 30 out of 30
+  0%|          | 0/128 [00:00<?, ?it/s]  1%|          | 1/128 [00:00<00:52,  2.44it/s]  2%|▏         | 2/128 [00:00<00:39,  3.20it/s]  2%|▏         | 3/128 [00:00<00:37,  3.37it/s]  3%|▎         | 4/128 [00:01<00:34,  3.62it/s]  4%|▍         | 5/128 [00:01<00:33,  3.65it/s]  5%|▍         | 6/128 [00:01<00:32,  3.75it/s]  5%|▌         | 7/128 [00:01<00:31,  3.87it/s]  6%|▋         | 8/128 [00:02<00:30,  3.91it/s]  7%|▋         | 9/128 [00:02<00:35,  3.39it/s]  8%|▊         | 10/128 [00:02<00:33,  3.50it/s]  9%|▊         | 11/128 [00:03<00:32,  3.63it/s]  9%|▉         | 12/128 [00:03<00:31,  3.70it/s] 10%|█         | 13/128 [00:03<00:30,  3.77it/s] 11%|█         | 14/128 [00:03<00:30,  3.79it/s] 12%|█▏        | 15/128 [00:04<00:29,  3.79it/s] 12%|█▎        | 16/128 [00:04<00:29,  3.77it/s] 13%|█▎        | 17/128 [00:04<00:29,  3.80it/s] 14%|█▍        | 18/128 [00:04<00:28,  3.80it/s] 15%|█▍        | 19/128 [00:05<00:28,  3.80it/s] 16%|█▌        | 20/128 [00:05<00:28,  3.80it/s] 16%|█▋        | 21/128 [00:05<00:27,  3.87it/s] 17%|█▋        | 22/128 [00:05<00:27,  3.85it/s] 18%|█▊        | 23/128 [00:06<00:27,  3.75it/s] 19%|█▉        | 24/128 [00:06<00:27,  3.74it/s] 20%|█▉        | 25/128 [00:06<00:27,  3.75it/s] 20%|██        | 26/128 [00:07<00:27,  3.75it/s] 21%|██        | 27/128 [00:07<00:26,  3.74it/s] 22%|██▏       | 28/128 [00:07<00:26,  3.81it/s] 23%|██▎       | 29/128 [00:07<00:25,  3.81it/s] 23%|██▎       | 30/128 [00:08<00:25,  3.84it/s] 24%|██▍       | 31/128 [00:08<00:25,  3.86it/s] 25%|██▌       | 32/128 [00:08<00:24,  3.88it/s] 26%|██▌       | 33/128 [00:08<00:24,  3.89it/s] 27%|██▋       | 34/128 [00:09<00:24,  3.84it/s] 27%|██▋       | 35/128 [00:09<00:27,  3.39it/s] 28%|██▊       | 36/128 [00:09<00:26,  3.45it/s] 29%|██▉       | 37/128 [00:10<00:25,  3.55it/s] 30%|██▉       | 38/128 [00:10<00:24,  3.61it/s] 30%|███       | 39/128 [00:10<00:24,  3.58it/s] 31%|███▏      | 40/128 [00:10<00:24,  3.53it/s] 32%|███▏      | 41/128 [00:11<00:24,  3.52it/s] 33%|███▎      | 42/128 [00:11<00:27,  3.18it/s] 34%|███▎      | 43/128 [00:11<00:25,  3.31it/s] 34%|███▍      | 44/128 [00:12<00:24,  3.39it/s] 35%|███▌      | 45/128 [00:12<00:24,  3.45it/s] 36%|███▌      | 46/128 [00:12<00:23,  3.52it/s] 37%|███▋      | 47/128 [00:12<00:22,  3.59it/s] 38%|███▊      | 48/128 [00:13<00:21,  3.66it/s] 38%|███▊      | 49/128 [00:13<00:21,  3.69it/s] 39%|███▉      | 50/128 [00:13<00:21,  3.70it/s] 40%|███▉      | 51/128 [00:13<00:20,  3.77it/s] 41%|████      | 52/128 [00:14<00:20,  3.77it/s] 41%|████▏     | 53/128 [00:14<00:19,  3.79it/s] 42%|████▏     | 54/128 [00:14<00:19,  3.76it/s] 43%|████▎     | 55/128 [00:15<00:19,  3.80it/s] 44%|████▍     | 56/128 [00:15<00:19,  3.75it/s] 45%|████▍     | 57/128 [00:15<00:18,  3.77it/s] 45%|████▌     | 58/128 [00:15<00:18,  3.77it/s] 46%|████▌     | 59/128 [00:16<00:18,  3.70it/s] 47%|████▋     | 60/128 [00:16<00:18,  3.60it/s] 48%|████▊     | 61/128 [00:16<00:18,  3.58it/s] 48%|████▊     | 62/128 [00:16<00:18,  3.57it/s] 49%|████▉     | 63/128 [00:17<00:18,  3.60it/s] 50%|█████     | 64/128 [00:17<00:17,  3.58it/s] 51%|█████     | 65/128 [00:17<00:17,  3.54it/s] 52%|█████▏    | 66/128 [00:18<00:17,  3.54it/s] 52%|█████▏    | 67/128 [00:18<00:17,  3.46it/s] 53%|█████▎    | 68/128 [00:18<00:16,  3.60it/s] 54%|█████▍    | 69/128 [00:18<00:16,  3.64it/s] 55%|█████▍    | 70/128 [00:19<00:15,  3.64it/s] 55%|█████▌    | 71/128 [00:19<00:15,  3.65it/s] 56%|█████▋    | 72/128 [00:19<00:15,  3.72it/s] 57%|█████▋    | 73/128 [00:19<00:14,  3.71it/s] 58%|█████▊    | 74/128 [00:20<00:14,  3.78it/s] 59%|█████▊    | 75/128 [00:20<00:14,  3.76it/s] 59%|█████▉    | 76/128 [00:20<00:14,  3.68it/s] 60%|██████    | 77/128 [00:21<00:13,  3.68it/s] 61%|██████    | 78/128 [00:21<00:13,  3.70it/s] 62%|██████▏   | 79/128 [00:21<00:13,  3.67it/s] 62%|██████▎   | 80/128 [00:21<00:13,  3.43it/s] 63%|██████▎   | 81/128 [00:22<00:13,  3.45it/s] 64%|██████▍   | 82/128 [00:22<00:13,  3.52it/s] 65%|██████▍   | 83/128 [00:22<00:12,  3.48it/s] 66%|██████▌   | 84/128 [00:23<00:12,  3.53it/s] 66%|██████▋   | 85/128 [00:23<00:12,  3.58it/s] 67%|██████▋   | 86/128 [00:23<00:11,  3.53it/s] 68%|██████▊   | 87/128 [00:23<00:11,  3.51it/s] 69%|██████▉   | 88/128 [00:24<00:11,  3.48it/s] 70%|██████▉   | 89/128 [00:24<00:10,  3.55it/s] 70%|███████   | 90/128 [00:24<00:10,  3.62it/s] 71%|███████   | 91/128 [00:25<00:10,  3.61it/s] 72%|███████▏  | 92/128 [00:25<00:09,  3.61it/s] 73%|███████▎  | 93/128 [00:25<00:09,  3.65it/s] 73%|███████▎  | 94/128 [00:25<00:09,  3.72it/s] 74%|███████▍  | 95/128 [00:26<00:08,  3.79it/s] 75%|███████▌  | 96/128 [00:26<00:08,  3.78it/s] 76%|███████▌  | 97/128 [00:26<00:08,  3.78it/s] 77%|███████▋  | 98/128 [00:26<00:07,  3.85it/s] 77%|███████▋  | 99/128 [00:27<00:07,  3.81it/s] 78%|███████▊  | 100/128 [00:27<00:07,  3.83it/s] 79%|███████▉  | 101/128 [00:27<00:07,  3.77it/s] 80%|███████▉  | 102/128 [00:27<00:06,  3.79it/s] 80%|████████  | 103/128 [00:28<00:06,  3.74it/s] 81%|████████▏ | 104/128 [00:28<00:06,  3.76it/s] 82%|████████▏ | 105/128 [00:28<00:06,  3.73it/s] 83%|████████▎ | 106/128 [00:28<00:05,  3.71it/s] 84%|████████▎ | 107/128 [00:29<00:05,  3.75it/s] 84%|████████▍ | 108/128 [00:29<00:05,  3.68it/s] 85%|████████▌ | 109/128 [00:29<00:05,  3.63it/s] 86%|████████▌ | 110/128 [00:30<00:04,  3.67it/s] 87%|████████▋ | 111/128 [00:30<00:04,  3.57it/s] 88%|████████▊ | 112/128 [00:30<00:04,  3.58it/s] 88%|████████▊ | 113/128 [00:30<00:04,  3.58it/s] 89%|████████▉ | 114/128 [00:31<00:03,  3.65it/s] 90%|████████▉ | 115/128 [00:31<00:03,  3.71it/s] 91%|█████████ | 116/128 [00:31<00:03,  3.81it/s] 91%|█████████▏| 117/128 [00:31<00:02,  3.81it/s] 92%|█████████▏| 118/128 [00:32<00:02,  3.79it/s] 93%|█████████▎| 119/128 [00:32<00:02,  3.76it/s] 94%|█████████▍| 120/128 [00:32<00:02,  3.74it/s] 95%|█████████▍| 121/128 [00:33<00:01,  3.68it/s] 95%|█████████▌| 122/128 [00:33<00:01,  3.74it/s] 96%|█████████▌| 123/128 [00:33<00:01,  3.73it/s] 97%|█████████▋| 124/128 [00:33<00:01,  3.80it/s] 98%|█████████▊| 125/128 [00:34<00:00,  3.76it/s] 98%|█████████▊| 126/128 [00:34<00:00,  3.72it/s] 99%|█████████▉| 127/128 [00:34<00:00,  3.82it/s]100%|██████████| 128/128 [00:34<00:00,  3.84it/s]100%|██████████| 128/128 [00:34<00:00,  3.67it/s]
+Train: Loss:0.15010;Accuracy:0.94147;Precision:0.84294;Recall:0.97476;AUC:0.98933;PRC:0.97152.
+  0%|          | 0/32 [00:00<?, ?it/s]  3%|▎         | 1/32 [00:00<00:13,  2.36it/s]  6%|▋         | 2/32 [00:00<00:09,  3.05it/s]  9%|▉         | 3/32 [00:00<00:08,  3.40it/s] 12%|█▎        | 4/32 [00:01<00:07,  3.52it/s] 16%|█▌        | 5/32 [00:01<00:07,  3.64it/s] 19%|█▉        | 6/32 [00:01<00:06,  3.77it/s] 22%|██▏       | 7/32 [00:01<00:06,  3.83it/s] 25%|██▌       | 8/32 [00:02<00:06,  3.90it/s] 28%|██▊       | 9/32 [00:02<00:05,  3.89it/s] 31%|███▏      | 10/32 [00:02<00:05,  3.87it/s] 34%|███▍      | 11/32 [00:02<00:05,  3.95it/s] 38%|███▊      | 12/32 [00:03<00:05,  3.81it/s] 41%|████      | 13/32 [00:03<00:04,  3.92it/s] 44%|████▍     | 14/32 [00:03<00:04,  3.89it/s] 47%|████▋     | 15/32 [00:04<00:04,  3.93it/s] 50%|█████     | 16/32 [00:04<00:04,  3.85it/s] 53%|█████▎    | 17/32 [00:04<00:04,  3.72it/s] 56%|█████▋    | 18/32 [00:04<00:03,  3.71it/s] 59%|█████▉    | 19/32 [00:05<00:03,  3.64it/s] 62%|██████▎   | 20/32 [00:05<00:03,  3.69it/s] 66%|██████▌   | 21/32 [00:05<00:03,  3.66it/s] 69%|██████▉   | 22/32 [00:05<00:02,  3.63it/s] 72%|███████▏  | 23/32 [00:06<00:02,  3.69it/s] 75%|███████▌  | 24/32 [00:06<00:02,  3.71it/s] 78%|███████▊  | 25/32 [00:06<00:01,  3.75it/s] 81%|████████▏ | 26/32 [00:07<00:01,  3.69it/s] 84%|████████▍ | 27/32 [00:07<00:01,  3.69it/s] 88%|████████▊ | 28/32 [00:07<00:01,  3.69it/s] 91%|█████████ | 29/32 [00:07<00:00,  3.56it/s] 94%|█████████▍| 30/32 [00:08<00:00,  3.53it/s] 97%|█████████▋| 31/32 [00:08<00:00,  3.61it/s]100%|██████████| 32/32 [00:08<00:00,  3.68it/s]100%|██████████| 32/32 [00:08<00:00,  3.69it/s]
+Valid: Loss:0.42767;Accuracy:0.84546;Precision:0.70157;Recall:0.80034;AUC:0.90714;PRC:0.82148.
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:00<00:17,  2.20it/s]  5%|▌         | 2/40 [00:00<00:13,  2.79it/s]  8%|▊         | 3/40 [00:01<00:11,  3.20it/s] 10%|█         | 4/40 [00:01<00:10,  3.42it/s] 12%|█▎        | 5/40 [00:01<00:10,  3.48it/s] 15%|█▌        | 6/40 [00:01<00:09,  3.53it/s] 18%|█▊        | 7/40 [00:02<00:09,  3.66it/s] 20%|██        | 8/40 [00:02<00:08,  3.61it/s] 22%|██▎       | 9/40 [00:02<00:08,  3.60it/s] 25%|██▌       | 10/40 [00:02<00:08,  3.68it/s] 28%|██▊       | 11/40 [00:03<00:07,  3.69it/s] 30%|███       | 12/40 [00:03<00:07,  3.69it/s] 32%|███▎      | 13/40 [00:03<00:07,  3.76it/s] 35%|███▌      | 14/40 [00:03<00:06,  3.85it/s] 38%|███▊      | 15/40 [00:04<00:06,  3.87it/s] 40%|████      | 16/40 [00:04<00:06,  3.85it/s] 42%|████▎     | 17/40 [00:04<00:05,  3.88it/s] 45%|████▌     | 18/40 [00:05<00:06,  3.42it/s] 48%|████▊     | 19/40 [00:05<00:06,  3.46it/s] 50%|█████     | 20/40 [00:05<00:05,  3.44it/s] 52%|█████▎    | 21/40 [00:05<00:05,  3.45it/s] 55%|█████▌    | 22/40 [00:06<00:05,  3.52it/s] 57%|█████▊    | 23/40 [00:06<00:04,  3.52it/s] 60%|██████    | 24/40 [00:06<00:04,  3.59it/s] 62%|██████▎   | 25/40 [00:07<00:04,  3.59it/s] 65%|██████▌   | 26/40 [00:07<00:03,  3.61it/s] 68%|██████▊   | 27/40 [00:07<00:03,  3.60it/s] 70%|███████   | 28/40 [00:07<00:03,  3.64it/s] 72%|███████▎  | 29/40 [00:08<00:03,  3.66it/s] 75%|███████▌  | 30/40 [00:08<00:02,  3.75it/s] 78%|███████▊  | 31/40 [00:08<00:02,  3.79it/s] 80%|████████  | 32/40 [00:08<00:02,  3.82it/s] 82%|████████▎ | 33/40 [00:09<00:01,  3.85it/s] 85%|████████▌ | 34/40 [00:09<00:01,  3.85it/s] 88%|████████▊ | 35/40 [00:09<00:01,  3.96it/s] 90%|█████████ | 36/40 [00:09<00:01,  3.92it/s] 92%|█████████▎| 37/40 [00:10<00:00,  3.87it/s] 95%|█████████▌| 38/40 [00:10<00:00,  3.85it/s] 98%|█████████▊| 39/40 [00:10<00:00,  3.94it/s]100%|██████████| 40/40 [00:10<00:00,  4.02it/s]100%|██████████| 40/40 [00:10<00:00,  3.66it/s]
+Test: Loss:0.39167;Accuracy:0.85254;Precision:0.71642;Recall:0.79394;AUC:0.91722;PRC:0.83473.
+🚀 Generating interpretability reports for Davis...
+📊 解释性报告已成功导出至: /home/liumeiling/xjl/DTI/IMDF-DTI/Davis/4/interpretability_report
+✅ Interpretability reports (Heatmaps) saved to: ./Davis/4/interpretability_report
+************************* No. 5 -fold *************************
+Training...
+🔒 Epoch 1: freeze gate/dfgu
+[  1/200] train_loss: 0.62823 valid_loss: 0.52804 valid_AUC: 0.83088 valid_PRC: 0.66788 valid_Accuracy: 0.70752 valid_Precision: 0.48565 valid_Reacll: 0.81452 
+   📊 Modality Weights -> [2D] Drug:0.543, Prot:0.457 | [1D] Drug:0.448, Prot:0.552
+Have a new best checkpoint: (-inf --> 0.830884).  Saving model ...
+🔒 Epoch 2: freeze gate/dfgu
+[  2/200] train_loss: 0.50313 valid_loss: 0.46729 valid_AUC: 0.85794 valid_PRC: 0.73162 valid_Accuracy: 0.78149 valid_Precision: 0.59012 valid_Reacll: 0.71041 
+   📊 Modality Weights -> [2D] Drug:0.543, Prot:0.457 | [1D] Drug:0.448, Prot:0.552
+Have a new best checkpoint: (0.830884 --> 0.857941).  Saving model ...
+🔒 Epoch 3: freeze gate/dfgu
+[  3/200] train_loss: 0.47451 valid_loss: 0.48373 valid_AUC: 0.85253 valid_PRC: 0.72571 valid_Accuracy: 0.74438 valid_Precision: 0.52740 valid_Reacll: 0.80840 
+   📊 Modality Weights -> [2D] Drug:0.543, Prot:0.457 | [1D] Drug:0.448, Prot:0.552
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 4: freeze gate/dfgu
+[  4/200] train_loss: 0.46517 valid_loss: 0.44892 valid_AUC: 0.87167 valid_PRC: 0.75442 valid_Accuracy: 0.80615 valid_Precision: 0.63643 valid_Reacll: 0.71216 
+   📊 Modality Weights -> [2D] Drug:0.543, Prot:0.457 | [1D] Drug:0.448, Prot:0.552
+Have a new best checkpoint: (0.857941 --> 0.871675).  Saving model ...
+🔒 Epoch 5: freeze gate/dfgu
+[  5/200] train_loss: 0.44207 valid_loss: 0.45790 valid_AUC: 0.87592 valid_PRC: 0.75928 valid_Accuracy: 0.75195 valid_Precision: 0.53449 valid_Reacll: 0.86089 
+   📊 Modality Weights -> [2D] Drug:0.543, Prot:0.457 | [1D] Drug:0.448, Prot:0.552
+Have a new best checkpoint: (0.871675 --> 0.875920).  Saving model ...
+🔒 Epoch 6: freeze gate/dfgu
+[  6/200] train_loss: 0.42732 valid_loss: 0.41619 valid_AUC: 0.89128 valid_PRC: 0.78599 valid_Accuracy: 0.80054 valid_Precision: 0.60503 valid_Reacll: 0.82152 
+   📊 Modality Weights -> [2D] Drug:0.543, Prot:0.457 | [1D] Drug:0.448, Prot:0.552
+Have a new best checkpoint: (0.875920 --> 0.891280).  Saving model ...
+🔒 Epoch 7: freeze gate/dfgu
+[  7/200] train_loss: 0.39419 valid_loss: 0.43056 valid_AUC: 0.88145 valid_PRC: 0.76705 valid_Accuracy: 0.80054 valid_Precision: 0.61399 valid_Reacll: 0.76815 
+   📊 Modality Weights -> [2D] Drug:0.543, Prot:0.457 | [1D] Drug:0.448, Prot:0.552
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 8: freeze gate/dfgu
+[  8/200] train_loss: 0.38712 valid_loss: 0.40393 valid_AUC: 0.89761 valid_PRC: 0.79542 valid_Accuracy: 0.81812 valid_Precision: 0.63858 valid_Reacll: 0.80227 
+   📊 Modality Weights -> [2D] Drug:0.542, Prot:0.458 | [1D] Drug:0.448, Prot:0.552
+Have a new best checkpoint: (0.891280 --> 0.897609).  Saving model ...
+🔒 Epoch 9: freeze gate/dfgu
+[  9/200] train_loss: 0.35264 valid_loss: 0.41914 valid_AUC: 0.89405 valid_PRC: 0.78667 valid_Accuracy: 0.80591 valid_Precision: 0.61615 valid_Reacll: 0.80752 
+   📊 Modality Weights -> [2D] Drug:0.542, Prot:0.458 | [1D] Drug:0.448, Prot:0.552
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 10: freeze gate/dfgu
+[ 10/200] train_loss: 0.34723 valid_loss: 0.38825 valid_AUC: 0.90627 valid_PRC: 0.80910 valid_Accuracy: 0.81738 valid_Precision: 0.63175 valid_Reacll: 0.82852 
+   📊 Modality Weights -> [2D] Drug:0.542, Prot:0.458 | [1D] Drug:0.448, Prot:0.552
+Have a new best checkpoint: (0.897609 --> 0.906269).  Saving model ...
+🔓 Epoch 11: update gate/dfgu
+[ 11/200] train_loss: 0.44802 valid_loss: 0.42105 valid_AUC: 0.89528 valid_PRC: 0.79831 valid_Accuracy: 0.82690 valid_Precision: 0.67360 valid_Reacll: 0.73666 
+   📊 Modality Weights -> [2D] Drug:0.546, Prot:0.454 | [1D] Drug:0.451, Prot:0.549
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 12: freeze gate/dfgu
+[ 12/200] train_loss: 0.58882 valid_loss: 0.38901 valid_AUC: 0.91050 valid_PRC: 0.81649 valid_Accuracy: 0.82153 valid_Precision: 0.63752 valid_Reacll: 0.83552 
+   📊 Modality Weights -> [2D] Drug:0.548, Prot:0.452 | [1D] Drug:0.454, Prot:0.546
+Have a new best checkpoint: (0.906269 --> 0.910499).  Saving model ...
+🔒 Epoch 13: freeze gate/dfgu
+[ 13/200] train_loss: 0.67306 valid_loss: 0.42097 valid_AUC: 0.89694 valid_PRC: 0.78817 valid_Accuracy: 0.79761 valid_Precision: 0.59800 valid_Reacll: 0.83815 
+   📊 Modality Weights -> [2D] Drug:0.549, Prot:0.451 | [1D] Drug:0.454, Prot:0.546
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 14: freeze gate/dfgu
+[ 14/200] train_loss: 0.81601 valid_loss: 0.38773 valid_AUC: 0.91571 valid_PRC: 0.82354 valid_Accuracy: 0.84204 valid_Precision: 0.68076 valid_Reacll: 0.81715 
+   📊 Modality Weights -> [2D] Drug:0.551, Prot:0.449 | [1D] Drug:0.455, Prot:0.545
+Have a new best checkpoint: (0.910499 --> 0.915706).  Saving model ...
+🔒 Epoch 15: freeze gate/dfgu
+[ 15/200] train_loss: 0.88164 valid_loss: 0.42038 valid_AUC: 0.90494 valid_PRC: 0.80693 valid_Accuracy: 0.82275 valid_Precision: 0.64213 valid_Reacll: 0.82415 
+   📊 Modality Weights -> [2D] Drug:0.552, Prot:0.448 | [1D] Drug:0.455, Prot:0.545
+EarlyStopping counter: 1 out of 30
+🔓 Epoch 16: update gate/dfgu
+[ 16/200] train_loss: 1.02128 valid_loss: 0.41329 valid_AUC: 0.91536 valid_PRC: 0.82533 valid_Accuracy: 0.84204 valid_Precision: 0.68703 valid_Reacll: 0.79703 
+   📊 Modality Weights -> [2D] Drug:0.557, Prot:0.443 | [1D] Drug:0.456, Prot:0.544
+EarlyStopping counter: 2 out of 30
+🔒 Epoch 17: freeze gate/dfgu
+[ 17/200] train_loss: 1.07526 valid_loss: 0.46451 valid_AUC: 0.89881 valid_PRC: 0.78561 valid_Accuracy: 0.81348 valid_Precision: 0.62693 valid_Reacll: 0.81890 
+   📊 Modality Weights -> [2D] Drug:0.560, Prot:0.440 | [1D] Drug:0.459, Prot:0.541
+EarlyStopping counter: 3 out of 30
+🔒 Epoch 18: freeze gate/dfgu
+[ 18/200] train_loss: 1.21114 valid_loss: 0.44550 valid_AUC: 0.91544 valid_PRC: 0.82560 valid_Accuracy: 0.84448 valid_Precision: 0.69612 valid_Reacll: 0.78565 
+   📊 Modality Weights -> [2D] Drug:0.564, Prot:0.436 | [1D] Drug:0.459, Prot:0.541
+EarlyStopping counter: 4 out of 30
+🔒 Epoch 19: freeze gate/dfgu
+[ 19/200] train_loss: 1.25071 valid_loss: 0.50229 valid_AUC: 0.91135 valid_PRC: 0.80949 valid_Accuracy: 0.82593 valid_Precision: 0.64606 valid_Reacll: 0.83202 
+   📊 Modality Weights -> [2D] Drug:0.566, Prot:0.434 | [1D] Drug:0.459, Prot:0.541
+EarlyStopping counter: 5 out of 30
+🔒 Epoch 20: freeze gate/dfgu
+[ 20/200] train_loss: 1.38115 valid_loss: 0.47704 valid_AUC: 0.91802 valid_PRC: 0.82731 valid_Accuracy: 0.84717 valid_Precision: 0.69718 valid_Reacll: 0.79965 
+   📊 Modality Weights -> [2D] Drug:0.571, Prot:0.429 | [1D] Drug:0.459, Prot:0.541
+Have a new best checkpoint: (0.915706 --> 0.918019).  Saving model ...
+🔓 Epoch 21: update gate/dfgu
+[ 21/200] train_loss: 1.29230 valid_loss: 0.56169 valid_AUC: 0.90496 valid_PRC: 0.79273 valid_Accuracy: 0.84009 valid_Precision: 0.69063 valid_Reacll: 0.77340 
+   📊 Modality Weights -> [2D] Drug:0.574, Prot:0.426 | [1D] Drug:0.464, Prot:0.536
+EarlyStopping counter: 1 out of 30
+🔒 Epoch 22: freeze gate/dfgu
+[ 22/200] train_loss: 1.29785 valid_loss: 0.55071 valid_AUC: 0.91087 valid_PRC: 0.81846 valid_Accuracy: 0.85034 valid_Precision: 0.71615 valid_Reacll: 0.76815 
+   📊 Modality Weights -> [2D] Drug:0.579, Prot:0.421 | [1D] Drug:0.471, Prot:0.529
+EarlyStopping counter: 2 out of 30
+🔒 Epoch 23: freeze gate/dfgu
+[ 23/200] train_loss: 1.21235 valid_loss: 0.63763 valid_AUC: 0.90445 valid_PRC: 0.80359 valid_Accuracy: 0.84570 valid_Precision: 0.71098 valid_Reacll: 0.75328 
+   📊 Modality Weights -> [2D] Drug:0.582, Prot:0.418 | [1D] Drug:0.471, Prot:0.529
+EarlyStopping counter: 3 out of 30
+🔒 Epoch 24: freeze gate/dfgu
+[ 24/200] train_loss: 1.20688 valid_loss: 0.58233 valid_AUC: 0.91411 valid_PRC: 0.82116 valid_Accuracy: 0.84985 valid_Precision: 0.70561 valid_Reacll: 0.79265 
+   📊 Modality Weights -> [2D] Drug:0.587, Prot:0.413 | [1D] Drug:0.471, Prot:0.529
+EarlyStopping counter: 4 out of 30
+🔒 Epoch 25: freeze gate/dfgu
+[ 25/200] train_loss: 1.13997 valid_loss: 0.67772 valid_AUC: 0.90588 valid_PRC: 0.80256 valid_Accuracy: 0.84180 valid_Precision: 0.69976 valid_Reacll: 0.75853 
+   📊 Modality Weights -> [2D] Drug:0.590, Prot:0.410 | [1D] Drug:0.472, Prot:0.528
+EarlyStopping counter: 5 out of 30
+🔓 Epoch 26: update gate/dfgu
+[ 26/200] train_loss: 1.14459 valid_loss: 0.69547 valid_AUC: 0.90854 valid_PRC: 0.81289 valid_Accuracy: 0.83960 valid_Precision: 0.68692 valid_Reacll: 0.78128 
+   📊 Modality Weights -> [2D] Drug:0.597, Prot:0.403 | [1D] Drug:0.473, Prot:0.527
+EarlyStopping counter: 6 out of 30
+🔒 Epoch 27: freeze gate/dfgu
+[ 27/200] train_loss: 1.08101 valid_loss: 0.68982 valid_AUC: 0.91284 valid_PRC: 0.81998 valid_Accuracy: 0.84058 valid_Precision: 0.68175 valid_Reacll: 0.80402 
+   📊 Modality Weights -> [2D] Drug:0.599, Prot:0.401 | [1D] Drug:0.475, Prot:0.525
+EarlyStopping counter: 7 out of 30
+🔒 Epoch 28: freeze gate/dfgu
+[ 28/200] train_loss: 1.08634 valid_loss: 0.66391 valid_AUC: 0.91231 valid_PRC: 0.81877 valid_Accuracy: 0.84521 valid_Precision: 0.70055 valid_Reacll: 0.77778 
+   📊 Modality Weights -> [2D] Drug:0.604, Prot:0.396 | [1D] Drug:0.475, Prot:0.525
+EarlyStopping counter: 8 out of 30
+🔒 Epoch 29: freeze gate/dfgu
+[ 29/200] train_loss: 1.01999 valid_loss: 0.78032 valid_AUC: 0.90883 valid_PRC: 0.81175 valid_Accuracy: 0.84814 valid_Precision: 0.72515 valid_Reacll: 0.73403 
+   📊 Modality Weights -> [2D] Drug:0.608, Prot:0.392 | [1D] Drug:0.475, Prot:0.525
+EarlyStopping counter: 9 out of 30
+🔒 Epoch 30: freeze gate/dfgu
+[ 30/200] train_loss: 1.02511 valid_loss: 0.68601 valid_AUC: 0.91338 valid_PRC: 0.82577 valid_Accuracy: 0.85425 valid_Precision: 0.71945 valid_Reacll: 0.78303 
+   📊 Modality Weights -> [2D] Drug:0.613, Prot:0.387 | [1D] Drug:0.476, Prot:0.524
+EarlyStopping counter: 10 out of 30
+🔓 Epoch 31: update gate/dfgu
+[ 31/200] train_loss: 0.96570 valid_loss: 0.79231 valid_AUC: 0.90361 valid_PRC: 0.80647 valid_Accuracy: 0.83228 valid_Precision: 0.66427 valid_Reacll: 0.80665 
+   📊 Modality Weights -> [2D] Drug:0.615, Prot:0.385 | [1D] Drug:0.477, Prot:0.523
+EarlyStopping counter: 11 out of 30
+🔒 Epoch 32: freeze gate/dfgu
+[ 32/200] train_loss: 0.97199 valid_loss: 0.73653 valid_AUC: 0.91030 valid_PRC: 0.82118 valid_Accuracy: 0.85254 valid_Precision: 0.72000 valid_Reacll: 0.77165 
+   📊 Modality Weights -> [2D] Drug:0.616, Prot:0.384 | [1D] Drug:0.478, Prot:0.522
+EarlyStopping counter: 12 out of 30
+🔒 Epoch 33: freeze gate/dfgu
+[ 33/200] train_loss: 0.91061 valid_loss: 0.79051 valid_AUC: 0.90806 valid_PRC: 0.81807 valid_Accuracy: 0.84863 valid_Precision: 0.71174 valid_Reacll: 0.76903 
+   📊 Modality Weights -> [2D] Drug:0.617, Prot:0.383 | [1D] Drug:0.478, Prot:0.522
+EarlyStopping counter: 13 out of 30
+🔒 Epoch 34: freeze gate/dfgu
+[ 34/200] train_loss: 0.90993 valid_loss: 0.79425 valid_AUC: 0.90840 valid_PRC: 0.81639 valid_Accuracy: 0.84863 valid_Precision: 0.70970 valid_Reacll: 0.77428 
+   📊 Modality Weights -> [2D] Drug:0.618, Prot:0.382 | [1D] Drug:0.479, Prot:0.521
+EarlyStopping counter: 14 out of 30
+🔒 Epoch 35: freeze gate/dfgu
+[ 35/200] train_loss: 0.85192 valid_loss: 0.87649 valid_AUC: 0.91167 valid_PRC: 0.81846 valid_Accuracy: 0.85742 valid_Precision: 0.73468 valid_Reacll: 0.76553 
+   📊 Modality Weights -> [2D] Drug:0.619, Prot:0.381 | [1D] Drug:0.479, Prot:0.521
+EarlyStopping counter: 15 out of 30
+🔓 Epoch 36: update gate/dfgu
+[ 36/200] train_loss: 0.83135 valid_loss: 0.85455 valid_AUC: 0.90868 valid_PRC: 0.81234 valid_Accuracy: 0.85107 valid_Precision: 0.71269 valid_Reacll: 0.78128 
+   📊 Modality Weights -> [2D] Drug:0.621, Prot:0.379 | [1D] Drug:0.480, Prot:0.520
+EarlyStopping counter: 16 out of 30
+🔒 Epoch 37: freeze gate/dfgu
+[ 37/200] train_loss: 0.79796 valid_loss: 0.92756 valid_AUC: 0.90882 valid_PRC: 0.81128 valid_Accuracy: 0.85278 valid_Precision: 0.73560 valid_Reacll: 0.73753 
+   📊 Modality Weights -> [2D] Drug:0.622, Prot:0.378 | [1D] Drug:0.481, Prot:0.519
+EarlyStopping counter: 17 out of 30
+🔒 Epoch 38: freeze gate/dfgu
+[ 38/200] train_loss: 0.78006 valid_loss: 0.90538 valid_AUC: 0.90957 valid_PRC: 0.81912 valid_Accuracy: 0.85229 valid_Precision: 0.72643 valid_Reacll: 0.75503 
+   📊 Modality Weights -> [2D] Drug:0.624, Prot:0.376 | [1D] Drug:0.482, Prot:0.518
+EarlyStopping counter: 18 out of 30
+🔒 Epoch 39: freeze gate/dfgu
+[ 39/200] train_loss: 0.75076 valid_loss: 0.93898 valid_AUC: 0.89838 valid_PRC: 0.79344 valid_Accuracy: 0.83398 valid_Precision: 0.68044 valid_Reacll: 0.76378 
+   📊 Modality Weights -> [2D] Drug:0.624, Prot:0.376 | [1D] Drug:0.482, Prot:0.518
+EarlyStopping counter: 19 out of 30
+🔒 Epoch 40: freeze gate/dfgu
+[ 40/200] train_loss: 0.78527 valid_loss: 0.85075 valid_AUC: 0.90460 valid_PRC: 0.80719 valid_Accuracy: 0.84326 valid_Precision: 0.70316 valid_Reacll: 0.75853 
+   📊 Modality Weights -> [2D] Drug:0.626, Prot:0.374 | [1D] Drug:0.482, Prot:0.518
+EarlyStopping counter: 20 out of 30
+🔓 Epoch 41: update gate/dfgu
+[ 41/200] train_loss: 0.71982 valid_loss: 0.89377 valid_AUC: 0.90615 valid_PRC: 0.80988 valid_Accuracy: 0.84375 valid_Precision: 0.70072 valid_Reacll: 0.76815 
+   📊 Modality Weights -> [2D] Drug:0.627, Prot:0.373 | [1D] Drug:0.483, Prot:0.517
+EarlyStopping counter: 21 out of 30
+🔒 Epoch 42: freeze gate/dfgu
+[ 42/200] train_loss: 0.72064 valid_loss: 0.87819 valid_AUC: 0.90590 valid_PRC: 0.81143 valid_Accuracy: 0.84595 valid_Precision: 0.71441 valid_Reacll: 0.74628 
+   📊 Modality Weights -> [2D] Drug:0.628, Prot:0.372 | [1D] Drug:0.485, Prot:0.515
+EarlyStopping counter: 22 out of 30
+🔒 Epoch 43: freeze gate/dfgu
+[ 43/200] train_loss: 0.66360 valid_loss: 0.90760 valid_AUC: 0.89981 valid_PRC: 0.80097 valid_Accuracy: 0.83252 valid_Precision: 0.67040 valid_Reacll: 0.78653 
+   📊 Modality Weights -> [2D] Drug:0.629, Prot:0.371 | [1D] Drug:0.485, Prot:0.515
+EarlyStopping counter: 23 out of 30
+🔒 Epoch 44: freeze gate/dfgu
+[ 44/200] train_loss: 0.65595 valid_loss: 0.89472 valid_AUC: 0.90903 valid_PRC: 0.81575 valid_Accuracy: 0.84814 valid_Precision: 0.71511 valid_Reacll: 0.75766 
+   📊 Modality Weights -> [2D] Drug:0.630, Prot:0.370 | [1D] Drug:0.485, Prot:0.515
+EarlyStopping counter: 24 out of 30
+🔒 Epoch 45: freeze gate/dfgu
+[ 45/200] train_loss: 0.62424 valid_loss: 1.03778 valid_AUC: 0.90117 valid_PRC: 0.79719 valid_Accuracy: 0.84692 valid_Precision: 0.72280 valid_Reacll: 0.73228 
+   📊 Modality Weights -> [2D] Drug:0.631, Prot:0.369 | [1D] Drug:0.485, Prot:0.515
+EarlyStopping counter: 25 out of 30
+🔓 Epoch 46: update gate/dfgu
+[ 46/200] train_loss: 0.63922 valid_loss: 0.87691 valid_AUC: 0.90509 valid_PRC: 0.80719 valid_Accuracy: 0.84399 valid_Precision: 0.71176 valid_Reacll: 0.74103 
+   📊 Modality Weights -> [2D] Drug:0.632, Prot:0.368 | [1D] Drug:0.485, Prot:0.515
+EarlyStopping counter: 26 out of 30
+🔒 Epoch 47: freeze gate/dfgu
+[ 47/200] train_loss: 0.58571 valid_loss: 0.91633 valid_AUC: 0.90769 valid_PRC: 0.81134 valid_Accuracy: 0.84521 valid_Precision: 0.70641 valid_Reacll: 0.76203 
+   📊 Modality Weights -> [2D] Drug:0.633, Prot:0.367 | [1D] Drug:0.485, Prot:0.515
+EarlyStopping counter: 27 out of 30
+🔒 Epoch 48: freeze gate/dfgu
+[ 48/200] train_loss: 0.56582 valid_loss: 0.98158 valid_AUC: 0.90883 valid_PRC: 0.81799 valid_Accuracy: 0.85596 valid_Precision: 0.73653 valid_Reacll: 0.75328 
+   📊 Modality Weights -> [2D] Drug:0.634, Prot:0.366 | [1D] Drug:0.486, Prot:0.514
+EarlyStopping counter: 28 out of 30
+🔒 Epoch 49: freeze gate/dfgu
+[ 49/200] train_loss: 0.54361 valid_loss: 0.94828 valid_AUC: 0.91065 valid_PRC: 0.81539 valid_Accuracy: 0.84570 valid_Precision: 0.69400 valid_Reacll: 0.79965 
+   📊 Modality Weights -> [2D] Drug:0.635, Prot:0.365 | [1D] Drug:0.486, Prot:0.514
+EarlyStopping counter: 29 out of 30
+🔒 Epoch 50: freeze gate/dfgu
+[ 50/200] train_loss: 0.52971 valid_loss: 1.07919 valid_AUC: 0.90465 valid_PRC: 0.81342 valid_Accuracy: 0.84888 valid_Precision: 0.73023 valid_Reacll: 0.72703 
+   📊 Modality Weights -> [2D] Drug:0.636, Prot:0.364 | [1D] Drug:0.487, Prot:0.513
+EarlyStopping counter: 30 out of 30
+  0%|          | 0/128 [00:00<?, ?it/s]  1%|          | 1/128 [00:00<00:52,  2.44it/s]  2%|▏         | 2/128 [00:00<00:39,  3.16it/s]  2%|▏         | 3/128 [00:00<00:35,  3.50it/s]  3%|▎         | 4/128 [00:01<00:33,  3.71it/s]  4%|▍         | 5/128 [00:01<00:31,  3.85it/s]  5%|▍         | 6/128 [00:01<00:30,  3.99it/s]  5%|▌         | 7/128 [00:01<00:29,  4.06it/s]  6%|▋         | 8/128 [00:02<00:29,  4.06it/s]  7%|▋         | 9/128 [00:02<00:29,  4.03it/s]  8%|▊         | 10/128 [00:02<00:29,  4.05it/s]  9%|▊         | 11/128 [00:02<00:29,  4.03it/s]  9%|▉         | 12/128 [00:03<00:28,  4.07it/s] 10%|█         | 13/128 [00:03<00:27,  4.12it/s] 11%|█         | 14/128 [00:03<00:27,  4.11it/s] 12%|█▏        | 15/128 [00:03<00:27,  4.13it/s] 12%|█▎        | 16/128 [00:04<00:27,  4.13it/s] 13%|█▎        | 17/128 [00:04<00:27,  4.08it/s] 14%|█▍        | 18/128 [00:04<00:26,  4.12it/s] 15%|█▍        | 19/128 [00:04<00:26,  4.08it/s] 16%|█▌        | 20/128 [00:05<00:26,  4.09it/s] 16%|█▋        | 21/128 [00:05<00:26,  4.11it/s] 17%|█▋        | 22/128 [00:05<00:26,  4.04it/s] 18%|█▊        | 23/128 [00:05<00:26,  4.01it/s] 19%|█▉        | 24/128 [00:06<00:26,  3.98it/s] 20%|█▉        | 25/128 [00:06<00:25,  4.01it/s] 20%|██        | 26/128 [00:06<00:25,  4.01it/s] 21%|██        | 27/128 [00:06<00:24,  4.07it/s] 22%|██▏       | 28/128 [00:07<00:24,  4.03it/s] 23%|██▎       | 29/128 [00:07<00:24,  4.04it/s] 23%|██▎       | 30/128 [00:07<00:24,  4.04it/s] 24%|██▍       | 31/128 [00:07<00:24,  3.91it/s] 25%|██▌       | 32/128 [00:08<00:24,  3.94it/s] 26%|██▌       | 33/128 [00:08<00:23,  3.99it/s] 27%|██▋       | 34/128 [00:08<00:23,  4.01it/s] 27%|██▋       | 35/128 [00:08<00:23,  4.03it/s] 28%|██▊       | 36/128 [00:09<00:23,  3.91it/s] 29%|██▉       | 37/128 [00:09<00:23,  3.93it/s] 30%|██▉       | 38/128 [00:09<00:22,  3.94it/s] 30%|███       | 39/128 [00:09<00:23,  3.84it/s] 31%|███▏      | 40/128 [00:10<00:22,  3.87it/s] 32%|███▏      | 41/128 [00:10<00:22,  3.90it/s] 33%|███▎      | 42/128 [00:10<00:21,  3.93it/s] 34%|███▎      | 43/128 [00:10<00:21,  3.96it/s] 34%|███▍      | 44/128 [00:11<00:20,  4.03it/s] 35%|███▌      | 45/128 [00:11<00:21,  3.92it/s] 36%|███▌      | 46/128 [00:11<00:21,  3.83it/s] 37%|███▋      | 47/128 [00:11<00:20,  3.90it/s] 38%|███▊      | 48/128 [00:12<00:21,  3.74it/s] 38%|███▊      | 49/128 [00:12<00:20,  3.81it/s] 39%|███▉      | 50/128 [00:12<00:20,  3.87it/s] 40%|███▉      | 51/128 [00:12<00:19,  3.87it/s] 41%|████      | 52/128 [00:13<00:19,  3.97it/s] 41%|████▏     | 53/128 [00:13<00:19,  3.94it/s] 42%|████▏     | 54/128 [00:13<00:19,  3.88it/s] 43%|████▎     | 55/128 [00:13<00:18,  3.90it/s] 44%|████▍     | 56/128 [00:14<00:18,  3.82it/s] 45%|████▍     | 57/128 [00:14<00:18,  3.79it/s] 45%|████▌     | 58/128 [00:14<00:18,  3.81it/s] 46%|████▌     | 59/128 [00:15<00:17,  3.84it/s] 47%|████▋     | 60/128 [00:15<00:17,  3.92it/s] 48%|████▊     | 61/128 [00:15<00:17,  3.93it/s] 48%|████▊     | 62/128 [00:15<00:16,  3.91it/s] 49%|████▉     | 63/128 [00:16<00:16,  3.87it/s] 50%|█████     | 64/128 [00:16<00:16,  3.87it/s] 51%|█████     | 65/128 [00:16<00:16,  3.83it/s] 52%|█████▏    | 66/128 [00:16<00:16,  3.83it/s] 52%|█████▏    | 67/128 [00:17<00:15,  3.85it/s] 53%|█████▎    | 68/128 [00:17<00:15,  3.86it/s] 54%|█████▍    | 69/128 [00:17<00:15,  3.83it/s] 55%|█████▍    | 70/128 [00:17<00:14,  3.91it/s] 55%|█████▌    | 71/128 [00:18<00:14,  3.85it/s] 56%|█████▋    | 72/128 [00:18<00:14,  3.82it/s] 57%|█████▋    | 73/128 [00:18<00:14,  3.92it/s] 58%|█████▊    | 74/128 [00:18<00:13,  3.86it/s] 59%|█████▊    | 75/128 [00:19<00:13,  3.86it/s] 59%|█████▉    | 76/128 [00:19<00:13,  3.83it/s] 60%|██████    | 77/128 [00:19<00:13,  3.82it/s] 61%|██████    | 78/128 [00:19<00:12,  3.89it/s] 62%|██████▏   | 79/128 [00:20<00:12,  3.87it/s] 62%|██████▎   | 80/128 [00:20<00:12,  3.86it/s] 63%|██████▎   | 81/128 [00:20<00:12,  3.87it/s] 64%|██████▍   | 82/128 [00:20<00:11,  3.84it/s] 65%|██████▍   | 83/128 [00:21<00:11,  3.84it/s] 66%|██████▌   | 84/128 [00:21<00:11,  3.86it/s] 66%|██████▋   | 85/128 [00:21<00:11,  3.78it/s] 67%|██████▋   | 86/128 [00:22<00:11,  3.74it/s] 68%|██████▊   | 87/128 [00:22<00:11,  3.73it/s] 69%|██████▉   | 88/128 [00:22<00:10,  3.70it/s] 70%|██████▉   | 89/128 [00:22<00:10,  3.73it/s] 70%|███████   | 90/128 [00:23<00:10,  3.67it/s] 71%|███████   | 91/128 [00:23<00:10,  3.69it/s] 72%|███████▏  | 92/128 [00:23<00:09,  3.70it/s] 73%|███████▎  | 93/128 [00:23<00:09,  3.73it/s] 73%|███████▎  | 94/128 [00:24<00:08,  3.80it/s] 74%|███████▍  | 95/128 [00:24<00:08,  3.76it/s] 75%|███████▌  | 96/128 [00:24<00:08,  3.77it/s] 76%|███████▌  | 97/128 [00:24<00:08,  3.67it/s] 77%|███████▋  | 98/128 [00:25<00:08,  3.72it/s] 77%|███████▋  | 99/128 [00:25<00:08,  3.25it/s] 78%|███████▊  | 100/128 [00:25<00:08,  3.36it/s] 79%|███████▉  | 101/128 [00:26<00:09,  2.82it/s] 80%|███████▉  | 102/128 [00:26<00:08,  3.03it/s] 80%|████████  | 103/128 [00:26<00:07,  3.18it/s] 81%|████████▏ | 104/128 [00:27<00:07,  3.30it/s] 82%|████████▏ | 105/128 [00:27<00:06,  3.39it/s] 83%|████████▎ | 106/128 [00:27<00:06,  3.47it/s] 84%|████████▎ | 107/128 [00:28<00:05,  3.58it/s] 84%|████████▍ | 108/128 [00:28<00:05,  3.67it/s] 85%|████████▌ | 109/128 [00:28<00:05,  3.62it/s] 86%|████████▌ | 110/128 [00:28<00:04,  3.62it/s] 87%|████████▋ | 111/128 [00:29<00:04,  3.63it/s] 88%|████████▊ | 112/128 [00:29<00:04,  3.66it/s] 88%|████████▊ | 113/128 [00:29<00:04,  3.69it/s] 89%|████████▉ | 114/128 [00:29<00:03,  3.83it/s] 90%|████████▉ | 115/128 [00:30<00:03,  3.78it/s] 91%|█████████ | 116/128 [00:30<00:03,  3.74it/s] 91%|█████████▏| 117/128 [00:30<00:02,  3.69it/s] 92%|█████████▏| 118/128 [00:31<00:02,  3.67it/s] 93%|█████████▎| 119/128 [00:31<00:02,  3.67it/s] 94%|█████████▍| 120/128 [00:31<00:02,  3.70it/s] 95%|█████████▍| 121/128 [00:31<00:01,  3.67it/s] 95%|█████████▌| 122/128 [00:32<00:01,  3.65it/s] 96%|█████████▌| 123/128 [00:32<00:01,  3.68it/s] 97%|█████████▋| 124/128 [00:32<00:01,  3.66it/s] 98%|█████████▊| 125/128 [00:32<00:00,  3.60it/s] 98%|█████████▊| 126/128 [00:33<00:00,  3.59it/s] 99%|█████████▉| 127/128 [00:33<00:00,  3.69it/s]100%|██████████| 128/128 [00:33<00:00,  3.75it/s]100%|██████████| 128/128 [00:33<00:00,  3.80it/s]
+Train: Loss:0.05480;Accuracy:0.98248;Precision:0.94548;Recall:0.99616;AUC:0.99902;PRC:0.99746.
+  0%|          | 0/32 [00:00<?, ?it/s]  3%|▎         | 1/32 [00:00<00:13,  2.33it/s]  6%|▋         | 2/32 [00:00<00:10,  2.98it/s]  9%|▉         | 3/32 [00:00<00:08,  3.41it/s] 12%|█▎        | 4/32 [00:01<00:07,  3.66it/s] 16%|█▌        | 5/32 [00:01<00:07,  3.84it/s] 19%|█▉        | 6/32 [00:01<00:06,  3.87it/s] 22%|██▏       | 7/32 [00:01<00:06,  3.90it/s] 25%|██▌       | 8/32 [00:02<00:06,  3.95it/s] 28%|██▊       | 9/32 [00:02<00:05,  4.01it/s] 31%|███▏      | 10/32 [00:02<00:05,  3.98it/s] 34%|███▍      | 11/32 [00:02<00:05,  3.87it/s] 38%|███▊      | 12/32 [00:03<00:05,  3.88it/s] 41%|████      | 13/32 [00:03<00:04,  3.90it/s] 44%|████▍     | 14/32 [00:03<00:04,  3.92it/s] 47%|████▋     | 15/32 [00:03<00:04,  3.94it/s] 50%|█████     | 16/32 [00:04<00:04,  3.97it/s] 53%|█████▎    | 17/32 [00:04<00:03,  3.97it/s] 56%|█████▋    | 18/32 [00:04<00:03,  4.00it/s] 59%|█████▉    | 19/32 [00:04<00:03,  3.90it/s] 62%|██████▎   | 20/32 [00:05<00:03,  3.83it/s] 66%|██████▌   | 21/32 [00:05<00:02,  3.90it/s] 69%|██████▉   | 22/32 [00:05<00:02,  3.98it/s] 72%|███████▏  | 23/32 [00:06<00:02,  3.84it/s] 75%|███████▌  | 24/32 [00:06<00:02,  3.78it/s] 78%|███████▊  | 25/32 [00:06<00:01,  3.71it/s] 81%|████████▏ | 26/32 [00:06<00:01,  3.80it/s] 84%|████████▍ | 27/32 [00:07<00:01,  3.87it/s] 88%|████████▊ | 28/32 [00:07<00:01,  3.93it/s] 91%|█████████ | 29/32 [00:07<00:00,  3.92it/s] 94%|█████████▍| 30/32 [00:07<00:00,  3.37it/s] 97%|█████████▋| 31/32 [00:08<00:00,  3.33it/s]100%|██████████| 32/32 [00:08<00:00,  3.55it/s]100%|██████████| 32/32 [00:08<00:00,  3.76it/s]
+Valid: Loss:0.47704;Accuracy:0.84717;Precision:0.69718;Recall:0.79965;AUC:0.91802;PRC:0.82731.
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:00<00:16,  2.37it/s]  5%|▌         | 2/40 [00:00<00:12,  2.99it/s]  8%|▊         | 3/40 [00:00<00:11,  3.33it/s] 10%|█         | 4/40 [00:01<00:10,  3.54it/s] 12%|█▎        | 5/40 [00:01<00:09,  3.69it/s] 15%|█▌        | 6/40 [00:01<00:09,  3.76it/s] 18%|█▊        | 7/40 [00:01<00:08,  3.82it/s] 20%|██        | 8/40 [00:02<00:08,  3.72it/s] 22%|██▎       | 9/40 [00:02<00:08,  3.74it/s] 25%|██▌       | 10/40 [00:02<00:07,  3.79it/s] 28%|██▊       | 11/40 [00:03<00:07,  3.75it/s] 30%|███       | 12/40 [00:03<00:07,  3.79it/s] 32%|███▎      | 13/40 [00:03<00:07,  3.82it/s] 35%|███▌      | 14/40 [00:03<00:06,  3.88it/s] 38%|███▊      | 15/40 [00:04<00:06,  3.80it/s] 40%|████      | 16/40 [00:04<00:06,  3.73it/s] 42%|████▎     | 17/40 [00:04<00:06,  3.69it/s] 45%|████▌     | 18/40 [00:04<00:05,  3.79it/s] 48%|████▊     | 19/40 [00:05<00:05,  3.67it/s] 50%|█████     | 20/40 [00:05<00:05,  3.67it/s] 52%|█████▎    | 21/40 [00:05<00:05,  3.60it/s] 55%|█████▌    | 22/40 [00:06<00:05,  3.57it/s] 57%|█████▊    | 23/40 [00:06<00:04,  3.47it/s] 60%|██████    | 24/40 [00:06<00:04,  3.51it/s] 62%|██████▎   | 25/40 [00:06<00:04,  3.49it/s] 65%|██████▌   | 26/40 [00:07<00:04,  3.46it/s] 68%|██████▊   | 27/40 [00:07<00:03,  3.47it/s] 70%|███████   | 28/40 [00:07<00:03,  3.46it/s] 72%|███████▎  | 29/40 [00:08<00:03,  3.43it/s] 75%|███████▌  | 30/40 [00:08<00:02,  3.51it/s] 78%|███████▊  | 31/40 [00:08<00:02,  3.53it/s] 80%|████████  | 32/40 [00:08<00:02,  3.54it/s] 82%|████████▎ | 33/40 [00:09<00:01,  3.57it/s] 85%|████████▌ | 34/40 [00:09<00:01,  3.55it/s] 88%|████████▊ | 35/40 [00:09<00:01,  3.63it/s] 90%|█████████ | 36/40 [00:10<00:01,  3.62it/s] 92%|█████████▎| 37/40 [00:10<00:00,  3.57it/s] 95%|█████████▌| 38/40 [00:10<00:00,  3.54it/s] 98%|█████████▊| 39/40 [00:10<00:00,  3.65it/s]100%|██████████| 40/40 [00:11<00:00,  3.70it/s]100%|██████████| 40/40 [00:11<00:00,  3.60it/s]
+Test: Loss:0.50235;Accuracy:0.84863;Precision:0.71447;Recall:0.77602;AUC:0.91203;PRC:0.82967.
+🚀 Generating interpretability reports for Davis...
+📊 解释性报告已成功导出至: /home/liumeiling/xjl/DTI/IMDF-DTI/Davis/5/interpretability_report
+✅ Interpretability reports (Heatmaps) saved to: ./Davis/5/interpretability_report
+The model's results:
+Accuracy(std):0.8532(0.0000)
+Precision(std):0.7214(0.0001)
+Recall(std):0.7859(0.0007)
+AUC(std):0.9164(0.0000)
+PRC(std):0.8346(0.0000)

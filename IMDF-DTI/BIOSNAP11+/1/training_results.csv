@@ -1,0 +1,2 @@
+Epoch,Train_Loss,Valid_Loss,Valid_AUC,Valid_PRC,Accuracy,Drug_Weight_2D,Prot_Weight_2D
+1,0.60497,0.51856,0.82947,0.85563,0.74265,0.378,0.622

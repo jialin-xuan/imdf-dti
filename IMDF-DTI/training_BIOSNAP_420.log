@@ -1,0 +1,81 @@
+/home/liumeiling/apps/miniconda3_clean/envs/IMDF/lib/python3.10/site-packages/requests/__init__.py:109: RequestsDependencyWarning: urllib3 (1.26.13) or chardet (None)/charset_normalizer (3.4.7) doesn't match a supported version!
+  warnings.warn(
+Using device: cuda:0
+GPU Name: NVIDIA A100 80GB PCIe
+Memory Allocated: 0.00 MB
+Train in BIOSNAP
+load data
+load finished
+data shuffle
+Number of Train&Val set: 21961
+Number of Test set: 5489
+Loading Protein Graph data...
+Loading Ligand Graph data...
+************************* No. 1 -fold *************************
+Training...
+[  1/200] train_loss: 0.61511 valid_loss: 0.53575 valid_AUC: 0.80562 valid_PRC: 0.83161 valid_Accuracy: 0.70680 valid_Precision: 0.81279 valid_Reacll: 0.55416 
+   📊 Modality Weights -> [2D] Drug:0.433, Prot:0.567 | [1D] Drug:0.623, Prot:0.377
+Have a new best checkpoint: (-inf --> 0.805617).  Saving model ...
+[  2/200] train_loss: 0.50010 valid_loss: 0.47302 valid_AUC: 0.86115 valid_PRC: 0.87878 valid_Accuracy: 0.77091 valid_Precision: 0.87033 valid_Reacll: 0.64854 
+   📊 Modality Weights -> [2D] Drug:0.459, Prot:0.541 | [1D] Drug:0.617, Prot:0.383
+Have a new best checkpoint: (0.805617 --> 0.861151).  Saving model ...
+[  3/200] train_loss: 0.43397 valid_loss: 0.46561 valid_AUC: 0.86843 valid_PRC: 0.88161 valid_Accuracy: 0.78194 valid_Precision: 0.86583 valid_Reacll: 0.67865 
+   📊 Modality Weights -> [2D] Drug:0.481, Prot:0.519 | [1D] Drug:0.617, Prot:0.383
+Have a new best checkpoint: (0.861151 --> 0.868428).  Saving model ...
+[  4/200] train_loss: 0.40655 valid_loss: 0.42519 valid_AUC: 0.88871 valid_PRC: 0.89818 valid_Accuracy: 0.80308 valid_Precision: 0.79662 valid_Reacll: 0.82562 
+   📊 Modality Weights -> [2D] Drug:0.498, Prot:0.502 | [1D] Drug:0.624, Prot:0.376
+Have a new best checkpoint: (0.868428 --> 0.888707).  Saving model ...
+[  5/200] train_loss: 0.35201 valid_loss: 0.47563 valid_AUC: 0.86798 valid_PRC: 0.87775 valid_Accuracy: 0.77642 valid_Precision: 0.84320 valid_Reacll: 0.69124 
+   📊 Modality Weights -> [2D] Drug:0.512, Prot:0.488 | [1D] Drug:0.624, Prot:0.376
+EarlyStopping counter: 1 out of 30
+[  6/200] train_loss: 0.34687 valid_loss: 0.39367 valid_AUC: 0.90588 valid_PRC: 0.91392 valid_Accuracy: 0.82330 valid_Precision: 0.82241 valid_Reacll: 0.83461 
+   📊 Modality Weights -> [2D] Drug:0.527, Prot:0.473 | [1D] Drug:0.623, Prot:0.377
+Have a new best checkpoint: (0.888707 --> 0.905878).  Saving model ...
+[  7/200] train_loss: 0.28138 valid_loss: 0.43794 valid_AUC: 0.88792 valid_PRC: 0.89824 valid_Accuracy: 0.80744 valid_Precision: 0.82422 valid_Reacll: 0.79236 
+   📊 Modality Weights -> [2D] Drug:0.551, Prot:0.449 | [1D] Drug:0.621, Prot:0.379
+EarlyStopping counter: 1 out of 30
+[  8/200] train_loss: 0.26873 valid_loss: 0.39842 valid_AUC: 0.91043 valid_PRC: 0.92027 valid_Accuracy: 0.83364 valid_Precision: 0.85485 valid_Reacll: 0.81258 
+   📊 Modality Weights -> [2D] Drug:0.582, Prot:0.418 | [1D] Drug:0.621, Prot:0.379
+Have a new best checkpoint: (0.905878 --> 0.910429).  Saving model ...
+[  9/200] train_loss: 0.19511 valid_loss: 0.51138 valid_AUC: 0.89139 valid_PRC: 0.90429 valid_Accuracy: 0.80331 valid_Precision: 0.86546 valid_Reacll: 0.72854 
+   📊 Modality Weights -> [2D] Drug:0.611, Prot:0.389 | [1D] Drug:0.620, Prot:0.380
+EarlyStopping counter: 1 out of 30
+[ 10/200] train_loss: 0.19619 valid_loss: 0.41417 valid_AUC: 0.91599 valid_PRC: 0.92550 valid_Accuracy: 0.83961 valid_Precision: 0.84657 valid_Reacll: 0.83820 
+   📊 Modality Weights -> [2D] Drug:0.634, Prot:0.366 | [1D] Drug:0.620, Prot:0.380
+Have a new best checkpoint: (0.910429 --> 0.915986).  Saving model ...
+[ 11/200] train_loss: 0.12009 valid_loss: 0.50117 valid_AUC: 0.90474 valid_PRC: 0.91551 valid_Accuracy: 0.81985 valid_Precision: 0.87158 valid_Reacll: 0.75955 
+   📊 Modality Weights -> [2D] Drug:0.658, Prot:0.342 | [1D] Drug:0.619, Prot:0.381
+EarlyStopping counter: 1 out of 30
+[ 12/200] train_loss: 0.15116 valid_loss: 0.47837 valid_AUC: 0.91487 valid_PRC: 0.92346 valid_Accuracy: 0.84421 valid_Precision: 0.86851 valid_Reacll: 0.81933 
+   📊 Modality Weights -> [2D] Drug:0.679, Prot:0.321 | [1D] Drug:0.618, Prot:0.382
+EarlyStopping counter: 2 out of 30
+[ 13/200] train_loss: 0.06947 valid_loss: 0.54225 valid_AUC: 0.90101 valid_PRC: 0.91211 valid_Accuracy: 0.81756 valid_Precision: 0.80050 valid_Reacll: 0.85663 
+   📊 Modality Weights -> [2D] Drug:0.697, Prot:0.303 | [1D] Drug:0.618, Prot:0.382
+EarlyStopping counter: 3 out of 30
+[ 14/200] train_loss: 0.10320 valid_loss: 0.53633 valid_AUC: 0.91575 valid_PRC: 0.92471 valid_Accuracy: 0.84697 valid_Precision: 0.86005 valid_Reacll: 0.83685 
+   📊 Modality Weights -> [2D] Drug:0.711, Prot:0.289 | [1D] Drug:0.616, Prot:0.384
+EarlyStopping counter: 4 out of 30
+[ 15/200] train_loss: 0.03562 valid_loss: 0.66168 valid_AUC: 0.90320 valid_PRC: 0.91407 valid_Accuracy: 0.81985 valid_Precision: 0.79372 valid_Reacll: 0.87506 
+   📊 Modality Weights -> [2D] Drug:0.719, Prot:0.281 | [1D] Drug:0.615, Prot:0.385
+EarlyStopping counter: 5 out of 30
+[ 16/200] train_loss: 0.08138 valid_loss: 0.57063 valid_AUC: 0.91899 valid_PRC: 0.92953 valid_Accuracy: 0.84490 valid_Precision: 0.87011 valid_Reacll: 0.81888 
+   📊 Modality Weights -> [2D] Drug:0.729, Prot:0.271 | [1D] Drug:0.616, Prot:0.384
+Have a new best checkpoint: (0.915986 --> 0.918992).  Saving model ...
+[ 17/200] train_loss: 0.02644 valid_loss: 0.68188 valid_AUC: 0.91095 valid_PRC: 0.91881 valid_Accuracy: 0.83686 valid_Precision: 0.86577 valid_Reacll: 0.80584 
+   📊 Modality Weights -> [2D] Drug:0.733, Prot:0.267 | [1D] Drug:0.613, Prot:0.387
+EarlyStopping counter: 1 out of 30
+[ 18/200] train_loss: 0.06533 valid_loss: 0.63358 valid_AUC: 0.91851 valid_PRC: 0.92697 valid_Accuracy: 0.85087 valid_Precision: 0.87311 valid_Reacll: 0.82876 
+   📊 Modality Weights -> [2D] Drug:0.747, Prot:0.253 | [1D] Drug:0.616, Prot:0.384
+EarlyStopping counter: 2 out of 30
+[ 19/200] train_loss: 0.01809 valid_loss: 0.71647 valid_AUC: 0.91126 valid_PRC: 0.91918 valid_Accuracy: 0.83915 valid_Precision: 0.84208 valid_Reacll: 0.84360 
+   📊 Modality Weights -> [2D] Drug:0.754, Prot:0.246 | [1D] Drug:0.617, Prot:0.383
+EarlyStopping counter: 3 out of 30
+[ 20/200] train_loss: 0.04691 valid_loss: 0.67339 valid_AUC: 0.91885 valid_PRC: 0.92671 valid_Accuracy: 0.84766 valid_Precision: 0.86024 valid_Reacll: 0.83820 
+   📊 Modality Weights -> [2D] Drug:0.750, Prot:0.250 | [1D] Drug:0.611, Prot:0.389
+EarlyStopping counter: 4 out of 30
+Traceback (most recent call last):
+  File "/home/liumeiling/xjl/DTI/IMDF-DTI/main.py", line 36, in <module>
+    run_MIF_model(SEED=args.seed, DATASET=args.dataSetName,
+  File "/home/liumeiling/xjl/DTI/IMDF-DTI/RunModel.py", line 256, in run_MIF_model
+    train_loss = train_loss + hp.lambda_balance * balance_loss
+AttributeError: 'hyperparameter' object has no attribute 'lambda_balance'

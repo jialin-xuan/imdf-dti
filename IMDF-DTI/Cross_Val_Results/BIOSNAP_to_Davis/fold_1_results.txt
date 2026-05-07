@@ -1,0 +1,9 @@
+Source Dataset: BIOSNAP
+Target Dataset: Davis
+Fold Index: 1
+------------------------------
+ROC-AUC: 0.50424
+AUPRC: 0.27840
+Accuracy: 0.65765
+Precision: 0.24671
+Recall: 0.10000

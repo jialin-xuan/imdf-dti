@@ -1,0 +1,1115 @@
+nohup: 忽略输入
+/home/liumeiling/apps/miniconda3_clean/envs/IMDF/lib/python3.10/site-packages/requests/__init__.py:109: RequestsDependencyWarning: urllib3 (1.26.13) or chardet (None)/charset_normalizer (3.4.7) doesn't match a supported version!
+  warnings.warn(
+Using device: cuda:0
+GPU Name: NVIDIA A100 80GB PCIe
+Memory Allocated: 0.00 MB
+Train in Davis
+load data
+load finished
+data shuffle
+Number of Train&Val set: 20618
+Number of Test set: 5153
+Loading Protein Graph data...
+Loading Ligand Graph data...
+************************* No. 1 -fold *************************
+Training...
+[  1/200] train_loss: 0.62565 valid_loss: 0.55652 valid_AUC: 0.79929 valid_PRC: 0.63919 valid_Accuracy: 0.76929 valid_Precision: 0.60137 valid_Reacll: 0.59272 
+   📊 Modality Weights -> [2D] Drug:0.418, Prot:0.582 | [1D] Drug:0.693, Prot:0.307
+Have a new best checkpoint: (-inf --> 0.799288).  Saving model ...
+[  2/200] train_loss: 0.51582 valid_loss: 0.49147 valid_AUC: 0.84205 valid_PRC: 0.71249 valid_Accuracy: 0.77930 valid_Precision: 0.59928 valid_Reacll: 0.70787 
+   📊 Modality Weights -> [2D] Drug:0.370, Prot:0.630 | [1D] Drug:0.775, Prot:0.225
+Have a new best checkpoint: (0.799288 --> 0.842048).  Saving model ...
+[  3/200] train_loss: 0.47840 valid_loss: 0.53092 valid_AUC: 0.84070 valid_PRC: 0.70602 valid_Accuracy: 0.80176 valid_Precision: 0.69565 valid_Reacll: 0.55546 
+   📊 Modality Weights -> [2D] Drug:0.385, Prot:0.615 | [1D] Drug:0.784, Prot:0.216
+EarlyStopping counter: 1 out of 30
+[  4/200] train_loss: 0.46860 valid_loss: 0.47360 valid_AUC: 0.85405 valid_PRC: 0.72906 valid_Accuracy: 0.78760 valid_Precision: 0.61068 valid_Reacll: 0.72650 
+   📊 Modality Weights -> [2D] Drug:0.402, Prot:0.598 | [1D] Drug:0.793, Prot:0.207
+Have a new best checkpoint: (0.842048 --> 0.854048).  Saving model ...
+[  5/200] train_loss: 0.44741 valid_loss: 0.47798 valid_AUC: 0.85210 valid_PRC: 0.72616 valid_Accuracy: 0.74585 valid_Precision: 0.54028 valid_Reacll: 0.79509 
+   📊 Modality Weights -> [2D] Drug:0.406, Prot:0.594 | [1D] Drug:0.801, Prot:0.199
+EarlyStopping counter: 1 out of 30
+[  6/200] train_loss: 0.43348 valid_loss: 0.44123 valid_AUC: 0.87563 valid_PRC: 0.75949 valid_Accuracy: 0.80786 valid_Precision: 0.64255 valid_Reacll: 0.75191 
+   📊 Modality Weights -> [2D] Drug:0.417, Prot:0.583 | [1D] Drug:0.813, Prot:0.187
+Have a new best checkpoint: (0.854048 --> 0.875629).  Saving model ...
+[  7/200] train_loss: 0.40221 valid_loss: 0.46874 valid_AUC: 0.86650 valid_PRC: 0.75258 valid_Accuracy: 0.80981 valid_Precision: 0.67092 valid_Reacll: 0.66808 
+   📊 Modality Weights -> [2D] Drug:0.445, Prot:0.555 | [1D] Drug:0.823, Prot:0.177
+EarlyStopping counter: 1 out of 30
+[  8/200] train_loss: 0.39001 valid_loss: 0.42395 valid_AUC: 0.89422 valid_PRC: 0.78901 valid_Accuracy: 0.83594 valid_Precision: 0.70809 valid_Reacll: 0.73328 
+   📊 Modality Weights -> [2D] Drug:0.490, Prot:0.510 | [1D] Drug:0.835, Prot:0.165
+Have a new best checkpoint: (0.875629 --> 0.894225).  Saving model ...
+[  9/200] train_loss: 0.35637 valid_loss: 0.50899 valid_AUC: 0.86810 valid_PRC: 0.75636 valid_Accuracy: 0.81665 valid_Precision: 0.74600 valid_Reacll: 0.55207 
+   📊 Modality Weights -> [2D] Drug:0.521, Prot:0.479 | [1D] Drug:0.845, Prot:0.155
+EarlyStopping counter: 1 out of 30
+[ 10/200] train_loss: 0.34887 valid_loss: 0.41229 valid_AUC: 0.89818 valid_PRC: 0.80034 valid_Accuracy: 0.82910 valid_Precision: 0.67542 valid_Reacll: 0.78408 
+   📊 Modality Weights -> [2D] Drug:0.554, Prot:0.446 | [1D] Drug:0.858, Prot:0.142
+Have a new best checkpoint: (0.894225 --> 0.898178).  Saving model ...
+[ 11/200] train_loss: 0.30554 valid_loss: 0.43328 valid_AUC: 0.88900 valid_PRC: 0.78399 valid_Accuracy: 0.81543 valid_Precision: 0.64933 valid_Reacll: 0.78239 
+   📊 Modality Weights -> [2D] Drug:0.590, Prot:0.410 | [1D] Drug:0.872, Prot:0.128
+EarlyStopping counter: 1 out of 30
+[ 12/200] train_loss: 0.30184 valid_loss: 0.41301 valid_AUC: 0.89880 valid_PRC: 0.80501 valid_Accuracy: 0.82666 valid_Precision: 0.66714 valid_Reacll: 0.79594 
+   📊 Modality Weights -> [2D] Drug:0.626, Prot:0.374 | [1D] Drug:0.887, Prot:0.113
+Have a new best checkpoint: (0.898178 --> 0.898800).  Saving model ...
+[ 13/200] train_loss: 0.25460 valid_loss: 0.43342 valid_AUC: 0.88998 valid_PRC: 0.78767 valid_Accuracy: 0.81421 valid_Precision: 0.64979 valid_Reacll: 0.77138 
+   📊 Modality Weights -> [2D] Drug:0.652, Prot:0.348 | [1D] Drug:0.899, Prot:0.101
+EarlyStopping counter: 1 out of 30
+[ 14/200] train_loss: 0.25821 valid_loss: 0.41469 valid_AUC: 0.90598 valid_PRC: 0.81789 valid_Accuracy: 0.83936 valid_Precision: 0.69356 valid_Reacll: 0.79340 
+   📊 Modality Weights -> [2D] Drug:0.677, Prot:0.323 | [1D] Drug:0.915, Prot:0.085
+Have a new best checkpoint: (0.898800 --> 0.905979).  Saving model ...
+[ 15/200] train_loss: 0.20140 valid_loss: 0.45049 valid_AUC: 0.89866 valid_PRC: 0.80029 valid_Accuracy: 0.82373 valid_Precision: 0.65517 valid_Reacll: 0.82049 
+   📊 Modality Weights -> [2D] Drug:0.696, Prot:0.304 | [1D] Drug:0.926, Prot:0.074
+EarlyStopping counter: 1 out of 30
+[ 16/200] train_loss: 0.20610 valid_loss: 0.46456 valid_AUC: 0.90643 valid_PRC: 0.81786 valid_Accuracy: 0.84961 valid_Precision: 0.73522 valid_Reacll: 0.74767 
+   📊 Modality Weights -> [2D] Drug:0.722, Prot:0.278 | [1D] Drug:0.938, Prot:0.062
+Have a new best checkpoint: (0.905979 --> 0.906433).  Saving model ...
+[ 17/200] train_loss: 0.14201 valid_loss: 0.57495 valid_AUC: 0.88300 valid_PRC: 0.77596 valid_Accuracy: 0.83813 valid_Precision: 0.74342 valid_Reacll: 0.66977 
+   📊 Modality Weights -> [2D] Drug:0.737, Prot:0.263 | [1D] Drug:0.945, Prot:0.055
+EarlyStopping counter: 1 out of 30
+[ 18/200] train_loss: 0.17378 valid_loss: 0.48370 valid_AUC: 0.90396 valid_PRC: 0.81608 valid_Accuracy: 0.84521 valid_Precision: 0.70862 valid_Reacll: 0.78662 
+   📊 Modality Weights -> [2D] Drug:0.755, Prot:0.245 | [1D] Drug:0.952, Prot:0.048
+EarlyStopping counter: 2 out of 30
+[ 19/200] train_loss: 0.10256 valid_loss: 0.57799 valid_AUC: 0.88785 valid_PRC: 0.78412 valid_Accuracy: 0.82788 valid_Precision: 0.68196 valid_Reacll: 0.75529 
+   📊 Modality Weights -> [2D] Drug:0.768, Prot:0.232 | [1D] Drug:0.957, Prot:0.043
+EarlyStopping counter: 3 out of 30
+[ 20/200] train_loss: 0.13303 valid_loss: 0.55050 valid_AUC: 0.90119 valid_PRC: 0.81617 valid_Accuracy: 0.83862 valid_Precision: 0.70800 valid_Reacll: 0.74936 
+   📊 Modality Weights -> [2D] Drug:0.781, Prot:0.219 | [1D] Drug:0.964, Prot:0.036
+EarlyStopping counter: 4 out of 30
+[ 21/200] train_loss: 0.10518 valid_loss: 0.69959 valid_AUC: 0.89425 valid_PRC: 0.80615 valid_Accuracy: 0.84497 valid_Precision: 0.74863 valid_Reacll: 0.69602 
+   📊 Modality Weights -> [2D] Drug:0.795, Prot:0.205 | [1D] Drug:0.967, Prot:0.033
+EarlyStopping counter: 5 out of 30
+[ 22/200] train_loss: 0.17686 valid_loss: 0.60053 valid_AUC: 0.90559 valid_PRC: 0.82119 valid_Accuracy: 0.85059 valid_Precision: 0.73416 valid_Reacll: 0.75529 
+   📊 Modality Weights -> [2D] Drug:0.808, Prot:0.192 | [1D] Drug:0.969, Prot:0.031
+EarlyStopping counter: 6 out of 30
+[ 23/200] train_loss: 0.15584 valid_loss: 0.68639 valid_AUC: 0.89605 valid_PRC: 0.80001 valid_Accuracy: 0.84058 valid_Precision: 0.70986 valid_Reacll: 0.75614 
+   📊 Modality Weights -> [2D] Drug:0.814, Prot:0.186 | [1D] Drug:0.971, Prot:0.029
+EarlyStopping counter: 7 out of 30
+[ 24/200] train_loss: 0.21887 valid_loss: 0.71078 valid_AUC: 0.90040 valid_PRC: 0.80878 valid_Accuracy: 0.85107 valid_Precision: 0.75651 valid_Reacll: 0.71296 
+   📊 Modality Weights -> [2D] Drug:0.827, Prot:0.173 | [1D] Drug:0.972, Prot:0.028
+EarlyStopping counter: 8 out of 30
+[ 25/200] train_loss: 0.20466 valid_loss: 0.78781 valid_AUC: 0.89631 valid_PRC: 0.80524 valid_Accuracy: 0.84644 valid_Precision: 0.74865 valid_Reacll: 0.70364 
+   📊 Modality Weights -> [2D] Drug:0.834, Prot:0.166 | [1D] Drug:0.973, Prot:0.027
+EarlyStopping counter: 9 out of 30
+[ 26/200] train_loss: 0.26288 valid_loss: 0.77784 valid_AUC: 0.90133 valid_PRC: 0.80604 valid_Accuracy: 0.84985 valid_Precision: 0.75133 valid_Reacll: 0.71634 
+   📊 Modality Weights -> [2D] Drug:0.842, Prot:0.158 | [1D] Drug:0.976, Prot:0.024
+EarlyStopping counter: 10 out of 30
+[ 27/200] train_loss: 0.26274 valid_loss: 0.79140 valid_AUC: 0.90358 valid_PRC: 0.80815 valid_Accuracy: 0.85205 valid_Precision: 0.74180 valid_Reacll: 0.74682 
+   📊 Modality Weights -> [2D] Drug:0.844, Prot:0.156 | [1D] Drug:0.976, Prot:0.024
+EarlyStopping counter: 11 out of 30
+[ 28/200] train_loss: 0.31951 valid_loss: 0.82514 valid_AUC: 0.89591 valid_PRC: 0.80125 valid_Accuracy: 0.84424 valid_Precision: 0.73265 valid_Reacll: 0.72396 
+   📊 Modality Weights -> [2D] Drug:0.850, Prot:0.150 | [1D] Drug:0.978, Prot:0.022
+EarlyStopping counter: 12 out of 30
+[ 29/200] train_loss: 0.32676 valid_loss: 0.96345 valid_AUC: 0.89137 valid_PRC: 0.79605 valid_Accuracy: 0.84375 valid_Precision: 0.75495 valid_Reacll: 0.67824 
+   📊 Modality Weights -> [2D] Drug:0.854, Prot:0.146 | [1D] Drug:0.978, Prot:0.022
+EarlyStopping counter: 13 out of 30
+[ 30/200] train_loss: 0.41376 valid_loss: 0.84454 valid_AUC: 0.89531 valid_PRC: 0.80215 valid_Accuracy: 0.84180 valid_Precision: 0.73194 valid_Reacll: 0.71211 
+   📊 Modality Weights -> [2D] Drug:0.875, Prot:0.125 | [1D] Drug:0.980, Prot:0.020
+EarlyStopping counter: 14 out of 30
+[ 31/200] train_loss: 0.35739 valid_loss: 0.92533 valid_AUC: 0.88949 valid_PRC: 0.79899 valid_Accuracy: 0.84375 valid_Precision: 0.74087 valid_Reacll: 0.70449 
+   📊 Modality Weights -> [2D] Drug:0.913, Prot:0.087 | [1D] Drug:0.982, Prot:0.018
+EarlyStopping counter: 15 out of 30
+[ 32/200] train_loss: 0.38199 valid_loss: 0.84899 valid_AUC: 0.89976 valid_PRC: 0.81039 valid_Accuracy: 0.84253 valid_Precision: 0.72789 valid_Reacll: 0.72481 
+   📊 Modality Weights -> [2D] Drug:0.905, Prot:0.095 | [1D] Drug:0.985, Prot:0.015
+EarlyStopping counter: 16 out of 30
+[ 33/200] train_loss: 0.33799 valid_loss: 0.91323 valid_AUC: 0.89905 valid_PRC: 0.80490 valid_Accuracy: 0.84717 valid_Precision: 0.74236 valid_Reacll: 0.71973 
+   📊 Modality Weights -> [2D] Drug:0.889, Prot:0.111 | [1D] Drug:0.986, Prot:0.014
+EarlyStopping counter: 17 out of 30
+[ 34/200] train_loss: 0.33735 valid_loss: 0.96167 valid_AUC: 0.90057 valid_PRC: 0.81055 valid_Accuracy: 0.84863 valid_Precision: 0.74889 valid_Reacll: 0.71465 
+   📊 Modality Weights -> [2D] Drug:0.879, Prot:0.121 | [1D] Drug:0.986, Prot:0.014
+EarlyStopping counter: 18 out of 30
+[ 35/200] train_loss: 0.32370 valid_loss: 0.99365 valid_AUC: 0.89916 valid_PRC: 0.80851 valid_Accuracy: 0.84253 valid_Precision: 0.73264 valid_Reacll: 0.71465 
+   📊 Modality Weights -> [2D] Drug:0.877, Prot:0.123 | [1D] Drug:0.986, Prot:0.014
+EarlyStopping counter: 19 out of 30
+[ 36/200] train_loss: 0.32761 valid_loss: 1.00885 valid_AUC: 0.90091 valid_PRC: 0.81458 valid_Accuracy: 0.84814 valid_Precision: 0.74410 valid_Reacll: 0.72142 
+   📊 Modality Weights -> [2D] Drug:0.872, Prot:0.128 | [1D] Drug:0.986, Prot:0.014
+EarlyStopping counter: 20 out of 30
+[ 37/200] train_loss: 0.31448 valid_loss: 1.04982 valid_AUC: 0.89762 valid_PRC: 0.80644 valid_Accuracy: 0.84863 valid_Precision: 0.74584 valid_Reacll: 0.72058 
+   📊 Modality Weights -> [2D] Drug:0.870, Prot:0.130 | [1D] Drug:0.986, Prot:0.014
+EarlyStopping counter: 21 out of 30
+[ 38/200] train_loss: 0.31968 valid_loss: 1.08111 valid_AUC: 0.90033 valid_PRC: 0.80883 valid_Accuracy: 0.84741 valid_Precision: 0.75646 valid_Reacll: 0.69433 
+   📊 Modality Weights -> [2D] Drug:0.867, Prot:0.133 | [1D] Drug:0.986, Prot:0.014
+EarlyStopping counter: 22 out of 30
+[ 39/200] train_loss: 0.31065 valid_loss: 1.10354 valid_AUC: 0.89600 valid_PRC: 0.80015 valid_Accuracy: 0.84863 valid_Precision: 0.75663 valid_Reacll: 0.70025 
+   📊 Modality Weights -> [2D] Drug:0.865, Prot:0.135 | [1D] Drug:0.986, Prot:0.014
+EarlyStopping counter: 23 out of 30
+[ 40/200] train_loss: 0.39245 valid_loss: 0.90174 valid_AUC: 0.88962 valid_PRC: 0.79527 valid_Accuracy: 0.84106 valid_Precision: 0.72382 valid_Reacll: 0.72566 
+   📊 Modality Weights -> [2D] Drug:0.878, Prot:0.122 | [1D] Drug:0.985, Prot:0.015
+EarlyStopping counter: 24 out of 30
+[ 41/200] train_loss: 0.31972 valid_loss: 0.98335 valid_AUC: 0.89040 valid_PRC: 0.79518 valid_Accuracy: 0.83325 valid_Precision: 0.70178 valid_Reacll: 0.73328 
+   📊 Modality Weights -> [2D] Drug:0.888, Prot:0.112 | [1D] Drug:0.985, Prot:0.015
+EarlyStopping counter: 25 out of 30
+[ 42/200] train_loss: 0.36491 valid_loss: 0.87092 valid_AUC: 0.89239 valid_PRC: 0.79938 valid_Accuracy: 0.84619 valid_Precision: 0.73210 valid_Reacll: 0.73582 
+   📊 Modality Weights -> [2D] Drug:0.882, Prot:0.118 | [1D] Drug:0.984, Prot:0.016
+EarlyStopping counter: 26 out of 30
+[ 43/200] train_loss: 0.30033 valid_loss: 0.98311 valid_AUC: 0.88968 valid_PRC: 0.79540 valid_Accuracy: 0.84009 valid_Precision: 0.72064 valid_Reacll: 0.72735 
+   📊 Modality Weights -> [2D] Drug:0.877, Prot:0.123 | [1D] Drug:0.985, Prot:0.015
+EarlyStopping counter: 27 out of 30
+[ 44/200] train_loss: 0.29183 valid_loss: 1.04755 valid_AUC: 0.89196 valid_PRC: 0.79939 valid_Accuracy: 0.84424 valid_Precision: 0.73547 valid_Reacll: 0.71804 
+   📊 Modality Weights -> [2D] Drug:0.886, Prot:0.114 | [1D] Drug:0.986, Prot:0.014
+EarlyStopping counter: 28 out of 30
+[ 45/200] train_loss: 0.27809 valid_loss: 1.15262 valid_AUC: 0.89842 valid_PRC: 0.80838 valid_Accuracy: 0.85254 valid_Precision: 0.77089 valid_Reacll: 0.69517 
+   📊 Modality Weights -> [2D] Drug:0.884, Prot:0.116 | [1D] Drug:0.986, Prot:0.014
+EarlyStopping counter: 29 out of 30
+[ 46/200] train_loss: 0.27257 valid_loss: 1.11082 valid_AUC: 0.89746 valid_PRC: 0.80873 valid_Accuracy: 0.85156 valid_Precision: 0.75881 valid_Reacll: 0.71126 
+   📊 Modality Weights -> [2D] Drug:0.881, Prot:0.119 | [1D] Drug:0.986, Prot:0.014
+EarlyStopping counter: 30 out of 30
+/home/liumeiling/apps/miniconda3_clean/envs/IMDF/lib/python3.10/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+  0%|          | 0/128 [00:00<?, ?it/s]  1%|          | 1/128 [00:00<01:40,  1.27it/s]  2%|▏         | 2/128 [00:01<01:05,  1.94it/s]  2%|▏         | 3/128 [00:01<01:05,  1.91it/s]  3%|▎         | 4/128 [00:02<00:56,  2.18it/s]  4%|▍         | 5/128 [00:02<00:58,  2.11it/s]  5%|▍         | 6/128 [00:02<00:57,  2.13it/s]  5%|▌         | 7/128 [00:03<00:54,  2.22it/s]  6%|▋         | 8/128 [00:03<00:55,  2.18it/s]  7%|▋         | 9/128 [00:04<00:51,  2.30it/s]  8%|▊         | 10/128 [00:04<00:52,  2.23it/s]  9%|▊         | 11/128 [00:05<00:49,  2.36it/s]  9%|▉         | 12/128 [00:05<00:50,  2.30it/s] 10%|█         | 13/128 [00:05<00:48,  2.37it/s] 11%|█         | 14/128 [00:06<00:49,  2.32it/s] 12%|█▏        | 15/128 [00:06<00:46,  2.45it/s] 12%|█▎        | 16/128 [00:07<00:47,  2.35it/s] 13%|█▎        | 17/128 [00:07<00:46,  2.41it/s] 14%|█▍        | 18/128 [00:08<00:48,  2.29it/s] 15%|█▍        | 19/128 [00:08<00:44,  2.44it/s] 16%|█▌        | 20/128 [00:08<00:45,  2.36it/s] 16%|█▋        | 21/128 [00:09<00:44,  2.40it/s] 17%|█▋        | 22/128 [00:09<00:47,  2.23it/s] 18%|█▊        | 23/128 [00:10<00:43,  2.43it/s] 19%|█▉        | 24/128 [00:10<00:48,  2.12it/s] 20%|█▉        | 25/128 [00:11<00:42,  2.41it/s] 20%|██        | 26/128 [00:11<00:46,  2.20it/s] 21%|██        | 27/128 [00:11<00:42,  2.40it/s] 22%|██▏       | 28/128 [00:12<00:44,  2.25it/s] 23%|██▎       | 29/128 [00:12<00:41,  2.37it/s] 23%|██▎       | 30/128 [00:13<00:42,  2.29it/s] 24%|██▍       | 31/128 [00:13<00:49,  1.97it/s] 25%|██▌       | 32/128 [00:14<00:42,  2.25it/s] 26%|██▌       | 33/128 [00:14<00:45,  2.07it/s] 27%|██▋       | 34/128 [00:15<00:40,  2.32it/s] 27%|██▋       | 35/128 [00:15<00:44,  2.11it/s] 28%|██▊       | 36/128 [00:16<00:39,  2.31it/s] 29%|██▉       | 37/128 [00:16<00:42,  2.16it/s] 30%|██▉       | 38/128 [00:16<00:39,  2.26it/s] 30%|███       | 39/128 [00:17<00:40,  2.20it/s] 31%|███▏      | 40/128 [00:17<00:38,  2.27it/s] 32%|███▏      | 41/128 [00:18<00:39,  2.20it/s] 33%|███▎      | 42/128 [00:18<00:39,  2.19it/s] 34%|███▎      | 43/128 [00:19<00:37,  2.24it/s] 34%|███▍      | 44/128 [00:19<00:35,  2.37it/s] 35%|███▌      | 45/128 [00:20<00:37,  2.24it/s] 36%|███▌      | 46/128 [00:20<00:35,  2.30it/s] 37%|███▋      | 47/128 [00:20<00:35,  2.27it/s] 38%|███▊      | 48/128 [00:21<00:33,  2.41it/s] 38%|███▊      | 49/128 [00:21<00:34,  2.27it/s] 39%|███▉      | 50/128 [00:22<00:33,  2.35it/s] 40%|███▉      | 51/128 [00:22<00:33,  2.28it/s] 41%|████      | 52/128 [00:23<00:39,  1.93it/s] 41%|████▏     | 53/128 [00:24<00:42,  1.77it/s] 42%|████▏     | 54/128 [00:24<00:43,  1.68it/s] 43%|████▎     | 55/128 [00:25<00:38,  1.92it/s] 44%|████▍     | 56/128 [00:25<00:36,  1.96it/s] 45%|████▍     | 57/128 [00:25<00:34,  2.04it/s] 45%|████▌     | 58/128 [00:26<00:33,  2.12it/s] 46%|████▌     | 59/128 [00:26<00:33,  2.08it/s] 47%|████▋     | 60/128 [00:27<00:30,  2.25it/s] 48%|████▊     | 61/128 [00:27<00:30,  2.23it/s] 48%|████▊     | 62/128 [00:28<00:29,  2.23it/s] 49%|████▉     | 63/128 [00:28<00:31,  2.04it/s] 50%|█████     | 64/128 [00:29<00:31,  2.03it/s] 51%|█████     | 65/128 [00:29<00:28,  2.18it/s] 52%|█████▏    | 66/128 [00:30<00:27,  2.30it/s] 52%|█████▏    | 67/128 [00:30<00:27,  2.20it/s] 53%|█████▎    | 68/128 [00:30<00:25,  2.33it/s] 54%|█████▍    | 69/128 [00:31<00:22,  2.58it/s] 55%|█████▍    | 70/128 [00:31<00:20,  2.78it/s] 55%|█████▌    | 71/128 [00:31<00:21,  2.66it/s] 56%|█████▋    | 72/128 [00:32<00:22,  2.51it/s] 57%|█████▋    | 73/128 [00:32<00:21,  2.62it/s] 58%|█████▊    | 74/128 [00:32<00:19,  2.78it/s] 59%|█████▊    | 75/128 [00:33<00:18,  2.83it/s] 59%|█████▉    | 76/128 [00:33<00:19,  2.66it/s] 60%|██████    | 77/128 [00:34<00:20,  2.52it/s] 61%|██████    | 78/128 [00:34<00:21,  2.36it/s] 62%|██████▏   | 79/128 [00:35<00:22,  2.18it/s] 62%|██████▎   | 80/128 [00:35<00:22,  2.18it/s] 63%|██████▎   | 81/128 [00:35<00:18,  2.48it/s] 64%|██████▍   | 82/128 [00:36<00:17,  2.66it/s] 65%|██████▍   | 83/128 [00:36<00:17,  2.63it/s] 66%|██████▌   | 84/128 [00:37<00:17,  2.46it/s] 66%|██████▋   | 85/128 [00:37<00:15,  2.73it/s] 67%|██████▋   | 86/128 [00:37<00:14,  2.86it/s] 68%|██████▊   | 87/128 [00:38<00:14,  2.78it/s] 69%|██████▉   | 88/128 [00:38<00:14,  2.67it/s] 70%|██████▉   | 89/128 [00:38<00:15,  2.55it/s] 70%|███████   | 90/128 [00:39<00:14,  2.71it/s] 71%|███████   | 91/128 [00:39<00:12,  2.88it/s] 72%|███████▏  | 92/128 [00:39<00:12,  2.88it/s] 73%|███████▎  | 93/128 [00:40<00:11,  2.93it/s] 73%|███████▎  | 94/128 [00:40<00:11,  2.86it/s] 74%|███████▍  | 95/128 [00:41<00:12,  2.59it/s] 75%|███████▌  | 96/128 [00:41<00:12,  2.63it/s] 76%|███████▌  | 97/128 [00:41<00:10,  2.85it/s] 77%|███████▋  | 98/128 [00:42<00:10,  2.91it/s] 77%|███████▋  | 99/128 [00:42<00:10,  2.81it/s] 78%|███████▊  | 100/128 [00:42<00:10,  2.59it/s] 79%|███████▉  | 101/128 [00:43<00:09,  2.83it/s] 80%|███████▉  | 102/128 [00:43<00:08,  2.92it/s] 80%|████████  | 103/128 [00:43<00:09,  2.72it/s] 81%|████████▏ | 104/128 [00:44<00:09,  2.51it/s] 82%|████████▏ | 105/128 [00:44<00:08,  2.74it/s] 83%|████████▎ | 106/128 [00:44<00:07,  2.87it/s] 84%|████████▎ | 107/128 [00:45<00:07,  2.98it/s] 84%|████████▍ | 108/128 [00:45<00:07,  2.85it/s] 85%|████████▌ | 109/128 [00:46<00:07,  2.65it/s] 86%|████████▌ | 110/128 [00:46<00:06,  2.75it/s] 87%|████████▋ | 111/128 [00:46<00:07,  2.42it/s] 88%|████████▊ | 112/128 [00:47<00:06,  2.49it/s] 88%|████████▊ | 113/128 [00:47<00:06,  2.35it/s] 89%|████████▉ | 114/128 [00:48<00:06,  2.30it/s] 90%|████████▉ | 115/128 [00:48<00:05,  2.35it/s] 91%|█████████ | 116/128 [00:49<00:05,  2.30it/s] 91%|█████████▏| 117/128 [00:49<00:04,  2.41it/s] 92%|█████████▏| 118/128 [00:49<00:04,  2.38it/s] 93%|█████████▎| 119/128 [00:50<00:03,  2.48it/s] 94%|█████████▍| 120/128 [00:50<00:03,  2.37it/s] 95%|█████████▍| 121/128 [00:51<00:02,  2.41it/s] 95%|█████████▌| 122/128 [00:51<00:02,  2.31it/s] 96%|█████████▌| 123/128 [00:52<00:02,  2.41it/s] 97%|█████████▋| 124/128 [00:52<00:01,  2.05it/s] 98%|█████████▊| 125/128 [00:53<00:01,  1.90it/s] 98%|█████████▊| 126/128 [00:53<00:00,  2.11it/s] 99%|█████████▉| 127/128 [00:54<00:00,  2.09it/s]100%|██████████| 128/128 [00:54<00:00,  2.34it/s]100%|██████████| 128/128 [00:54<00:00,  2.35it/s]
+Train: Loss:0.10900;Accuracy:0.96881;Precision:0.92300;Recall:0.97092;AUC:0.99548;PRC:0.98811.
+  0%|          | 0/32 [00:00<?, ?it/s]  3%|▎         | 1/32 [00:00<00:15,  1.95it/s]  6%|▋         | 2/32 [00:00<00:13,  2.19it/s]  9%|▉         | 3/32 [00:01<00:12,  2.26it/s] 12%|█▎        | 4/32 [00:01<00:13,  2.06it/s] 16%|█▌        | 5/32 [00:02<00:11,  2.39it/s] 19%|█▉        | 6/32 [00:02<00:10,  2.51it/s] 22%|██▏       | 7/32 [00:03<00:10,  2.36it/s] 25%|██▌       | 8/32 [00:03<00:09,  2.46it/s] 28%|██▊       | 9/32 [00:03<00:09,  2.31it/s] 31%|███▏      | 10/32 [00:04<00:09,  2.44it/s] 34%|███▍      | 11/32 [00:04<00:09,  2.29it/s] 38%|███▊      | 12/32 [00:05<00:10,  1.94it/s] 41%|████      | 13/32 [00:06<00:10,  1.76it/s] 44%|████▍     | 14/32 [00:06<00:08,  2.04it/s] 47%|████▋     | 15/32 [00:06<00:08,  1.97it/s] 50%|█████     | 16/32 [00:07<00:07,  2.18it/s] 53%|█████▎    | 17/32 [00:07<00:07,  2.10it/s] 56%|█████▋    | 18/32 [00:08<00:07,  1.87it/s] 59%|█████▉    | 19/32 [00:08<00:06,  2.10it/s] 62%|██████▎   | 20/32 [00:09<00:05,  2.05it/s] 66%|██████▌   | 21/32 [00:10<00:06,  1.78it/s] 69%|██████▉   | 22/32 [00:10<00:05,  1.78it/s] 72%|███████▏  | 23/32 [00:11<00:04,  1.92it/s] 75%|███████▌  | 24/32 [00:11<00:04,  1.95it/s] 78%|███████▊  | 25/32 [00:11<00:03,  2.12it/s] 81%|████████▏ | 26/32 [00:12<00:02,  2.15it/s] 84%|████████▍ | 27/32 [00:12<00:02,  2.34it/s] 88%|████████▊ | 28/32 [00:13<00:01,  2.12it/s] 91%|█████████ | 29/32 [00:13<00:01,  2.39it/s] 94%|█████████▍| 30/32 [00:14<00:00,  2.19it/s] 97%|█████████▋| 31/32 [00:14<00:00,  2.33it/s]100%|██████████| 32/32 [00:15<00:00,  2.26it/s]100%|██████████| 32/32 [00:15<00:00,  2.13it/s]
+Valid: Loss:0.46456;Accuracy:0.84961;Precision:0.73522;Recall:0.74767;AUC:0.90643;PRC:0.81786.
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:01<00:49,  1.27s/it]  5%|▌         | 2/40 [00:01<00:26,  1.43it/s]  8%|▊         | 3/40 [00:02<00:24,  1.53it/s] 10%|█         | 4/40 [00:02<00:21,  1.67it/s] 12%|█▎        | 5/40 [00:03<00:17,  2.00it/s] 15%|█▌        | 6/40 [00:03<00:17,  1.97it/s] 18%|█▊        | 7/40 [00:03<00:14,  2.25it/s] 20%|██        | 8/40 [00:04<00:15,  2.05it/s] 22%|██▎       | 9/40 [00:04<00:13,  2.24it/s] 25%|██▌       | 10/40 [00:05<00:13,  2.14it/s] 28%|██▊       | 11/40 [00:05<00:13,  2.20it/s] 30%|███       | 12/40 [00:06<00:12,  2.21it/s] 32%|███▎      | 13/40 [00:06<00:12,  2.13it/s] 35%|███▌      | 14/40 [00:07<00:11,  2.17it/s] 38%|███▊      | 15/40 [00:07<00:12,  2.06it/s] 40%|████      | 16/40 [00:08<00:12,  1.98it/s] 42%|████▎     | 17/40 [00:08<00:10,  2.23it/s] 45%|████▌     | 18/40 [00:09<00:10,  2.14it/s] 48%|████▊     | 19/40 [00:09<00:08,  2.37it/s] 50%|█████     | 20/40 [00:09<00:09,  2.17it/s] 52%|█████▎    | 21/40 [00:10<00:07,  2.39it/s] 55%|█████▌    | 22/40 [00:10<00:08,  2.21it/s] 57%|█████▊    | 23/40 [00:11<00:07,  2.31it/s] 60%|██████    | 24/40 [00:11<00:07,  2.24it/s] 62%|██████▎   | 25/40 [00:12<00:06,  2.24it/s] 65%|██████▌   | 26/40 [00:12<00:06,  2.25it/s] 68%|██████▊   | 27/40 [00:12<00:05,  2.22it/s] 70%|███████   | 28/40 [00:13<00:05,  2.33it/s] 72%|███████▎  | 29/40 [00:13<00:05,  2.17it/s] 75%|███████▌  | 30/40 [00:14<00:04,  2.34it/s] 78%|███████▊  | 31/40 [00:14<00:03,  2.29it/s] 80%|████████  | 32/40 [00:15<00:03,  2.30it/s] 82%|████████▎ | 33/40 [00:15<00:03,  2.17it/s] 85%|████████▌ | 34/40 [00:16<00:02,  2.15it/s] 88%|████████▊ | 35/40 [00:16<00:02,  2.28it/s] 90%|█████████ | 36/40 [00:16<00:01,  2.30it/s] 92%|█████████▎| 37/40 [00:17<00:01,  2.33it/s] 95%|█████████▌| 38/40 [00:17<00:00,  2.40it/s] 98%|█████████▊| 39/40 [00:18<00:00,  2.30it/s]100%|██████████| 40/40 [00:18<00:00,  2.37it/s]100%|██████████| 40/40 [00:18<00:00,  2.15it/s]
+Test: Loss:0.43288;Accuracy:0.86035;Precision:0.74932;Recall:0.76223;AUC:0.91574;PRC:0.83000.
+🚀 Generating interpretability reports for Davis...
+📊 解释性报告已成功导出至: /home/liumeiling/xjl/DTI/IMDF-DTI/Davis/1/interpretability_report
+✅ Interpretability reports (Heatmaps) saved to: ./Davis/1/interpretability_report
+************************* No. 2 -fold *************************
+Training...
+[  1/200] train_loss: 0.63847 valid_loss: 0.54068 valid_AUC: 0.80360 valid_PRC: 0.60982 valid_Accuracy: 0.73169 valid_Precision: 0.50857 valid_Reacll: 0.71137 
+   📊 Modality Weights -> [2D] Drug:0.568, Prot:0.432 | [1D] Drug:0.751, Prot:0.249
+Have a new best checkpoint: (-inf --> 0.803598).  Saving model ...
+[  2/200] train_loss: 0.52561 valid_loss: 0.47610 valid_AUC: 0.85208 valid_PRC: 0.71331 valid_Accuracy: 0.78955 valid_Precision: 0.59348 valid_Reacll: 0.74423 
+   📊 Modality Weights -> [2D] Drug:0.555, Prot:0.445 | [1D] Drug:0.790, Prot:0.210
+Have a new best checkpoint: (0.803598 --> 0.852079).  Saving model ...
+[  3/200] train_loss: 0.48922 valid_loss: 0.48494 valid_AUC: 0.85222 valid_PRC: 0.71523 valid_Accuracy: 0.78076 valid_Precision: 0.57755 valid_Reacll: 0.75400 
+   📊 Modality Weights -> [2D] Drug:0.569, Prot:0.431 | [1D] Drug:0.791, Prot:0.209
+Have a new best checkpoint: (0.852079 --> 0.852218).  Saving model ...
+[  4/200] train_loss: 0.47075 valid_loss: 0.45086 valid_AUC: 0.87082 valid_PRC: 0.74978 valid_Accuracy: 0.81494 valid_Precision: 0.65057 valid_Reacll: 0.70604 
+   📊 Modality Weights -> [2D] Drug:0.585, Prot:0.415 | [1D] Drug:0.804, Prot:0.196
+Have a new best checkpoint: (0.852218 --> 0.870818).  Saving model ...
+[  5/200] train_loss: 0.44190 valid_loss: 0.48091 valid_AUC: 0.87386 valid_PRC: 0.75261 valid_Accuracy: 0.73291 valid_Precision: 0.50835 valid_Reacll: 0.86501 
+   📊 Modality Weights -> [2D] Drug:0.594, Prot:0.406 | [1D] Drug:0.812, Prot:0.188
+Have a new best checkpoint: (0.870818 --> 0.873864).  Saving model ...
+[  6/200] train_loss: 0.41110 valid_loss: 0.40916 valid_AUC: 0.89838 valid_PRC: 0.79971 valid_Accuracy: 0.83643 valid_Precision: 0.69192 valid_Reacll: 0.73002 
+   📊 Modality Weights -> [2D] Drug:0.603, Prot:0.397 | [1D] Drug:0.844, Prot:0.156
+Have a new best checkpoint: (0.873864 --> 0.898375).  Saving model ...
+[  7/200] train_loss: 0.36872 valid_loss: 0.41861 valid_AUC: 0.88880 valid_PRC: 0.78252 valid_Accuracy: 0.81787 valid_Precision: 0.63971 valid_Reacll: 0.77265 
+   📊 Modality Weights -> [2D] Drug:0.614, Prot:0.386 | [1D] Drug:0.870, Prot:0.130
+EarlyStopping counter: 1 out of 30
+[  8/200] train_loss: 0.35221 valid_loss: 0.38863 valid_AUC: 0.90639 valid_PRC: 0.81533 valid_Accuracy: 0.83496 valid_Precision: 0.67045 valid_Reacll: 0.78597 
+   📊 Modality Weights -> [2D] Drug:0.619, Prot:0.381 | [1D] Drug:0.898, Prot:0.102
+Have a new best checkpoint: (0.898375 --> 0.906390).  Saving model ...
+[  9/200] train_loss: 0.28928 valid_loss: 0.43189 valid_AUC: 0.89234 valid_PRC: 0.77121 valid_Accuracy: 0.79565 valid_Precision: 0.59071 valid_Reacll: 0.83570 
+   📊 Modality Weights -> [2D] Drug:0.622, Prot:0.378 | [1D] Drug:0.914, Prot:0.086
+EarlyStopping counter: 1 out of 30
+[ 10/200] train_loss: 0.28633 valid_loss: 0.37994 valid_AUC: 0.91370 valid_PRC: 0.82897 valid_Accuracy: 0.84204 valid_Precision: 0.67886 valid_Reacll: 0.80728 
+   📊 Modality Weights -> [2D] Drug:0.621, Prot:0.379 | [1D] Drug:0.930, Prot:0.070
+Have a new best checkpoint: (0.906390 --> 0.913704).  Saving model ...
+[ 11/200] train_loss: 0.21354 valid_loss: 0.43958 valid_AUC: 0.89093 valid_PRC: 0.78372 valid_Accuracy: 0.83203 valid_Precision: 0.67718 valid_Reacll: 0.74334 
+   📊 Modality Weights -> [2D] Drug:0.621, Prot:0.379 | [1D] Drug:0.939, Prot:0.061
+EarlyStopping counter: 1 out of 30
+[ 12/200] train_loss: 0.22263 valid_loss: 0.39878 valid_AUC: 0.91494 valid_PRC: 0.83151 valid_Accuracy: 0.84619 valid_Precision: 0.68931 valid_Reacll: 0.80195 
+   📊 Modality Weights -> [2D] Drug:0.613, Prot:0.387 | [1D] Drug:0.946, Prot:0.054
+Have a new best checkpoint: (0.913704 --> 0.914940).  Saving model ...
+[ 13/200] train_loss: 0.14280 valid_loss: 0.44970 valid_AUC: 0.89757 valid_PRC: 0.79188 valid_Accuracy: 0.81519 valid_Precision: 0.62308 valid_Reacll: 0.82948 
+   📊 Modality Weights -> [2D] Drug:0.612, Prot:0.388 | [1D] Drug:0.952, Prot:0.048
+EarlyStopping counter: 1 out of 30
+[ 14/200] train_loss: 0.16429 valid_loss: 0.45159 valid_AUC: 0.91046 valid_PRC: 0.82613 valid_Accuracy: 0.84888 valid_Precision: 0.70427 valid_Reacll: 0.77620 
+   📊 Modality Weights -> [2D] Drug:0.627, Prot:0.373 | [1D] Drug:0.955, Prot:0.045
+EarlyStopping counter: 2 out of 30
+[ 15/200] train_loss: 0.08353 valid_loss: 0.53445 valid_AUC: 0.89954 valid_PRC: 0.80510 valid_Accuracy: 0.84106 valid_Precision: 0.69808 valid_Reacll: 0.74334 
+   📊 Modality Weights -> [2D] Drug:0.627, Prot:0.373 | [1D] Drug:0.959, Prot:0.041
+EarlyStopping counter: 3 out of 30
+[ 16/200] train_loss: 0.12769 valid_loss: 0.50212 valid_AUC: 0.90786 valid_PRC: 0.81366 valid_Accuracy: 0.84912 valid_Precision: 0.71309 valid_Reacll: 0.75488 
+   📊 Modality Weights -> [2D] Drug:0.629, Prot:0.371 | [1D] Drug:0.964, Prot:0.036
+EarlyStopping counter: 4 out of 30
+[ 17/200] train_loss: 0.05832 valid_loss: 0.55274 valid_AUC: 0.90005 valid_PRC: 0.80346 valid_Accuracy: 0.83545 valid_Precision: 0.66593 valid_Reacll: 0.80551 
+   📊 Modality Weights -> [2D] Drug:0.634, Prot:0.366 | [1D] Drug:0.967, Prot:0.033
+EarlyStopping counter: 5 out of 30
+[ 18/200] train_loss: 0.11531 valid_loss: 0.54942 valid_AUC: 0.90291 valid_PRC: 0.80600 valid_Accuracy: 0.83887 valid_Precision: 0.68610 valid_Reacll: 0.76288 
+   📊 Modality Weights -> [2D] Drug:0.650, Prot:0.350 | [1D] Drug:0.972, Prot:0.028
+EarlyStopping counter: 6 out of 30
+[ 19/200] train_loss: 0.06078 valid_loss: 0.94526 valid_AUC: 0.90011 valid_PRC: 0.79668 valid_Accuracy: 0.84521 valid_Precision: 0.81701 valid_Reacll: 0.56306 
+   📊 Modality Weights -> [2D] Drug:0.658, Prot:0.342 | [1D] Drug:0.972, Prot:0.028
+EarlyStopping counter: 7 out of 30
+[ 20/200] train_loss: 0.10595 valid_loss: 0.66169 valid_AUC: 0.90112 valid_PRC: 0.80589 valid_Accuracy: 0.85156 valid_Precision: 0.75000 valid_Reacll: 0.69005 
+   📊 Modality Weights -> [2D] Drug:0.631, Prot:0.369 | [1D] Drug:0.961, Prot:0.039
+EarlyStopping counter: 8 out of 30
+[ 21/200] train_loss: 0.07148 valid_loss: 0.70986 valid_AUC: 0.90083 valid_PRC: 0.80204 valid_Accuracy: 0.85669 valid_Precision: 0.74702 valid_Reacll: 0.72380 
+   📊 Modality Weights -> [2D] Drug:0.623, Prot:0.377 | [1D] Drug:0.953, Prot:0.047
+EarlyStopping counter: 9 out of 30
+[ 22/200] train_loss: 0.10763 valid_loss: 0.67900 valid_AUC: 0.90359 valid_PRC: 0.81392 valid_Accuracy: 0.85352 valid_Precision: 0.72870 valid_Reacll: 0.74423 
+   📊 Modality Weights -> [2D] Drug:0.622, Prot:0.378 | [1D] Drug:0.941, Prot:0.059
+EarlyStopping counter: 10 out of 30
+[ 23/200] train_loss: 0.11958 valid_loss: 0.73844 valid_AUC: 0.90116 valid_PRC: 0.81333 valid_Accuracy: 0.84863 valid_Precision: 0.71514 valid_Reacll: 0.74689 
+   📊 Modality Weights -> [2D] Drug:0.621, Prot:0.379 | [1D] Drug:0.941, Prot:0.059
+EarlyStopping counter: 11 out of 30
+[ 24/200] train_loss: 0.15879 valid_loss: 0.74488 valid_AUC: 0.90722 valid_PRC: 0.82054 valid_Accuracy: 0.85791 valid_Precision: 0.74329 valid_Reacll: 0.73801 
+   📊 Modality Weights -> [2D] Drug:0.621, Prot:0.379 | [1D] Drug:0.943, Prot:0.057
+EarlyStopping counter: 12 out of 30
+[ 25/200] train_loss: 0.18186 valid_loss: 0.78449 valid_AUC: 0.90584 valid_PRC: 0.81959 valid_Accuracy: 0.85791 valid_Precision: 0.74505 valid_Reacll: 0.73446 
+   📊 Modality Weights -> [2D] Drug:0.621, Prot:0.379 | [1D] Drug:0.944, Prot:0.056
+EarlyStopping counter: 13 out of 30
+[ 26/200] train_loss: 0.21299 valid_loss: 0.79756 valid_AUC: 0.90698 valid_PRC: 0.82240 valid_Accuracy: 0.85498 valid_Precision: 0.73090 valid_Reacll: 0.74778 
+   📊 Modality Weights -> [2D] Drug:0.618, Prot:0.382 | [1D] Drug:0.945, Prot:0.055
+EarlyStopping counter: 14 out of 30
+[ 27/200] train_loss: 0.24470 valid_loss: 0.82063 valid_AUC: 0.90773 valid_PRC: 0.82436 valid_Accuracy: 0.86133 valid_Precision: 0.75181 valid_Reacll: 0.73979 
+   📊 Modality Weights -> [2D] Drug:0.617, Prot:0.383 | [1D] Drug:0.946, Prot:0.054
+EarlyStopping counter: 15 out of 30
+[ 28/200] train_loss: 0.27771 valid_loss: 0.86320 valid_AUC: 0.90771 valid_PRC: 0.82378 valid_Accuracy: 0.85962 valid_Precision: 0.75345 valid_Reacll: 0.72735 
+   📊 Modality Weights -> [2D] Drug:0.615, Prot:0.385 | [1D] Drug:0.946, Prot:0.054
+EarlyStopping counter: 16 out of 30
+[ 29/200] train_loss: 0.30767 valid_loss: 0.89097 valid_AUC: 0.90715 valid_PRC: 0.82296 valid_Accuracy: 0.85986 valid_Precision: 0.75794 valid_Reacll: 0.72025 
+   📊 Modality Weights -> [2D] Drug:0.615, Prot:0.385 | [1D] Drug:0.947, Prot:0.053
+EarlyStopping counter: 17 out of 30
+[ 30/200] train_loss: 0.33581 valid_loss: 0.86927 valid_AUC: 0.90890 valid_PRC: 0.82604 valid_Accuracy: 0.86182 valid_Precision: 0.75090 valid_Reacll: 0.74423 
+   📊 Modality Weights -> [2D] Drug:0.613, Prot:0.387 | [1D] Drug:0.947, Prot:0.053
+EarlyStopping counter: 18 out of 30
+[ 31/200] train_loss: 0.33215 valid_loss: 0.89244 valid_AUC: 0.90846 valid_PRC: 0.82603 valid_Accuracy: 0.86206 valid_Precision: 0.75616 valid_Reacll: 0.73535 
+   📊 Modality Weights -> [2D] Drug:0.612, Prot:0.388 | [1D] Drug:0.947, Prot:0.053
+EarlyStopping counter: 19 out of 30
+[ 32/200] train_loss: 0.32582 valid_loss: 0.90342 valid_AUC: 0.90868 valid_PRC: 0.82640 valid_Accuracy: 0.86230 valid_Precision: 0.75827 valid_Reacll: 0.73268 
+   📊 Modality Weights -> [2D] Drug:0.611, Prot:0.389 | [1D] Drug:0.948, Prot:0.052
+EarlyStopping counter: 20 out of 30
+[ 33/200] train_loss: 0.32191 valid_loss: 0.90929 valid_AUC: 0.90826 valid_PRC: 0.82530 valid_Accuracy: 0.86035 valid_Precision: 0.75274 valid_Reacll: 0.73268 
+   📊 Modality Weights -> [2D] Drug:0.610, Prot:0.390 | [1D] Drug:0.948, Prot:0.052
+EarlyStopping counter: 21 out of 30
+[ 34/200] train_loss: 0.31495 valid_loss: 0.91826 valid_AUC: 0.90889 valid_PRC: 0.82637 valid_Accuracy: 0.86230 valid_Precision: 0.75639 valid_Reacll: 0.73623 
+   📊 Modality Weights -> [2D] Drug:0.609, Prot:0.391 | [1D] Drug:0.948, Prot:0.052
+EarlyStopping counter: 22 out of 30
+[ 35/200] train_loss: 0.31076 valid_loss: 0.93106 valid_AUC: 0.90878 valid_PRC: 0.82630 valid_Accuracy: 0.86304 valid_Precision: 0.75941 valid_Reacll: 0.73446 
+   📊 Modality Weights -> [2D] Drug:0.608, Prot:0.392 | [1D] Drug:0.948, Prot:0.052
+EarlyStopping counter: 23 out of 30
+[ 36/200] train_loss: 0.30316 valid_loss: 0.93500 valid_AUC: 0.90930 valid_PRC: 0.82681 valid_Accuracy: 0.86304 valid_Precision: 0.75799 valid_Reacll: 0.73712 
+   📊 Modality Weights -> [2D] Drug:0.607, Prot:0.393 | [1D] Drug:0.949, Prot:0.051
+EarlyStopping counter: 24 out of 30
+[ 37/200] train_loss: 0.29864 valid_loss: 0.93887 valid_AUC: 0.90891 valid_PRC: 0.82636 valid_Accuracy: 0.86279 valid_Precision: 0.75636 valid_Reacll: 0.73890 
+   📊 Modality Weights -> [2D] Drug:0.606, Prot:0.394 | [1D] Drug:0.949, Prot:0.051
+EarlyStopping counter: 25 out of 30
+[ 38/200] train_loss: 0.29049 valid_loss: 0.95492 valid_AUC: 0.90913 valid_PRC: 0.82665 valid_Accuracy: 0.86182 valid_Precision: 0.75830 valid_Reacll: 0.73002 
+   📊 Modality Weights -> [2D] Drug:0.605, Prot:0.395 | [1D] Drug:0.948, Prot:0.052
+EarlyStopping counter: 26 out of 30
+[ 39/200] train_loss: 0.28565 valid_loss: 0.96198 valid_AUC: 0.90949 valid_PRC: 0.82761 valid_Accuracy: 0.86255 valid_Precision: 0.75897 valid_Reacll: 0.73268 
+   📊 Modality Weights -> [2D] Drug:0.604, Prot:0.396 | [1D] Drug:0.948, Prot:0.052
+EarlyStopping counter: 27 out of 30
+[ 40/200] train_loss: 0.27701 valid_loss: 0.96539 valid_AUC: 0.90950 valid_PRC: 0.82737 valid_Accuracy: 0.86377 valid_Precision: 0.76103 valid_Reacll: 0.73535 
+   📊 Modality Weights -> [2D] Drug:0.603, Prot:0.397 | [1D] Drug:0.948, Prot:0.052
+EarlyStopping counter: 28 out of 30
+[ 41/200] train_loss: 0.27190 valid_loss: 0.98505 valid_AUC: 0.90894 valid_PRC: 0.82635 valid_Accuracy: 0.86157 valid_Precision: 0.76000 valid_Reacll: 0.72558 
+   📊 Modality Weights -> [2D] Drug:0.603, Prot:0.397 | [1D] Drug:0.948, Prot:0.052
+EarlyStopping counter: 29 out of 30
+[ 42/200] train_loss: 0.26283 valid_loss: 0.97210 valid_AUC: 0.90999 valid_PRC: 0.82802 valid_Accuracy: 0.86255 valid_Precision: 0.75755 valid_Reacll: 0.73535 
+   📊 Modality Weights -> [2D] Drug:0.602, Prot:0.398 | [1D] Drug:0.948, Prot:0.052
+EarlyStopping counter: 30 out of 30
+  0%|          | 0/128 [00:00<?, ?it/s]  1%|          | 1/128 [00:00<01:07,  1.88it/s]  2%|▏         | 2/128 [00:01<01:06,  1.90it/s]  2%|▏         | 3/128 [00:01<00:53,  2.34it/s]  3%|▎         | 4/128 [00:01<00:58,  2.13it/s]  4%|▍         | 5/128 [00:02<00:50,  2.45it/s]  5%|▍         | 6/128 [00:02<00:56,  2.17it/s]  5%|▌         | 7/128 [00:03<00:49,  2.44it/s]  6%|▋         | 8/128 [00:03<00:53,  2.26it/s]  7%|▋         | 9/128 [00:03<00:50,  2.35it/s]  8%|▊         | 10/128 [00:04<00:51,  2.30it/s]  9%|▊         | 11/128 [00:04<00:50,  2.30it/s]  9%|▉         | 12/128 [00:05<00:50,  2.31it/s] 10%|█         | 13/128 [00:05<00:50,  2.30it/s] 11%|█         | 14/128 [00:06<00:49,  2.29it/s] 12%|█▏        | 15/128 [00:06<00:50,  2.22it/s] 12%|█▎        | 16/128 [00:07<00:48,  2.33it/s] 13%|█▎        | 17/128 [00:07<00:55,  2.00it/s] 14%|█▍        | 18/128 [00:08<01:00,  1.81it/s] 15%|█▍        | 19/128 [00:09<01:03,  1.71it/s] 16%|█▌        | 20/128 [00:09<00:56,  1.91it/s] 16%|█▋        | 21/128 [00:09<00:54,  1.97it/s] 17%|█▋        | 22/128 [00:10<00:53,  2.00it/s] 18%|█▊        | 23/128 [00:10<00:48,  2.18it/s] 19%|█▉        | 24/128 [00:11<00:48,  2.15it/s] 20%|█▉        | 25/128 [00:11<00:44,  2.29it/s] 20%|██        | 26/128 [00:12<00:47,  2.14it/s] 21%|██        | 27/128 [00:12<00:42,  2.38it/s] 22%|██▏       | 28/128 [00:12<00:45,  2.18it/s] 23%|██▎       | 29/128 [00:13<00:40,  2.43it/s] 23%|██▎       | 30/128 [00:13<00:44,  2.18it/s] 24%|██▍       | 31/128 [00:14<00:39,  2.44it/s] 25%|██▌       | 32/128 [00:14<00:43,  2.19it/s] 26%|██▌       | 33/128 [00:15<00:50,  1.88it/s] 27%|██▋       | 34/128 [00:15<00:43,  2.15it/s] 27%|██▋       | 35/128 [00:16<00:45,  2.04it/s] 28%|██▊       | 36/128 [00:16<00:41,  2.22it/s] 29%|██▉       | 37/128 [00:17<00:41,  2.17it/s] 30%|██▉       | 38/128 [00:17<00:42,  2.12it/s] 30%|███       | 39/128 [00:17<00:38,  2.29it/s] 31%|███▏      | 40/128 [00:18<00:40,  2.18it/s] 32%|███▏      | 41/128 [00:18<00:36,  2.37it/s] 33%|███▎      | 42/128 [00:19<00:39,  2.17it/s] 34%|███▎      | 43/128 [00:19<00:35,  2.37it/s] 34%|███▍      | 44/128 [00:20<00:39,  2.11it/s] 35%|███▌      | 45/128 [00:20<00:41,  2.01it/s] 36%|███▌      | 46/128 [00:21<00:41,  2.00it/s] 37%|███▋      | 47/128 [00:21<00:40,  2.01it/s] 38%|███▊      | 48/128 [00:22<00:36,  2.18it/s] 38%|███▊      | 49/128 [00:22<00:35,  2.20it/s] 39%|███▉      | 50/128 [00:23<00:33,  2.31it/s] 40%|███▉      | 51/128 [00:23<00:34,  2.23it/s] 41%|████      | 52/128 [00:23<00:31,  2.39it/s] 41%|████▏     | 53/128 [00:24<00:32,  2.32it/s] 42%|████▏     | 54/128 [00:24<00:30,  2.45it/s] 43%|████▎     | 55/128 [00:25<00:31,  2.28it/s] 44%|████▍     | 56/128 [00:25<00:28,  2.50it/s] 45%|████▍     | 57/128 [00:26<00:30,  2.31it/s] 45%|████▌     | 58/128 [00:26<00:28,  2.49it/s] 46%|████▌     | 59/128 [00:26<00:29,  2.33it/s] 47%|████▋     | 60/128 [00:27<00:27,  2.50it/s] 48%|████▊     | 61/128 [00:27<00:28,  2.39it/s] 48%|████▊     | 62/128 [00:28<00:27,  2.42it/s] 49%|████▉     | 63/128 [00:28<00:28,  2.25it/s] 50%|█████     | 64/128 [00:28<00:28,  2.25it/s] 51%|█████     | 65/128 [00:29<00:29,  2.12it/s] 52%|█████▏    | 66/128 [00:29<00:26,  2.34it/s] 52%|█████▏    | 67/128 [00:30<00:27,  2.21it/s] 53%|█████▎    | 68/128 [00:30<00:29,  2.05it/s] 54%|█████▍    | 69/128 [00:31<00:25,  2.32it/s] 55%|█████▍    | 70/128 [00:31<00:26,  2.15it/s] 55%|█████▌    | 71/128 [00:32<00:24,  2.29it/s] 56%|█████▋    | 72/128 [00:32<00:25,  2.19it/s] 57%|█████▋    | 73/128 [00:33<00:25,  2.17it/s] 58%|█████▊    | 74/128 [00:33<00:24,  2.23it/s] 59%|█████▊    | 75/128 [00:34<00:24,  2.17it/s] 59%|█████▉    | 76/128 [00:34<00:22,  2.35it/s] 60%|██████    | 77/128 [00:34<00:22,  2.27it/s] 61%|██████    | 78/128 [00:35<00:20,  2.39it/s] 62%|██████▏   | 79/128 [00:35<00:20,  2.34it/s] 62%|██████▎   | 80/128 [00:36<00:20,  2.38it/s] 63%|██████▎   | 81/128 [00:36<00:20,  2.31it/s] 64%|██████▍   | 82/128 [00:36<00:19,  2.40it/s] 65%|██████▍   | 83/128 [00:37<00:18,  2.40it/s] 66%|██████▌   | 84/128 [00:37<00:18,  2.39it/s] 66%|██████▋   | 85/128 [00:38<00:18,  2.29it/s] 67%|██████▋   | 86/128 [00:38<00:17,  2.37it/s] 68%|██████▊   | 87/128 [00:39<00:17,  2.32it/s] 69%|██████▉   | 88/128 [00:39<00:16,  2.41it/s] 70%|██████▉   | 89/128 [00:39<00:16,  2.29it/s] 70%|███████   | 90/128 [00:40<00:15,  2.43it/s] 71%|███████   | 91/128 [00:40<00:16,  2.24it/s] 72%|███████▏  | 92/128 [00:41<00:14,  2.46it/s] 73%|███████▎  | 93/128 [00:41<00:15,  2.22it/s] 73%|███████▎  | 94/128 [00:42<00:14,  2.38it/s] 74%|███████▍  | 95/128 [00:42<00:14,  2.23it/s] 75%|███████▌  | 96/128 [00:42<00:13,  2.31it/s] 76%|███████▌  | 97/128 [00:43<00:13,  2.25it/s] 77%|███████▋  | 98/128 [00:43<00:12,  2.40it/s] 77%|███████▋  | 99/128 [00:44<00:12,  2.23it/s] 78%|███████▊  | 100/128 [00:44<00:11,  2.51it/s] 79%|███████▉  | 101/128 [00:45<00:12,  2.21it/s] 80%|███████▉  | 102/128 [00:45<00:10,  2.47it/s] 80%|████████  | 103/128 [00:46<00:11,  2.16it/s] 81%|████████▏ | 104/128 [00:46<00:09,  2.46it/s] 82%|████████▏ | 105/128 [00:46<00:10,  2.15it/s] 83%|████████▎ | 106/128 [00:47<00:09,  2.40it/s] 84%|████████▎ | 107/128 [00:47<00:09,  2.22it/s] 84%|████████▍ | 108/128 [00:48<00:08,  2.38it/s] 85%|████████▌ | 109/128 [00:48<00:08,  2.25it/s] 86%|████████▌ | 110/128 [00:49<00:08,  2.21it/s] 87%|████████▋ | 111/128 [00:49<00:07,  2.28it/s] 88%|████████▊ | 112/128 [00:49<00:07,  2.24it/s] 88%|████████▊ | 113/128 [00:50<00:06,  2.34it/s] 89%|████████▉ | 114/128 [00:50<00:06,  2.31it/s] 90%|████████▉ | 115/128 [00:51<00:05,  2.32it/s] 91%|█████████ | 116/128 [00:51<00:05,  2.28it/s] 91%|█████████▏| 117/128 [00:52<00:04,  2.36it/s] 92%|█████████▏| 118/128 [00:52<00:04,  2.24it/s] 93%|█████████▎| 119/128 [00:52<00:03,  2.41it/s] 94%|█████████▍| 120/128 [00:53<00:03,  2.34it/s] 95%|█████████▍| 121/128 [00:53<00:02,  2.45it/s] 95%|█████████▌| 122/128 [00:54<00:02,  2.38it/s] 96%|█████████▌| 123/128 [00:54<00:02,  2.46it/s] 97%|█████████▋| 124/128 [00:55<00:01,  2.28it/s] 98%|█████████▊| 125/128 [00:55<00:01,  2.49it/s] 98%|█████████▊| 126/128 [00:55<00:00,  2.21it/s] 99%|█████████▉| 127/128 [00:56<00:00,  2.48it/s]100%|██████████| 128/128 [00:56<00:00,  2.27it/s]100%|██████████| 128/128 [00:56<00:00,  2.26it/s]
+Train: Loss:0.11022;Accuracy:0.96368;Precision:0.89761;Recall:0.98573;AUC:0.99613;PRC:0.98998.
+  0%|          | 0/32 [00:00<?, ?it/s]  3%|▎         | 1/32 [00:00<00:20,  1.48it/s]  6%|▋         | 2/32 [00:00<00:12,  2.34it/s]  9%|▉         | 3/32 [00:01<00:14,  1.98it/s] 12%|█▎        | 4/32 [00:01<00:11,  2.41it/s] 16%|█▌        | 5/32 [00:02<00:12,  2.15it/s] 19%|█▉        | 6/32 [00:03<00:14,  1.80it/s] 22%|██▏       | 7/32 [00:03<00:14,  1.69it/s] 25%|██▌       | 8/32 [00:04<00:14,  1.69it/s] 28%|██▊       | 9/32 [00:04<00:11,  1.99it/s] 31%|███▏      | 10/32 [00:05<00:11,  1.92it/s] 34%|███▍      | 11/32 [00:05<00:09,  2.21it/s] 38%|███▊      | 12/32 [00:06<00:09,  2.06it/s] 41%|████      | 13/32 [00:06<00:10,  1.86it/s] 44%|████▍     | 14/32 [00:07<00:09,  1.88it/s] 47%|████▋     | 15/32 [00:07<00:07,  2.15it/s] 50%|█████     | 16/32 [00:08<00:07,  2.05it/s] 53%|█████▎    | 17/32 [00:08<00:06,  2.31it/s] 56%|█████▋    | 18/32 [00:08<00:06,  2.13it/s] 59%|█████▉    | 19/32 [00:09<00:05,  2.36it/s] 62%|██████▎   | 20/32 [00:09<00:05,  2.18it/s] 66%|██████▌   | 21/32 [00:10<00:04,  2.33it/s] 69%|██████▉   | 22/32 [00:10<00:04,  2.24it/s] 72%|███████▏  | 23/32 [00:11<00:04,  2.18it/s] 75%|███████▌  | 24/32 [00:11<00:03,  2.27it/s] 78%|███████▊  | 25/32 [00:12<00:03,  2.13it/s] 81%|████████▏ | 26/32 [00:12<00:02,  2.36it/s] 84%|████████▍ | 27/32 [00:13<00:02,  2.09it/s] 88%|████████▊ | 28/32 [00:13<00:01,  2.02it/s] 91%|█████████ | 29/32 [00:13<00:01,  2.24it/s] 94%|█████████▍| 30/32 [00:14<00:00,  2.19it/s] 97%|█████████▋| 31/32 [00:14<00:00,  2.31it/s]100%|██████████| 32/32 [00:15<00:00,  2.30it/s]100%|██████████| 32/32 [00:15<00:00,  2.11it/s]
+Valid: Loss:0.39878;Accuracy:0.84619;Precision:0.68931;Recall:0.80195;AUC:0.91494;PRC:0.83151.
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:00<00:20,  1.88it/s]  5%|▌         | 2/40 [00:01<00:19,  1.92it/s]  8%|▊         | 3/40 [00:01<00:16,  2.18it/s] 10%|█         | 4/40 [00:01<00:16,  2.14it/s] 12%|█▎        | 5/40 [00:02<00:16,  2.17it/s] 15%|█▌        | 6/40 [00:03<00:17,  1.89it/s] 18%|█▊        | 7/40 [00:03<00:16,  1.95it/s] 20%|██        | 8/40 [00:04<00:16,  1.94it/s] 22%|██▎       | 9/40 [00:04<00:14,  2.17it/s] 25%|██▌       | 10/40 [00:04<00:14,  2.12it/s] 28%|██▊       | 11/40 [00:05<00:12,  2.38it/s] 30%|███       | 12/40 [00:05<00:12,  2.26it/s] 32%|███▎      | 13/40 [00:05<00:10,  2.50it/s] 35%|███▌      | 14/40 [00:06<00:11,  2.30it/s] 38%|███▊      | 15/40 [00:06<00:09,  2.57it/s] 40%|████      | 16/40 [00:07<00:10,  2.24it/s] 42%|████▎     | 17/40 [00:08<00:13,  1.77it/s] 45%|████▌     | 18/40 [00:08<00:13,  1.60it/s] 48%|████▊     | 19/40 [00:09<00:11,  1.87it/s] 50%|█████     | 20/40 [00:09<00:10,  1.85it/s] 52%|█████▎    | 21/40 [00:10<00:09,  2.10it/s] 55%|█████▌    | 22/40 [00:10<00:08,  2.06it/s] 57%|█████▊    | 23/40 [00:11<00:07,  2.17it/s] 60%|██████    | 24/40 [00:11<00:07,  2.15it/s] 62%|██████▎   | 25/40 [00:12<00:07,  2.14it/s] 65%|██████▌   | 26/40 [00:12<00:06,  2.26it/s] 68%|██████▊   | 27/40 [00:12<00:05,  2.20it/s] 70%|███████   | 28/40 [00:13<00:05,  2.31it/s] 72%|███████▎  | 29/40 [00:13<00:05,  2.14it/s] 75%|███████▌  | 30/40 [00:14<00:04,  2.44it/s] 78%|███████▊  | 31/40 [00:14<00:04,  2.22it/s] 80%|████████  | 32/40 [00:14<00:03,  2.47it/s] 82%|████████▎ | 33/40 [00:15<00:03,  2.26it/s] 85%|████████▌ | 34/40 [00:15<00:02,  2.52it/s] 88%|████████▊ | 35/40 [00:16<00:02,  2.32it/s] 90%|█████████ | 36/40 [00:16<00:01,  2.57it/s] 92%|█████████▎| 37/40 [00:17<00:01,  2.27it/s] 95%|█████████▌| 38/40 [00:17<00:00,  2.48it/s] 98%|█████████▊| 39/40 [00:17<00:00,  2.26it/s]100%|██████████| 40/40 [00:18<00:00,  2.53it/s]100%|██████████| 40/40 [00:18<00:00,  2.19it/s]
+Test: Loss:0.37635;Accuracy:0.85254;Precision:0.71376;Recall:0.80083;AUC:0.92257;PRC:0.84654.
+🚀 Generating interpretability reports for Davis...
+📊 解释性报告已成功导出至: /home/liumeiling/xjl/DTI/IMDF-DTI/Davis/2/interpretability_report
+✅ Interpretability reports (Heatmaps) saved to: ./Davis/2/interpretability_report
+************************* No. 3 -fold *************************
+Training...
+[  1/200] train_loss: 0.61961 valid_loss: 0.59566 valid_AUC: 0.82413 valid_PRC: 0.68337 valid_Accuracy: 0.78418 valid_Precision: 0.75788 valid_Reacll: 0.38243 
+   📊 Modality Weights -> [2D] Drug:0.755, Prot:0.245 | [1D] Drug:0.431, Prot:0.569
+Have a new best checkpoint: (-inf --> 0.824133).  Saving model ...
+[  2/200] train_loss: 0.50340 valid_loss: 0.48321 valid_AUC: 0.84606 valid_PRC: 0.72124 valid_Accuracy: 0.74731 valid_Precision: 0.54854 valid_Reacll: 0.75649 
+   📊 Modality Weights -> [2D] Drug:0.756, Prot:0.244 | [1D] Drug:0.383, Prot:0.617
+Have a new best checkpoint: (0.824133 --> 0.846060).  Saving model ...
+[  3/200] train_loss: 0.47818 valid_loss: 0.48368 valid_AUC: 0.84536 valid_PRC: 0.71984 valid_Accuracy: 0.76294 valid_Precision: 0.57254 valid_Reacll: 0.73975 
+   📊 Modality Weights -> [2D] Drug:0.769, Prot:0.231 | [1D] Drug:0.382, Prot:0.618
+EarlyStopping counter: 1 out of 30
+[  4/200] train_loss: 0.46482 valid_loss: 0.46129 valid_AUC: 0.86556 valid_PRC: 0.74857 valid_Accuracy: 0.80127 valid_Precision: 0.64334 valid_Reacll: 0.71548 
+   📊 Modality Weights -> [2D] Drug:0.782, Prot:0.218 | [1D] Drug:0.381, Prot:0.619
+Have a new best checkpoint: (0.846060 --> 0.865561).  Saving model ...
+[  5/200] train_loss: 0.43997 valid_loss: 0.45025 valid_AUC: 0.87004 valid_PRC: 0.75488 valid_Accuracy: 0.79346 valid_Precision: 0.61704 valid_Reacll: 0.76987 
+   📊 Modality Weights -> [2D] Drug:0.792, Prot:0.208 | [1D] Drug:0.380, Prot:0.620
+Have a new best checkpoint: (0.865561 --> 0.870044).  Saving model ...
+[  6/200] train_loss: 0.42917 valid_loss: 0.44253 valid_AUC: 0.87732 valid_PRC: 0.76267 valid_Accuracy: 0.80444 valid_Precision: 0.63493 valid_Reacll: 0.77573 
+   📊 Modality Weights -> [2D] Drug:0.805, Prot:0.195 | [1D] Drug:0.382, Prot:0.618
+Have a new best checkpoint: (0.870044 --> 0.877316).  Saving model ...
+[  7/200] train_loss: 0.39875 valid_loss: 0.47126 valid_AUC: 0.86964 valid_PRC: 0.75042 valid_Accuracy: 0.81055 valid_Precision: 0.67983 valid_Reacll: 0.66276 
+   📊 Modality Weights -> [2D] Drug:0.818, Prot:0.182 | [1D] Drug:0.384, Prot:0.616
+EarlyStopping counter: 1 out of 30
+[  8/200] train_loss: 0.39589 valid_loss: 0.42289 valid_AUC: 0.88841 valid_PRC: 0.78338 valid_Accuracy: 0.81006 valid_Precision: 0.63583 valid_Reacll: 0.81674 
+   📊 Modality Weights -> [2D] Drug:0.837, Prot:0.163 | [1D] Drug:0.381, Prot:0.619
+Have a new best checkpoint: (0.877316 --> 0.888413).  Saving model ...
+[  9/200] train_loss: 0.36475 valid_loss: 0.44269 valid_AUC: 0.87905 valid_PRC: 0.76798 valid_Accuracy: 0.80737 valid_Precision: 0.64216 valid_Reacll: 0.76736 
+   📊 Modality Weights -> [2D] Drug:0.855, Prot:0.145 | [1D] Drug:0.384, Prot:0.616
+EarlyStopping counter: 1 out of 30
+[ 10/200] train_loss: 0.36325 valid_loss: 0.41992 valid_AUC: 0.89305 valid_PRC: 0.79232 valid_Accuracy: 0.81055 valid_Precision: 0.63455 valid_Reacll: 0.82678 
+   📊 Modality Weights -> [2D] Drug:0.872, Prot:0.128 | [1D] Drug:0.389, Prot:0.611
+Have a new best checkpoint: (0.888413 --> 0.893050).  Saving model ...
+[ 11/200] train_loss: 0.33416 valid_loss: 0.43578 valid_AUC: 0.88725 valid_PRC: 0.78522 valid_Accuracy: 0.78101 valid_Precision: 0.58724 valid_Reacll: 0.83933 
+   📊 Modality Weights -> [2D] Drug:0.885, Prot:0.115 | [1D] Drug:0.388, Prot:0.612
+EarlyStopping counter: 1 out of 30
+[ 12/200] train_loss: 0.33586 valid_loss: 0.41843 valid_AUC: 0.89670 valid_PRC: 0.80214 valid_Accuracy: 0.81787 valid_Precision: 0.65200 valid_Reacll: 0.80586 
+   📊 Modality Weights -> [2D] Drug:0.905, Prot:0.095 | [1D] Drug:0.394, Prot:0.606
+Have a new best checkpoint: (0.893050 --> 0.896701).  Saving model ...
+[ 13/200] train_loss: 0.30245 valid_loss: 0.46988 valid_AUC: 0.87732 valid_PRC: 0.76899 valid_Accuracy: 0.81787 valid_Precision: 0.68357 valid_Reacll: 0.69958 
+   📊 Modality Weights -> [2D] Drug:0.918, Prot:0.082 | [1D] Drug:0.403, Prot:0.597
+EarlyStopping counter: 1 out of 30
+[ 14/200] train_loss: 0.30617 valid_loss: 0.42450 valid_AUC: 0.89688 valid_PRC: 0.80040 valid_Accuracy: 0.82080 valid_Precision: 0.66085 valid_Reacll: 0.79247 
+   📊 Modality Weights -> [2D] Drug:0.921, Prot:0.079 | [1D] Drug:0.405, Prot:0.595
+Have a new best checkpoint: (0.896701 --> 0.896881).  Saving model ...
+[ 15/200] train_loss: 0.27004 valid_loss: 0.43511 valid_AUC: 0.89105 valid_PRC: 0.79035 valid_Accuracy: 0.81274 valid_Precision: 0.64401 valid_Reacll: 0.80084 
+   📊 Modality Weights -> [2D] Drug:0.917, Prot:0.083 | [1D] Drug:0.398, Prot:0.602
+EarlyStopping counter: 1 out of 30
+[ 16/200] train_loss: 0.28691 valid_loss: 0.44486 valid_AUC: 0.89526 valid_PRC: 0.80239 valid_Accuracy: 0.82300 valid_Precision: 0.67103 valid_Reacll: 0.77155 
+   📊 Modality Weights -> [2D] Drug:0.924, Prot:0.076 | [1D] Drug:0.412, Prot:0.588
+EarlyStopping counter: 2 out of 30
+[ 17/200] train_loss: 0.23958 valid_loss: 0.47329 valid_AUC: 0.88514 valid_PRC: 0.78462 valid_Accuracy: 0.81323 valid_Precision: 0.65535 valid_Reacll: 0.75900 
+   📊 Modality Weights -> [2D] Drug:0.927, Prot:0.073 | [1D] Drug:0.408, Prot:0.592
+EarlyStopping counter: 3 out of 30
+[ 18/200] train_loss: 0.25734 valid_loss: 0.46029 valid_AUC: 0.89401 valid_PRC: 0.79681 valid_Accuracy: 0.82642 valid_Precision: 0.67794 valid_Reacll: 0.77155 
+   📊 Modality Weights -> [2D] Drug:0.935, Prot:0.065 | [1D] Drug:0.409, Prot:0.591
+EarlyStopping counter: 4 out of 30
+[ 19/200] train_loss: 0.21182 valid_loss: 0.51026 valid_AUC: 0.87563 valid_PRC: 0.75746 valid_Accuracy: 0.80859 valid_Precision: 0.65463 valid_Reacll: 0.72803 
+   📊 Modality Weights -> [2D] Drug:0.938, Prot:0.062 | [1D] Drug:0.407, Prot:0.593
+EarlyStopping counter: 5 out of 30
+[ 20/200] train_loss: 0.23126 valid_loss: 0.49917 valid_AUC: 0.89312 valid_PRC: 0.79455 valid_Accuracy: 0.82910 valid_Precision: 0.69024 valid_Reacll: 0.75146 
+   📊 Modality Weights -> [2D] Drug:0.951, Prot:0.049 | [1D] Drug:0.412, Prot:0.588
+EarlyStopping counter: 6 out of 30
+[ 21/200] train_loss: 0.21987 valid_loss: 0.52091 valid_AUC: 0.87598 valid_PRC: 0.76368 valid_Accuracy: 0.80664 valid_Precision: 0.63830 valid_Reacll: 0.77824 
+   📊 Modality Weights -> [2D] Drug:0.956, Prot:0.044 | [1D] Drug:0.411, Prot:0.589
+EarlyStopping counter: 7 out of 30
+[ 22/200] train_loss: 0.27380 valid_loss: 0.51499 valid_AUC: 0.89580 valid_PRC: 0.80239 valid_Accuracy: 0.83081 valid_Precision: 0.69367 valid_Reacll: 0.75230 
+   📊 Modality Weights -> [2D] Drug:0.958, Prot:0.042 | [1D] Drug:0.420, Prot:0.580
+EarlyStopping counter: 8 out of 30
+[ 23/200] train_loss: 0.26290 valid_loss: 0.55602 valid_AUC: 0.88912 valid_PRC: 0.78619 valid_Accuracy: 0.80640 valid_Precision: 0.63224 valid_Reacll: 0.80418 
+   📊 Modality Weights -> [2D] Drug:0.957, Prot:0.043 | [1D] Drug:0.420, Prot:0.580
+EarlyStopping counter: 9 out of 30
+[ 24/200] train_loss: 0.32672 valid_loss: 0.51705 valid_AUC: 0.89676 valid_PRC: 0.80340 valid_Accuracy: 0.82617 valid_Precision: 0.67487 valid_Reacll: 0.77992 
+   📊 Modality Weights -> [2D] Drug:0.965, Prot:0.035 | [1D] Drug:0.427, Prot:0.573
+EarlyStopping counter: 10 out of 30
+[ 25/200] train_loss: 0.31101 valid_loss: 0.60959 valid_AUC: 0.88601 valid_PRC: 0.78755 valid_Accuracy: 0.82666 valid_Precision: 0.68030 valid_Reacll: 0.76569 
+   📊 Modality Weights -> [2D] Drug:0.966, Prot:0.034 | [1D] Drug:0.431, Prot:0.569
+EarlyStopping counter: 11 out of 30
+[ 26/200] train_loss: 0.37652 valid_loss: 0.57608 valid_AUC: 0.89866 valid_PRC: 0.81088 valid_Accuracy: 0.83325 valid_Precision: 0.70949 valid_Reacll: 0.72552 
+   📊 Modality Weights -> [2D] Drug:0.970, Prot:0.030 | [1D] Drug:0.439, Prot:0.561
+Have a new best checkpoint: (0.896881 --> 0.898657).  Saving model ...
+[ 27/200] train_loss: 0.36168 valid_loss: 0.62005 valid_AUC: 0.89106 valid_PRC: 0.78338 valid_Accuracy: 0.83032 valid_Precision: 0.69410 valid_Reacll: 0.74812 
+   📊 Modality Weights -> [2D] Drug:0.975, Prot:0.025 | [1D] Drug:0.454, Prot:0.546
+EarlyStopping counter: 1 out of 30
+[ 28/200] train_loss: 0.43148 valid_loss: 0.58053 valid_AUC: 0.89404 valid_PRC: 0.79986 valid_Accuracy: 0.82812 valid_Precision: 0.68755 valid_Reacll: 0.75314 
+   📊 Modality Weights -> [2D] Drug:0.974, Prot:0.026 | [1D] Drug:0.478, Prot:0.522
+EarlyStopping counter: 2 out of 30
+[ 29/200] train_loss: 0.40786 valid_loss: 0.65973 valid_AUC: 0.88233 valid_PRC: 0.77151 valid_Accuracy: 0.82202 valid_Precision: 0.67951 valid_Reacll: 0.73808 
+   📊 Modality Weights -> [2D] Drug:0.976, Prot:0.024 | [1D] Drug:0.492, Prot:0.508
+EarlyStopping counter: 3 out of 30
+[ 30/200] train_loss: 0.46379 valid_loss: 0.63956 valid_AUC: 0.89674 valid_PRC: 0.80597 valid_Accuracy: 0.83716 valid_Precision: 0.70497 valid_Reacll: 0.75983 
+   📊 Modality Weights -> [2D] Drug:0.975, Prot:0.025 | [1D] Drug:0.514, Prot:0.486
+EarlyStopping counter: 4 out of 30
+[ 31/200] train_loss: 0.41485 valid_loss: 0.67921 valid_AUC: 0.89518 valid_PRC: 0.80355 valid_Accuracy: 0.82593 valid_Precision: 0.67515 valid_Reacll: 0.77741 
+   📊 Modality Weights -> [2D] Drug:0.976, Prot:0.024 | [1D] Drug:0.521, Prot:0.479
+EarlyStopping counter: 5 out of 30
+[ 32/200] train_loss: 0.44167 valid_loss: 0.67362 valid_AUC: 0.89990 valid_PRC: 0.81021 valid_Accuracy: 0.83716 valid_Precision: 0.70402 valid_Reacll: 0.76234 
+   📊 Modality Weights -> [2D] Drug:0.973, Prot:0.027 | [1D] Drug:0.532, Prot:0.468
+Have a new best checkpoint: (0.898657 --> 0.899904).  Saving model ...
+[ 33/200] train_loss: 0.40192 valid_loss: 0.76046 valid_AUC: 0.88386 valid_PRC: 0.77669 valid_Accuracy: 0.82227 valid_Precision: 0.67811 valid_Reacll: 0.74393 
+   📊 Modality Weights -> [2D] Drug:0.971, Prot:0.029 | [1D] Drug:0.547, Prot:0.453
+EarlyStopping counter: 1 out of 30
+[ 34/200] train_loss: 0.43922 valid_loss: 0.68909 valid_AUC: 0.89568 valid_PRC: 0.80120 valid_Accuracy: 0.83228 valid_Precision: 0.69419 valid_Reacll: 0.75983 
+   📊 Modality Weights -> [2D] Drug:0.975, Prot:0.025 | [1D] Drug:0.565, Prot:0.435
+EarlyStopping counter: 2 out of 30
+[ 35/200] train_loss: 0.39278 valid_loss: 0.78109 valid_AUC: 0.88973 valid_PRC: 0.79553 valid_Accuracy: 0.83374 valid_Precision: 0.70759 valid_Reacll: 0.73305 
+   📊 Modality Weights -> [2D] Drug:0.976, Prot:0.024 | [1D] Drug:0.576, Prot:0.424
+EarlyStopping counter: 3 out of 30
+[ 36/200] train_loss: 0.41308 valid_loss: 0.77980 valid_AUC: 0.89419 valid_PRC: 0.79853 valid_Accuracy: 0.83447 valid_Precision: 0.71171 valid_Reacll: 0.72720 
+   📊 Modality Weights -> [2D] Drug:0.978, Prot:0.022 | [1D] Drug:0.580, Prot:0.420
+EarlyStopping counter: 4 out of 30
+[ 37/200] train_loss: 0.37519 valid_loss: 0.76362 valid_AUC: 0.88979 valid_PRC: 0.79410 valid_Accuracy: 0.82129 valid_Precision: 0.66715 valid_Reacll: 0.77322 
+   📊 Modality Weights -> [2D] Drug:0.979, Prot:0.021 | [1D] Drug:0.616, Prot:0.384
+EarlyStopping counter: 5 out of 30
+[ 38/200] train_loss: 0.40069 valid_loss: 0.75746 valid_AUC: 0.89814 valid_PRC: 0.80810 valid_Accuracy: 0.83569 valid_Precision: 0.70487 valid_Reacll: 0.75146 
+   📊 Modality Weights -> [2D] Drug:0.983, Prot:0.017 | [1D] Drug:0.684, Prot:0.316
+EarlyStopping counter: 6 out of 30
+[ 39/200] train_loss: 0.38204 valid_loss: 0.78533 valid_AUC: 0.87990 valid_PRC: 0.77890 valid_Accuracy: 0.79565 valid_Precision: 0.61358 valid_Reacll: 0.80921 
+   📊 Modality Weights -> [2D] Drug:0.984, Prot:0.016 | [1D] Drug:0.686, Prot:0.314
+EarlyStopping counter: 7 out of 30
+[ 40/200] train_loss: 0.44548 valid_loss: 0.64939 valid_AUC: 0.89904 valid_PRC: 0.81073 valid_Accuracy: 0.83252 valid_Precision: 0.69622 valid_Reacll: 0.75565 
+   📊 Modality Weights -> [2D] Drug:0.979, Prot:0.021 | [1D] Drug:0.705, Prot:0.295
+EarlyStopping counter: 8 out of 30
+[ 41/200] train_loss: 0.40722 valid_loss: 0.62570 valid_AUC: 0.89123 valid_PRC: 0.79664 valid_Accuracy: 0.81445 valid_Precision: 0.64627 valid_Reacll: 0.80418 
+   📊 Modality Weights -> [2D] Drug:0.978, Prot:0.022 | [1D] Drug:0.725, Prot:0.275
+EarlyStopping counter: 9 out of 30
+[ 42/200] train_loss: 0.41567 valid_loss: 0.65914 valid_AUC: 0.89969 valid_PRC: 0.80844 valid_Accuracy: 0.83081 valid_Precision: 0.69073 valid_Reacll: 0.76067 
+   📊 Modality Weights -> [2D] Drug:0.981, Prot:0.019 | [1D] Drug:0.749, Prot:0.251
+EarlyStopping counter: 10 out of 30
+[ 43/200] train_loss: 0.36225 valid_loss: 0.83044 valid_AUC: 0.88534 valid_PRC: 0.77982 valid_Accuracy: 0.82983 valid_Precision: 0.69762 valid_Reacll: 0.73556 
+   📊 Modality Weights -> [2D] Drug:0.981, Prot:0.019 | [1D] Drug:0.747, Prot:0.253
+EarlyStopping counter: 11 out of 30
+[ 44/200] train_loss: 0.38068 valid_loss: 0.76672 valid_AUC: 0.89660 valid_PRC: 0.80518 valid_Accuracy: 0.83813 valid_Precision: 0.70462 valid_Reacll: 0.76653 
+   📊 Modality Weights -> [2D] Drug:0.980, Prot:0.020 | [1D] Drug:0.746, Prot:0.254
+EarlyStopping counter: 12 out of 30
+[ 45/200] train_loss: 0.33982 valid_loss: 0.91962 valid_AUC: 0.89315 valid_PRC: 0.80220 valid_Accuracy: 0.83496 valid_Precision: 0.71715 valid_Reacll: 0.71715 
+   📊 Modality Weights -> [2D] Drug:0.981, Prot:0.019 | [1D] Drug:0.749, Prot:0.251
+EarlyStopping counter: 13 out of 30
+[ 46/200] train_loss: 0.35336 valid_loss: 0.88157 valid_AUC: 0.89928 valid_PRC: 0.81101 valid_Accuracy: 0.83862 valid_Precision: 0.71743 valid_Reacll: 0.73724 
+   📊 Modality Weights -> [2D] Drug:0.980, Prot:0.020 | [1D] Drug:0.768, Prot:0.232
+EarlyStopping counter: 14 out of 30
+[ 47/200] train_loss: 0.32833 valid_loss: 1.03178 valid_AUC: 0.89677 valid_PRC: 0.80861 valid_Accuracy: 0.84082 valid_Precision: 0.73921 valid_Reacll: 0.70209 
+   📊 Modality Weights -> [2D] Drug:0.981, Prot:0.019 | [1D] Drug:0.777, Prot:0.223
+EarlyStopping counter: 15 out of 30
+[ 48/200] train_loss: 0.33937 valid_loss: 0.93237 valid_AUC: 0.89799 valid_PRC: 0.80743 valid_Accuracy: 0.83569 valid_Precision: 0.70616 valid_Reacll: 0.74812 
+   📊 Modality Weights -> [2D] Drug:0.982, Prot:0.018 | [1D] Drug:0.793, Prot:0.207
+EarlyStopping counter: 16 out of 30
+[ 49/200] train_loss: 0.31819 valid_loss: 1.02507 valid_AUC: 0.89338 valid_PRC: 0.79802 valid_Accuracy: 0.83545 valid_Precision: 0.72515 valid_Reacll: 0.70209 
+   📊 Modality Weights -> [2D] Drug:0.984, Prot:0.016 | [1D] Drug:0.807, Prot:0.193
+EarlyStopping counter: 17 out of 30
+[ 50/200] train_loss: 0.35754 valid_loss: 0.86097 valid_AUC: 0.89646 valid_PRC: 0.80312 valid_Accuracy: 0.83447 valid_Precision: 0.69808 valid_Reacll: 0.76234 
+   📊 Modality Weights -> [2D] Drug:0.984, Prot:0.016 | [1D] Drug:0.800, Prot:0.200
+EarlyStopping counter: 18 out of 30
+[ 51/200] train_loss: 0.31797 valid_loss: 1.00235 valid_AUC: 0.89524 valid_PRC: 0.80056 valid_Accuracy: 0.83594 valid_Precision: 0.71347 valid_Reacll: 0.73138 
+   📊 Modality Weights -> [2D] Drug:0.984, Prot:0.016 | [1D] Drug:0.805, Prot:0.195
+EarlyStopping counter: 19 out of 30
+[ 52/200] train_loss: 0.33739 valid_loss: 0.94907 valid_AUC: 0.89929 valid_PRC: 0.80926 valid_Accuracy: 0.84106 valid_Precision: 0.71622 valid_Reacll: 0.75397 
+   📊 Modality Weights -> [2D] Drug:0.985, Prot:0.015 | [1D] Drug:0.828, Prot:0.172
+EarlyStopping counter: 20 out of 30
+[ 53/200] train_loss: 0.30968 valid_loss: 1.02907 valid_AUC: 0.89625 valid_PRC: 0.80290 valid_Accuracy: 0.84106 valid_Precision: 0.72742 valid_Reacll: 0.72803 
+   📊 Modality Weights -> [2D] Drug:0.985, Prot:0.015 | [1D] Drug:0.836, Prot:0.164
+EarlyStopping counter: 21 out of 30
+[ 54/200] train_loss: 0.32472 valid_loss: 0.96841 valid_AUC: 0.89638 valid_PRC: 0.80438 valid_Accuracy: 0.83350 valid_Precision: 0.69961 valid_Reacll: 0.75230 
+   📊 Modality Weights -> [2D] Drug:0.981, Prot:0.019 | [1D] Drug:0.849, Prot:0.151
+EarlyStopping counter: 22 out of 30
+[ 55/200] train_loss: 0.30135 valid_loss: 1.04683 valid_AUC: 0.89770 valid_PRC: 0.80630 valid_Accuracy: 0.83472 valid_Precision: 0.70458 valid_Reacll: 0.74644 
+   📊 Modality Weights -> [2D] Drug:0.981, Prot:0.019 | [1D] Drug:0.832, Prot:0.168
+EarlyStopping counter: 23 out of 30
+[ 56/200] train_loss: 0.31271 valid_loss: 1.03590 valid_AUC: 0.90062 valid_PRC: 0.81230 valid_Accuracy: 0.84106 valid_Precision: 0.72042 valid_Reacll: 0.74393 
+   📊 Modality Weights -> [2D] Drug:0.979, Prot:0.021 | [1D] Drug:0.828, Prot:0.172
+Have a new best checkpoint: (0.899904 --> 0.900617).  Saving model ...
+[ 57/200] train_loss: 0.34614 valid_loss: 0.80451 valid_AUC: 0.88620 valid_PRC: 0.77846 valid_Accuracy: 0.81396 valid_Precision: 0.64880 valid_Reacll: 0.78996 
+   📊 Modality Weights -> [2D] Drug:0.976, Prot:0.024 | [1D] Drug:0.831, Prot:0.169
+EarlyStopping counter: 1 out of 30
+[ 58/200] train_loss: 0.36634 valid_loss: 0.75240 valid_AUC: 0.89759 valid_PRC: 0.80695 valid_Accuracy: 0.83374 valid_Precision: 0.69094 valid_Reacll: 0.77824 
+   📊 Modality Weights -> [2D] Drug:0.987, Prot:0.013 | [1D] Drug:0.808, Prot:0.192
+EarlyStopping counter: 2 out of 30
+[ 59/200] train_loss: 0.31260 valid_loss: 0.96829 valid_AUC: 0.89069 valid_PRC: 0.79848 valid_Accuracy: 0.82837 valid_Precision: 0.69462 valid_Reacll: 0.73473 
+   📊 Modality Weights -> [2D] Drug:0.988, Prot:0.012 | [1D] Drug:0.787, Prot:0.213
+EarlyStopping counter: 3 out of 30
+[ 60/200] train_loss: 0.31088 valid_loss: 0.90289 valid_AUC: 0.90067 valid_PRC: 0.81068 valid_Accuracy: 0.83789 valid_Precision: 0.70314 valid_Reacll: 0.76904 
+   📊 Modality Weights -> [2D] Drug:0.989, Prot:0.011 | [1D] Drug:0.787, Prot:0.213
+Have a new best checkpoint: (0.900617 --> 0.900666).  Saving model ...
+[ 61/200] train_loss: 0.29030 valid_loss: 1.00659 valid_AUC: 0.89525 valid_PRC: 0.80199 valid_Accuracy: 0.83911 valid_Precision: 0.71136 valid_Reacll: 0.75481 
+   📊 Modality Weights -> [2D] Drug:0.990, Prot:0.010 | [1D] Drug:0.790, Prot:0.210
+EarlyStopping counter: 1 out of 30
+[ 62/200] train_loss: 0.29589 valid_loss: 1.00309 valid_AUC: 0.89966 valid_PRC: 0.80698 valid_Accuracy: 0.83887 valid_Precision: 0.70817 valid_Reacll: 0.76151 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.793, Prot:0.207
+EarlyStopping counter: 2 out of 30
+[ 63/200] train_loss: 0.28261 valid_loss: 1.01996 valid_AUC: 0.90154 valid_PRC: 0.81224 valid_Accuracy: 0.83740 valid_Precision: 0.70114 valid_Reacll: 0.77155 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.794, Prot:0.206
+Have a new best checkpoint: (0.900666 --> 0.901540).  Saving model ...
+[ 64/200] train_loss: 0.29628 valid_loss: 1.06386 valid_AUC: 0.90111 valid_PRC: 0.80723 valid_Accuracy: 0.84033 valid_Precision: 0.72154 valid_Reacll: 0.73724 
+   📊 Modality Weights -> [2D] Drug:0.992, Prot:0.008 | [1D] Drug:0.795, Prot:0.205
+EarlyStopping counter: 1 out of 30
+[ 65/200] train_loss: 0.28199 valid_loss: 1.13632 valid_AUC: 0.89913 valid_PRC: 0.80516 valid_Accuracy: 0.83862 valid_Precision: 0.72030 valid_Reacll: 0.73054 
+   📊 Modality Weights -> [2D] Drug:0.993, Prot:0.007 | [1D] Drug:0.797, Prot:0.203
+EarlyStopping counter: 2 out of 30
+[ 66/200] train_loss: 0.29397 valid_loss: 1.10399 valid_AUC: 0.89986 valid_PRC: 0.81359 valid_Accuracy: 0.84009 valid_Precision: 0.72314 valid_Reacll: 0.73222 
+   📊 Modality Weights -> [2D] Drug:0.994, Prot:0.006 | [1D] Drug:0.808, Prot:0.192
+EarlyStopping counter: 3 out of 30
+[ 67/200] train_loss: 0.27668 valid_loss: 1.17799 valid_AUC: 0.89175 valid_PRC: 0.79667 valid_Accuracy: 0.83594 valid_Precision: 0.72105 valid_Reacll: 0.71381 
+   📊 Modality Weights -> [2D] Drug:0.993, Prot:0.007 | [1D] Drug:0.812, Prot:0.188
+EarlyStopping counter: 4 out of 30
+[ 68/200] train_loss: 0.28758 valid_loss: 1.12000 valid_AUC: 0.89937 valid_PRC: 0.81050 valid_Accuracy: 0.83691 valid_Precision: 0.71302 valid_Reacll: 0.73808 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.819, Prot:0.181
+EarlyStopping counter: 5 out of 30
+[ 69/200] train_loss: 0.27298 valid_loss: 1.17766 valid_AUC: 0.89881 valid_PRC: 0.80481 valid_Accuracy: 0.83716 valid_Precision: 0.71818 valid_Reacll: 0.72720 
+   📊 Modality Weights -> [2D] Drug:0.989, Prot:0.011 | [1D] Drug:0.823, Prot:0.177
+EarlyStopping counter: 6 out of 30
+[ 70/200] train_loss: 0.28230 valid_loss: 1.15021 valid_AUC: 0.90194 valid_PRC: 0.81494 valid_Accuracy: 0.84839 valid_Precision: 0.74656 valid_Reacll: 0.72720 
+   📊 Modality Weights -> [2D] Drug:0.990, Prot:0.010 | [1D] Drug:0.829, Prot:0.171
+Have a new best checkpoint: (0.901540 --> 0.901942).  Saving model ...
+[ 71/200] train_loss: 0.26861 valid_loss: 1.16605 valid_AUC: 0.89795 valid_PRC: 0.80485 valid_Accuracy: 0.84033 valid_Precision: 0.71216 valid_Reacll: 0.75983 
+   📊 Modality Weights -> [2D] Drug:0.990, Prot:0.010 | [1D] Drug:0.830, Prot:0.170
+EarlyStopping counter: 1 out of 30
+[ 72/200] train_loss: 0.28842 valid_loss: 1.10185 valid_AUC: 0.90098 valid_PRC: 0.81188 valid_Accuracy: 0.84180 valid_Precision: 0.72146 valid_Reacll: 0.74561 
+   📊 Modality Weights -> [2D] Drug:0.994, Prot:0.006 | [1D] Drug:0.835, Prot:0.165
+EarlyStopping counter: 2 out of 30
+[ 73/200] train_loss: 0.26410 valid_loss: 1.26805 valid_AUC: 0.89097 valid_PRC: 0.79261 valid_Accuracy: 0.83545 valid_Precision: 0.72058 valid_Reacll: 0.71213 
+   📊 Modality Weights -> [2D] Drug:0.994, Prot:0.006 | [1D] Drug:0.836, Prot:0.164
+EarlyStopping counter: 3 out of 30
+[ 74/200] train_loss: 0.28688 valid_loss: 1.07273 valid_AUC: 0.90140 valid_PRC: 0.81260 valid_Accuracy: 0.83838 valid_Precision: 0.71235 valid_Reacll: 0.74812 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.834, Prot:0.166
+EarlyStopping counter: 4 out of 30
+[ 75/200] train_loss: 0.25919 valid_loss: 1.10286 valid_AUC: 0.90181 valid_PRC: 0.81153 valid_Accuracy: 0.83887 valid_Precision: 0.70219 valid_Reacll: 0.77741 
+   📊 Modality Weights -> [2D] Drug:0.990, Prot:0.010 | [1D] Drug:0.833, Prot:0.167
+EarlyStopping counter: 5 out of 30
+[ 76/200] train_loss: 0.26761 valid_loss: 1.16157 valid_AUC: 0.90109 valid_PRC: 0.80950 valid_Accuracy: 0.84106 valid_Precision: 0.72295 valid_Reacll: 0.73808 
+   📊 Modality Weights -> [2D] Drug:0.989, Prot:0.011 | [1D] Drug:0.827, Prot:0.173
+EarlyStopping counter: 6 out of 30
+[ 77/200] train_loss: 0.25813 valid_loss: 1.28502 valid_AUC: 0.90077 valid_PRC: 0.81412 valid_Accuracy: 0.84302 valid_Precision: 0.73917 valid_Reacll: 0.71381 
+   📊 Modality Weights -> [2D] Drug:0.989, Prot:0.011 | [1D] Drug:0.824, Prot:0.176
+EarlyStopping counter: 7 out of 30
+[ 78/200] train_loss: 0.26417 valid_loss: 1.20008 valid_AUC: 0.90103 valid_PRC: 0.81174 valid_Accuracy: 0.84106 valid_Precision: 0.72479 valid_Reacll: 0.73389 
+   📊 Modality Weights -> [2D] Drug:0.989, Prot:0.011 | [1D] Drug:0.824, Prot:0.176
+EarlyStopping counter: 8 out of 30
+[ 79/200] train_loss: 0.25482 valid_loss: 1.25467 valid_AUC: 0.89872 valid_PRC: 0.81166 valid_Accuracy: 0.83984 valid_Precision: 0.71893 valid_Reacll: 0.74059 
+   📊 Modality Weights -> [2D] Drug:0.989, Prot:0.011 | [1D] Drug:0.829, Prot:0.171
+EarlyStopping counter: 9 out of 30
+[ 80/200] train_loss: 0.26037 valid_loss: 1.23258 valid_AUC: 0.89733 valid_PRC: 0.80481 valid_Accuracy: 0.84766 valid_Precision: 0.73971 valid_Reacll: 0.73724 
+   📊 Modality Weights -> [2D] Drug:0.989, Prot:0.011 | [1D] Drug:0.840, Prot:0.160
+EarlyStopping counter: 10 out of 30
+[ 81/200] train_loss: 0.24702 valid_loss: 1.35845 valid_AUC: 0.89790 valid_PRC: 0.80971 valid_Accuracy: 0.83984 valid_Precision: 0.72328 valid_Reacll: 0.73054 
+   📊 Modality Weights -> [2D] Drug:0.990, Prot:0.010 | [1D] Drug:0.843, Prot:0.157
+EarlyStopping counter: 11 out of 30
+[ 82/200] train_loss: 0.26297 valid_loss: 1.20039 valid_AUC: 0.89860 valid_PRC: 0.80635 valid_Accuracy: 0.83813 valid_Precision: 0.71383 valid_Reacll: 0.74310 
+   📊 Modality Weights -> [2D] Drug:0.992, Prot:0.008 | [1D] Drug:0.830, Prot:0.170
+EarlyStopping counter: 12 out of 30
+[ 83/200] train_loss: 0.24531 valid_loss: 1.29721 valid_AUC: 0.89611 valid_PRC: 0.80133 valid_Accuracy: 0.83813 valid_Precision: 0.71875 valid_Reacll: 0.73138 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.826, Prot:0.174
+EarlyStopping counter: 13 out of 30
+[ 84/200] train_loss: 0.26052 valid_loss: 1.23255 valid_AUC: 0.89739 valid_PRC: 0.80689 valid_Accuracy: 0.83691 valid_Precision: 0.70099 valid_Reacll: 0.76904 
+   📊 Modality Weights -> [2D] Drug:0.992, Prot:0.008 | [1D] Drug:0.819, Prot:0.181
+EarlyStopping counter: 14 out of 30
+[ 85/200] train_loss: 0.31345 valid_loss: 0.73749 valid_AUC: 0.85290 valid_PRC: 0.70954 valid_Accuracy: 0.74292 valid_Precision: 0.53859 valid_Reacll: 0.82929 
+   📊 Modality Weights -> [2D] Drug:0.992, Prot:0.008 | [1D] Drug:0.819, Prot:0.181
+EarlyStopping counter: 15 out of 30
+[ 86/200] train_loss: 0.45113 valid_loss: 0.49706 valid_AUC: 0.90507 valid_PRC: 0.81586 valid_Accuracy: 0.83228 valid_Precision: 0.68704 valid_Reacll: 0.78075 
+   📊 Modality Weights -> [2D] Drug:0.987, Prot:0.013 | [1D] Drug:0.685, Prot:0.315
+Have a new best checkpoint: (0.901942 --> 0.905068).  Saving model ...
+[ 87/200] train_loss: 0.32843 valid_loss: 0.67404 valid_AUC: 0.89900 valid_PRC: 0.80405 valid_Accuracy: 0.84131 valid_Precision: 0.73841 valid_Reacll: 0.70628 
+   📊 Modality Weights -> [2D] Drug:0.987, Prot:0.013 | [1D] Drug:0.690, Prot:0.310
+EarlyStopping counter: 1 out of 30
+[ 88/200] train_loss: 0.31887 valid_loss: 0.62587 valid_AUC: 0.90650 valid_PRC: 0.82207 valid_Accuracy: 0.84204 valid_Precision: 0.70664 valid_Reacll: 0.78410 
+   📊 Modality Weights -> [2D] Drug:0.988, Prot:0.012 | [1D] Drug:0.705, Prot:0.295
+Have a new best checkpoint: (0.905068 --> 0.906496).  Saving model ...
+[ 89/200] train_loss: 0.26903 valid_loss: 0.74967 valid_AUC: 0.90188 valid_PRC: 0.81547 valid_Accuracy: 0.83813 valid_Precision: 0.70430 valid_Reacll: 0.76736 
+   📊 Modality Weights -> [2D] Drug:0.988, Prot:0.012 | [1D] Drug:0.710, Prot:0.290
+EarlyStopping counter: 1 out of 30
+[ 90/200] train_loss: 0.26837 valid_loss: 0.85716 valid_AUC: 0.90473 valid_PRC: 0.81848 valid_Accuracy: 0.85034 valid_Precision: 0.74578 valid_Reacll: 0.73891 
+   📊 Modality Weights -> [2D] Drug:0.987, Prot:0.013 | [1D] Drug:0.725, Prot:0.275
+EarlyStopping counter: 2 out of 30
+[ 91/200] train_loss: 0.24583 valid_loss: 0.91550 valid_AUC: 0.90754 valid_PRC: 0.82158 valid_Accuracy: 0.85254 valid_Precision: 0.75629 valid_Reacll: 0.72971 
+   📊 Modality Weights -> [2D] Drug:0.987, Prot:0.013 | [1D] Drug:0.729, Prot:0.271
+Have a new best checkpoint: (0.906496 --> 0.907542).  Saving model ...
+[ 92/200] train_loss: 0.24721 valid_loss: 0.92898 valid_AUC: 0.90274 valid_PRC: 0.81621 valid_Accuracy: 0.84619 valid_Precision: 0.72727 valid_Reacll: 0.75649 
+   📊 Modality Weights -> [2D] Drug:0.987, Prot:0.013 | [1D] Drug:0.740, Prot:0.260
+EarlyStopping counter: 1 out of 30
+[ 93/200] train_loss: 0.23472 valid_loss: 1.00567 valid_AUC: 0.90420 valid_PRC: 0.82055 valid_Accuracy: 0.84155 valid_Precision: 0.72451 valid_Reacll: 0.73724 
+   📊 Modality Weights -> [2D] Drug:0.987, Prot:0.013 | [1D] Drug:0.747, Prot:0.253
+EarlyStopping counter: 2 out of 30
+[ 94/200] train_loss: 0.24003 valid_loss: 1.00945 valid_AUC: 0.90549 valid_PRC: 0.82395 valid_Accuracy: 0.84888 valid_Precision: 0.73339 valid_Reacll: 0.75732 
+   📊 Modality Weights -> [2D] Drug:0.986, Prot:0.014 | [1D] Drug:0.751, Prot:0.249
+EarlyStopping counter: 3 out of 30
+[ 95/200] train_loss: 0.23172 valid_loss: 1.09422 valid_AUC: 0.90100 valid_PRC: 0.80737 valid_Accuracy: 0.84741 valid_Precision: 0.74194 valid_Reacll: 0.73138 
+   📊 Modality Weights -> [2D] Drug:0.986, Prot:0.014 | [1D] Drug:0.750, Prot:0.250
+EarlyStopping counter: 4 out of 30
+[ 96/200] train_loss: 0.24324 valid_loss: 1.07440 valid_AUC: 0.90312 valid_PRC: 0.81748 valid_Accuracy: 0.84180 valid_Precision: 0.72110 valid_Reacll: 0.74644 
+   📊 Modality Weights -> [2D] Drug:0.987, Prot:0.013 | [1D] Drug:0.771, Prot:0.229
+EarlyStopping counter: 5 out of 30
+[ 97/200] train_loss: 0.23211 valid_loss: 1.16373 valid_AUC: 0.89979 valid_PRC: 0.81512 valid_Accuracy: 0.84131 valid_Precision: 0.72614 valid_Reacll: 0.73222 
+   📊 Modality Weights -> [2D] Drug:0.987, Prot:0.013 | [1D] Drug:0.786, Prot:0.214
+EarlyStopping counter: 6 out of 30
+[ 98/200] train_loss: 0.24120 valid_loss: 1.06680 valid_AUC: 0.90331 valid_PRC: 0.81598 valid_Accuracy: 0.84155 valid_Precision: 0.71163 valid_Reacll: 0.76820 
+   📊 Modality Weights -> [2D] Drug:0.987, Prot:0.013 | [1D] Drug:0.782, Prot:0.218
+EarlyStopping counter: 7 out of 30
+[ 99/200] train_loss: 0.22845 valid_loss: 1.10321 valid_AUC: 0.89529 valid_PRC: 0.80732 valid_Accuracy: 0.84082 valid_Precision: 0.71161 valid_Reacll: 0.76402 
+   📊 Modality Weights -> [2D] Drug:0.987, Prot:0.013 | [1D] Drug:0.782, Prot:0.218
+EarlyStopping counter: 8 out of 30
+[100/200] train_loss: 0.25268 valid_loss: 1.04290 valid_AUC: 0.90236 valid_PRC: 0.81557 valid_Accuracy: 0.84741 valid_Precision: 0.72335 valid_Reacll: 0.77238 
+   📊 Modality Weights -> [2D] Drug:0.987, Prot:0.013 | [1D] Drug:0.795, Prot:0.205
+EarlyStopping counter: 9 out of 30
+[101/200] train_loss: 0.23196 valid_loss: 1.11791 valid_AUC: 0.89834 valid_PRC: 0.80449 valid_Accuracy: 0.84326 valid_Precision: 0.72067 valid_Reacll: 0.75565 
+   📊 Modality Weights -> [2D] Drug:0.987, Prot:0.013 | [1D] Drug:0.802, Prot:0.198
+EarlyStopping counter: 10 out of 30
+[102/200] train_loss: 0.24601 valid_loss: 1.10245 valid_AUC: 0.89693 valid_PRC: 0.80947 valid_Accuracy: 0.84204 valid_Precision: 0.72833 valid_Reacll: 0.73138 
+   📊 Modality Weights -> [2D] Drug:0.992, Prot:0.008 | [1D] Drug:0.813, Prot:0.187
+EarlyStopping counter: 11 out of 30
+[103/200] train_loss: 0.23636 valid_loss: 1.06034 valid_AUC: 0.89667 valid_PRC: 0.80501 valid_Accuracy: 0.82861 valid_Precision: 0.67396 valid_Reacll: 0.79916 
+   📊 Modality Weights -> [2D] Drug:0.992, Prot:0.008 | [1D] Drug:0.819, Prot:0.181
+EarlyStopping counter: 12 out of 30
+[104/200] train_loss: 0.24161 valid_loss: 1.08479 valid_AUC: 0.89827 valid_PRC: 0.81321 valid_Accuracy: 0.84277 valid_Precision: 0.71779 valid_Reacll: 0.75983 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.794, Prot:0.206
+EarlyStopping counter: 13 out of 30
+[105/200] train_loss: 0.22404 valid_loss: 1.12148 valid_AUC: 0.89644 valid_PRC: 0.80764 valid_Accuracy: 0.83862 valid_Precision: 0.70634 valid_Reacll: 0.76485 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.786, Prot:0.214
+EarlyStopping counter: 14 out of 30
+[106/200] train_loss: 0.22400 valid_loss: 1.15230 valid_AUC: 0.89983 valid_PRC: 0.81481 valid_Accuracy: 0.84473 valid_Precision: 0.72130 valid_Reacll: 0.76234 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.793, Prot:0.207
+EarlyStopping counter: 15 out of 30
+[107/200] train_loss: 0.21900 valid_loss: 1.18139 valid_AUC: 0.89555 valid_PRC: 0.80812 valid_Accuracy: 0.84180 valid_Precision: 0.71655 valid_Reacll: 0.75732 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.799, Prot:0.201
+EarlyStopping counter: 16 out of 30
+[108/200] train_loss: 0.22128 valid_loss: 1.17967 valid_AUC: 0.89850 valid_PRC: 0.80848 valid_Accuracy: 0.84375 valid_Precision: 0.71429 valid_Reacll: 0.77406 
+   📊 Modality Weights -> [2D] Drug:0.990, Prot:0.010 | [1D] Drug:0.804, Prot:0.196
+EarlyStopping counter: 17 out of 30
+[109/200] train_loss: 0.21496 valid_loss: 1.29570 valid_AUC: 0.89773 valid_PRC: 0.80643 valid_Accuracy: 0.84326 valid_Precision: 0.73492 valid_Reacll: 0.72385 
+   📊 Modality Weights -> [2D] Drug:0.990, Prot:0.010 | [1D] Drug:0.791, Prot:0.209
+EarlyStopping counter: 18 out of 30
+[110/200] train_loss: 0.22232 valid_loss: 1.19510 valid_AUC: 0.90397 valid_PRC: 0.81695 valid_Accuracy: 0.84888 valid_Precision: 0.73802 valid_Reacll: 0.74728 
+   📊 Modality Weights -> [2D] Drug:0.989, Prot:0.011 | [1D] Drug:0.789, Prot:0.211
+EarlyStopping counter: 19 out of 30
+[111/200] train_loss: 0.21709 valid_loss: 1.21247 valid_AUC: 0.89871 valid_PRC: 0.81156 valid_Accuracy: 0.83545 valid_Precision: 0.69720 valid_Reacll: 0.77071 
+   📊 Modality Weights -> [2D] Drug:0.989, Prot:0.011 | [1D] Drug:0.796, Prot:0.204
+EarlyStopping counter: 20 out of 30
+[112/200] train_loss: 0.22818 valid_loss: 1.08733 valid_AUC: 0.89975 valid_PRC: 0.80428 valid_Accuracy: 0.82837 valid_Precision: 0.67227 valid_Reacll: 0.80335 
+   📊 Modality Weights -> [2D] Drug:0.990, Prot:0.010 | [1D] Drug:0.807, Prot:0.193
+EarlyStopping counter: 21 out of 30
+[113/200] train_loss: 0.21361 valid_loss: 1.19915 valid_AUC: 0.89157 valid_PRC: 0.79313 valid_Accuracy: 0.82153 valid_Precision: 0.66179 valid_Reacll: 0.79414 
+   📊 Modality Weights -> [2D] Drug:0.990, Prot:0.010 | [1D] Drug:0.814, Prot:0.186
+EarlyStopping counter: 22 out of 30
+[114/200] train_loss: 0.23225 valid_loss: 1.07005 valid_AUC: 0.89884 valid_PRC: 0.80647 valid_Accuracy: 0.83252 valid_Precision: 0.68349 valid_Reacll: 0.79331 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.802, Prot:0.198
+EarlyStopping counter: 23 out of 30
+[115/200] train_loss: 0.21423 valid_loss: 1.18325 valid_AUC: 0.89707 valid_PRC: 0.80466 valid_Accuracy: 0.83789 valid_Precision: 0.70283 valid_Reacll: 0.76987 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.809, Prot:0.191
+EarlyStopping counter: 24 out of 30
+[116/200] train_loss: 0.22826 valid_loss: 1.04605 valid_AUC: 0.89974 valid_PRC: 0.81152 valid_Accuracy: 0.83496 valid_Precision: 0.68955 valid_Reacll: 0.78996 
+   📊 Modality Weights -> [2D] Drug:0.992, Prot:0.008 | [1D] Drug:0.810, Prot:0.190
+EarlyStopping counter: 25 out of 30
+[117/200] train_loss: 0.21290 valid_loss: 1.15697 valid_AUC: 0.89967 valid_PRC: 0.81221 valid_Accuracy: 0.84082 valid_Precision: 0.71361 valid_Reacll: 0.75900 
+   📊 Modality Weights -> [2D] Drug:0.990, Prot:0.010 | [1D] Drug:0.799, Prot:0.201
+EarlyStopping counter: 26 out of 30
+[118/200] train_loss: 0.22090 valid_loss: 1.10211 valid_AUC: 0.89858 valid_PRC: 0.81417 valid_Accuracy: 0.83521 valid_Precision: 0.69118 valid_Reacll: 0.78661 
+   📊 Modality Weights -> [2D] Drug:0.990, Prot:0.010 | [1D] Drug:0.789, Prot:0.211
+EarlyStopping counter: 27 out of 30
+[119/200] train_loss: 0.21012 valid_loss: 1.11944 valid_AUC: 0.89685 valid_PRC: 0.80845 valid_Accuracy: 0.83325 valid_Precision: 0.68260 valid_Reacll: 0.80084 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.789, Prot:0.211
+EarlyStopping counter: 28 out of 30
+[120/200] train_loss: 0.21035 valid_loss: 1.22251 valid_AUC: 0.89546 valid_PRC: 0.80500 valid_Accuracy: 0.83691 valid_Precision: 0.70570 valid_Reacll: 0.75649 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.795, Prot:0.205
+EarlyStopping counter: 29 out of 30
+[121/200] train_loss: 0.20284 valid_loss: 1.21468 valid_AUC: 0.89365 valid_PRC: 0.80307 valid_Accuracy: 0.82617 valid_Precision: 0.66759 valid_Reacll: 0.80502 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.802, Prot:0.198
+EarlyStopping counter: 30 out of 30
+  0%|          | 0/128 [00:00<?, ?it/s]  1%|          | 1/128 [00:00<01:44,  1.22it/s]  2%|▏         | 2/128 [00:01<01:03,  1.98it/s]  2%|▏         | 3/128 [00:01<01:06,  1.87it/s]  3%|▎         | 4/128 [00:01<00:54,  2.28it/s]  4%|▍         | 5/128 [00:02<00:59,  2.07it/s]  5%|▍         | 6/128 [00:02<00:52,  2.30it/s]  5%|▌         | 7/128 [00:03<00:55,  2.19it/s]  6%|▋         | 8/128 [00:03<00:52,  2.28it/s]  7%|▋         | 9/128 [00:04<00:53,  2.21it/s]  8%|▊         | 10/128 [00:04<00:52,  2.23it/s]  9%|▊         | 11/128 [00:05<00:52,  2.24it/s]  9%|▉         | 12/128 [00:05<00:48,  2.40it/s] 10%|█         | 13/128 [00:06<00:51,  2.22it/s] 11%|█         | 14/128 [00:06<00:48,  2.37it/s] 12%|█▏        | 15/128 [00:06<00:50,  2.24it/s] 12%|█▎        | 16/128 [00:07<00:46,  2.42it/s] 13%|█▎        | 17/128 [00:07<00:48,  2.28it/s] 14%|█▍        | 18/128 [00:08<00:46,  2.37it/s] 15%|█▍        | 19/128 [00:08<00:47,  2.30it/s] 16%|█▌        | 20/128 [00:08<00:43,  2.49it/s] 16%|█▋        | 21/128 [00:09<00:46,  2.29it/s] 17%|█▋        | 22/128 [00:09<00:42,  2.47it/s] 18%|█▊        | 23/128 [00:10<00:46,  2.28it/s] 19%|█▉        | 24/128 [00:10<00:46,  2.25it/s] 20%|█▉        | 25/128 [00:11<00:58,  1.75it/s] 20%|██        | 26/128 [00:12<01:05,  1.56it/s] 21%|██        | 27/128 [00:12<00:54,  1.85it/s] 22%|██▏       | 28/128 [00:13<00:54,  1.83it/s] 23%|██▎       | 29/128 [00:13<00:47,  2.07it/s] 23%|██▎       | 30/128 [00:14<00:47,  2.05it/s] 24%|██▍       | 31/128 [00:14<00:47,  2.06it/s] 25%|██▌       | 32/128 [00:14<00:44,  2.16it/s] 26%|██▌       | 33/128 [00:15<00:44,  2.13it/s] 27%|██▋       | 34/128 [00:15<00:42,  2.22it/s] 27%|██▋       | 35/128 [00:16<00:42,  2.21it/s] 28%|██▊       | 36/128 [00:16<00:40,  2.27it/s] 29%|██▉       | 37/128 [00:17<00:40,  2.27it/s] 30%|██▉       | 38/128 [00:17<00:46,  1.94it/s] 30%|███       | 39/128 [00:18<00:43,  2.06it/s] 31%|███▏      | 40/128 [00:18<00:41,  2.10it/s] 32%|███▏      | 41/128 [00:19<00:38,  2.24it/s] 33%|███▎      | 42/128 [00:19<00:39,  2.20it/s] 34%|███▎      | 43/128 [00:19<00:36,  2.35it/s] 34%|███▍      | 44/128 [00:20<00:36,  2.30it/s] 35%|███▌      | 45/128 [00:20<00:34,  2.38it/s] 36%|███▌      | 46/128 [00:21<00:33,  2.42it/s] 37%|███▋      | 47/128 [00:21<00:33,  2.41it/s] 38%|███▊      | 48/128 [00:22<00:33,  2.40it/s] 38%|███▊      | 49/128 [00:22<00:33,  2.33it/s] 39%|███▉      | 50/128 [00:22<00:34,  2.25it/s] 40%|███▉      | 51/128 [00:23<00:32,  2.35it/s] 41%|████      | 52/128 [00:23<00:33,  2.27it/s] 41%|████▏     | 53/128 [00:24<00:31,  2.38it/s] 42%|████▏     | 54/128 [00:24<00:35,  2.08it/s] 43%|████▎     | 55/128 [00:25<00:33,  2.21it/s] 44%|████▍     | 56/128 [00:25<00:33,  2.15it/s] 45%|████▍     | 57/128 [00:26<00:37,  1.87it/s] 45%|████▌     | 58/128 [00:26<00:33,  2.11it/s] 46%|████▌     | 59/128 [00:27<00:34,  2.03it/s] 47%|████▋     | 60/128 [00:27<00:29,  2.28it/s] 48%|████▊     | 61/128 [00:28<00:31,  2.12it/s] 48%|████▊     | 62/128 [00:28<00:28,  2.32it/s] 49%|████▉     | 63/128 [00:28<00:29,  2.18it/s] 50%|█████     | 64/128 [00:29<00:27,  2.34it/s] 51%|█████     | 65/128 [00:29<00:28,  2.23it/s] 52%|█████▏    | 66/128 [00:30<00:26,  2.30it/s] 52%|█████▏    | 67/128 [00:30<00:26,  2.27it/s] 53%|█████▎    | 68/128 [00:31<00:24,  2.44it/s] 54%|█████▍    | 69/128 [00:31<00:25,  2.29it/s] 55%|█████▍    | 70/128 [00:32<00:26,  2.19it/s] 55%|█████▌    | 71/128 [00:32<00:24,  2.32it/s] 56%|█████▋    | 72/128 [00:32<00:25,  2.17it/s] 57%|█████▋    | 73/128 [00:33<00:22,  2.41it/s] 58%|█████▊    | 74/128 [00:33<00:23,  2.25it/s] 59%|█████▊    | 75/128 [00:34<00:21,  2.42it/s] 59%|█████▉    | 76/128 [00:34<00:22,  2.34it/s] 60%|██████    | 77/128 [00:34<00:21,  2.41it/s] 61%|██████    | 78/128 [00:35<00:20,  2.38it/s] 62%|██████▏   | 79/128 [00:35<00:20,  2.36it/s] 62%|██████▎   | 80/128 [00:36<00:21,  2.25it/s] 63%|██████▎   | 81/128 [00:36<00:19,  2.41it/s] 64%|██████▍   | 82/128 [00:37<00:19,  2.38it/s] 65%|██████▍   | 83/128 [00:37<00:19,  2.36it/s] 66%|██████▌   | 84/128 [00:37<00:19,  2.31it/s] 66%|██████▋   | 85/128 [00:38<00:18,  2.34it/s] 67%|██████▋   | 86/128 [00:38<00:18,  2.27it/s] 68%|██████▊   | 87/128 [00:39<00:17,  2.37it/s] 69%|██████▉   | 88/128 [00:39<00:16,  2.39it/s] 70%|██████▉   | 89/128 [00:40<00:16,  2.42it/s] 70%|███████   | 90/128 [00:40<00:15,  2.39it/s] 71%|███████   | 91/128 [00:40<00:15,  2.40it/s] 72%|███████▏  | 92/128 [00:41<00:15,  2.36it/s] 73%|███████▎  | 93/128 [00:41<00:14,  2.39it/s] 73%|███████▎  | 94/128 [00:42<00:14,  2.38it/s] 74%|███████▍  | 95/128 [00:42<00:14,  2.33it/s] 75%|███████▌  | 96/128 [00:43<00:13,  2.36it/s] 76%|███████▌  | 97/128 [00:43<00:13,  2.30it/s] 77%|███████▋  | 98/128 [00:43<00:13,  2.27it/s] 77%|███████▋  | 99/128 [00:44<00:12,  2.33it/s] 78%|███████▊  | 100/128 [00:44<00:12,  2.21it/s] 79%|███████▉  | 101/128 [00:45<00:11,  2.42it/s] 80%|███████▉  | 102/128 [00:45<00:11,  2.17it/s] 80%|████████  | 103/128 [00:46<00:10,  2.45it/s] 81%|████████▏ | 104/128 [00:46<00:10,  2.19it/s] 82%|████████▏ | 105/128 [00:46<00:09,  2.39it/s] 83%|████████▎ | 106/128 [00:47<00:09,  2.23it/s] 84%|████████▎ | 107/128 [00:47<00:08,  2.45it/s] 84%|████████▍ | 108/128 [00:48<00:07,  2.69it/s] 85%|████████▌ | 109/128 [00:48<00:06,  2.77it/s] 86%|████████▌ | 110/128 [00:48<00:06,  2.61it/s] 87%|████████▋ | 111/128 [00:49<00:06,  2.44it/s] 88%|████████▊ | 112/128 [00:49<00:06,  2.58it/s] 88%|████████▊ | 113/128 [00:49<00:05,  2.78it/s] 89%|████████▉ | 114/128 [00:50<00:04,  2.83it/s] 90%|████████▉ | 115/128 [00:50<00:04,  2.70it/s] 91%|█████████ | 116/128 [00:51<00:04,  2.52it/s] 91%|█████████▏| 117/128 [00:51<00:04,  2.38it/s] 92%|█████████▏| 118/128 [00:51<00:03,  2.64it/s] 93%|█████████▎| 119/128 [00:52<00:03,  2.69it/s] 94%|█████████▍| 120/128 [00:52<00:02,  2.69it/s] 95%|█████████▍| 121/128 [00:53<00:02,  2.58it/s] 95%|█████████▌| 122/128 [00:53<00:02,  2.51it/s] 96%|█████████▌| 123/128 [00:53<00:01,  2.52it/s] 97%|█████████▋| 124/128 [00:54<00:02,  1.94it/s] 98%|█████████▊| 125/128 [00:55<00:01,  1.78it/s] 98%|█████████▊| 126/128 [00:55<00:00,  2.07it/s] 99%|█████████▉| 127/128 [00:55<00:00,  2.26it/s]100%|██████████| 128/128 [00:56<00:00,  2.31it/s]100%|██████████| 128/128 [00:56<00:00,  2.27it/s]
+Train: Loss:0.00915;Accuracy:0.99768;Precision:0.99269;Recall:0.99913;AUC:0.99996;PRC:0.99989.
+  0%|          | 0/32 [00:00<?, ?it/s]  3%|▎         | 1/32 [00:00<00:15,  1.95it/s]  6%|▋         | 2/32 [00:00<00:11,  2.72it/s]  9%|▉         | 3/32 [00:01<00:10,  2.68it/s] 12%|█▎        | 4/32 [00:01<00:10,  2.56it/s] 16%|█▌        | 5/32 [00:02<00:11,  2.41it/s] 19%|█▉        | 6/32 [00:02<00:10,  2.52it/s] 22%|██▏       | 7/32 [00:02<00:08,  2.79it/s] 25%|██▌       | 8/32 [00:02<00:08,  2.96it/s] 28%|██▊       | 9/32 [00:03<00:07,  2.97it/s] 31%|███▏      | 10/32 [00:03<00:07,  2.82it/s] 34%|███▍      | 11/32 [00:04<00:07,  2.64it/s] 38%|███▊      | 12/32 [00:04<00:07,  2.53it/s] 41%|████      | 13/32 [00:04<00:07,  2.64it/s] 44%|████▍     | 14/32 [00:05<00:06,  2.84it/s] 47%|████▋     | 15/32 [00:05<00:06,  2.55it/s] 50%|█████     | 16/32 [00:05<00:05,  2.78it/s] 53%|█████▎    | 17/32 [00:06<00:06,  2.34it/s] 56%|█████▋    | 18/32 [00:06<00:05,  2.57it/s] 59%|█████▉    | 19/32 [00:07<00:05,  2.29it/s] 62%|██████▎   | 20/32 [00:07<00:04,  2.46it/s] 66%|██████▌   | 21/32 [00:08<00:04,  2.27it/s] 69%|██████▉   | 22/32 [00:08<00:04,  2.27it/s] 72%|███████▏  | 23/32 [00:09<00:03,  2.28it/s] 75%|███████▌  | 24/32 [00:09<00:03,  2.13it/s] 78%|███████▊  | 25/32 [00:09<00:02,  2.36it/s] 81%|████████▏ | 26/32 [00:10<00:02,  2.22it/s] 84%|████████▍ | 27/32 [00:10<00:01,  2.51it/s] 88%|████████▊ | 28/32 [00:11<00:01,  2.32it/s] 91%|█████████ | 29/32 [00:11<00:01,  2.55it/s] 94%|█████████▍| 30/32 [00:12<00:00,  2.35it/s] 97%|█████████▋| 31/32 [00:12<00:00,  2.62it/s]100%|██████████| 32/32 [00:12<00:00,  2.35it/s]100%|██████████| 32/32 [00:12<00:00,  2.48it/s]
+Valid: Loss:0.91550;Accuracy:0.85254;Precision:0.75629;Recall:0.72971;AUC:0.90754;PRC:0.82157.
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:00<00:27,  1.43it/s]  5%|▌         | 2/40 [00:01<00:18,  2.08it/s]  8%|▊         | 3/40 [00:01<00:18,  1.98it/s] 10%|█         | 4/40 [00:01<00:15,  2.38it/s] 12%|█▎        | 5/40 [00:02<00:16,  2.15it/s] 15%|█▌        | 6/40 [00:02<00:13,  2.45it/s] 18%|█▊        | 7/40 [00:03<00:15,  2.18it/s] 20%|██        | 8/40 [00:03<00:13,  2.43it/s] 22%|██▎       | 9/40 [00:04<00:14,  2.21it/s] 25%|██▌       | 10/40 [00:04<00:12,  2.36it/s] 28%|██▊       | 11/40 [00:04<00:12,  2.25it/s] 30%|███       | 12/40 [00:05<00:12,  2.21it/s] 32%|███▎      | 13/40 [00:05<00:11,  2.32it/s] 35%|███▌      | 14/40 [00:06<00:11,  2.21it/s] 38%|███▊      | 15/40 [00:06<00:10,  2.36it/s] 40%|████      | 16/40 [00:07<00:10,  2.19it/s] 42%|████▎     | 17/40 [00:07<00:11,  2.05it/s] 45%|████▌     | 18/40 [00:08<00:10,  2.10it/s] 48%|████▊     | 19/40 [00:08<00:10,  1.99it/s] 50%|█████     | 20/40 [00:09<00:08,  2.29it/s] 52%|█████▎    | 21/40 [00:09<00:09,  2.10it/s] 55%|█████▌    | 22/40 [00:09<00:07,  2.26it/s] 57%|█████▊    | 23/40 [00:10<00:07,  2.17it/s] 60%|██████    | 24/40 [00:10<00:07,  2.27it/s] 62%|██████▎   | 25/40 [00:11<00:06,  2.23it/s] 65%|██████▌   | 26/40 [00:11<00:06,  2.27it/s] 68%|██████▊   | 27/40 [00:12<00:05,  2.27it/s] 70%|███████   | 28/40 [00:12<00:05,  2.22it/s] 72%|███████▎  | 29/40 [00:13<00:04,  2.30it/s] 75%|███████▌  | 30/40 [00:13<00:04,  2.47it/s] 78%|███████▊  | 31/40 [00:13<00:03,  2.28it/s] 80%|████████  | 32/40 [00:14<00:03,  2.46it/s] 82%|████████▎ | 33/40 [00:14<00:03,  2.26it/s] 85%|████████▌ | 34/40 [00:15<00:02,  2.42it/s] 88%|████████▊ | 35/40 [00:15<00:02,  2.26it/s] 90%|█████████ | 36/40 [00:15<00:01,  2.46it/s] 92%|█████████▎| 37/40 [00:16<00:01,  2.27it/s] 95%|█████████▌| 38/40 [00:16<00:00,  2.39it/s] 98%|█████████▊| 39/40 [00:17<00:00,  2.26it/s]100%|██████████| 40/40 [00:17<00:00,  2.49it/s]100%|██████████| 40/40 [00:17<00:00,  2.26it/s]
+Test: Loss:0.83972;Accuracy:0.86426;Precision:0.76397;Recall:0.75396;AUC:0.91524;PRC:0.82743.
+🚀 Generating interpretability reports for Davis...
+📊 解释性报告已成功导出至: /home/liumeiling/xjl/DTI/IMDF-DTI/Davis/3/interpretability_report
+✅ Interpretability reports (Heatmaps) saved to: ./Davis/3/interpretability_report
+************************* No. 4 -fold *************************
+Training...
+[  1/200] train_loss: 0.61960 valid_loss: 0.61936 valid_AUC: 0.81802 valid_PRC: 0.64851 valid_Accuracy: 0.78027 valid_Precision: 0.73208 valid_Reacll: 0.36604 
+   📊 Modality Weights -> [2D] Drug:0.505, Prot:0.495 | [1D] Drug:0.317, Prot:0.683
+Have a new best checkpoint: (-inf --> 0.818015).  Saving model ...
+[  2/200] train_loss: 0.50389 valid_loss: 0.48319 valid_AUC: 0.85232 valid_PRC: 0.72184 valid_Accuracy: 0.78882 valid_Precision: 0.60894 valid_Reacll: 0.73208 
+   📊 Modality Weights -> [2D] Drug:0.506, Prot:0.494 | [1D] Drug:0.293, Prot:0.707
+Have a new best checkpoint: (0.818015 --> 0.852317).  Saving model ...
+[  3/200] train_loss: 0.47868 valid_loss: 0.52915 valid_AUC: 0.84823 valid_PRC: 0.71835 valid_Accuracy: 0.81128 valid_Precision: 0.70890 valid_Reacll: 0.57765 
+   📊 Modality Weights -> [2D] Drug:0.513, Prot:0.487 | [1D] Drug:0.259, Prot:0.741
+EarlyStopping counter: 1 out of 30
+[  4/200] train_loss: 0.46708 valid_loss: 0.45845 valid_AUC: 0.86606 valid_PRC: 0.74288 valid_Accuracy: 0.77954 valid_Precision: 0.58540 valid_Reacll: 0.78669 
+   📊 Modality Weights -> [2D] Drug:0.515, Prot:0.485 | [1D] Drug:0.204, Prot:0.796
+Have a new best checkpoint: (0.852317 --> 0.866058).  Saving model ...
+[  5/200] train_loss: 0.43563 valid_loss: 0.47345 valid_AUC: 0.86023 valid_PRC: 0.73146 valid_Accuracy: 0.79810 valid_Precision: 0.62527 valid_Reacll: 0.73464 
+   📊 Modality Weights -> [2D] Drug:0.527, Prot:0.473 | [1D] Drug:0.180, Prot:0.820
+EarlyStopping counter: 1 out of 30
+[  6/200] train_loss: 0.42583 valid_loss: 0.43934 valid_AUC: 0.88037 valid_PRC: 0.76163 valid_Accuracy: 0.80957 valid_Precision: 0.63462 valid_Reacll: 0.78840 
+   📊 Modality Weights -> [2D] Drug:0.533, Prot:0.467 | [1D] Drug:0.131, Prot:0.869
+Have a new best checkpoint: (0.866058 --> 0.880372).  Saving model ...
+[  7/200] train_loss: 0.39582 valid_loss: 0.46321 valid_AUC: 0.87458 valid_PRC: 0.75611 valid_Accuracy: 0.76147 valid_Precision: 0.55481 valid_Reacll: 0.84215 
+   📊 Modality Weights -> [2D] Drug:0.547, Prot:0.453 | [1D] Drug:0.116, Prot:0.884
+EarlyStopping counter: 1 out of 30
+[  8/200] train_loss: 0.39399 valid_loss: 0.42484 valid_AUC: 0.89013 valid_PRC: 0.77987 valid_Accuracy: 0.79980 valid_Precision: 0.61083 valid_Reacll: 0.82765 
+   📊 Modality Weights -> [2D] Drug:0.554, Prot:0.446 | [1D] Drug:0.072, Prot:0.928
+Have a new best checkpoint: (0.880372 --> 0.890131).  Saving model ...
+[  9/200] train_loss: 0.35500 valid_loss: 0.46013 valid_AUC: 0.88532 valid_PRC: 0.78208 valid_Accuracy: 0.83130 valid_Precision: 0.71765 valid_Reacll: 0.67662 
+   📊 Modality Weights -> [2D] Drug:0.572, Prot:0.428 | [1D] Drug:0.061, Prot:0.939
+EarlyStopping counter: 1 out of 30
+[ 10/200] train_loss: 0.35939 valid_loss: 0.43044 valid_AUC: 0.89100 valid_PRC: 0.78955 valid_Accuracy: 0.82471 valid_Precision: 0.66890 valid_Reacll: 0.76706 
+   📊 Modality Weights -> [2D] Drug:0.591, Prot:0.409 | [1D] Drug:0.046, Prot:0.954
+Have a new best checkpoint: (0.890131 --> 0.891002).  Saving model ...
+[ 11/200] train_loss: 0.32089 valid_loss: 0.45681 valid_AUC: 0.87852 valid_PRC: 0.76485 valid_Accuracy: 0.80225 valid_Precision: 0.62675 valid_Reacll: 0.76365 
+   📊 Modality Weights -> [2D] Drug:0.605, Prot:0.395 | [1D] Drug:0.036, Prot:0.964
+EarlyStopping counter: 1 out of 30
+[ 12/200] train_loss: 0.32719 valid_loss: 0.43184 valid_AUC: 0.89270 valid_PRC: 0.79658 valid_Accuracy: 0.81714 valid_Precision: 0.64556 valid_Reacll: 0.80034 
+   📊 Modality Weights -> [2D] Drug:0.617, Prot:0.383 | [1D] Drug:0.031, Prot:0.969
+Have a new best checkpoint: (0.891002 --> 0.892700).  Saving model ...
+[ 13/200] train_loss: 0.29184 valid_loss: 0.46124 valid_AUC: 0.88383 valid_PRC: 0.78663 valid_Accuracy: 0.82471 valid_Precision: 0.67790 valid_Reacll: 0.73805 
+   📊 Modality Weights -> [2D] Drug:0.630, Prot:0.370 | [1D] Drug:0.029, Prot:0.971
+EarlyStopping counter: 1 out of 30
+[ 14/200] train_loss: 0.29283 valid_loss: 0.44552 valid_AUC: 0.89383 valid_PRC: 0.79796 valid_Accuracy: 0.82764 valid_Precision: 0.67183 valid_Reacll: 0.77730 
+   📊 Modality Weights -> [2D] Drug:0.639, Prot:0.361 | [1D] Drug:0.022, Prot:0.978
+Have a new best checkpoint: (0.892700 --> 0.893832).  Saving model ...
+[ 15/200] train_loss: 0.25641 valid_loss: 0.48881 valid_AUC: 0.88349 valid_PRC: 0.78057 valid_Accuracy: 0.81689 valid_Precision: 0.65676 valid_Reacll: 0.75427 
+   📊 Modality Weights -> [2D] Drug:0.650, Prot:0.350 | [1D] Drug:0.020, Prot:0.980
+EarlyStopping counter: 1 out of 30
+[ 16/200] train_loss: 0.26295 valid_loss: 0.46744 valid_AUC: 0.89448 valid_PRC: 0.79867 valid_Accuracy: 0.83447 valid_Precision: 0.68378 valid_Reacll: 0.78413 
+   📊 Modality Weights -> [2D] Drug:0.660, Prot:0.340 | [1D] Drug:0.018, Prot:0.982
+Have a new best checkpoint: (0.893832 --> 0.894480).  Saving model ...
+[ 17/200] train_loss: 0.21821 valid_loss: 0.51654 valid_AUC: 0.88052 valid_PRC: 0.77354 valid_Accuracy: 0.82642 valid_Precision: 0.68514 valid_Reacll: 0.72782 
+   📊 Modality Weights -> [2D] Drug:0.670, Prot:0.330 | [1D] Drug:0.016, Prot:0.984
+EarlyStopping counter: 1 out of 30
+[ 18/200] train_loss: 0.23456 valid_loss: 0.49706 valid_AUC: 0.89365 valid_PRC: 0.79999 valid_Accuracy: 0.83228 valid_Precision: 0.68901 valid_Reacll: 0.75427 
+   📊 Modality Weights -> [2D] Drug:0.676, Prot:0.324 | [1D] Drug:0.014, Prot:0.986
+EarlyStopping counter: 2 out of 30
+[ 19/200] train_loss: 0.18662 valid_loss: 0.53298 valid_AUC: 0.88753 valid_PRC: 0.78817 valid_Accuracy: 0.82666 valid_Precision: 0.67580 valid_Reacll: 0.75768 
+   📊 Modality Weights -> [2D] Drug:0.682, Prot:0.318 | [1D] Drug:0.013, Prot:0.987
+EarlyStopping counter: 3 out of 30
+[ 20/200] train_loss: 0.21005 valid_loss: 0.51149 valid_AUC: 0.89446 valid_PRC: 0.79943 valid_Accuracy: 0.83423 valid_Precision: 0.69425 valid_Reacll: 0.75171 
+   📊 Modality Weights -> [2D] Drug:0.689, Prot:0.311 | [1D] Drug:0.015, Prot:0.985
+EarlyStopping counter: 4 out of 30
+[ 21/200] train_loss: 0.18577 valid_loss: 0.56167 valid_AUC: 0.88982 valid_PRC: 0.79638 valid_Accuracy: 0.82275 valid_Precision: 0.66325 valid_Reacll: 0.77304 
+   📊 Modality Weights -> [2D] Drug:0.692, Prot:0.308 | [1D] Drug:0.013, Prot:0.987
+EarlyStopping counter: 5 out of 30
+[ 22/200] train_loss: 0.24774 valid_loss: 0.56680 valid_AUC: 0.89084 valid_PRC: 0.79329 valid_Accuracy: 0.83862 valid_Precision: 0.71029 valid_Reacll: 0.73635 
+   📊 Modality Weights -> [2D] Drug:0.698, Prot:0.302 | [1D] Drug:0.013, Prot:0.987
+EarlyStopping counter: 6 out of 30
+[ 23/200] train_loss: 0.22813 valid_loss: 0.63516 valid_AUC: 0.88177 valid_PRC: 0.78616 valid_Accuracy: 0.83154 valid_Precision: 0.70528 valid_Reacll: 0.70648 
+   📊 Modality Weights -> [2D] Drug:0.701, Prot:0.299 | [1D] Drug:0.012, Prot:0.988
+EarlyStopping counter: 7 out of 30
+[ 24/200] train_loss: 0.29312 valid_loss: 0.59800 valid_AUC: 0.89446 valid_PRC: 0.80241 valid_Accuracy: 0.83569 valid_Precision: 0.69723 valid_Reacll: 0.75256 
+   📊 Modality Weights -> [2D] Drug:0.703, Prot:0.297 | [1D] Drug:0.012, Prot:0.988
+EarlyStopping counter: 8 out of 30
+[ 25/200] train_loss: 0.26482 valid_loss: 0.70872 valid_AUC: 0.87920 valid_PRC: 0.76785 valid_Accuracy: 0.82202 valid_Precision: 0.67157 valid_Reacll: 0.73976 
+   📊 Modality Weights -> [2D] Drug:0.703, Prot:0.297 | [1D] Drug:0.010, Prot:0.990
+EarlyStopping counter: 9 out of 30
+[ 26/200] train_loss: 0.34416 valid_loss: 0.65583 valid_AUC: 0.89197 valid_PRC: 0.80010 valid_Accuracy: 0.82935 valid_Precision: 0.69338 valid_Reacll: 0.72355 
+   📊 Modality Weights -> [2D] Drug:0.706, Prot:0.294 | [1D] Drug:0.010, Prot:0.990
+EarlyStopping counter: 10 out of 30
+[ 27/200] train_loss: 0.32232 valid_loss: 0.73135 valid_AUC: 0.88961 valid_PRC: 0.79533 valid_Accuracy: 0.83740 valid_Precision: 0.71119 valid_Reacll: 0.72696 
+   📊 Modality Weights -> [2D] Drug:0.705, Prot:0.295 | [1D] Drug:0.010, Prot:0.990
+EarlyStopping counter: 11 out of 30
+[ 28/200] train_loss: 0.37943 valid_loss: 0.70920 valid_AUC: 0.89399 valid_PRC: 0.80447 valid_Accuracy: 0.83765 valid_Precision: 0.71722 valid_Reacll: 0.71416 
+   📊 Modality Weights -> [2D] Drug:0.708, Prot:0.292 | [1D] Drug:0.008, Prot:0.992
+EarlyStopping counter: 12 out of 30
+[ 29/200] train_loss: 0.36352 valid_loss: 0.77876 valid_AUC: 0.88972 valid_PRC: 0.79287 valid_Accuracy: 0.82959 valid_Precision: 0.70222 valid_Reacll: 0.70222 
+   📊 Modality Weights -> [2D] Drug:0.707, Prot:0.293 | [1D] Drug:0.008, Prot:0.992
+EarlyStopping counter: 13 out of 30
+[ 30/200] train_loss: 0.42022 valid_loss: 0.74683 valid_AUC: 0.89452 valid_PRC: 0.80214 valid_Accuracy: 0.83545 valid_Precision: 0.70048 valid_Reacll: 0.74232 
+   📊 Modality Weights -> [2D] Drug:0.707, Prot:0.293 | [1D] Drug:0.009, Prot:0.991
+Have a new best checkpoint: (0.894480 --> 0.894524).  Saving model ...
+[ 31/200] train_loss: 0.38404 valid_loss: 0.80462 valid_AUC: 0.88638 valid_PRC: 0.78682 valid_Accuracy: 0.82495 valid_Precision: 0.67380 valid_Reacll: 0.75256 
+   📊 Modality Weights -> [2D] Drug:0.706, Prot:0.294 | [1D] Drug:0.009, Prot:0.991
+EarlyStopping counter: 1 out of 30
+[ 32/200] train_loss: 0.42030 valid_loss: 0.78207 valid_AUC: 0.89461 valid_PRC: 0.79869 valid_Accuracy: 0.83276 valid_Precision: 0.69878 valid_Reacll: 0.73038 
+   📊 Modality Weights -> [2D] Drug:0.707, Prot:0.293 | [1D] Drug:0.009, Prot:0.991
+Have a new best checkpoint: (0.894524 --> 0.894613).  Saving model ...
+[ 33/200] train_loss: 0.37058 valid_loss: 0.91599 valid_AUC: 0.89201 valid_PRC: 0.79621 valid_Accuracy: 0.84302 valid_Precision: 0.74423 valid_Reacll: 0.68771 
+   📊 Modality Weights -> [2D] Drug:0.705, Prot:0.295 | [1D] Drug:0.008, Prot:0.992
+EarlyStopping counter: 1 out of 30
+[ 34/200] train_loss: 0.41012 valid_loss: 0.78834 valid_AUC: 0.89599 valid_PRC: 0.80393 valid_Accuracy: 0.83984 valid_Precision: 0.70874 valid_Reacll: 0.74744 
+   📊 Modality Weights -> [2D] Drug:0.703, Prot:0.297 | [1D] Drug:0.008, Prot:0.992
+Have a new best checkpoint: (0.894613 --> 0.895992).  Saving model ...
+[ 35/200] train_loss: 0.35690 valid_loss: 0.91199 valid_AUC: 0.88962 valid_PRC: 0.79587 valid_Accuracy: 0.83545 valid_Precision: 0.71282 valid_Reacll: 0.71160 
+   📊 Modality Weights -> [2D] Drug:0.701, Prot:0.299 | [1D] Drug:0.008, Prot:0.992
+EarlyStopping counter: 1 out of 30
+[ 36/200] train_loss: 0.37402 valid_loss: 0.88602 valid_AUC: 0.89363 valid_PRC: 0.79966 valid_Accuracy: 0.83667 valid_Precision: 0.71332 valid_Reacll: 0.71758 
+   📊 Modality Weights -> [2D] Drug:0.698, Prot:0.302 | [1D] Drug:0.008, Prot:0.992
+EarlyStopping counter: 2 out of 30
+[ 37/200] train_loss: 0.34121 valid_loss: 0.94663 valid_AUC: 0.89422 valid_PRC: 0.79446 valid_Accuracy: 0.83643 valid_Precision: 0.71092 valid_Reacll: 0.72184 
+   📊 Modality Weights -> [2D] Drug:0.695, Prot:0.305 | [1D] Drug:0.008, Prot:0.992
+EarlyStopping counter: 3 out of 30
+[ 38/200] train_loss: 0.36961 valid_loss: 0.97001 valid_AUC: 0.89280 valid_PRC: 0.79916 valid_Accuracy: 0.84497 valid_Precision: 0.73698 valid_Reacll: 0.71246 
+   📊 Modality Weights -> [2D] Drug:0.692, Prot:0.308 | [1D] Drug:0.008, Prot:0.992
+EarlyStopping counter: 4 out of 30
+[ 39/200] train_loss: 0.33812 valid_loss: 1.03509 valid_AUC: 0.88361 valid_PRC: 0.77917 valid_Accuracy: 0.82910 valid_Precision: 0.71147 valid_Reacll: 0.67747 
+   📊 Modality Weights -> [2D] Drug:0.690, Prot:0.310 | [1D] Drug:0.008, Prot:0.992
+EarlyStopping counter: 5 out of 30
+[ 40/200] train_loss: 0.36583 valid_loss: 0.99611 valid_AUC: 0.89171 valid_PRC: 0.79393 valid_Accuracy: 0.84058 valid_Precision: 0.72546 valid_Reacll: 0.71246 
+   📊 Modality Weights -> [2D] Drug:0.689, Prot:0.311 | [1D] Drug:0.008, Prot:0.992
+EarlyStopping counter: 6 out of 30
+[ 41/200] train_loss: 0.32872 valid_loss: 1.08706 valid_AUC: 0.87760 valid_PRC: 0.76596 valid_Accuracy: 0.82861 valid_Precision: 0.70470 valid_Reacll: 0.69027 
+   📊 Modality Weights -> [2D] Drug:0.690, Prot:0.310 | [1D] Drug:0.007, Prot:0.993
+EarlyStopping counter: 7 out of 30
+[ 42/200] train_loss: 0.36079 valid_loss: 1.04951 valid_AUC: 0.88670 valid_PRC: 0.79300 valid_Accuracy: 0.83301 valid_Precision: 0.71555 valid_Reacll: 0.69113 
+   📊 Modality Weights -> [2D] Drug:0.685, Prot:0.315 | [1D] Drug:0.007, Prot:0.993
+EarlyStopping counter: 8 out of 30
+[ 43/200] train_loss: 0.32207 valid_loss: 1.10972 valid_AUC: 0.88726 valid_PRC: 0.79015 valid_Accuracy: 0.83252 valid_Precision: 0.70769 valid_Reacll: 0.70648 
+   📊 Modality Weights -> [2D] Drug:0.680, Prot:0.320 | [1D] Drug:0.007, Prot:0.993
+EarlyStopping counter: 9 out of 30
+[ 44/200] train_loss: 0.32755 valid_loss: 1.08545 valid_AUC: 0.88790 valid_PRC: 0.78859 valid_Accuracy: 0.83350 valid_Precision: 0.71758 valid_Reacll: 0.68942 
+   📊 Modality Weights -> [2D] Drug:0.687, Prot:0.313 | [1D] Drug:0.007, Prot:0.993
+EarlyStopping counter: 10 out of 30
+[ 45/200] train_loss: 0.30629 valid_loss: 1.11715 valid_AUC: 0.89320 valid_PRC: 0.79931 valid_Accuracy: 0.83838 valid_Precision: 0.71721 valid_Reacll: 0.71843 
+   📊 Modality Weights -> [2D] Drug:0.688, Prot:0.312 | [1D] Drug:0.007, Prot:0.993
+EarlyStopping counter: 11 out of 30
+[ 46/200] train_loss: 0.32898 valid_loss: 1.04918 valid_AUC: 0.89005 valid_PRC: 0.79189 valid_Accuracy: 0.83447 valid_Precision: 0.70721 valid_Reacll: 0.71928 
+   📊 Modality Weights -> [2D] Drug:0.694, Prot:0.306 | [1D] Drug:0.007, Prot:0.993
+EarlyStopping counter: 12 out of 30
+[ 47/200] train_loss: 0.30428 valid_loss: 1.11144 valid_AUC: 0.88930 valid_PRC: 0.79431 valid_Accuracy: 0.83276 valid_Precision: 0.70275 valid_Reacll: 0.72014 
+   📊 Modality Weights -> [2D] Drug:0.696, Prot:0.304 | [1D] Drug:0.008, Prot:0.992
+EarlyStopping counter: 13 out of 30
+[ 48/200] train_loss: 0.32254 valid_loss: 1.09053 valid_AUC: 0.89523 valid_PRC: 0.80269 valid_Accuracy: 0.84521 valid_Precision: 0.74410 valid_Reacll: 0.69966 
+   📊 Modality Weights -> [2D] Drug:0.696, Prot:0.304 | [1D] Drug:0.008, Prot:0.992
+EarlyStopping counter: 14 out of 30
+[ 49/200] train_loss: 0.29439 valid_loss: 1.21529 valid_AUC: 0.88633 valid_PRC: 0.78840 valid_Accuracy: 0.83716 valid_Precision: 0.72686 valid_Reacll: 0.69027 
+   📊 Modality Weights -> [2D] Drug:0.696, Prot:0.304 | [1D] Drug:0.008, Prot:0.992
+EarlyStopping counter: 15 out of 30
+[ 50/200] train_loss: 0.32096 valid_loss: 1.10689 valid_AUC: 0.89178 valid_PRC: 0.80103 valid_Accuracy: 0.83911 valid_Precision: 0.73004 valid_Reacll: 0.69454 
+   📊 Modality Weights -> [2D] Drug:0.693, Prot:0.307 | [1D] Drug:0.007, Prot:0.993
+EarlyStopping counter: 16 out of 30
+[ 51/200] train_loss: 0.29115 valid_loss: 1.20768 valid_AUC: 0.87840 valid_PRC: 0.77084 valid_Accuracy: 0.83203 valid_Precision: 0.72040 valid_Reacll: 0.67491 
+   📊 Modality Weights -> [2D] Drug:0.687, Prot:0.313 | [1D] Drug:0.006, Prot:0.994
+EarlyStopping counter: 17 out of 30
+[ 52/200] train_loss: 0.31579 valid_loss: 1.11431 valid_AUC: 0.88825 valid_PRC: 0.79637 valid_Accuracy: 0.83301 valid_Precision: 0.70926 valid_Reacll: 0.70563 
+   📊 Modality Weights -> [2D] Drug:0.676, Prot:0.324 | [1D] Drug:0.006, Prot:0.994
+EarlyStopping counter: 18 out of 30
+[ 53/200] train_loss: 0.28505 valid_loss: 1.20634 valid_AUC: 0.88403 valid_PRC: 0.78654 valid_Accuracy: 0.83276 valid_Precision: 0.72157 valid_Reacll: 0.67662 
+   📊 Modality Weights -> [2D] Drug:0.672, Prot:0.328 | [1D] Drug:0.007, Prot:0.993
+EarlyStopping counter: 19 out of 30
+[ 54/200] train_loss: 0.29785 valid_loss: 1.19374 valid_AUC: 0.88958 valid_PRC: 0.79744 valid_Accuracy: 0.84204 valid_Precision: 0.74016 valid_Reacll: 0.69027 
+   📊 Modality Weights -> [2D] Drug:0.680, Prot:0.320 | [1D] Drug:0.006, Prot:0.994
+EarlyStopping counter: 20 out of 30
+[ 55/200] train_loss: 0.27278 valid_loss: 1.23121 valid_AUC: 0.89209 valid_PRC: 0.79872 valid_Accuracy: 0.84082 valid_Precision: 0.72847 valid_Reacll: 0.70734 
+   📊 Modality Weights -> [2D] Drug:0.683, Prot:0.317 | [1D] Drug:0.006, Prot:0.994
+EarlyStopping counter: 21 out of 30
+[ 56/200] train_loss: 0.28446 valid_loss: 1.20633 valid_AUC: 0.89170 valid_PRC: 0.80096 valid_Accuracy: 0.84106 valid_Precision: 0.73280 valid_Reacll: 0.69966 
+   📊 Modality Weights -> [2D] Drug:0.684, Prot:0.316 | [1D] Drug:0.006, Prot:0.994
+EarlyStopping counter: 22 out of 30
+[ 57/200] train_loss: 0.26522 valid_loss: 1.23978 valid_AUC: 0.88156 valid_PRC: 0.78341 valid_Accuracy: 0.82910 valid_Precision: 0.69281 valid_Reacll: 0.72355 
+   📊 Modality Weights -> [2D] Drug:0.679, Prot:0.321 | [1D] Drug:0.006, Prot:0.994
+EarlyStopping counter: 23 out of 30
+[ 58/200] train_loss: 0.28101 valid_loss: 1.22959 valid_AUC: 0.88854 valid_PRC: 0.79068 valid_Accuracy: 0.83911 valid_Precision: 0.72324 valid_Reacll: 0.70904 
+   📊 Modality Weights -> [2D] Drug:0.673, Prot:0.327 | [1D] Drug:0.007, Prot:0.993
+EarlyStopping counter: 24 out of 30
+[ 59/200] train_loss: 0.26203 valid_loss: 1.29108 valid_AUC: 0.88406 valid_PRC: 0.78209 valid_Accuracy: 0.82690 valid_Precision: 0.69702 valid_Reacll: 0.69881 
+   📊 Modality Weights -> [2D] Drug:0.669, Prot:0.331 | [1D] Drug:0.007, Prot:0.993
+EarlyStopping counter: 25 out of 30
+[ 60/200] train_loss: 0.28133 valid_loss: 1.27648 valid_AUC: 0.88902 valid_PRC: 0.79396 valid_Accuracy: 0.84375 valid_Precision: 0.74584 valid_Reacll: 0.68857 
+   📊 Modality Weights -> [2D] Drug:0.659, Prot:0.341 | [1D] Drug:0.006, Prot:0.994
+EarlyStopping counter: 26 out of 30
+[ 61/200] train_loss: 0.25374 valid_loss: 1.25799 valid_AUC: 0.88821 valid_PRC: 0.78647 valid_Accuracy: 0.83838 valid_Precision: 0.71945 valid_Reacll: 0.71331 
+   📊 Modality Weights -> [2D] Drug:0.657, Prot:0.343 | [1D] Drug:0.006, Prot:0.994
+EarlyStopping counter: 27 out of 30
+[ 62/200] train_loss: 0.26267 valid_loss: 1.25254 valid_AUC: 0.88979 valid_PRC: 0.78890 valid_Accuracy: 0.83594 valid_Precision: 0.72282 valid_Reacll: 0.69198 
+   📊 Modality Weights -> [2D] Drug:0.666, Prot:0.334 | [1D] Drug:0.006, Prot:0.994
+EarlyStopping counter: 28 out of 30
+[ 63/200] train_loss: 0.24661 valid_loss: 1.26597 valid_AUC: 0.89016 valid_PRC: 0.79115 valid_Accuracy: 0.83618 valid_Precision: 0.70685 valid_Reacll: 0.73038 
+   📊 Modality Weights -> [2D] Drug:0.663, Prot:0.337 | [1D] Drug:0.006, Prot:0.994
+EarlyStopping counter: 29 out of 30
+[ 64/200] train_loss: 0.25660 valid_loss: 1.22710 valid_AUC: 0.89198 valid_PRC: 0.79725 valid_Accuracy: 0.83887 valid_Precision: 0.71806 valid_Reacll: 0.71928 
+   📊 Modality Weights -> [2D] Drug:0.659, Prot:0.341 | [1D] Drug:0.006, Prot:0.994
+EarlyStopping counter: 30 out of 30
+  0%|          | 0/128 [00:00<?, ?it/s]  1%|          | 1/128 [00:00<01:21,  1.56it/s]  2%|▏         | 2/128 [00:01<01:05,  1.91it/s]  2%|▏         | 3/128 [00:01<00:59,  2.12it/s]  3%|▎         | 4/128 [00:02<01:01,  2.01it/s]  4%|▍         | 5/128 [00:02<00:53,  2.32it/s]  5%|▍         | 6/128 [00:02<00:55,  2.19it/s]  5%|▌         | 7/128 [00:03<00:48,  2.49it/s]  6%|▋         | 8/128 [00:03<00:54,  2.19it/s]  7%|▋         | 9/128 [00:04<00:49,  2.40it/s]  8%|▊         | 10/128 [00:04<00:52,  2.23it/s]  9%|▊         | 11/128 [00:04<00:49,  2.37it/s]  9%|▉         | 12/128 [00:05<00:52,  2.23it/s] 10%|█         | 13/128 [00:05<00:52,  2.20it/s] 11%|█         | 14/128 [00:06<00:49,  2.33it/s] 12%|█▏        | 15/128 [00:06<00:54,  2.06it/s] 12%|█▎        | 16/128 [00:07<01:06,  1.68it/s] 13%|█▎        | 17/128 [00:08<00:59,  1.85it/s] 14%|█▍        | 18/128 [00:08<00:58,  1.89it/s] 15%|█▍        | 19/128 [00:09<00:56,  1.95it/s] 16%|█▌        | 20/128 [00:09<00:50,  2.12it/s] 16%|█▋        | 21/128 [00:10<00:51,  2.07it/s] 17%|█▋        | 22/128 [00:10<00:45,  2.32it/s] 18%|█▊        | 23/128 [00:10<00:49,  2.10it/s] 19%|█▉        | 24/128 [00:11<00:57,  1.82it/s] 20%|█▉        | 25/128 [00:11<00:48,  2.11it/s] 20%|██        | 26/128 [00:12<00:51,  1.99it/s] 21%|██        | 27/128 [00:12<00:45,  2.22it/s] 22%|██▏       | 28/128 [00:13<00:47,  2.12it/s] 23%|██▎       | 29/128 [00:13<00:44,  2.22it/s] 23%|██▎       | 30/128 [00:14<00:44,  2.20it/s] 24%|██▍       | 31/128 [00:14<00:42,  2.30it/s] 25%|██▌       | 32/128 [00:15<00:43,  2.22it/s] 26%|██▌       | 33/128 [00:15<00:44,  2.16it/s] 27%|██▋       | 34/128 [00:15<00:40,  2.29it/s] 27%|██▋       | 35/128 [00:16<00:41,  2.27it/s] 28%|██▊       | 36/128 [00:16<00:38,  2.39it/s] 29%|██▉       | 37/128 [00:17<00:43,  2.07it/s] 30%|██▉       | 38/128 [00:17<00:45,  1.98it/s] 30%|███       | 39/128 [00:18<00:40,  2.22it/s] 31%|███▏      | 40/128 [00:18<00:41,  2.11it/s] 32%|███▏      | 41/128 [00:19<00:37,  2.30it/s] 33%|███▎      | 42/128 [00:19<00:38,  2.21it/s] 34%|███▎      | 43/128 [00:20<00:36,  2.31it/s] 34%|███▍      | 44/128 [00:20<00:37,  2.24it/s] 35%|███▌      | 45/128 [00:20<00:37,  2.21it/s] 36%|███▌      | 46/128 [00:21<00:34,  2.35it/s] 37%|███▋      | 47/128 [00:21<00:35,  2.30it/s] 38%|███▊      | 48/128 [00:22<00:33,  2.37it/s] 38%|███▊      | 49/128 [00:22<00:34,  2.27it/s] 39%|███▉      | 50/128 [00:22<00:31,  2.47it/s] 40%|███▉      | 51/128 [00:23<00:33,  2.32it/s] 41%|████      | 52/128 [00:23<00:29,  2.54it/s] 41%|████▏     | 53/128 [00:24<00:31,  2.37it/s] 42%|████▏     | 54/128 [00:24<00:28,  2.59it/s] 43%|████▎     | 55/128 [00:25<00:30,  2.40it/s] 44%|████▍     | 56/128 [00:25<00:27,  2.61it/s] 45%|████▍     | 57/128 [00:25<00:29,  2.37it/s] 45%|████▌     | 58/128 [00:26<00:27,  2.55it/s] 46%|████▌     | 59/128 [00:26<00:29,  2.36it/s] 47%|████▋     | 60/128 [00:27<00:26,  2.54it/s] 48%|████▊     | 61/128 [00:27<00:29,  2.31it/s] 48%|████▊     | 62/128 [00:27<00:25,  2.56it/s] 49%|████▉     | 63/128 [00:28<00:29,  2.24it/s] 50%|█████     | 64/128 [00:28<00:29,  2.20it/s] 51%|█████     | 65/128 [00:29<00:26,  2.36it/s] 52%|█████▏    | 66/128 [00:29<00:27,  2.28it/s] 52%|█████▏    | 67/128 [00:30<00:24,  2.47it/s] 53%|█████▎    | 68/128 [00:30<00:26,  2.30it/s] 54%|█████▍    | 69/128 [00:30<00:23,  2.53it/s] 55%|█████▍    | 70/128 [00:31<00:24,  2.34it/s] 55%|█████▌    | 71/128 [00:31<00:21,  2.59it/s] 56%|█████▋    | 72/128 [00:32<00:23,  2.35it/s] 57%|█████▋    | 73/128 [00:32<00:22,  2.48it/s] 58%|█████▊    | 74/128 [00:33<00:23,  2.29it/s] 59%|█████▊    | 75/128 [00:33<00:21,  2.47it/s] 59%|█████▉    | 76/128 [00:33<00:22,  2.30it/s] 60%|██████    | 77/128 [00:34<00:22,  2.30it/s] 61%|██████    | 78/128 [00:34<00:21,  2.34it/s] 62%|██████▏   | 79/128 [00:35<00:21,  2.27it/s] 62%|██████▎   | 80/128 [00:35<00:20,  2.35it/s] 63%|██████▎   | 81/128 [00:35<00:19,  2.36it/s] 64%|██████▍   | 82/128 [00:36<00:19,  2.40it/s] 65%|██████▍   | 83/128 [00:36<00:19,  2.27it/s] 66%|██████▌   | 84/128 [00:37<00:18,  2.44it/s] 66%|██████▋   | 85/128 [00:37<00:19,  2.22it/s] 67%|██████▋   | 86/128 [00:38<00:16,  2.51it/s] 68%|██████▊   | 87/128 [00:38<00:18,  2.21it/s] 69%|██████▉   | 88/128 [00:38<00:16,  2.38it/s] 70%|██████▉   | 89/128 [00:39<00:17,  2.23it/s] 70%|███████   | 90/128 [00:39<00:16,  2.36it/s] 71%|███████   | 91/128 [00:40<00:16,  2.27it/s] 72%|███████▏  | 92/128 [00:40<00:16,  2.23it/s] 73%|███████▎  | 93/128 [00:41<00:14,  2.35it/s] 73%|███████▎  | 94/128 [00:41<00:15,  2.23it/s] 74%|███████▍  | 95/128 [00:42<00:13,  2.45it/s] 75%|███████▌  | 96/128 [00:42<00:14,  2.19it/s] 76%|███████▌  | 97/128 [00:42<00:12,  2.40it/s] 77%|███████▋  | 98/128 [00:43<00:13,  2.25it/s] 77%|███████▋  | 99/128 [00:44<00:14,  1.97it/s] 78%|███████▊  | 100/128 [00:44<00:12,  2.27it/s] 79%|███████▉  | 101/128 [00:44<00:12,  2.08it/s] 80%|███████▉  | 102/128 [00:45<00:11,  2.29it/s] 80%|████████  | 103/128 [00:45<00:11,  2.16it/s] 81%|████████▏ | 104/128 [00:46<00:10,  2.21it/s] 82%|████████▏ | 105/128 [00:46<00:10,  2.27it/s] 83%|████████▎ | 106/128 [00:47<00:10,  2.20it/s] 84%|████████▎ | 107/128 [00:47<00:08,  2.35it/s] 84%|████████▍ | 108/128 [00:47<00:08,  2.40it/s] 85%|████████▌ | 109/128 [00:48<00:07,  2.44it/s] 86%|████████▌ | 110/128 [00:48<00:07,  2.43it/s] 87%|████████▋ | 111/128 [00:49<00:07,  2.38it/s] 88%|████████▊ | 112/128 [00:49<00:06,  2.51it/s] 88%|████████▊ | 113/128 [00:49<00:05,  2.74it/s] 89%|████████▉ | 114/128 [00:50<00:04,  2.87it/s] 90%|████████▉ | 115/128 [00:50<00:04,  2.80it/s] 91%|█████████ | 116/128 [00:50<00:04,  2.71it/s] 91%|█████████▏| 117/128 [00:51<00:04,  2.57it/s] 92%|█████████▏| 118/128 [00:51<00:04,  2.46it/s] 93%|█████████▎| 119/128 [00:52<00:03,  2.59it/s] 94%|█████████▍| 120/128 [00:52<00:02,  2.82it/s] 95%|█████████▍| 121/128 [00:52<00:02,  2.98it/s] 95%|█████████▌| 122/128 [00:52<00:01,  3.07it/s] 96%|█████████▌| 123/128 [00:53<00:01,  3.02it/s] 97%|█████████▋| 124/128 [00:53<00:01,  2.87it/s] 98%|█████████▊| 125/128 [00:54<00:01,  2.77it/s] 98%|█████████▊| 126/128 [00:54<00:00,  2.74it/s] 99%|█████████▉| 127/128 [00:54<00:00,  2.73it/s]100%|██████████| 128/128 [00:55<00:00,  2.73it/s]100%|██████████| 128/128 [00:55<00:00,  2.32it/s]
+Train: Loss:0.02065;Accuracy:0.99414;Precision:0.98201;Recall:0.99763;AUC:0.99984;PRC:0.99957.
+  0%|          | 0/32 [00:00<?, ?it/s]  3%|▎         | 1/32 [00:00<00:17,  1.76it/s]  6%|▋         | 2/32 [00:00<00:13,  2.28it/s]  9%|▉         | 3/32 [00:01<00:10,  2.65it/s] 12%|█▎        | 4/32 [00:01<00:09,  2.85it/s] 16%|█▌        | 5/32 [00:01<00:09,  2.80it/s] 19%|█▉        | 6/32 [00:02<00:09,  2.71it/s] 22%|██▏       | 7/32 [00:02<00:09,  2.61it/s] 25%|██▌       | 8/32 [00:03<00:09,  2.51it/s] 28%|██▊       | 9/32 [00:03<00:09,  2.44it/s] 31%|███▏      | 10/32 [00:03<00:08,  2.61it/s] 34%|███▍      | 11/32 [00:04<00:07,  2.83it/s] 38%|███▊      | 12/32 [00:04<00:06,  2.95it/s] 41%|████      | 13/32 [00:04<00:06,  3.09it/s] 44%|████▍     | 14/32 [00:05<00:05,  3.09it/s] 47%|████▋     | 15/32 [00:05<00:05,  3.09it/s] 50%|█████     | 16/32 [00:05<00:05,  2.78it/s] 53%|█████▎    | 17/32 [00:06<00:05,  2.79it/s] 56%|█████▋    | 18/32 [00:06<00:05,  2.52it/s] 59%|█████▉    | 19/32 [00:07<00:06,  2.03it/s] 62%|██████▎   | 20/32 [00:07<00:05,  2.05it/s] 66%|██████▌   | 21/32 [00:08<00:04,  2.24it/s] 69%|██████▉   | 22/32 [00:08<00:04,  2.11it/s] 72%|███████▏  | 23/32 [00:09<00:03,  2.39it/s] 75%|███████▌  | 24/32 [00:09<00:03,  2.19it/s] 78%|███████▊  | 25/32 [00:09<00:02,  2.50it/s] 81%|████████▏ | 26/32 [00:10<00:02,  2.22it/s] 84%|████████▍ | 27/32 [00:10<00:02,  2.49it/s] 88%|████████▊ | 28/32 [00:11<00:01,  2.21it/s] 91%|█████████ | 29/32 [00:12<00:01,  1.78it/s] 94%|█████████▍| 30/32 [00:12<00:01,  1.59it/s] 97%|█████████▋| 31/32 [00:13<00:00,  1.83it/s]100%|██████████| 32/32 [00:13<00:00,  1.90it/s]100%|██████████| 32/32 [00:13<00:00,  2.33it/s]
+Valid: Loss:0.78834;Accuracy:0.83984;Precision:0.70874;Recall:0.74744;AUC:0.89599;PRC:0.80393.
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:00<00:26,  1.50it/s]  5%|▌         | 2/40 [00:01<00:18,  2.07it/s]  8%|▊         | 3/40 [00:01<00:18,  2.03it/s] 10%|█         | 4/40 [00:02<00:17,  2.04it/s] 12%|█▎        | 5/40 [00:02<00:15,  2.25it/s] 15%|█▌        | 6/40 [00:02<00:15,  2.14it/s] 18%|█▊        | 7/40 [00:03<00:15,  2.07it/s] 20%|██        | 8/40 [00:03<00:15,  2.11it/s] 22%|██▎       | 9/40 [00:04<00:15,  1.96it/s] 25%|██▌       | 10/40 [00:04<00:13,  2.24it/s] 28%|██▊       | 11/40 [00:05<00:13,  2.09it/s] 30%|███       | 12/40 [00:05<00:12,  2.31it/s] 32%|███▎      | 13/40 [00:06<00:12,  2.18it/s] 35%|███▌      | 14/40 [00:06<00:11,  2.31it/s] 38%|███▊      | 15/40 [00:06<00:11,  2.26it/s] 40%|████      | 16/40 [00:07<00:11,  2.15it/s] 42%|████▎     | 17/40 [00:08<00:13,  1.74it/s] 45%|████▌     | 18/40 [00:09<00:13,  1.63it/s] 48%|████▊     | 19/40 [00:09<00:11,  1.85it/s] 50%|█████     | 20/40 [00:09<00:10,  1.84it/s] 52%|█████▎    | 21/40 [00:10<00:08,  2.13it/s] 55%|█████▌    | 22/40 [00:10<00:08,  2.01it/s] 57%|█████▊    | 23/40 [00:11<00:07,  2.22it/s] 60%|██████    | 24/40 [00:11<00:07,  2.12it/s] 62%|██████▎   | 25/40 [00:12<00:06,  2.31it/s] 65%|██████▌   | 26/40 [00:12<00:06,  2.22it/s] 68%|██████▊   | 27/40 [00:12<00:06,  2.17it/s] 70%|███████   | 28/40 [00:13<00:05,  2.30it/s] 72%|███████▎  | 29/40 [00:13<00:05,  2.13it/s] 75%|███████▌  | 30/40 [00:14<00:04,  2.44it/s] 78%|███████▊  | 31/40 [00:14<00:04,  2.23it/s] 80%|████████  | 32/40 [00:15<00:03,  2.48it/s] 82%|████████▎ | 33/40 [00:15<00:03,  2.20it/s] 85%|████████▌ | 34/40 [00:15<00:02,  2.48it/s] 88%|████████▊ | 35/40 [00:16<00:02,  2.25it/s] 90%|█████████ | 36/40 [00:16<00:01,  2.49it/s] 92%|█████████▎| 37/40 [00:17<00:01,  2.20it/s] 95%|█████████▌| 38/40 [00:17<00:00,  2.33it/s] 98%|█████████▊| 39/40 [00:18<00:00,  2.28it/s]100%|██████████| 40/40 [00:18<00:00,  2.06it/s]100%|██████████| 40/40 [00:18<00:00,  2.14it/s]
+Test: Loss:0.73581;Accuracy:0.84980;Precision:0.72703;Recall:0.75258;AUC:0.90472;PRC:0.82063.
+🚀 Generating interpretability reports for Davis...
+📊 解释性报告已成功导出至: /home/liumeiling/xjl/DTI/IMDF-DTI/Davis/4/interpretability_report
+✅ Interpretability reports (Heatmaps) saved to: ./Davis/4/interpretability_report
+************************* No. 5 -fold *************************
+Training...
+[  1/200] train_loss: 0.62390 valid_loss: 0.51077 valid_AUC: 0.83879 valid_PRC: 0.68249 valid_Accuracy: 0.75269 valid_Precision: 0.54083 valid_Reacll: 0.75328 
+   📊 Modality Weights -> [2D] Drug:0.787, Prot:0.213 | [1D] Drug:0.622, Prot:0.378
+Have a new best checkpoint: (-inf --> 0.838791).  Saving model ...
+[  2/200] train_loss: 0.50158 valid_loss: 0.47065 valid_AUC: 0.85761 valid_PRC: 0.73001 valid_Accuracy: 0.76025 valid_Precision: 0.54966 valid_Reacll: 0.77953 
+   📊 Modality Weights -> [2D] Drug:0.767, Prot:0.233 | [1D] Drug:0.574, Prot:0.426
+Have a new best checkpoint: (0.838791 --> 0.857614).  Saving model ...
+[  3/200] train_loss: 0.47478 valid_loss: 0.48084 valid_AUC: 0.85039 valid_PRC: 0.71956 valid_Accuracy: 0.75049 valid_Precision: 0.53616 valid_Reacll: 0.78478 
+   📊 Modality Weights -> [2D] Drug:0.780, Prot:0.220 | [1D] Drug:0.567, Prot:0.433
+EarlyStopping counter: 1 out of 30
+[  4/200] train_loss: 0.46386 valid_loss: 0.44999 valid_AUC: 0.86919 valid_PRC: 0.75118 valid_Accuracy: 0.78076 valid_Precision: 0.58012 valid_Reacll: 0.77603 
+   📊 Modality Weights -> [2D] Drug:0.795, Prot:0.205 | [1D] Drug:0.557, Prot:0.443
+Have a new best checkpoint: (0.857614 --> 0.869190).  Saving model ...
+[  5/200] train_loss: 0.44110 valid_loss: 0.45740 valid_AUC: 0.86650 valid_PRC: 0.75301 valid_Accuracy: 0.80054 valid_Precision: 0.62558 valid_Reacll: 0.71041 
+   📊 Modality Weights -> [2D] Drug:0.815, Prot:0.185 | [1D] Drug:0.553, Prot:0.447
+EarlyStopping counter: 1 out of 30
+[  6/200] train_loss: 0.41736 valid_loss: 0.42627 valid_AUC: 0.88803 valid_PRC: 0.78192 valid_Accuracy: 0.78369 valid_Precision: 0.57850 valid_Reacll: 0.82852 
+   📊 Modality Weights -> [2D] Drug:0.829, Prot:0.171 | [1D] Drug:0.542, Prot:0.458
+Have a new best checkpoint: (0.869190 --> 0.888034).  Saving model ...
+[  7/200] train_loss: 0.39187 valid_loss: 0.43156 valid_AUC: 0.88230 valid_PRC: 0.77423 valid_Accuracy: 0.79688 valid_Precision: 0.60687 valid_Reacll: 0.77253 
+   📊 Modality Weights -> [2D] Drug:0.849, Prot:0.151 | [1D] Drug:0.535, Prot:0.465
+EarlyStopping counter: 1 out of 30
+[  8/200] train_loss: 0.38412 valid_loss: 0.41791 valid_AUC: 0.89204 valid_PRC: 0.78562 valid_Accuracy: 0.82129 valid_Precision: 0.65699 valid_Reacll: 0.75241 
+   📊 Modality Weights -> [2D] Drug:0.865, Prot:0.135 | [1D] Drug:0.531, Prot:0.469
+Have a new best checkpoint: (0.888034 --> 0.892038).  Saving model ...
+[  9/200] train_loss: 0.35315 valid_loss: 0.42042 valid_AUC: 0.88838 valid_PRC: 0.77796 valid_Accuracy: 0.79785 valid_Precision: 0.60493 valid_Reacll: 0.79440 
+   📊 Modality Weights -> [2D] Drug:0.877, Prot:0.123 | [1D] Drug:0.523, Prot:0.477
+EarlyStopping counter: 1 out of 30
+[ 10/200] train_loss: 0.34661 valid_loss: 0.40578 valid_AUC: 0.90269 valid_PRC: 0.80465 valid_Accuracy: 0.83081 valid_Precision: 0.66867 valid_Reacll: 0.78040 
+   📊 Modality Weights -> [2D] Drug:0.893, Prot:0.107 | [1D] Drug:0.513, Prot:0.487
+Have a new best checkpoint: (0.892038 --> 0.902695).  Saving model ...
+[ 11/200] train_loss: 0.31283 valid_loss: 0.42823 valid_AUC: 0.89014 valid_PRC: 0.78781 valid_Accuracy: 0.78784 valid_Precision: 0.58509 valid_Reacll: 0.82415 
+   📊 Modality Weights -> [2D] Drug:0.906, Prot:0.094 | [1D] Drug:0.502, Prot:0.498
+EarlyStopping counter: 1 out of 30
+[ 12/200] train_loss: 0.31126 valid_loss: 0.40804 valid_AUC: 0.90533 valid_PRC: 0.81371 valid_Accuracy: 0.82275 valid_Precision: 0.64174 valid_Reacll: 0.82590 
+   📊 Modality Weights -> [2D] Drug:0.918, Prot:0.082 | [1D] Drug:0.479, Prot:0.521
+Have a new best checkpoint: (0.902695 --> 0.905335).  Saving model ...
+[ 13/200] train_loss: 0.27461 valid_loss: 0.42896 valid_AUC: 0.89186 valid_PRC: 0.77770 valid_Accuracy: 0.78931 valid_Precision: 0.58557 valid_Reacll: 0.83815 
+   📊 Modality Weights -> [2D] Drug:0.926, Prot:0.074 | [1D] Drug:0.471, Prot:0.529
+EarlyStopping counter: 1 out of 30
+[ 14/200] train_loss: 0.28086 valid_loss: 0.42754 valid_AUC: 0.90367 valid_PRC: 0.80614 valid_Accuracy: 0.83276 valid_Precision: 0.67615 valid_Reacll: 0.76903 
+   📊 Modality Weights -> [2D] Drug:0.931, Prot:0.069 | [1D] Drug:0.452, Prot:0.548
+EarlyStopping counter: 2 out of 30
+[ 15/200] train_loss: 0.24079 valid_loss: 0.45554 valid_AUC: 0.89696 valid_PRC: 0.79297 valid_Accuracy: 0.83105 valid_Precision: 0.68560 valid_Reacll: 0.72878 
+   📊 Modality Weights -> [2D] Drug:0.939, Prot:0.061 | [1D] Drug:0.447, Prot:0.553
+EarlyStopping counter: 3 out of 30
+[ 16/200] train_loss: 0.24986 valid_loss: 0.41425 valid_AUC: 0.91121 valid_PRC: 0.81618 valid_Accuracy: 0.82910 valid_Precision: 0.65588 valid_Reacll: 0.81540 
+   📊 Modality Weights -> [2D] Drug:0.947, Prot:0.053 | [1D] Drug:0.451, Prot:0.549
+Have a new best checkpoint: (0.905335 --> 0.911209).  Saving model ...
+[ 17/200] train_loss: 0.20665 valid_loss: 0.48646 valid_AUC: 0.89329 valid_PRC: 0.78347 valid_Accuracy: 0.83276 valid_Precision: 0.68379 valid_Reacll: 0.74541 
+   📊 Modality Weights -> [2D] Drug:0.949, Prot:0.051 | [1D] Drug:0.454, Prot:0.546
+EarlyStopping counter: 1 out of 30
+[ 18/200] train_loss: 0.22846 valid_loss: 0.43757 valid_AUC: 0.90907 valid_PRC: 0.81299 valid_Accuracy: 0.83716 valid_Precision: 0.67814 valid_Reacll: 0.79265 
+   📊 Modality Weights -> [2D] Drug:0.950, Prot:0.050 | [1D] Drug:0.443, Prot:0.557
+EarlyStopping counter: 2 out of 30
+[ 19/200] train_loss: 0.16911 valid_loss: 0.57388 valid_AUC: 0.89136 valid_PRC: 0.77353 valid_Accuracy: 0.83105 valid_Precision: 0.69257 valid_Reacll: 0.70954 
+   📊 Modality Weights -> [2D] Drug:0.953, Prot:0.047 | [1D] Drug:0.464, Prot:0.536
+EarlyStopping counter: 3 out of 30
+[ 20/200] train_loss: 0.20162 valid_loss: 0.46765 valid_AUC: 0.91138 valid_PRC: 0.81813 valid_Accuracy: 0.84912 valid_Precision: 0.71290 valid_Reacll: 0.76903 
+   📊 Modality Weights -> [2D] Drug:0.958, Prot:0.042 | [1D] Drug:0.492, Prot:0.508
+Have a new best checkpoint: (0.911209 --> 0.911378).  Saving model ...
+[ 21/200] train_loss: 0.18006 valid_loss: 0.50292 valid_AUC: 0.89476 valid_PRC: 0.77530 valid_Accuracy: 0.81982 valid_Precision: 0.64111 valid_Reacll: 0.80490 
+   📊 Modality Weights -> [2D] Drug:0.961, Prot:0.039 | [1D] Drug:0.541, Prot:0.459
+EarlyStopping counter: 1 out of 30
+[ 22/200] train_loss: 0.24748 valid_loss: 0.48670 valid_AUC: 0.90971 valid_PRC: 0.81046 valid_Accuracy: 0.83447 valid_Precision: 0.66958 valid_Reacll: 0.80315 
+   📊 Modality Weights -> [2D] Drug:0.963, Prot:0.037 | [1D] Drug:0.595, Prot:0.405
+EarlyStopping counter: 2 out of 30
+[ 23/200] train_loss: 0.22441 valid_loss: 0.53233 valid_AUC: 0.89804 valid_PRC: 0.78723 valid_Accuracy: 0.82397 valid_Precision: 0.64986 valid_Reacll: 0.80052 
+   📊 Modality Weights -> [2D] Drug:0.967, Prot:0.033 | [1D] Drug:0.638, Prot:0.362
+EarlyStopping counter: 3 out of 30
+[ 24/200] train_loss: 0.28460 valid_loss: 0.53742 valid_AUC: 0.90627 valid_PRC: 0.80629 valid_Accuracy: 0.83618 valid_Precision: 0.67665 valid_Reacll: 0.79090 
+   📊 Modality Weights -> [2D] Drug:0.970, Prot:0.030 | [1D] Drug:0.702, Prot:0.298
+EarlyStopping counter: 4 out of 30
+[ 25/200] train_loss: 0.26536 valid_loss: 0.61835 valid_AUC: 0.89780 valid_PRC: 0.78926 valid_Accuracy: 0.82886 valid_Precision: 0.66870 valid_Reacll: 0.76640 
+   📊 Modality Weights -> [2D] Drug:0.973, Prot:0.027 | [1D] Drug:0.762, Prot:0.238
+EarlyStopping counter: 5 out of 30
+[ 26/200] train_loss: 0.33702 valid_loss: 0.60257 valid_AUC: 0.90568 valid_PRC: 0.80777 valid_Accuracy: 0.84766 valid_Precision: 0.70978 valid_Reacll: 0.76815 
+   📊 Modality Weights -> [2D] Drug:0.980, Prot:0.020 | [1D] Drug:0.814, Prot:0.186
+EarlyStopping counter: 6 out of 30
+[ 27/200] train_loss: 0.31824 valid_loss: 0.71459 valid_AUC: 0.88922 valid_PRC: 0.77208 valid_Accuracy: 0.83521 valid_Precision: 0.69831 valid_Reacll: 0.72091 
+   📊 Modality Weights -> [2D] Drug:0.980, Prot:0.020 | [1D] Drug:0.843, Prot:0.157
+EarlyStopping counter: 7 out of 30
+[ 28/200] train_loss: 0.38310 valid_loss: 0.61451 valid_AUC: 0.90606 valid_PRC: 0.80588 valid_Accuracy: 0.84375 valid_Precision: 0.70564 valid_Reacll: 0.75503 
+   📊 Modality Weights -> [2D] Drug:0.985, Prot:0.015 | [1D] Drug:0.880, Prot:0.120
+EarlyStopping counter: 8 out of 30
+[ 29/200] train_loss: 0.37065 valid_loss: 0.75060 valid_AUC: 0.89559 valid_PRC: 0.78136 valid_Accuracy: 0.83887 valid_Precision: 0.72423 valid_Reacll: 0.68241 
+   📊 Modality Weights -> [2D] Drug:0.989, Prot:0.011 | [1D] Drug:0.897, Prot:0.103
+EarlyStopping counter: 9 out of 30
+[ 30/200] train_loss: 0.43715 valid_loss: 0.63351 valid_AUC: 0.91019 valid_PRC: 0.81533 valid_Accuracy: 0.85059 valid_Precision: 0.71780 valid_Reacll: 0.76553 
+   📊 Modality Weights -> [2D] Drug:0.989, Prot:0.011 | [1D] Drug:0.906, Prot:0.094
+EarlyStopping counter: 10 out of 30
+[ 31/200] train_loss: 0.38181 valid_loss: 0.74067 valid_AUC: 0.89980 valid_PRC: 0.79665 valid_Accuracy: 0.83423 valid_Precision: 0.67929 valid_Reacll: 0.76903 
+   📊 Modality Weights -> [2D] Drug:0.989, Prot:0.011 | [1D] Drug:0.917, Prot:0.083
+EarlyStopping counter: 11 out of 30
+[ 32/200] train_loss: 0.40522 valid_loss: 0.68529 valid_AUC: 0.90926 valid_PRC: 0.81125 valid_Accuracy: 0.84570 valid_Precision: 0.70359 valid_Reacll: 0.77253 
+   📊 Modality Weights -> [2D] Drug:0.990, Prot:0.010 | [1D] Drug:0.929, Prot:0.071
+EarlyStopping counter: 12 out of 30
+[ 33/200] train_loss: 0.36649 valid_loss: 0.81611 valid_AUC: 0.90397 valid_PRC: 0.80944 valid_Accuracy: 0.84375 valid_Precision: 0.70666 valid_Reacll: 0.75241 
+   📊 Modality Weights -> [2D] Drug:0.990, Prot:0.010 | [1D] Drug:0.939, Prot:0.061
+EarlyStopping counter: 13 out of 30
+[ 34/200] train_loss: 0.39330 valid_loss: 0.72862 valid_AUC: 0.91060 valid_PRC: 0.81984 valid_Accuracy: 0.85278 valid_Precision: 0.72425 valid_Reacll: 0.76290 
+   📊 Modality Weights -> [2D] Drug:0.989, Prot:0.011 | [1D] Drug:0.947, Prot:0.053
+EarlyStopping counter: 14 out of 30
+[ 35/200] train_loss: 0.35055 valid_loss: 0.83423 valid_AUC: 0.90907 valid_PRC: 0.81584 valid_Accuracy: 0.84692 valid_Precision: 0.71217 valid_Reacll: 0.75766 
+   📊 Modality Weights -> [2D] Drug:0.990, Prot:0.010 | [1D] Drug:0.952, Prot:0.048
+EarlyStopping counter: 15 out of 30
+[ 36/200] train_loss: 0.37696 valid_loss: 0.77709 valid_AUC: 0.90766 valid_PRC: 0.80967 valid_Accuracy: 0.84937 valid_Precision: 0.71772 valid_Reacll: 0.75853 
+   📊 Modality Weights -> [2D] Drug:0.992, Prot:0.008 | [1D] Drug:0.958, Prot:0.042
+EarlyStopping counter: 16 out of 30
+[ 37/200] train_loss: 0.35185 valid_loss: 0.82712 valid_AUC: 0.89978 valid_PRC: 0.78598 valid_Accuracy: 0.83740 valid_Precision: 0.69662 valid_Reacll: 0.73928 
+   📊 Modality Weights -> [2D] Drug:0.993, Prot:0.007 | [1D] Drug:0.960, Prot:0.040
+EarlyStopping counter: 17 out of 30
+[ 38/200] train_loss: 0.38358 valid_loss: 0.76045 valid_AUC: 0.91050 valid_PRC: 0.81406 valid_Accuracy: 0.85156 valid_Precision: 0.72498 valid_Reacll: 0.75416 
+   📊 Modality Weights -> [2D] Drug:0.993, Prot:0.007 | [1D] Drug:0.961, Prot:0.039
+EarlyStopping counter: 18 out of 30
+[ 39/200] train_loss: 0.33691 valid_loss: 0.80784 valid_AUC: 0.91114 valid_PRC: 0.81275 valid_Accuracy: 0.85205 valid_Precision: 0.72812 valid_Reacll: 0.74978 
+   📊 Modality Weights -> [2D] Drug:0.994, Prot:0.006 | [1D] Drug:0.964, Prot:0.036
+EarlyStopping counter: 19 out of 30
+[ 40/200] train_loss: 0.36350 valid_loss: 0.77964 valid_AUC: 0.90915 valid_PRC: 0.81483 valid_Accuracy: 0.84741 valid_Precision: 0.71057 valid_Reacll: 0.76465 
+   📊 Modality Weights -> [2D] Drug:0.993, Prot:0.007 | [1D] Drug:0.968, Prot:0.032
+EarlyStopping counter: 20 out of 30
+[ 41/200] train_loss: 0.32561 valid_loss: 0.88228 valid_AUC: 0.90402 valid_PRC: 0.80848 valid_Accuracy: 0.84741 valid_Precision: 0.72366 valid_Reacll: 0.73316 
+   📊 Modality Weights -> [2D] Drug:0.993, Prot:0.007 | [1D] Drug:0.970, Prot:0.030
+EarlyStopping counter: 21 out of 30
+[ 42/200] train_loss: 0.33922 valid_loss: 0.84156 valid_AUC: 0.91402 valid_PRC: 0.82223 valid_Accuracy: 0.85840 valid_Precision: 0.74163 valid_Reacll: 0.75591 
+   📊 Modality Weights -> [2D] Drug:0.992, Prot:0.008 | [1D] Drug:0.973, Prot:0.027
+Have a new best checkpoint: (0.911378 --> 0.914016).  Saving model ...
+[ 43/200] train_loss: 0.31606 valid_loss: 0.91917 valid_AUC: 0.91524 valid_PRC: 0.82391 valid_Accuracy: 0.85864 valid_Precision: 0.75636 valid_Reacll: 0.72791 
+   📊 Modality Weights -> [2D] Drug:0.992, Prot:0.008 | [1D] Drug:0.974, Prot:0.026
+Have a new best checkpoint: (0.914016 --> 0.915243).  Saving model ...
+[ 44/200] train_loss: 0.34703 valid_loss: 0.80702 valid_AUC: 0.91342 valid_PRC: 0.82016 valid_Accuracy: 0.85742 valid_Precision: 0.74326 valid_Reacll: 0.74716 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.974, Prot:0.026
+EarlyStopping counter: 1 out of 30
+[ 45/200] train_loss: 0.31233 valid_loss: 0.91485 valid_AUC: 0.90993 valid_PRC: 0.81009 valid_Accuracy: 0.84814 valid_Precision: 0.72911 valid_Reacll: 0.72528 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.975, Prot:0.025
+EarlyStopping counter: 2 out of 30
+[ 46/200] train_loss: 0.32275 valid_loss: 0.88575 valid_AUC: 0.90864 valid_PRC: 0.80376 valid_Accuracy: 0.85181 valid_Precision: 0.72333 valid_Reacll: 0.75941 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.977, Prot:0.023
+EarlyStopping counter: 3 out of 30
+[ 47/200] train_loss: 0.30011 valid_loss: 0.96388 valid_AUC: 0.90792 valid_PRC: 0.80694 valid_Accuracy: 0.85181 valid_Precision: 0.73183 valid_Reacll: 0.74016 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.978, Prot:0.022
+EarlyStopping counter: 4 out of 30
+[ 48/200] train_loss: 0.31398 valid_loss: 0.88164 valid_AUC: 0.90954 valid_PRC: 0.80977 valid_Accuracy: 0.84839 valid_Precision: 0.71151 valid_Reacll: 0.76815 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.981, Prot:0.019
+EarlyStopping counter: 5 out of 30
+[ 49/200] train_loss: 0.29543 valid_loss: 0.98122 valid_AUC: 0.90856 valid_PRC: 0.80887 valid_Accuracy: 0.84668 valid_Precision: 0.72608 valid_Reacll: 0.72353 
+   📊 Modality Weights -> [2D] Drug:0.990, Prot:0.010 | [1D] Drug:0.982, Prot:0.018
+EarlyStopping counter: 6 out of 30
+[ 50/200] train_loss: 0.31670 valid_loss: 0.89660 valid_AUC: 0.90782 valid_PRC: 0.81268 valid_Accuracy: 0.85156 valid_Precision: 0.71521 valid_Reacll: 0.77778 
+   📊 Modality Weights -> [2D] Drug:0.989, Prot:0.011 | [1D] Drug:0.982, Prot:0.018
+EarlyStopping counter: 7 out of 30
+[ 51/200] train_loss: 0.29159 valid_loss: 0.98277 valid_AUC: 0.90750 valid_PRC: 0.80709 valid_Accuracy: 0.84839 valid_Precision: 0.71642 valid_Reacll: 0.75591 
+   📊 Modality Weights -> [2D] Drug:0.988, Prot:0.012 | [1D] Drug:0.982, Prot:0.018
+EarlyStopping counter: 8 out of 30
+[ 52/200] train_loss: 0.31174 valid_loss: 0.95022 valid_AUC: 0.90341 valid_PRC: 0.80396 valid_Accuracy: 0.84937 valid_Precision: 0.72790 valid_Reacll: 0.73491 
+   📊 Modality Weights -> [2D] Drug:0.987, Prot:0.013 | [1D] Drug:0.982, Prot:0.018
+EarlyStopping counter: 9 out of 30
+[ 53/200] train_loss: 0.28451 valid_loss: 0.96893 valid_AUC: 0.90052 valid_PRC: 0.79533 valid_Accuracy: 0.84375 valid_Precision: 0.70598 valid_Reacll: 0.75416 
+   📊 Modality Weights -> [2D] Drug:0.988, Prot:0.012 | [1D] Drug:0.983, Prot:0.017
+EarlyStopping counter: 10 out of 30
+[ 54/200] train_loss: 0.30346 valid_loss: 0.82935 valid_AUC: 0.91456 valid_PRC: 0.82132 valid_Accuracy: 0.85889 valid_Precision: 0.73640 valid_Reacll: 0.76990 
+   📊 Modality Weights -> [2D] Drug:0.989, Prot:0.011 | [1D] Drug:0.983, Prot:0.017
+EarlyStopping counter: 11 out of 30
+[ 55/200] train_loss: 0.27567 valid_loss: 0.92970 valid_AUC: 0.91452 valid_PRC: 0.82455 valid_Accuracy: 0.85840 valid_Precision: 0.74039 valid_Reacll: 0.75853 
+   📊 Modality Weights -> [2D] Drug:0.989, Prot:0.011 | [1D] Drug:0.983, Prot:0.017
+EarlyStopping counter: 12 out of 30
+[ 56/200] train_loss: 0.29048 valid_loss: 0.93024 valid_AUC: 0.90987 valid_PRC: 0.81303 valid_Accuracy: 0.85498 valid_Precision: 0.74058 valid_Reacll: 0.73928 
+   📊 Modality Weights -> [2D] Drug:0.990, Prot:0.010 | [1D] Drug:0.984, Prot:0.016
+EarlyStopping counter: 13 out of 30
+[ 57/200] train_loss: 0.26716 valid_loss: 1.06614 valid_AUC: 0.90527 valid_PRC: 0.80582 valid_Accuracy: 0.85425 valid_Precision: 0.74954 valid_Reacll: 0.71741 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.984, Prot:0.016
+EarlyStopping counter: 14 out of 30
+[ 58/200] train_loss: 0.26986 valid_loss: 1.01485 valid_AUC: 0.90958 valid_PRC: 0.81435 valid_Accuracy: 0.85645 valid_Precision: 0.75113 valid_Reacll: 0.72616 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.985, Prot:0.015
+EarlyStopping counter: 15 out of 30
+[ 59/200] train_loss: 0.25654 valid_loss: 1.02596 valid_AUC: 0.91148 valid_PRC: 0.81871 valid_Accuracy: 0.85132 valid_Precision: 0.73882 valid_Reacll: 0.72266 
+   📊 Modality Weights -> [2D] Drug:0.992, Prot:0.008 | [1D] Drug:0.986, Prot:0.014
+EarlyStopping counter: 16 out of 30
+[ 60/200] train_loss: 0.26400 valid_loss: 1.01371 valid_AUC: 0.90913 valid_PRC: 0.81292 valid_Accuracy: 0.85522 valid_Precision: 0.73424 valid_Reacll: 0.75416 
+   📊 Modality Weights -> [2D] Drug:0.993, Prot:0.007 | [1D] Drug:0.986, Prot:0.014
+EarlyStopping counter: 17 out of 30
+[ 61/200] train_loss: 0.25150 valid_loss: 1.01346 valid_AUC: 0.91268 valid_PRC: 0.81908 valid_Accuracy: 0.84717 valid_Precision: 0.70467 valid_Reacll: 0.77865 
+   📊 Modality Weights -> [2D] Drug:0.994, Prot:0.006 | [1D] Drug:0.987, Prot:0.013
+EarlyStopping counter: 18 out of 30
+[ 62/200] train_loss: 0.25689 valid_loss: 1.02059 valid_AUC: 0.91397 valid_PRC: 0.82118 valid_Accuracy: 0.85742 valid_Precision: 0.73909 valid_Reacll: 0.75591 
+   📊 Modality Weights -> [2D] Drug:0.993, Prot:0.007 | [1D] Drug:0.987, Prot:0.013
+EarlyStopping counter: 19 out of 30
+[ 63/200] train_loss: 0.24978 valid_loss: 1.06059 valid_AUC: 0.90336 valid_PRC: 0.80471 valid_Accuracy: 0.84595 valid_Precision: 0.70350 valid_Reacll: 0.77428 
+   📊 Modality Weights -> [2D] Drug:0.993, Prot:0.007 | [1D] Drug:0.988, Prot:0.012
+EarlyStopping counter: 20 out of 30
+[ 64/200] train_loss: 0.31328 valid_loss: 0.78877 valid_AUC: 0.90793 valid_PRC: 0.81020 valid_Accuracy: 0.85010 valid_Precision: 0.72665 valid_Reacll: 0.74191 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.984, Prot:0.016
+EarlyStopping counter: 21 out of 30
+[ 65/200] train_loss: 0.25126 valid_loss: 0.90187 valid_AUC: 0.90676 valid_PRC: 0.80365 valid_Accuracy: 0.84912 valid_Precision: 0.72455 valid_Reacll: 0.74103 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.983, Prot:0.017
+EarlyStopping counter: 22 out of 30
+[ 66/200] train_loss: 0.25844 valid_loss: 0.87622 valid_AUC: 0.90960 valid_PRC: 0.80877 valid_Accuracy: 0.85229 valid_Precision: 0.72379 valid_Reacll: 0.76115 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.985, Prot:0.015
+EarlyStopping counter: 23 out of 30
+[ 67/200] train_loss: 0.23495 valid_loss: 1.03282 valid_AUC: 0.91202 valid_PRC: 0.81876 valid_Accuracy: 0.86182 valid_Precision: 0.77038 valid_Reacll: 0.71916 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.986, Prot:0.014
+EarlyStopping counter: 24 out of 30
+[ 68/200] train_loss: 0.23416 valid_loss: 1.02925 valid_AUC: 0.91044 valid_PRC: 0.81186 valid_Accuracy: 0.85547 valid_Precision: 0.73977 valid_Reacll: 0.74366 
+   📊 Modality Weights -> [2D] Drug:0.992, Prot:0.008 | [1D] Drug:0.987, Prot:0.013
+EarlyStopping counter: 25 out of 30
+[ 69/200] train_loss: 0.22547 valid_loss: 1.07538 valid_AUC: 0.91239 valid_PRC: 0.81620 valid_Accuracy: 0.85864 valid_Precision: 0.75777 valid_Reacll: 0.72528 
+   📊 Modality Weights -> [2D] Drug:0.992, Prot:0.008 | [1D] Drug:0.988, Prot:0.012
+EarlyStopping counter: 26 out of 30
+[ 70/200] train_loss: 0.22489 valid_loss: 1.04086 valid_AUC: 0.91016 valid_PRC: 0.81037 valid_Accuracy: 0.85645 valid_Precision: 0.73943 valid_Reacll: 0.74978 
+   📊 Modality Weights -> [2D] Drug:0.992, Prot:0.008 | [1D] Drug:0.988, Prot:0.012
+EarlyStopping counter: 27 out of 30
+[ 71/200] train_loss: 0.22141 valid_loss: 1.04315 valid_AUC: 0.91179 valid_PRC: 0.81681 valid_Accuracy: 0.85474 valid_Precision: 0.73499 valid_Reacll: 0.74978 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.989, Prot:0.011
+EarlyStopping counter: 28 out of 30
+[ 72/200] train_loss: 0.24064 valid_loss: 1.06167 valid_AUC: 0.90341 valid_PRC: 0.80089 valid_Accuracy: 0.84595 valid_Precision: 0.71806 valid_Reacll: 0.73753 
+   📊 Modality Weights -> [2D] Drug:0.991, Prot:0.009 | [1D] Drug:0.989, Prot:0.011
+EarlyStopping counter: 29 out of 30
+[ 73/200] train_loss: 0.21943 valid_loss: 1.10911 valid_AUC: 0.90092 valid_PRC: 0.79565 valid_Accuracy: 0.84229 valid_Precision: 0.69769 valid_Reacll: 0.76728 
+   📊 Modality Weights -> [2D] Drug:0.990, Prot:0.010 | [1D] Drug:0.989, Prot:0.011
+EarlyStopping counter: 30 out of 30
+  0%|          | 0/128 [00:00<?, ?it/s]  1%|          | 1/128 [00:00<01:30,  1.40it/s]  2%|▏         | 2/128 [00:01<01:02,  2.00it/s]  2%|▏         | 3/128 [00:01<01:02,  2.01it/s]  3%|▎         | 4/128 [00:01<00:58,  2.12it/s]  4%|▍         | 5/128 [00:02<00:54,  2.26it/s]  5%|▍         | 6/128 [00:02<00:53,  2.28it/s]  5%|▌         | 7/128 [00:03<00:51,  2.36it/s]  6%|▋         | 8/128 [00:03<00:52,  2.29it/s]  7%|▋         | 9/128 [00:04<00:48,  2.46it/s]  8%|▊         | 10/128 [00:04<00:48,  2.43it/s]  9%|▊         | 11/128 [00:04<00:47,  2.44it/s]  9%|▉         | 12/128 [00:05<00:50,  2.31it/s] 10%|█         | 13/128 [00:05<00:46,  2.50it/s] 11%|█         | 14/128 [00:06<00:49,  2.32it/s] 12%|█▏        | 15/128 [00:06<00:44,  2.54it/s] 12%|█▎        | 16/128 [00:07<00:50,  2.21it/s] 13%|█▎        | 17/128 [00:07<00:44,  2.49it/s] 14%|█▍        | 18/128 [00:07<00:48,  2.26it/s] 15%|█▍        | 19/128 [00:08<00:45,  2.41it/s] 16%|█▌        | 20/128 [00:08<00:47,  2.28it/s] 16%|█▋        | 21/128 [00:09<00:48,  2.22it/s] 17%|█▋        | 22/128 [00:09<00:44,  2.37it/s] 18%|█▊        | 23/128 [00:10<00:45,  2.29it/s] 19%|█▉        | 24/128 [00:10<00:44,  2.36it/s] 20%|█▉        | 25/128 [00:10<00:46,  2.22it/s] 20%|██        | 26/128 [00:11<00:42,  2.41it/s] 21%|██        | 27/128 [00:11<00:45,  2.21it/s] 22%|██▏       | 28/128 [00:12<00:40,  2.47it/s] 23%|██▎       | 29/128 [00:12<00:44,  2.21it/s] 23%|██▎       | 30/128 [00:12<00:40,  2.43it/s] 24%|██▍       | 31/128 [00:13<00:42,  2.28it/s] 25%|██▌       | 32/128 [00:13<00:41,  2.30it/s] 26%|██▌       | 33/128 [00:14<00:41,  2.29it/s] 27%|██▋       | 34/128 [00:14<00:41,  2.24it/s] 27%|██▋       | 35/128 [00:15<00:39,  2.35it/s] 28%|██▊       | 36/128 [00:15<00:39,  2.30it/s] 29%|██▉       | 37/128 [00:15<00:36,  2.47it/s] 30%|██▉       | 38/128 [00:16<00:39,  2.29it/s] 30%|███       | 39/128 [00:17<00:43,  2.03it/s] 31%|███▏      | 40/128 [00:17<00:40,  2.18it/s] 32%|███▏      | 41/128 [00:17<00:40,  2.15it/s] 33%|███▎      | 42/128 [00:18<00:36,  2.34it/s] 34%|███▎      | 43/128 [00:18<00:37,  2.26it/s] 34%|███▍      | 44/128 [00:19<00:43,  1.93it/s] 35%|███▌      | 45/128 [00:19<00:38,  2.14it/s] 36%|███▌      | 46/128 [00:20<00:39,  2.09it/s] 37%|███▋      | 47/128 [00:20<00:34,  2.36it/s] 38%|███▊      | 48/128 [00:21<00:37,  2.15it/s] 38%|███▊      | 49/128 [00:21<00:33,  2.38it/s] 39%|███▉      | 50/128 [00:22<00:35,  2.20it/s] 40%|███▉      | 51/128 [00:22<00:32,  2.36it/s] 41%|████      | 52/128 [00:22<00:33,  2.26it/s] 41%|████▏     | 53/128 [00:23<00:34,  2.18it/s] 42%|████▏     | 54/128 [00:23<00:31,  2.33it/s] 43%|████▎     | 55/128 [00:24<00:32,  2.25it/s] 44%|████▍     | 56/128 [00:24<00:29,  2.41it/s] 45%|████▍     | 57/128 [00:25<00:31,  2.26it/s] 45%|████▌     | 58/128 [00:25<00:39,  1.79it/s] 46%|████▌     | 59/128 [00:26<00:37,  1.82it/s] 47%|████▋     | 60/128 [00:26<00:32,  2.09it/s] 48%|████▊     | 61/128 [00:27<00:32,  2.06it/s] 48%|████▊     | 62/128 [00:27<00:28,  2.30it/s] 49%|████▉     | 63/128 [00:28<00:30,  2.13it/s] 50%|█████     | 64/128 [00:28<00:26,  2.41it/s] 51%|█████     | 65/128 [00:28<00:28,  2.21it/s] 52%|█████▏    | 66/128 [00:29<00:26,  2.37it/s] 52%|█████▏    | 67/128 [00:29<00:27,  2.25it/s] 53%|█████▎    | 68/128 [00:30<00:26,  2.24it/s] 54%|█████▍    | 69/128 [00:30<00:25,  2.28it/s] 55%|█████▍    | 70/128 [00:31<00:25,  2.30it/s] 55%|█████▌    | 71/128 [00:31<00:23,  2.47it/s] 56%|█████▋    | 72/128 [00:31<00:23,  2.33it/s] 57%|█████▋    | 73/128 [00:32<00:21,  2.57it/s] 58%|█████▊    | 74/128 [00:32<00:19,  2.78it/s] 59%|█████▊    | 75/128 [00:32<00:18,  2.88it/s] 59%|█████▉    | 76/128 [00:33<00:18,  2.82it/s] 60%|██████    | 77/128 [00:33<00:18,  2.75it/s] 61%|██████    | 78/128 [00:33<00:18,  2.68it/s] 62%|██████▏   | 79/128 [00:34<00:18,  2.68it/s] 62%|██████▎   | 80/128 [00:34<00:18,  2.65it/s] 63%|██████▎   | 81/128 [00:35<00:18,  2.59it/s] 64%|██████▍   | 82/128 [00:35<00:18,  2.48it/s] 65%|██████▍   | 83/128 [00:35<00:17,  2.56it/s] 66%|██████▌   | 84/128 [00:36<00:17,  2.45it/s] 66%|██████▋   | 85/128 [00:36<00:19,  2.18it/s] 67%|██████▋   | 86/128 [00:37<00:18,  2.30it/s] 68%|██████▊   | 87/128 [00:37<00:16,  2.45it/s] 69%|██████▉   | 88/128 [00:37<00:15,  2.65it/s] 70%|██████▉   | 89/128 [00:38<00:13,  2.79it/s] 70%|███████   | 90/128 [00:38<00:13,  2.84it/s] 71%|███████   | 91/128 [00:39<00:13,  2.74it/s] 72%|███████▏  | 92/128 [00:39<00:13,  2.57it/s] 73%|███████▎  | 93/128 [00:39<00:14,  2.42it/s] 73%|███████▎  | 94/128 [00:40<00:13,  2.56it/s] 74%|███████▍  | 95/128 [00:40<00:11,  2.76it/s] 75%|███████▌  | 96/128 [00:40<00:10,  2.96it/s] 76%|███████▌  | 97/128 [00:41<00:10,  2.96it/s] 77%|███████▋  | 98/128 [00:41<00:10,  2.80it/s] 77%|███████▋  | 99/128 [00:41<00:10,  2.73it/s] 78%|███████▊  | 100/128 [00:42<00:10,  2.67it/s] 79%|███████▉  | 101/128 [00:42<00:10,  2.56it/s] 80%|███████▉  | 102/128 [00:43<00:10,  2.47it/s] 80%|████████  | 103/128 [00:43<00:10,  2.39it/s] 81%|████████▏ | 104/128 [00:44<00:09,  2.59it/s] 82%|████████▏ | 105/128 [00:44<00:09,  2.33it/s] 83%|████████▎ | 106/128 [00:45<00:09,  2.20it/s] 84%|████████▎ | 107/128 [00:45<00:08,  2.34it/s] 84%|████████▍ | 108/128 [00:45<00:09,  2.15it/s] 85%|████████▌ | 109/128 [00:46<00:10,  1.89it/s] 86%|████████▌ | 110/128 [00:46<00:08,  2.17it/s] 87%|████████▋ | 111/128 [00:47<00:08,  2.06it/s] 88%|████████▊ | 112/128 [00:47<00:07,  2.28it/s] 88%|████████▊ | 113/128 [00:48<00:06,  2.16it/s] 89%|████████▉ | 114/128 [00:48<00:06,  2.17it/s] 90%|████████▉ | 115/128 [00:49<00:05,  2.26it/s] 91%|█████████ | 116/128 [00:49<00:05,  2.24it/s] 91%|█████████▏| 117/128 [00:50<00:04,  2.36it/s] 92%|█████████▏| 118/128 [00:50<00:04,  2.26it/s] 93%|█████████▎| 119/128 [00:50<00:03,  2.42it/s] 94%|█████████▍| 120/128 [00:51<00:03,  2.15it/s] 95%|█████████▍| 121/128 [00:51<00:03,  2.31it/s] 95%|█████████▌| 122/128 [00:52<00:02,  2.19it/s] 96%|█████████▌| 123/128 [00:52<00:02,  2.14it/s] 97%|█████████▋| 124/128 [00:53<00:01,  2.28it/s] 98%|█████████▊| 125/128 [00:53<00:01,  2.11it/s] 98%|█████████▊| 126/128 [00:54<00:00,  2.41it/s] 99%|█████████▉| 127/128 [00:54<00:00,  2.20it/s]100%|██████████| 128/128 [00:54<00:00,  2.50it/s]100%|██████████| 128/128 [00:54<00:00,  2.33it/s]
+Train: Loss:0.01706;Accuracy:0.99475;Precision:0.98729;Recall:0.99445;AUC:0.99963;PRC:0.99880.
+  0%|          | 0/32 [00:00<?, ?it/s]  3%|▎         | 1/32 [00:00<00:14,  2.18it/s]  6%|▋         | 2/32 [00:00<00:14,  2.03it/s]  9%|▉         | 3/32 [00:01<00:11,  2.49it/s] 12%|█▎        | 4/32 [00:01<00:12,  2.16it/s] 16%|█▌        | 5/32 [00:02<00:11,  2.44it/s] 19%|█▉        | 6/32 [00:02<00:11,  2.26it/s] 22%|██▏       | 7/32 [00:03<00:12,  1.97it/s] 25%|██▌       | 8/32 [00:03<00:10,  2.24it/s] 28%|██▊       | 9/32 [00:04<00:10,  2.12it/s] 31%|███▏      | 10/32 [00:04<00:10,  2.02it/s] 34%|███▍      | 11/32 [00:05<00:09,  2.22it/s] 38%|███▊      | 12/32 [00:05<00:09,  2.03it/s] 41%|████      | 13/32 [00:05<00:08,  2.28it/s] 44%|████▍     | 14/32 [00:06<00:08,  2.14it/s] 47%|████▋     | 15/32 [00:06<00:07,  2.33it/s] 50%|█████     | 16/32 [00:07<00:07,  2.23it/s] 53%|█████▎    | 17/32 [00:07<00:06,  2.19it/s] 56%|█████▋    | 18/32 [00:08<00:06,  2.31it/s] 59%|█████▉    | 19/32 [00:08<00:05,  2.21it/s] 62%|██████▎   | 20/32 [00:08<00:04,  2.43it/s] 66%|██████▌   | 21/32 [00:09<00:04,  2.22it/s] 69%|██████▉   | 22/32 [00:09<00:04,  2.50it/s] 72%|███████▏  | 23/32 [00:10<00:04,  2.24it/s] 75%|███████▌  | 24/32 [00:10<00:03,  2.37it/s] 78%|███████▊  | 25/32 [00:11<00:03,  2.24it/s] 81%|████████▏ | 26/32 [00:11<00:02,  2.20it/s] 84%|████████▍ | 27/32 [00:12<00:02,  2.36it/s] 88%|████████▊ | 28/32 [00:12<00:01,  2.24it/s] 91%|█████████ | 29/32 [00:13<00:01,  2.10it/s] 94%|█████████▍| 30/32 [00:13<00:00,  2.13it/s] 97%|█████████▋| 31/32 [00:14<00:00,  2.07it/s]100%|██████████| 32/32 [00:14<00:00,  2.38it/s]100%|██████████| 32/32 [00:14<00:00,  2.23it/s]
+Valid: Loss:0.91917;Accuracy:0.85864;Precision:0.75636;Recall:0.72791;AUC:0.91524;PRC:0.82391.
+  0%|          | 0/40 [00:00<?, ?it/s]  2%|▎         | 1/40 [00:00<00:19,  1.95it/s]  5%|▌         | 2/40 [00:01<00:21,  1.81it/s]  8%|▊         | 3/40 [00:01<00:16,  2.24it/s] 10%|█         | 4/40 [00:01<00:17,  2.04it/s] 12%|█▎        | 5/40 [00:02<00:19,  1.77it/s] 15%|█▌        | 6/40 [00:03<00:19,  1.71it/s] 18%|█▊        | 7/40 [00:03<00:19,  1.72it/s] 20%|██        | 8/40 [00:04<00:15,  2.00it/s] 22%|██▎       | 9/40 [00:04<00:15,  1.97it/s] 25%|██▌       | 10/40 [00:05<00:14,  2.04it/s] 28%|██▊       | 11/40 [00:05<00:13,  2.17it/s] 30%|███       | 12/40 [00:06<00:13,  2.07it/s] 32%|███▎      | 13/40 [00:06<00:13,  2.00it/s] 35%|███▌      | 14/40 [00:07<00:12,  2.04it/s] 38%|███▊      | 15/40 [00:07<00:12,  2.04it/s] 40%|████      | 16/40 [00:07<00:10,  2.20it/s] 42%|████▎     | 17/40 [00:08<00:11,  2.09it/s] 45%|████▌     | 18/40 [00:08<00:09,  2.36it/s] 48%|████▊     | 19/40 [00:09<00:10,  2.10it/s] 50%|█████     | 20/40 [00:09<00:08,  2.32it/s] 52%|█████▎    | 21/40 [00:10<00:08,  2.18it/s] 55%|█████▌    | 22/40 [00:10<00:09,  1.87it/s] 57%|█████▊    | 23/40 [00:11<00:09,  1.72it/s] 60%|██████    | 24/40 [00:12<00:08,  1.84it/s] 62%|██████▎   | 25/40 [00:12<00:07,  2.03it/s] 65%|██████▌   | 26/40 [00:12<00:06,  2.03it/s] 68%|██████▊   | 27/40 [00:13<00:05,  2.28it/s] 70%|███████   | 28/40 [00:13<00:05,  2.12it/s] 72%|███████▎  | 29/40 [00:14<00:04,  2.29it/s] 75%|███████▌  | 30/40 [00:14<00:04,  2.19it/s] 78%|███████▊  | 31/40 [00:15<00:04,  2.21it/s] 80%|████████  | 32/40 [00:15<00:03,  2.29it/s] 82%|████████▎ | 33/40 [00:16<00:03,  2.22it/s] 85%|████████▌ | 34/40 [00:16<00:02,  2.40it/s] 88%|████████▊ | 35/40 [00:16<00:02,  2.30it/s] 90%|█████████ | 36/40 [00:17<00:01,  2.54it/s] 92%|█████████▎| 37/40 [00:17<00:01,  2.29it/s] 95%|█████████▌| 38/40 [00:17<00:00,  2.55it/s] 98%|█████████▊| 39/40 [00:18<00:00,  2.34it/s]100%|██████████| 40/40 [00:18<00:00,  2.23it/s]100%|██████████| 40/40 [00:18<00:00,  2.11it/s]
+Test: Loss:1.00415;Accuracy:0.85898;Precision:0.76980;Recall:0.71675;AUC:0.90946;PRC:0.82167.
+🚀 Generating interpretability reports for Davis...
+📊 解释性报告已成功导出至: /home/liumeiling/xjl/DTI/IMDF-DTI/Davis/5/interpretability_report
+✅ Interpretability reports (Heatmaps) saved to: ./Davis/5/interpretability_report
+The model's results:
+Accuracy(std):0.8572(0.0000)
+Precision(std):0.7448(0.0005)
+Recall(std):0.7573(0.0007)
+AUC(std):0.9135(0.0000)
+PRC(std):0.8293(0.0001)
